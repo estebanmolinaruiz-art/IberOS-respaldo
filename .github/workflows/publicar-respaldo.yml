@@ -1,0 +1,170 @@
+name: Publicar copia congelada de IberOS
+
+on:
+  workflow_dispatch:
+    inputs:
+      operacion:
+        description: "Capturar sitio original o republicar instantánea guardada"
+        required: true
+        default: capturar
+        type: choice
+        options:
+          - capturar
+          - republicar
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages-backup"
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout de este repositorio de respaldo
+        uses: actions/checkout@v4
+        with:
+          path: backup-repo
+          persist-credentials: true
+
+      - name: Descargar la fuente IberOS congelada
+        if: ${{ inputs.operacion == 'capturar' }}
+        uses: actions/checkout@v4
+        with:
+          repository: estebanmolinaruiz-art/IberOS
+          ref: a2015d575f03871819b1d5522a666efe01b27419
+          path: upstream
+          persist-credentials: false
+
+      - name: Configurar Python
+        if: ${{ inputs.operacion == 'capturar' }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Generar datasets públicos del CORE y validar integración
+        if: ${{ inputs.operacion == 'capturar' }}
+        working-directory: upstream
+        run: |
+          python -m pip install -e .
+          python scripts/export_web_core.py
+          python scripts/export_mobile_core.py
+          python scripts/audit_visual_signs.py --output site/data/core_visual_sign_readiness_v1.json
+          python -c "import json; x=json.load(open('site/data/core_object_audit_v1.json')); assert x['object_count']==38"
+          python -c "import json; x=json.load(open('site/data/mobile_core_bundle_v1.json')); assert x['object_count']==38"
+          node scripts/test-integration.mjs
+
+      - name: Congelar web con URLs correctas y sin indexación duplicada
+        if: ${{ inputs.operacion == 'capturar' }}
+        run: |
+          mkdir -p backup-repo/site-snapshot
+          cp -a upstream/site/. backup-repo/site-snapshot/
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          root = Path('backup-repo/site-snapshot')
+          origin = 'https://estebanmolinaruiz-art.github.io/IberOS'
+          backup = 'https://estebanmolinaruiz-art.github.io/IberOS-respaldo'
+          suffixes = {'.html', '.htm', '.xml', '.txt', '.css', '.js', '.mjs', '.json', '.webmanifest', '.svg', '.jsonld'}
+          changed = 0
+          for path in root.rglob('*'):
+              if not path.is_file() or path.suffix.lower() not in suffixes:
+                  continue
+              data = path.read_text(encoding='utf-8')
+              revised = data.replace(origin, backup)
+              if path.suffix.lower() in {'.html', '.htm'}:
+                  revised = revised.replace('content="index,follow"', 'content="noindex,nofollow"')
+                  revised = revised.replace('content="index, follow"', 'content="noindex,nofollow"')
+                  if '<meta name="robots" content="noindex,nofollow">' not in revised:
+                      if '<head>' in revised:
+                          revised = revised.replace('<head>', '<head><meta name="robots" content="noindex,nofollow">', 1)
+              if revised != data:
+                  path.write_text(revised, encoding='utf-8')
+                  changed += 1
+
+          (root / 'robots.txt').write_text('User-agent: *\nAllow: /\n', encoding='utf-8')
+          (root / 'respaldo-version.json').write_text(json.dumps({
+              'schema': 'IberOS-backup-v1',
+              'source_commit': 'a2015d575f03871819b1d5522a666efe01b27419',
+              'website': backup+'/'
+          }, indent=2)+'\n', encoding='utf-8')
+          expected = ['index.html', 'corpus/index.html', 'fichas/index.html',
+                      'ficha/index.html', 'sitemap.xml',
+                      'data/core_object_audit_v1.json', 'data/mobile_core_bundle_v1.json']
+          missing = [name for name in expected if not (root / name).is_file()]
+          if missing:
+              raise SystemExit('Faltan archivos de la copia: '+str(missing))
+          if origin in (root/'index.html').read_text(encoding='utf-8'):
+              raise SystemExit('La portada sigue apuntando al sitio anterior')
+          if backup+'/' not in (root/'sitemap.xml').read_text(encoding='utf-8'):
+              raise SystemExit('Sitemap no apunta al respaldo')
+          print('Copia preparada:', changed, 'archivos con referencias adaptadas')
+          PY
+
+      - name: Guardar los archivos estáticos en el repositorio de respaldo
+        if: ${{ inputs.operacion == 'capturar' }}
+        working-directory: backup-repo
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A site-snapshot
+          if ! git diff --cached --quiet; then
+            git commit -m "backup: snapshot of original IberOS static site a2015d5"
+            git push origin HEAD:main
+          fi
+
+      - name: Verificar que existe una copia independiente en este repositorio
+        run: |
+          test -f backup-repo/site-snapshot/index.html
+          test -f backup-repo/site-snapshot/data/mobile_core_bundle_v1.json
+          test -f backup-repo/site-snapshot/respaldo-version.json
+          test -f backup-repo/site-snapshot/proyectos/la-picola/informe-avance-2026-10-22.pdf
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: backup-repo/site-snapshot
+      - name: Publicar copia independiente con GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Verificar que el respaldo es público
+        env:
+          SITE_URL: ${{ steps.deployment.outputs.page_url }}
+        run: |
+          python - <<'PY'
+          import json, os, time
+          from urllib.request import Request, urlopen
+
+          base = os.environ['SITE_URL'].rstrip('/')
+          paths = ('/', '/corpus/', '/fichas/', '/respaldo-version.json',
+                   '/data/mobile_core_bundle_v1.json',
+                   '/proyectos/la-picola/informe-avance-2026-10-22.pdf')
+          for attempt in range(12):
+              try:
+                  payloads = {}
+                  for path in paths:
+                      with urlopen(Request(base+path, headers={'Cache-Control':'no-cache'}), timeout=20) as r:
+                          if r.status != 200:
+                              raise ValueError(f'{path}: HTTP {r.status}')
+                          payloads[path] = r.read()
+                  manifest = json.loads(payloads['/respaldo-version.json'])
+                  assert manifest['source_commit'] == 'a2015d575f03871819b1d5522a666efe01b27419'
+                  assert b'noindex' in payloads['/'].lower()
+                  assert payloads['/proyectos/la-picola/informe-avance-2026-10-22.pdf'].startswith(b'%PDF')
+                  print('RESPALDO VERIFICADO: ', base, flush=True)
+                  break
+              except Exception as exc:
+                  print(f'Intento {attempt+1}/12: {exc}', flush=True)
+                  if attempt == 11:
+                      raise
+                  time.sleep(10)
+          PY
