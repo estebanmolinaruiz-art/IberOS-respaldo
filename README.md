@@ -1,5 +1,7 @@
 # IberOS — respaldo web independiente
 
+> **POLÍTICA OBLIGATORIA IBEROS — COSTE ADICIONAL 0 €:** no contratar alojamiento, certificados, suscripciones, recargas, APIs de pago, exploradores o monitores facturables, ni activar servicios con tarjeta. Antes de ejecutar un flujo, comprobar que la operación cabe en el nivel gratuito de GitHub. Ante cualquier riesgo de coste, detener la operación y usar alternativa gratuita. La renovación futura del dominio previamente registrado es una obligación distinta, no autorizada para pago automático.
+
 Este repositorio sirve para preservar una **copia estática publicada de la web IberOS** anterior al cambio de dominio a `iberos-ia.com`.
 
 - Origen: [IberOS](https://github.com/estebanmolinaruiz-art/IberOS).
