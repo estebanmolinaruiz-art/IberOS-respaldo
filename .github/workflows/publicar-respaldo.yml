@@ -102,7 +102,11 @@ jobs:
           missing = [name for name in expected if not (root / name).is_file()]
           if missing:
               raise SystemExit('Faltan archivos de la copia: '+str(missing))
-          if origin in (root/'index.html').read_text(encoding='utf-8'):
+          # Require URL boundary: /IberOS-respaldo is not the old /IberOS URL.
+          import re
+          homepage = (root/'index.html').read_text(encoding='utf-8')
+          old_url = re.compile(re.escape(origin) + r'(?=[/?#\s"\x27<>]|$)')
+          if old_url.search(homepage):
               raise SystemExit('La portada sigue apuntando al sitio anterior')
           if backup+'/' not in (root/'sitemap.xml').read_text(encoding='utf-8'):
               raise SystemExit('Sitemap no apunta al respaldo')
