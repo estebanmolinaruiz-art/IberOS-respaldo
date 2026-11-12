@@ -1,0 +1,298 @@
+{
+  "schema": "IberOS-Epigraphic-Visual-Registry/1.0",
+  "description": "Documentary graphic sources and individual sign mapping gate; no photographic or glyph assertion without reviewed identification and rights.",
+  "policy": {
+    "embed_only_when": [
+      "exact_object_match_verified",
+      "asset_url_or_local_asset_verified",
+      "reuse_rights_verified",
+      "source_attribution_recorded"
+    ],
+    "glyph_publish_only_when": [
+      "sign_form_traced_to_reviewed_source",
+      "source_figure_and_position_recorded",
+      "editorial_equivalence_reviewed"
+    ],
+    "status_values": [
+      "SOURCE_LOCATED",
+      "FIGURE_IDENTIFIED",
+      "RIGHTS_PENDING",
+      "READY_FOR_DISPLAY",
+      "SIGN_MAPPING_PENDING"
+    ],
+    "glyph_entry_required": [
+      "label",
+      "svg_url",
+      "transliteration",
+      "source_locator",
+      "source_position_verified",
+      "equivalence_reviewed",
+      "reviewed",
+      "image_position_pct",
+      "license"
+    ],
+    "image_position_pct_description": "Rectangle {x,y,width,height} in percentage coordinates relative to the source figure; verified only. 0–100.",
+    "watermark_and_attribution": {
+      "rule": "Preserve visible original photographer/author/museum watermark without cropping, masking or replacing; a watermark or credit does not grant reproduction rights.",
+      "publish_requires": [
+        "verified_reuse_permission_or_license",
+        "complete_author_and_source_credit",
+        "watermark_preserved_if_present"
+      ],
+      "when_unlicensed": "Show citation and link to original publication only; do not embed or copy."
+    }
+  },
+  "records": [
+    {
+      "object_id": "IBR-PLM-0002",
+      "epigraphic_reference": "T.07.03",
+      "source_url": "https://ifc.dpz.es/recursos/publicaciones/25/25/14asensioetal.pdf",
+      "source_citation": "Asensio, Miró, Sanmartí y Velaza (2003), Palaeohispanica 3, 195–204",
+      "figure_locator": "figs. 3–4, p. 200",
+      "status": "RIGHTS_PENDING",
+      "image_url": null,
+      "rights_verified": false,
+      "exact_object_match_verified": true,
+      "glyphs": [],
+      "sign_mapping_status": "SIGN_MAPPING_PENDING",
+      "sign_mapping_note": "No approved individual SVG trace or verified position. Do not populate from generic font or invented symbols.",
+      "figure_pdf_page": 6,
+      "source_figure_url": "https://ifc.dpz.es/recursos/publicaciones/25/25/14asensioetal.pdf#page=6",
+      "figure_access_note": "El enlace abre la página del PDF que contiene las figuras 3 y 4 de la edición (p. 200 impresa). No implica licencia para incrustar las figuras.",
+      "watermark_preserved_verified": false,
+      "image_author_credit_verified": false,
+      "image_reuse_permission_verified": false,
+      "rights_review": {
+        "status": "PERMISSION_NOT_DOCUMENTED",
+        "author_watermark_policy": "PRESERVE_IF_PRESENT",
+        "image_copy_allowed": false,
+        "reason": "La candidata externa dispone de licencia declarada en su propia ficha; no está acreditada su correspondencia con este objeto epigráfico concreto. La figura de la edición científica es un recurso distinto.",
+        "next_action": "Cotejar la identificación epigráfica exacta; preservar marca original y atribución; no sustituir la figura científica por una copia diferente.",
+        "publication_record_url": "https://www.ifc-ojs.es/index.php/palaeohispanica/es/article/view/339"
+      },
+      "external_image_candidates": [
+        {
+          "source": "DRAC Generalitat / Museu d'Arqueologia de Catalunya",
+          "record_url": "https://drac.cultura.gencat.cat/handle/20.500.12368/13579",
+          "filename": "plom amb inscripció ibèrica.JPG",
+          "license_claim": "CC-BY",
+          "credit": "Museu d'Arqueologia de Catalunya",
+          "source_object_identification": "Plom amb inscripció ibèrica del Castellet de Banyoles (Tivissa)",
+          "exact_object_match_verified": false,
+          "additional_rights_note": "DRAC solicita contactar drac.cultura@gencat.cat para usos comerciales.",
+          "status": "CANDIDATE_OBJECT_MATCH_PENDING",
+          "publish_to_fiche": false,
+          "license_source_verified": true,
+          "license_source_checked": "2026-10-14",
+          "watermark_presence_checked": false,
+          "match_requirements": [
+            "Correspondencia material con número epigráfico exacto",
+            "Comparación de figura/lectura y características físicas",
+            "Créditos completos y marca de agua sin alteración"
+          ],
+          "evidence_note": "DRAC metadata confirms a photograph of an inscribed lead from Castellet de Banyoles, but does not explicitly identify T.07.03."
+        }
+      ],
+      "edition_identifiers": {
+        "doi": "10.36707/palaeohispanica.v0i3.339",
+        "publication_year": 2003,
+        "article_pages": "195–204",
+        "source_type": "primary_epigraphic_edition",
+        "object_identity_status": "EDITION_MATCH_REPORTED_BUT_EXTERNAL_PHOTO_UNMATCHED"
+      }
+    },
+    {
+      "object_id": "IBR-PLM-0003",
+      "epigraphic_reference": "B.7.38",
+      "source_url": "https://www.persee.fr/doc/ran_0557-7705_1988_num_21_1_1324",
+      "source_citation": "Solier y Barbouteau (1988), Revue archéologique de Narbonnaise 21, 61–94",
+      "figure_locator": null,
+      "status": "SOURCE_LOCATED",
+      "image_url": null,
+      "rights_verified": false,
+      "exact_object_match_verified": false,
+      "glyphs": [],
+      "sign_mapping_status": "SIGN_MAPPING_PENDING",
+      "sign_mapping_note": "No approved individual SVG trace or verified position. Do not populate from generic font or invented symbols.",
+      "watermark_preserved_verified": false,
+      "image_author_credit_verified": false,
+      "image_reuse_permission_verified": false,
+      "rights_review": {
+        "status": "PERMISSION_NOT_DOCUMENTED",
+        "author_watermark_policy": "PRESERVE_IF_PRESENT",
+        "image_copy_allowed": false,
+        "reason": "La candidata externa dispone de licencia declarada en su propia ficha; no está acreditada su correspondencia con este objeto epigráfico concreto. La figura de la edición científica es un recurso distinto.",
+        "next_action": "Cotejar la identificación epigráfica exacta; preservar marca original y atribución; no sustituir la figura científica por una copia diferente.",
+        "publication_record_url": "https://www.persee.fr/doc/ran_0557-7705_1988_num_21_1_1324"
+      },
+      "external_image_candidates": [
+        {
+          "source": "Wikimedia Commons / ArnoLagrange, original listed as Musée des Corbières",
+          "record_url": "https://commons.wikimedia.org/wiki/File:Ibera_Skriba%C4%B5o.jpg",
+          "filename": "Ibera Skribaĵo.jpg",
+          "license_claim": "CC BY-SA 4.0 (also earlier licenses/GFDL)",
+          "credit": "ArnoLagrange",
+          "source_object_identification": "Copia de texto ibérico de un plomo de Pech Maho, sin cotejo con B.7.38",
+          "exact_object_match_verified": false,
+          "status": "CANDIDATE_OBJECT_MATCH_PENDING",
+          "publish_to_fiche": false,
+          "license_source_verified": true,
+          "license_source_checked": "2026-10-14",
+          "watermark_presence_checked": false,
+          "match_requirements": [
+            "Correspondencia material con número epigráfico exacto",
+            "Comparación de figura/lectura y características físicas",
+            "Créditos completos y marca de agua sin alteración"
+          ],
+          "evidence_note": "Commons metadata confirms a photographed copy of a Pech-Maho lead inscription, but not equivalence to B.7.38."
+        }
+      ],
+      "edition_identifiers": {
+        "doi": "10.3406/ran.1988.1324",
+        "publication_year": 1988,
+        "article_pages": "61–94",
+        "source_type": "primary_epigraphic_edition",
+        "object_identity_status": "B.7.38_EXTERNAL_PHOTO_UNMATCHED",
+        "caution": "La edición describe varios plomos; la referencia al plomo 6 no demuestra equivalencia con B.7.38."
+      }
+    },
+    {
+      "object_id": "IBR-PLM-0007",
+      "epigraphic_reference": "BDH V.02.02",
+      "source_url": "https://ifc.dpz.es/recursos/publicaciones/34/21/09ferrerescriva.pdf",
+      "source_citation": "Ferrer i Jané y Escrivà Torres (2014), Palaeohispanica 14, 205–227",
+      "figure_locator": "figs. 1–2, pp. 207–208",
+      "figure_pdf_page": 3,
+      "doi": "10.36707/palaeohispanica.v0i14.54",
+      "status": "FIGURE_IDENTIFIED",
+      "image_url": null,
+      "rights_verified": false,
+      "exact_object_match_verified": true,
+      "glyphs": [],
+      "sign_mapping_status": "SIGN_MAPPING_PENDING",
+      "sign_mapping_note": "Figura editorial identificada, pero posiciones y trazos de grafemas no verificados independientemente.",
+      "watermark_preserved_verified": false,
+      "image_author_credit_verified": false,
+      "image_reuse_permission_verified": false,
+      "rights_review": {
+        "status": "PERMISSION_NOT_DOCUMENTED",
+        "author_watermark_policy": "PRESERVE_IF_PRESENT",
+        "image_copy_allowed": false,
+        "reason": "El acceso a la edición no acredita autorización para incorporar fotografías o dibujos originales en IberOS.",
+        "next_action": "Verificar licencia y crédito específicos de cada figura; mantener enlace a la edición original."
+      },
+      "source_figure_url": "https://ifc.dpz.es/recursos/publicaciones/34/21/09ferrerescriva.pdf#page=3"
+    },
+    {
+      "object_id": "IBR-PLM-0011",
+      "epigraphic_reference": "Moleta del Remei, plomo publicado en 2008",
+      "source_url": "https://www.ifc-ojs.es/index.php/palaeohispanica/en/article/view/265",
+      "source_citation": "Ferrer i Jané et al. (2008), Palaeohispanica 8, 203–216",
+      "figure_locator": "fig. 4, p. 215 (fotografía); fig. 5, p. 216 (dibujo)",
+      "doi": "10.36707/palaeohispanica.v0i8.265",
+      "status": "FIGURE_IDENTIFIED",
+      "image_url": null,
+      "rights_verified": false,
+      "exact_object_match_verified": true,
+      "glyphs": [],
+      "sign_mapping_status": "SIGN_MAPPING_PENDING",
+      "sign_mapping_note": "Figura editorial identificada, pero posiciones y trazos de grafemas no verificados independientemente.",
+      "watermark_preserved_verified": false,
+      "image_author_credit_verified": false,
+      "image_reuse_permission_verified": false,
+      "rights_review": {
+        "status": "PERMISSION_NOT_DOCUMENTED",
+        "author_watermark_policy": "PRESERVE_IF_PRESENT",
+        "image_copy_allowed": false,
+        "reason": "El acceso a la edición no acredita autorización para incorporar fotografías o dibujos originales en IberOS.",
+        "next_action": "Verificar licencia y crédito específicos de cada figura; mantener enlace a la edición original."
+      },
+      "source_figure_url": "https://www.ifc-ojs.es/index.php/palaeohispanica/en/article/view/265"
+    },
+    {
+      "object_id": "IBR-PLM-0012",
+      "epigraphic_reference": "Illeta dels Banyets, lámina grecoibérica descubierta en 2018",
+      "source_url": "https://ifc.dpz.es/recursos/publicaciones/40/82/09ferrer.pdf",
+      "source_citation": "Ferrer i Jané et al. (2024), Palaeohispanica 24, 247–278",
+      "figure_locator": "fig. 8, p. 260 (alternativa bo/ko)",
+      "figure_pdf_page": 14,
+      "doi": "10.36707/palaeohispanica.v24i1.629",
+      "status": "FIGURE_IDENTIFIED",
+      "image_url": null,
+      "rights_verified": false,
+      "exact_object_match_verified": true,
+      "glyphs": [],
+      "sign_mapping_status": "SIGN_MAPPING_PENDING",
+      "sign_mapping_note": "Figura editorial identificada, pero posiciones y trazos de grafemas no verificados independientemente.",
+      "watermark_preserved_verified": false,
+      "image_author_credit_verified": false,
+      "image_reuse_permission_verified": false,
+      "rights_review": {
+        "status": "PERMISSION_NOT_DOCUMENTED",
+        "author_watermark_policy": "PRESERVE_IF_PRESENT",
+        "image_copy_allowed": false,
+        "reason": "El acceso a la edición no acredita autorización para incorporar fotografías o dibujos originales en IberOS.",
+        "next_action": "Verificar licencia y crédito específicos de cada figura; mantener enlace a la edición original."
+      },
+      "source_figure_url": "https://ifc.dpz.es/recursos/publicaciones/40/82/09ferrer.pdf#page=14"
+    },
+    {
+      "object_id": "IBR-PLM-0005",
+      "epigraphic_reference": "F.17.01 / Villares V",
+      "source_url": "https://mupreva.org/web_mupreva/catalogo/13411/fr",
+      "source_citation": "Museo de Prehistoria de Valencia, ficha de inventario 13411; Ferrer i Jané (2024), ELEA 21, pp. 309–360",
+      "figure_locator": "Ferrer i Jané 2024: figura 1, p. 312 (fotografías de caras A/B); figura 2, p. 313 (dibujos A/B)",
+      "status": "FIGURE_IDENTIFIED",
+      "image_url": null,
+      "rights_verified": false,
+      "exact_object_match_verified": true,
+      "glyphs": [],
+      "sign_mapping_status": "SIGN_MAPPING_PENDING",
+      "sign_mapping_note": "Registro de inventario y pasajes de transcripción publicados; no se ha realizado cotejo visual independiente de grafemas. No copiar figuras sin permiso.",
+      "external_identifiers": {
+        "museum_inventory": "13411",
+        "museum": "Museo de Prehistoria de Valencia",
+        "confusable_record": "13412 corresponde a Villares VI, distinto objeto"
+      },
+      "source_figure_url": "https://www.researchgate.net/publication/387054058_Una_nova_mirada_al_plom_iberic_Villares_V_Kelin_Caudete_de_las_Fuentes_Un_text_comptable_amb_deu_transaccions",
+      "visual_check_status": "SOURCE_PAGE_LOCATED_NOT_VISUALLY_COLLATED",
+      "rights_review": {
+        "status": "PERMISSION_NOT_DOCUMENTED",
+        "image_copy_allowed": false,
+        "reason": "Los derechos específicos de las fotografías/dibujos no están verificados; mostrar enlaces a fuentes, no incrustar archivos"
+      },
+      "image_reuse_permission_verified": false,
+      "image_author_credit_verified": false,
+      "watermark_preserved_verified": false
+    },
+    {
+      "object_id": "IBR-PLM-0009",
+      "epigraphic_reference": "G.1.1 / Serreta I",
+      "source_url": "https://www.alcoi.org/es/areas/cultura/museo/publicaciones/recerques/recerques_0001.html",
+      "source_citation": "Fletcher Valls y Silgo Gauche (1992), Recerques del Museu d'Alcoi 1, pp. 9–36; catálogo del museo de Alcoi, inventario 1.016",
+      "figure_locator": "Fotografías de caras A y B atribuidas a J. Untermann en artículo de 1992; página de foto pendiente de cotejo independiente",
+      "status": "SOURCE_LOCATED",
+      "image_url": null,
+      "rights_verified": false,
+      "exact_object_match_verified": true,
+      "glyphs": [],
+      "sign_mapping_status": "SIGN_MAPPING_PENDING",
+      "sign_mapping_note": "La edición de 1992 incluye fotos de caras A/B; sin verificarse forma individual de signos. Lectura śalirg B1 del índice interno, aún sin cotejo de la figura original.",
+      "external_identifiers": {
+        "museum_inventory": "1.016",
+        "museum": "Museu Arqueològic Municipal Camil Visedo Moltó, Alcoi",
+        "museum_catalogue": "https://www.alcoi.org/export/sites/default/es/areas/cultura/museo/descargas/publi_catalogo/catalogo_cas_04_CATALOGO_MATERIALES.pdf"
+      },
+      "source_figure_url": "https://box.inh.cat/histocat.cat/resource/FletcherSerreta.pdf",
+      "visual_check_status": "SOURCE_PAGE_LOCATED_NOT_VISUALLY_COLLATED",
+      "rights_review": {
+        "status": "PERMISSION_NOT_DOCUMENTED",
+        "image_copy_allowed": false,
+        "reason": "Fotografías acreditadas a J. Untermann; derechos de republicación no confirmados. No copiar ni recortar imágenes"
+      },
+      "image_reuse_permission_verified": false,
+      "image_author_credit_verified": false,
+      "watermark_preserved_verified": false
+    }
+  ]
+}

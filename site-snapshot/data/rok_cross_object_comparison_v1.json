@@ -1,0 +1,203 @@
+{
+  "automatically_promote_to_core": false,
+  "entries": [
+    {
+      "counts_as_independent_validation": false,
+      "exact_line_and_figure_review_completed": false,
+      "follow_up": "Find primary edition with object-specific line/figure, photograph rights, and externally grounded syntactic role",
+      "published_reading_or_internal_note": "BASTUBAR-ER + TEŔOKAN + UTUR",
+      "recipient_role_fixed_externally": true,
+      "reference": "D.0.1",
+      "semantic_approval": false,
+      "working_note": "Primary anchor; not independent validation"
+    },
+    {
+      "counts_as_independent_validation": false,
+      "exact_line_and_figure_review_completed": false,
+      "follow_up": "Find primary edition with object-specific line/figure, photograph rights, and externally grounded syntactic role",
+      "pending_validation": [
+        "Align each reading with exact graphical sign sequence in figure",
+        "Record 1981/2014 transcription differences sign-by-sign",
+        "Obtain independent epigraphic review before approval"
+      ],
+      "primary_source_locator": {
+        "author": "Domingo Fletcher Valls",
+        "chapter": "Los plomos escritos (Orleyl V, VI y VII)",
+        "figure": "Fig. 22, Orleyl V",
+        "institution": "Museu de Prehistòria de València",
+        "institution_catalogue": "https://mupreva.org/web_mupreva_dedalo/publicaciones/101/va",
+        "local_pdf_pages": [
+          64,
+          77,
+          65
+        ],
+        "pages": "63–131",
+        "pdf": "https://mupreva.org/dedalo/media/pdf/publicaciones/standar/mupreva194_mupreva153_101.pdf",
+        "publication": "Materiales de la necrópolis ibérica de Orleyl",
+        "status": "PRIMARY_EDITION_PDF_TEXT_AND_OVERVIEW_DRAWINGS_INSPECTED",
+        "year": 1981
+      },
+      "published_reading_or_internal_note": "kutur · biteŕoketetine",
+      "recipient_role_fixed_externally": false,
+      "reference": "F.9.5",
+      "scholarly_comparison": {
+        "context": "Orleyl tomb II excavated deposit; funerary discovery does not prove text is funerary in meaning",
+        "detailed_glyph_to_transliteration_alignment": "PENDING",
+        "drawing_review_status": "FIGURES_ISOLATED_ENLARGED_NOT_SIGN_MAPPED",
+        "edition": "Ferrer i Jané, «Ibèric kutu i els abecedaris ibèrics», Veleia 31 (2014), p. 250–251, table of kutu variants",
+        "figure_orientation_checked": true,
+        "fletcher_1981_parallel": "ORLEYL V 18 y 19: GUDUR BITEROKETETINE",
+        "fletcher_verified_comparison_source": "Fletcher Valls 1981, PDF p. 77 (discussion V-19), drawing fig. 22 PDF p.65 / fig.25 PDF p.111",
+        "meaning_validated": false,
+        "primary_edition": "Fletcher Valls (1981), pp. 63–131, capítulo IV",
+        "primary_edition_checked": true,
+        "reported_string": "kutur · biteŕoketetine",
+        "review_scope": "Primary edition text and overview drawings inspected; no validated sign-level tracing or independent review",
+        "signs_verified": false,
+        "textual_variant_1981": "GUDUR BITEROKETETINE",
+        "uncertainty": "Table is secondary; punctuation and exact line location require first edition",
+        "url": "https://ojs.ehu.eus/index.php/Veleia/article/view/13345"
+      },
+      "semantic_approval": false,
+      "working_note": "Orleyl; E/KUTUR/ROK network; E role unresolved"
+    },
+    {
+      "counts_as_independent_validation": false,
+      "exact_line_and_figure_review_completed": false,
+      "follow_up": "Find primary edition with object-specific line/figure, photograph rights, and externally grounded syntactic role",
+      "pending_validation": [
+        "Align each reading with exact graphical sign sequence in figure",
+        "Record 1981/2014 transcription differences sign-by-sign",
+        "Obtain independent epigraphic review before approval"
+      ],
+      "primary_source_locator": {
+        "author": "Domingo Fletcher Valls",
+        "chapter": "Los plomos escritos (Orleyl V, VI y VII)",
+        "figure": "Fig. 25, Orleyl VII-B",
+        "institution": "Museu de Prehistòria de València",
+        "institution_catalogue": "https://mupreva.org/web_mupreva_dedalo/publicaciones/101/va",
+        "local_pdf_pages": [
+          64,
+          77,
+          110
+        ],
+        "pages": "63–131",
+        "pdf": "https://mupreva.org/dedalo/media/pdf/publicaciones/standar/mupreva194_mupreva153_101.pdf",
+        "publication": "Materiales de la necrópolis ibérica de Orleyl",
+        "status": "PRIMARY_EDITION_PDF_TEXT_AND_OVERVIEW_DRAWINGS_INSPECTED",
+        "year": 1981
+      },
+      "published_reading_or_internal_note": "kutu+ike · basbiteŕoketine",
+      "recipient_role_fixed_externally": false,
+      "reference": "F.9.7",
+      "scholarly_comparison": {
+        "context": "Orleyl tomb II excavated deposit; funerary discovery does not prove text is funerary in meaning",
+        "detailed_glyph_to_transliteration_alignment": "PENDING",
+        "drawing_review_status": "FIGURES_ISOLATED_ENLARGED_NOT_SIGN_MAPPED",
+        "edition": "Ferrer i Jané, «Ibèric kutu i els abecedaris ibèrics», Veleia 31 (2014), p. 250–251, table of kutu variants",
+        "figure_orientation_checked": true,
+        "fletcher_1981_parallel": "ORLEYL VII-B 6 y 7: GUDUBOIKE BITEROKETINE",
+        "fletcher_verified_comparison_source": "Fletcher Valls 1981, PDF p. 77 (discussion V-19), drawing fig. 22 PDF p.65 / fig.25 PDF p.111",
+        "meaning_validated": false,
+        "primary_edition": "Fletcher Valls (1981), pp. 63–131, capítulo IV",
+        "primary_edition_checked": true,
+        "reported_string": "kutu+ike · basbiteŕoketine",
+        "review_scope": "Primary edition text and overview drawings inspected; no validated sign-level tracing or independent review",
+        "signs_verified": false,
+        "textual_variant_1981": "GUDUBOIKE BITEROKETINE",
+        "uncertainty": "kutu+ike has expressly doubtful final reading; alternatives kutuboike / kututaike / kutubeike noted by author",
+        "url": "https://ojs.ehu.eus/index.php/Veleia/article/view/13345"
+      },
+      "semantic_approval": false,
+      "working_note": "Orleyl; aŕeŕ-e / KUTU / BAS-BITEŔOK reported"
+    },
+    {
+      "counts_as_independent_validation": false,
+      "exact_line_and_figure_review_completed": false,
+      "follow_up": "Find primary edition with object-specific line/figure, photograph rights, and externally grounded syntactic role",
+      "published_reading_or_internal_note": null,
+      "recipient_role_fixed_externally": false,
+      "reference": "H.0.1",
+      "semantic_approval": false,
+      "working_note": "Formal E/ER+ROK compatible; recipient role unresolved"
+    },
+    {
+      "counts_as_independent_validation": false,
+      "exact_line_and_figure_review_completed": false,
+      "follow_up": "Find primary edition with object-specific line/figure, photograph rights, and externally grounded syntactic role",
+      "published_reading_or_internal_note": "A I 3: ]śiśalirbitiŕokankube; A I 8: ]itiatu:ban:kutur:biteŕokan",
+      "recipient_role_fixed_externally": false,
+      "reference": "B.7.38",
+      "semantic_approval": false,
+      "working_note": "Pech-Maho; two lines same physical object"
+    },
+    {
+      "counts_as_independent_validation": false,
+      "exact_line_and_figure_review_completed": false,
+      "follow_up": "Find primary edition with object-specific line/figure, photograph rights, and externally grounded syntactic role",
+      "published_reading_or_internal_note": null,
+      "recipient_role_fixed_externally": false,
+      "reference": "C.17.1",
+      "semantic_approval": false,
+      "working_note": "Reported eŕok family occurrence; no externally fixed recipient"
+    },
+    {
+      "counts_as_independent_validation": false,
+      "exact_line_and_figure_review_completed": false,
+      "follow_up": "Find primary edition with object-specific line/figure, photograph rights, and externally grounded syntactic role",
+      "published_reading_or_internal_note": "śalaiaŕkis-te-ŕokan",
+      "recipient_role_fixed_externally": false,
+      "reference": "C.21.10",
+      "semantic_approval": false,
+      "working_note": "Tivissa; śalaiaŕkis-teŕokan segmentation contested"
+    }
+  ],
+  "fletcher_te_contrast": {
+    "decision": {
+      "conclusion": "The historical TE substring differs. This alone cannot show TE is a detachable grammatical morpheme, nor whether it expresses a participant role.",
+      "documentary_case_closed": true,
+      "documentary_close_reason": "Original Fletcher 1981 passages and comparative TE string registered; no further source-locating task for this bounded textual claim.",
+      "final_disposition": "DOCUMENTARY_CLOSED_SCIENTIFIC_OPEN",
+      "historical_comparison": "BITEROKETETINE vs BITEROKETINE",
+      "normalizations_not_independently_verified": true,
+      "normalized_modern_comparanda": [
+        "biteŕoketetine",
+        "biteŕoketine"
+      ],
+      "pending_separate_workstream": "PALAEO_GRAPHIC_SIGN_MAPPING_AND_INDEPENDENT_REVIEW",
+      "required_next_evidence": [
+        "Direct glyph-by-glyph mapping to Fletcher fig.22 and fig.25",
+        "Trace modern readings with attributed editions and line boundaries",
+        "Independent reviewer decision of segmentation"
+      ],
+      "rok_recipient_02": "OPEN",
+      "scientific_case_closed": false,
+      "status": "TEXTUAL_DIFFERENCE_DOCUMENTED_MORPHOLOGY_UNRESOLVED"
+    },
+    "modern_equivalence_confirmed": false,
+    "morpheme_boundary_confirmed": false,
+    "observed_difference": "TE appears in historical Orleyl V string but not VII-B string",
+    "readings": [
+      {
+        "comparison": "BITEROKE[TE]TINE",
+        "historical": "BITEROKETETINE",
+        "object": "F.9.5"
+      },
+      {
+        "comparison": "BITEROKE[]TINE",
+        "historical": "BITEROKETINE",
+        "object": "F.9.7"
+      }
+    ],
+    "semantic_effect_confirmed": false,
+    "sign_positions_mapped": false,
+    "source": "Fletcher Valls 1981, discussion Orleyl V-19, PDF p.77, drawings figs.22 and 25",
+    "warning": "Bracket alignment is analytical string comparison only, not a diplomatic transcription or identification of individual ancient signs."
+  },
+  "physical_witness_rule": "Multiple lines from B.7.38 or F.9.7 are never counted as independent physical objects; D.0.1 is the originating anchor.",
+  "protocol": "ROK-RECIPIENT-02",
+  "reference_scope": "existing frozen candidate set only",
+  "review_note": "Figures 22 and 25 rotated into horizontal orientation, isolated in local comparison image. Original Fletcher PDF p.77 explicitly compares GUDUR BITEROKETETINE with GUDUBOIKE BITEROKETINE (missing -TE-). This verifies the printed comparison only; assignment to individual graph shapes and modern normalization pending.",
+  "schema": "IberOS-ROK-Cross-Object-Comparison/1.0",
+  "semantic_gate": "OPEN"
+}

@@ -1,0 +1,955 @@
+:root{--navy:#071f31;--navy2:#0c314a;--navy3:#123f5b;--teal:#6ec6d2;--gold:#e0b35f;--gold2:#f2cf86;--cream:#f4ead7;--paper:#fff9ee;--ink:#13283a;--muted:#62717d;--line:#dac6a2;--ok:#2e7355;--warn:#9a6c22;--bad:#9c4141;--max:1480px;--shadow:0 16px 40px rgba(5,27,42,.16);--shadow2:0 6px 18px rgba(5,27,42,.12)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:linear-gradient(rgba(244,234,215,.96),rgba(249,243,232,.98)),radial-gradient(circle at 12% 15%,rgba(224,179,95,.16),transparent 25%);color:var(--ink);font-family:Inter,system-ui,-apple-system,"Segoe UI",Arial,sans-serif;line-height:1.5}a{color:inherit}img{max-width:100%;display:block}.wrap{max-width:var(--max);margin:auto;padding:0 24px}
+.site-header{position:sticky;top:0;z-index:1000;background:rgba(5,27,42,.97);border-bottom:1px solid rgba(224,179,95,.34);box-shadow:0 8px 24px rgba(0,0,0,.18);backdrop-filter:blur(12px)}.header-inner{max-width:var(--max);margin:auto;min-height:72px;padding:10px 24px;display:flex;align-items:center;gap:26px}.brand{display:flex;align-items:center;gap:12px;text-decoration:none;margin-right:auto;white-space:nowrap}.brand-mark{width:42px;height:42px;display:grid;place-items:center;border:2px solid var(--gold);color:var(--gold);font-family:Georgia,serif;font-weight:900}.brand-text strong{display:block;color:#fff;font-family:Georgia,serif;font-size:1.42rem}.brand-text strong span{color:var(--teal)}.brand-text small{display:block;color:#c6d3db;font-size:.58rem;text-transform:uppercase;letter-spacing:.17em}.main-nav{display:flex;gap:8px;align-items:center}.main-nav a{position:relative;color:#f8f1e4;text-decoration:none;padding:12px 10px;font-family:Georgia,serif;font-weight:700;font-size:.96rem}.main-nav a:hover,.main-nav a.active{color:var(--gold2)}.main-nav a.active::after{content:"";position:absolute;left:10px;right:10px;bottom:5px;height:2px;background:var(--gold)}.nav-actions{display:flex;gap:10px;align-items:center;margin-left:auto}.nav-search{width:42px;height:42px;display:grid;place-items:center;border:1px solid rgba(255,255,255,.18);border-radius:10px;color:#fff;text-decoration:none;font-size:1.1rem}.nav-cta{background:linear-gradient(180deg,var(--gold2),var(--gold));color:#102b3e;text-decoration:none;font-weight:900;padding:10px 15px;border-radius:10px;white-space:nowrap}
+.hero{--hero:url("./iberosplus-hero.webp");position:relative;min-height:365px;overflow:hidden;background:#08273a;color:#fff;border-bottom:5px solid var(--gold)}.hero::before{content:"";position:absolute;inset:0;background-image:linear-gradient(90deg,rgba(3,23,37,.98) 0%,rgba(5,31,47,.92) 42%,rgba(5,31,47,.28) 72%,rgba(3,23,37,.14) 100%),var(--hero);background-size:cover;background-position:center 48%;filter:saturate(.95) contrast(1.06);transform:scale(1.015)}.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 65%,rgba(4,24,38,.42))}.hero-inner{position:relative;z-index:2;max-width:var(--max);margin:auto;padding:58px 24px 52px}.hero .eyebrow{font-size:.76rem;text-transform:uppercase;letter-spacing:.25em;color:var(--gold2);font-weight:900}.hero h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(3rem,6vw,5.7rem);line-height:.9;letter-spacing:-.035em;margin:.14em 0 .12em;max-width:900px;text-shadow:0 2px 12px rgba(0,0,0,.24)}.hero h1 em{font-style:normal;color:var(--gold2)}.hero p{max-width:760px;color:#eef4f6;font-family:Georgia,serif;font-size:1.18rem;line-height:1.35}.hero-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}.hero-search{display:flex;max-width:720px;margin-top:22px;background:#fffaf0;border-radius:12px;overflow:hidden;box-shadow:var(--shadow)}.hero-search input{flex:1;border:0;background:transparent;padding:15px 16px;font:inherit;color:var(--ink);outline:none}.hero-search button,.hero-search a{border:0;background:linear-gradient(180deg,var(--gold2),var(--gold));color:#102b3e;padding:14px 24px;font-weight:900;text-decoration:none;cursor:pointer}.hero-chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:11px}.hero-chip{font-size:.78rem;border:1px solid rgba(111,198,210,.65);background:rgba(7,31,49,.78);color:#eef8f9;border-radius:999px;padding:5px 11px;text-decoration:none}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:7px;border:1px solid transparent;border-radius:9px;padding:10px 14px;text-decoration:none;font-weight:850;background:var(--navy);color:#fff;cursor:pointer}.btn.gold{background:linear-gradient(180deg,var(--gold2),var(--gold));color:#153246}.btn.light{background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.38);color:#fff}.btn.alt{background:#fff9ee;color:var(--navy);border-color:var(--line)}
+main{max-width:var(--max);margin:auto;padding:30px 24px 72px}.section-kicker{color:#a97a31;font-size:.72rem;text-transform:uppercase;letter-spacing:.18em;font-weight:900}.section-title{font-family:Georgia,serif;color:var(--navy);font-size:clamp(2rem,3.4vw,3.2rem);line-height:1;margin:.18em 0 .3em}.lead{color:var(--muted);max-width:900px}.editorial-panel{background:linear-gradient(180deg,#fffaf1,#f4e8d2);border:1px solid var(--line);border-radius:20px;box-shadow:var(--shadow);overflow:hidden}.editorial-head{display:flex;align-items:end;justify-content:space-between;gap:20px;padding:25px 26px 10px}.editorial-head h2{margin:0;font-family:Georgia,serif;font-size:2.45rem;color:var(--navy)}
+.portal-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;padding:12px 18px 22px}.portal-card{min-height:255px;display:flex;flex-direction:column;background:#fff9ee;border:1px solid #dcc7a0;border-radius:14px;overflow:hidden;box-shadow:var(--shadow2)}.portal-card .media{height:125px;background-image:linear-gradient(180deg,rgba(7,31,49,.05),rgba(7,31,49,.58)),url("./iberosplus-hero.webp");background-size:cover}.portal-card:nth-child(2n) .media{background-position:65% 44%}.portal-card:nth-child(3n) .media{background-position:82% 52%}.portal-card:nth-child(4n) .media{background-position:50% 60%}.portal-card .copy{padding:15px 16px 17px;display:flex;flex-direction:column;flex:1}.portal-card h3{font-family:Georgia,serif;color:var(--navy);font-size:1.55rem;margin:0 0 5px}.portal-card p{color:#50606b;font-size:.91rem;margin:0 0 12px}.portal-card .btn{margin-top:auto;align-self:flex-start}.icon-disc{width:45px;height:45px;margin-top:-30px;margin-left:14px;border-radius:12px;display:grid;place-items:center;background:var(--navy);border:2px solid var(--gold);color:var(--gold2);font-weight:900;box-shadow:0 7px 15px rgba(0,0,0,.2)}
+.journey-band{margin:24px 0;background:linear-gradient(90deg,rgba(5,28,44,.98),rgba(9,48,70,.96));color:#fff;border-radius:18px;overflow:hidden;box-shadow:var(--shadow)}.journey-inner{display:grid;grid-template-columns:1.1fr repeat(3,1fr);align-items:stretch}.journey-intro{padding:23px 25px}.journey-intro h2{font-family:Georgia,serif;font-size:2rem;margin:0 0 6px}.journey-step{padding:23px 18px;border-left:1px solid rgba(224,179,95,.25)}.journey-step b{display:block;color:var(--gold2);font-family:Georgia,serif;font-size:1.1rem}.journey-step span{font-size:.86rem;color:#d8e5ea}.stats-bar{display:grid;grid-template-columns:repeat(5,1fr);background:var(--navy);color:#fff;border:1px solid rgba(224,179,95,.35);border-radius:14px;overflow:hidden}.stat-item{padding:17px 18px;border-right:1px solid rgba(224,179,95,.22)}.stat-item:last-child{border-right:0}.stat-item strong{display:block;font-family:Georgia,serif;color:var(--gold2);font-size:1.55rem}.stat-item small{font-size:.68rem;letter-spacing:.13em;text-transform:uppercase;color:#d9e5ea}
+.toolbar{display:flex;gap:10px;flex-wrap:wrap;margin:15px 0}.toolbar input,.toolbar select,.form-group input,.form-group select,.form-group textarea{padding:11px 12px;border:1px solid #cbb891;border-radius:9px;background:#fffaf1;color:var(--ink);font:inherit}.toolbar input{min-width:320px}.pill{display:inline-block;padding:4px 8px;margin:2px 3px 2px 0;border-radius:999px;background:#e9f1f2;color:#26596c;font-size:.71rem;font-weight:850}.pill.ok{background:#e4f0e9;color:var(--ok)}.pill.warn{background:#f5e7c5;color:var(--warn)}.pill.bad{background:#f5dddd;color:var(--bad)}.meta{color:var(--muted);font-size:.86rem}.notice{background:#fff7e7;border-left:4px solid var(--gold);padding:14px 16px;border-radius:0 10px 10px 0;color:#4b5b66}
+.corpus-shell{display:grid;grid-template-columns:260px minmax(0,1fr);gap:16px}.filters{background:#fff9ee;border:1px solid var(--line);border-radius:14px;padding:15px;box-shadow:var(--shadow2);align-self:start;position:sticky;top:90px}.filter-title{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #e5d8c0;padding-bottom:10px;margin-bottom:8px}.filter-block{padding:10px 0;border-bottom:1px solid #eadfc9}.filter-block:last-child{border-bottom:0}.filter-block b{display:block;font-family:Georgia,serif;color:var(--navy);margin-bottom:7px}.filter-options{display:grid;gap:5px}.filter-options label{display:flex;gap:7px;align-items:center;font-size:.84rem;color:#55636d}.results-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:10px}.results-head h2{font-family:Georgia,serif;color:var(--navy);margin:0}.corpus-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.result-card{background:#fff9ee;border:1px solid var(--line);border-radius:13px;overflow:hidden;box-shadow:var(--shadow2);display:flex;flex-direction:column}.result-card .media{height:128px;position:relative;background-image:linear-gradient(180deg,rgba(7,31,49,.05),rgba(7,31,49,.58)),url("./iberosplus-hero.webp");background-size:cover;background-position:80% 52%}.result-card:nth-child(2n) .media{background-position:55% 45%}.result-card:nth-child(3n) .media{background-position:95% 50%}.media-badge{position:absolute;top:9px;right:9px;background:rgba(255,249,238,.9);color:#604313;border-radius:999px;padding:4px 8px;font-size:.67rem;font-weight:900}.result-card .copy{padding:12px 13px 13px}.result-card h3{font-family:Georgia,serif;color:var(--navy);margin:0 0 3px}.result-card .actions{display:flex;gap:7px;margin-top:10px;flex-wrap:wrap}
+.detail{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(280px,.55fr);gap:16px}.card,.lab-panel,.resource-card,.viewer-card{background:#fff9ee;border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow2)}.card{padding:17px}.card h2,.card h3,.lab-panel h2,.lab-panel h3,.resource-card h3{font-family:Georgia,serif;color:var(--navy);margin:.1em 0 .4em}.kv{display:grid;grid-template-columns:180px 1fr;border-top:1px solid #eadfc9}.kv b,.kv span{padding:7px 0}
+.artifact-stage{display:grid;grid-template-columns:1.1fr .9fr;background:linear-gradient(135deg,#071f31,#0b3954);border:1px solid rgba(224,179,95,.45);border-radius:18px;overflow:hidden;box-shadow:var(--shadow);margin-bottom:16px}.artifact-visual{min-height:350px;background-image:linear-gradient(180deg,rgba(3,23,37,.04),rgba(3,23,37,.35)),url("./iberosplus-hero.webp");background-size:cover;background-position:85% 50%;position:relative}.artifact-visual::after{content:"Visualización editorial · imagen específica del objeto no publicada aquí";position:absolute;left:14px;bottom:14px;background:rgba(5,27,42,.82);color:#eaf1f4;border:1px solid rgba(224,179,95,.4);padding:7px 9px;border-radius:7px;font-size:.72rem}.artifact-summary{padding:28px;color:#fff}.artifact-summary h1{font-family:Georgia,serif;font-size:clamp(2.4rem,4vw,4rem);line-height:.98;margin:.15em 0}.artifact-summary .meta{color:#d6e1e6}.artifact-actions{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:18px}.artifact-actions a{background:rgba(255,255,255,.06);border:1px solid rgba(224,179,95,.48);padding:10px 11px;border-radius:9px;text-decoration:none;color:#fff;font-weight:800}.artifact-actions a:first-child{background:linear-gradient(180deg,var(--gold2),var(--gold));color:#102b3e}.evidence-path{display:grid;grid-template-columns:repeat(4,1fr);gap:9px;margin:14px 0}.evidence-node{background:#fff9ee;border:1px solid var(--line);border-radius:10px;padding:11px;text-align:center}.evidence-node b{display:block;color:var(--navy);font-family:Georgia,serif}.evidence-node span{font-size:.78rem;color:var(--muted)}
+.atlas-shell{display:grid;grid-template-columns:240px minmax(0,1fr) 300px;gap:12px}.atlas-panel{background:#fff9ee;border:1px solid var(--line);border-radius:14px;padding:14px;box-shadow:var(--shadow2)}#map{height:620px!important;min-height:520px;border-radius:13px!important;border:1px solid #c8b183!important;box-shadow:none!important}.atlas-feature h3{font-family:Georgia,serif;color:var(--navy);font-size:1.6rem;margin:.2em 0}
+.lab-shell{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(310px,.65fr);gap:14px}.lab-panel{padding:18px}.lab-panel.sticky{position:sticky;top:90px;align-self:start}.form-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:11px}.form-group{display:flex;flex-direction:column;gap:5px}.form-group.full{grid-column:1/-1}.form-group label{color:var(--navy);font-size:.78rem;font-weight:900}.form-group textarea{min-height:96px;resize:vertical}.module-picker{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}.module-check{display:flex;gap:8px;padding:10px;background:#fffdf6;border:1px solid #dfcda9;border-radius:9px}.module-check strong{display:block;color:var(--navy)}.module-check small{display:block;color:var(--muted);font-size:.75rem}.casefile{white-space:pre-wrap;max-height:520px;overflow:auto;background:var(--navy);color:#e8f2f5;border-radius:10px;padding:15px;font:12px/1.45 ui-monospace,SFMono-Regular,Consolas,monospace}.field-strip{display:grid;grid-template-columns:repeat(4,1fr);background:#fff9ee;border:1px solid var(--line);border-radius:12px;overflow:hidden;margin-bottom:14px}.field-step{padding:13px;border-right:1px solid var(--line)}.field-step:last-child{border-right:0}.field-step b{display:block;color:var(--navy);font-family:Georgia,serif}.field-step span{font-size:.76rem;color:var(--muted)}
+.resource-shelf{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.resource-card{padding:15px}.resource-card .kind{font-size:.68rem;text-transform:uppercase;letter-spacing:.11em;color:#a47631;font-weight:900}.resource-card p{font-size:.9rem;color:#53626d}.resource-card .thumb{height:105px;margin:-15px -15px 12px;background-image:linear-gradient(180deg,rgba(5,27,42,.02),rgba(5,27,42,.48)),url("./iberosplus-hero.webp");background-size:cover;background-position:82% 50%;border-radius:13px 13px 0 0}.viewer-shell{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.viewer-card{overflow:hidden;background:var(--navy);color:#fff}.viewer-card model-viewer{width:100%;height:360px;background:radial-gradient(circle at 50% 30%,#244e67,#061c2b 70%)}.viewer-copy{padding:15px}.viewer-copy h3{color:var(--gold2)!important}.viewer-copy p{color:#dbe6eb}.talk-results{display:grid;gap:8px}.talk-row{display:flex;gap:10px;align-items:center;padding:10px;border:1px solid #dccaa9;border-radius:9px;background:#fffdf6}.talk-row .term{font-weight:900;color:var(--navy)}.talk-row .meta{flex:1}.result{white-space:pre-wrap;background:var(--navy);color:#e8f3f6;padding:14px;border-radius:10px;overflow:auto}.seg{padding:4px 8px;border-radius:6px;margin:3px;display:inline-block}.probable{background:#e3f0e7;color:#275d45}.infer{background:#ece4f3;color:#674f83}.fallback{background:#f4dddd;color:#913838}.gap{background:#eceff1;color:#66727a}
+footer{background:#061d2c;color:#d9e5ea;border-top:4px solid var(--gold);padding:25px 0}footer .wrap{max-width:var(--max);margin:auto;padding:0 24px}
+@media(max-width:1180px){.portal-grid{grid-template-columns:repeat(2,1fr)}.corpus-grid{grid-template-columns:repeat(2,1fr)}.resource-shelf{grid-template-columns:repeat(2,1fr)}.atlas-shell{grid-template-columns:220px 1fr}.atlas-feature{display:none}.main-nav{gap:1px}.main-nav a{font-size:.86rem;padding:10px 7px}.nav-cta{display:none}}
+@media(max-width:850px){.main-nav{display:none}.header-inner{min-height:62px}.hero{min-height:330px}.hero-inner{padding-top:48px}.portal-grid,.corpus-grid,.resource-shelf,.viewer-shell{grid-template-columns:1fr}.stats-bar{grid-template-columns:1fr 1fr}.journey-inner{grid-template-columns:1fr}.journey-step{border-left:0;border-top:1px solid rgba(224,179,95,.25)}.corpus-shell,.atlas-shell,.lab-shell,.artifact-stage,.detail{grid-template-columns:1fr}.filters,.lab-panel.sticky{position:static}.form-grid,.module-picker{grid-template-columns:1fr}.form-group.full{grid-column:auto}.evidence-path,.field-strip{grid-template-columns:1fr 1fr}.atlas-feature{display:block}}
+/* v37.1 polish */
+.menu-toggle{display:none;width:42px;height:42px;border:1px solid rgba(255,255,255,.2);border-radius:9px;background:transparent;color:#fff;font-size:1.25rem;cursor:pointer}
+.archive-head{display:flex;justify-content:space-between;align-items:end;gap:18px;margin-bottom:15px}.archive-tools{display:flex;gap:9px;flex-wrap:wrap}
+.case-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.case-card{background:#fff9ee;border:1px solid var(--line);border-radius:15px;overflow:hidden;box-shadow:var(--shadow2)}.case-card .media{height:155px;background-image:linear-gradient(180deg,rgba(7,31,49,.02),rgba(7,31,49,.62)),url("./iberosplus-hero.webp");background-size:cover;background-position:80% 50%}.case-card .copy{padding:16px}.case-card h3{font-family:Georgia,serif;color:var(--navy);font-size:1.55rem;margin:.15em 0}.case-card p{color:#53626c}.case-card .case-footer{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.site-card{background:#fff9ee;border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:var(--shadow2)}.site-card .media{height:110px;background-image:linear-gradient(180deg,rgba(7,31,49,.05),rgba(7,31,49,.57)),url("./iberosplus-hero.webp");background-size:cover;background-position:65% 46%}.site-card .copy{padding:14px}.site-card h3{font-family:Georgia,serif;color:var(--navy);margin:.1em 0 .25em}.site-card ul{margin:9px 0 0;padding-left:18px}.site-card li{margin:4px 0;font-size:.86rem}
+.repro-flow{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}.repro-step{background:#fff9ee;border:1px solid var(--line);border-radius:12px;padding:14px;box-shadow:var(--shadow2)}.repro-step b{display:block;color:var(--navy);font-family:Georgia,serif;margin-bottom:5px}.repro-step span{font-size:.82rem;color:var(--muted)}
+.metric-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:10px}.metric{background:linear-gradient(145deg,#0b334d,#071f31);color:#fff;border:1px solid rgba(224,179,95,.45);border-radius:13px;padding:15px}.metric strong{display:block;color:var(--gold2);font-family:Georgia,serif;font-size:1.65rem}.status-table{width:100%;border-collapse:collapse;background:#fff9ee;border:1px solid var(--line);border-radius:12px;overflow:hidden;box-shadow:var(--shadow2)}.status-table th,.status-table td{padding:11px 12px;border-bottom:1px solid #eadfc9;text-align:left}.status-table th{background:var(--navy);color:#fff}.status-table tr:last-child td{border-bottom:0}
+.module-status{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.module-status article{background:#fff9ee;border:1px solid var(--line);border-radius:14px;padding:16px;box-shadow:var(--shadow2)}.module-status h3{font-family:Georgia,serif;color:var(--navy);margin:.25em 0}.model-type{font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold2);font-weight:900}
+@media(max-width:1180px){.case-grid{grid-template-columns:repeat(2,1fr)}.metric-grid{grid-template-columns:repeat(3,1fr)}.module-status{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:850px){.menu-toggle{display:grid;place-items:center}.main-nav{display:none;position:absolute;left:12px;right:12px;top:64px;background:#071f31;border:1px solid rgba(224,179,95,.35);border-radius:12px;padding:10px;box-shadow:var(--shadow);flex-direction:column;align-items:stretch}.main-nav.open{display:flex}.main-nav a{padding:11px 12px}.nav-actions{margin-left:0}.nav-search{display:none}.brand-text small{display:none}.archive-head{align-items:flex-start;flex-direction:column}.case-grid,.metric-grid,.module-status{grid-template-columns:1fr}.repro-flow{grid-template-columns:1fr}}
+/* v37.2 enriched ficha */
+.case-grid .card{min-height:220px}.card ul{padding-left:18px}.card li{margin:7px 0;color:var(--muted)}
+
+.artifact-visual.doc-cover{background-color:#e8dcc7!important;background-size:contain!important;background-repeat:no-repeat!important;background-position:center!important}
+.artifact-visual.doc-cover::after{display:none!important}
+.artifact-doc-label{position:absolute;left:14px;bottom:14px;background:rgba(5,27,42,.90);color:#f4ead7;border:1px solid rgba(224,179,95,.55);padding:7px 10px;border-radius:7px;font-size:.72rem;font-weight:800}
+
+.artifact-visual.doc-cover img{width:100%;height:100%;object-fit:contain;object-position:center;display:block}
+
+/* v37.4 corpus + archive visual cards */
+.corpus-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.result-card{transition:transform .18s ease,box-shadow .18s ease;background:linear-gradient(180deg,#fffaf1,#fff7e8)}
+.result-card:hover{transform:translateY(-3px);box-shadow:0 14px 30px rgba(5,27,42,.17)}
+.result-card .media{height:150px;overflow:hidden}
+.result-card .media.media-document{background:#e9dfcf;display:flex;align-items:flex-start;justify-content:center}
+.result-card .media-document img{width:100%;height:100%;object-fit:cover;object-position:top center;filter:saturate(.92) contrast(1.02)}
+.result-card .media-document::after{content:"Documento IberOS";position:absolute;left:9px;bottom:8px;padding:4px 7px;border-radius:6px;background:rgba(7,31,49,.88);color:#f8ead0;font-size:.62rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase}
+.result-card .copy{display:flex;flex-direction:column;flex:1;padding:13px 14px 0}
+.card-topline{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:4px}
+.card-topline .meta{font-size:.73rem}
+.result-card h3{font-size:1.14rem;line-height:1.08;min-height:2.25em;margin:.12em 0 .38em}
+.card-place{min-height:2.5em}
+.card-tags{min-height:31px;margin:8px 0 10px}
+.card-actions{margin:0 -14px!important;margin-top:auto!important;border-top:1px solid #e5d6bb;background:#f7ead3;display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));gap:0!important}
+.card-actions a{display:flex;align-items:center;justify-content:center;min-height:42px;padding:7px 5px;text-decoration:none;color:var(--navy);font-size:.74rem;font-weight:900;border-right:1px solid #dfceb0;text-align:center}
+.card-actions a:last-child{border-right:0}.card-actions a:hover{background:#edd8ae}
+@media(max-width:1250px){.corpus-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:930px){.corpus-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:620px){.corpus-grid{grid-template-columns:1fr}.result-card .media{height:190px}}
+
+/* v37.5 archaeological explorer */
+.research-dock{display:flex;justify-content:space-between;gap:18px;align-items:center;background:linear-gradient(90deg,#071f31,#0d3d59);color:#fff;border:1px solid rgba(224,179,95,.42);box-shadow:var(--shadow2);border-radius:14px;padding:14px 16px;margin-bottom:16px}.research-dock strong{font-family:Georgia,serif;color:var(--gold2);font-size:1.1rem}.research-dock .meta{color:#d6e2e7}.research-dock-actions{display:flex;gap:8px;align-items:center}
+.filters select{width:100%;padding:9px 10px;border:1px solid #cbb891;border-radius:8px;background:#fffaf1;color:var(--ink)}
+.explorer-head{align-items:end}.explorer-controls{display:flex;align-items:center;justify-content:flex-end;gap:8px;flex-wrap:wrap}.explorer-controls input,.explorer-controls select{padding:10px 11px;border:1px solid #cbb891;border-radius:9px;background:#fffaf1;color:var(--ink)}.explorer-controls input{min-width:260px}
+.view-toggle{display:flex;border:1px solid #cbb891;border-radius:9px;overflow:hidden}.view-toggle button{border:0;background:#fffaf1;color:var(--navy);padding:9px 12px;cursor:pointer;font-weight:900}.view-toggle button.active{background:var(--navy);color:var(--gold2)}
+.active-filters{display:flex;gap:6px;flex-wrap:wrap;min-height:28px;margin:0 0 10px}.filter-chip{font-size:.7rem;background:#eadbbd;color:#5b461f;border-radius:999px;padding:4px 8px;font-weight:800}
+.project-line{display:flex;justify-content:space-between;align-items:center;gap:8px;margin:0 -2px 10px}.project-line a{font-size:.74rem;font-weight:900;color:#315c70;text-decoration:none}.project-add{border:1px solid #cdb47f;border-radius:999px;background:#fff7e8;color:#624819;padding:5px 9px;font-size:.72rem;font-weight:900;cursor:pointer}.project-add.selected{background:#dfeee6;color:#245e43;border-color:#a9cdb9}
+.corpus-grid.list-view{grid-template-columns:1fr}.corpus-grid.list-view .result-card{display:grid;grid-template-columns:190px minmax(0,1fr)}.corpus-grid.list-view .result-card .media{height:100%;min-height:180px}.corpus-grid.list-view .copy{padding:14px 16px 0}.corpus-grid.list-view .card-place,.corpus-grid.list-view .result-card h3{min-height:0}.corpus-grid.list-view .card-tags{min-height:0}.corpus-grid.list-view .card-actions{grid-column:auto}
+.lab-selection{background:#fff4db;border:1px solid #d8bd87;border-radius:12px;padding:13px;margin-bottom:14px}.lab-selection h3{margin:0 0 6px!important}.selection-list{display:flex;flex-wrap:wrap;gap:7px}.selection-item{border:1px solid #ccb98f;background:#fffaf0;border-radius:9px;padding:7px 9px;cursor:pointer;color:var(--navy);font-weight:800;font-size:.76rem}.selection-item:hover{background:#f1dfbb}
+@media(max-width:950px){.research-dock,.explorer-head{align-items:flex-start;flex-direction:column}.explorer-controls{justify-content:flex-start}.corpus-grid.list-view .result-card{grid-template-columns:145px minmax(0,1fr)}}
+@media(max-width:620px){.research-dock-actions{width:100%;flex-wrap:wrap}.explorer-controls{width:100%}.explorer-controls input,.explorer-controls select{width:100%;min-width:0}.corpus-grid.list-view .result-card{grid-template-columns:1fr}.corpus-grid.list-view .result-card .media{height:180px}}
+
+/* v37.6 research collection comparison */
+.compare-wrap{margin-top:12px;overflow:auto;border:1px solid #d9c59d;border-radius:11px;background:#fffaf1}
+.compare-table{width:100%;min-width:960px;border-collapse:collapse;font-size:.78rem}
+.compare-table th{position:sticky;top:0;background:var(--navy);color:#fff;text-align:left;padding:9px 10px;font-family:Georgia,serif}
+.compare-table td{padding:9px 10px;border-bottom:1px solid #eadfc9;vertical-align:top;color:#4d5a63}
+.compare-table tr:last-child td{border-bottom:0}.compare-table tbody tr:hover{background:#f5e8cf}.compare-table a{text-decoration:none;color:var(--navy)}
+
+/* Accessibility and keyboard navigation · 2026-10-08 */
+.skip-link{position:fixed;left:12px;top:-90px;z-index:2000;background:#fff9ee;color:#071f31;padding:12px 18px;border:2px solid #e0b35f;border-radius:8px;font-weight:800}.skip-link:focus{top:12px}
+:where(a,button,input,textarea,select):focus-visible{outline:3px solid #6ec6d2;outline-offset:3px}
+.hero-search:focus-within{outline:3px solid #6ec6d2;outline-offset:3px}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
+@media(max-width:520px){.hero-search{flex-wrap:wrap}.hero-search input{min-width:100%;width:100%}.hero-search button{width:100%}.editorial-head{display:block}.editorial-head h2{font-size:2rem}.portal-grid{padding:12px}.stats-bar{grid-template-columns:1fr 1fr}.stat-item{padding:12px}}
+
+/* IberOS immersive archaeological investigation flow */
+.field-expedition{margin:28px 0;background:radial-gradient(circle at 85% 5%,rgba(224,179,95,.15),transparent 35%),linear-gradient(140deg,#071b2b,#113a51 55%,#071e30);border:1px solid rgba(224,179,95,.6);border-radius:18px;overflow:hidden;color:#f9edd8;box-shadow:var(--shadow)}
+.expedition-head{padding:35px clamp(20px,4vw,54px) 22px;max-width:990px}
+.expedition-head .section-kicker{color:var(--gold2)}
+.expedition-head h2{font:700 clamp(2.4rem,4.3vw,4.9rem)/.98 Georgia,serif;letter-spacing:-.035em;margin:13px 0 16px;color:#fff4da}
+.expedition-head p{max-width:730px;font-size:1.1rem;color:#d7e4e8}
+.expedition-route{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;padding:8px clamp(14px,3vw,38px) 27px}
+.expedition-stop{position:relative;min-height:270px;padding:20px 19px 22px;border:1px solid rgba(224,179,95,.35);background:linear-gradient(180deg,rgba(255,248,225,.08),rgba(255,248,225,.02));text-decoration:none;display:flex;flex-direction:column;gap:9px;transition:background .2s,transform .2s}
+.expedition-stop:first-child{border-radius:13px 0 0 13px}.expedition-stop:last-child{border-radius:0 13px 13px 0}
+.expedition-stop+.expedition-stop{border-left:0}.expedition-stop:hover{background:rgba(224,179,95,.14);transform:translateY(-4px)}
+.expedition-stop:not(:last-child)::after{content:"›";position:absolute;right:-12px;top:44%;font-size:2rem;z-index:2;color:var(--gold2)}
+.stop-number{font-size:.7rem;letter-spacing:.17em;font-weight:900;color:var(--gold2)}
+.stop-symbol{font:normal 2.4rem Georgia,serif;color:var(--gold2);line-height:1.3}
+.expedition-stop strong{font:700 1.45rem Georgia,serif;color:#fff6e5}
+.expedition-stop>span:not(.stop-number):not(.stop-symbol){color:#d5e3e9;font-size:.9rem;line-height:1.4}
+.expedition-stop em{margin-top:auto;color:var(--gold2);font-style:normal;font-weight:800;font-size:.82rem}
+.expedition-foot{border-top:1px solid rgba(224,179,95,.3);padding:18px clamp(20px,4vw,54px);display:flex;justify-content:space-between;align-items:center;gap:16px}
+.expedition-foot p{margin:0;max-width:640px;color:#d8e3e7;font-size:.9rem}.expedition-foot strong{color:#fff5dc}
+@media(max-width:900px){.expedition-route{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.expedition-stop,.expedition-stop:first-child,.expedition-stop:last-child{border:1px solid rgba(224,179,95,.35);border-radius:12px}.expedition-stop::after{display:none}.expedition-foot{flex-wrap:wrap}}
+@media(max-width:560px){.expedition-route{grid-template-columns:1fr}.expedition-stop{min-height:205px}.expedition-head{padding-top:25px}.expedition-head h2{font-size:2.5rem}}
+
+/* IberOS+ official visual reference restoration — 2026-10-08
+   Screenshot is visual guidance, not a claim that mockup statistics are factual. */
+body:has(.portal-grid-approved){background:#0a2333 url("./iberosplus-hero.webp") center top / cover fixed no-repeat}
+body:has(.portal-grid-approved) .site-header{background:rgba(4,20,32,.91)}
+body:has(.portal-grid-approved) .hero{min-height:350px;border-bottom:0;background:transparent}
+body:has(.portal-grid-approved) .hero::before{background-image:linear-gradient(90deg,rgba(4,21,33,.89),rgba(6,24,39,.57) 43%,rgba(4,24,39,.07) 85%),url("./iberosplus-hero.webp");background-position:center 50%}
+body:has(.portal-grid-approved) .hero-inner{padding-top:34px;padding-bottom:35px}
+body:has(.portal-grid-approved) .hero h1{max-width:760px;font-size:clamp(2.9rem,5.1vw,5.2rem);line-height:.93}
+body:has(.portal-grid-approved) .hero h1 em{color:#fff6e9}
+body:has(.portal-grid-approved) .hero-search{max-width:690px}
+body:has(.portal-grid-approved) main{max-width:1500px;padding:0 20px 24px}
+body:has(.portal-grid-approved) .editorial-panel{border-radius:20px 20px 8px 8px;border:1px solid #ead6b5;background:linear-gradient(130deg,rgba(255,250,237,.98),rgba(248,238,219,.97));box-shadow:0 15px 50px rgba(0,0,0,.35)}
+body:has(.portal-grid-approved) .editorial-head{padding:19px 30px 9px;align-items:center}
+body:has(.portal-grid-approved) .editorial-head h2{font-size:clamp(2.3rem,3.6vw,3.5rem);letter-spacing:-.055em;line-height:1.08}
+.brand-iber{font-family:Georgia,serif;letter-spacing:-.06em;color:#051b2a}.brand-iber span{color:#164e67}.brand-iber i{font-style:normal;color:#c99a48}
+body:has(.portal-grid-approved) .editorial-head .lead{max-width:570px;color:#36424b;font-family:Georgia,serif;font-size:1rem}
+body:has(.portal-grid-approved) .portal-grid{gap:12px;padding:12px 20px 19px}
+body:has(.portal-grid-approved) .portal-card{min-height:0;background:#fffaf0;border-radius:9px;border-color:#e4d2b0;box-shadow:0 3px 13px rgba(48,28,8,.14)}
+body:has(.portal-grid-approved) .portal-card .media{height:155px;background-size:cover;filter:saturate(1.09)}
+body:has(.portal-grid-approved) .portal-card .icon-disc{background:#092338;color:#f1c979;border:2px solid #bd8f42;border-radius:12px;width:46px;height:46px;margin-top:-30px;margin-left:14px;font:700 1.55rem Georgia,serif}
+body:has(.portal-grid-approved) .portal-card .copy{padding:7px 14px 13px}
+body:has(.portal-grid-approved) .portal-card h3{font-size:1.55rem;letter-spacing:-.03em;line-height:1.05}
+body:has(.portal-grid-approved) .portal-card p{font-family:Georgia,serif;line-height:1.23;font-size:.87rem;margin:5px 0 10px}
+body:has(.portal-grid-approved) .portal-card .btn{font-family:Georgia,serif;border-radius:7px;padding:7px 14px;font-size:.82rem;box-shadow:0 4px 12px rgba(119,77,13,.12)}
+body:has(.portal-grid-approved) .field-expedition{margin:18px 0 16px}
+body:has(.portal-grid-approved) .stats-bar{margin-top:0;border:1px solid rgba(234,196,124,.7);border-radius:0 0 12px 12px;background:rgba(3,22,36,.96)}
+.try-label{color:#f9ead7;font-size:.8rem;font-weight:700;align-self:center}
+@media(max-width:900px){body:has(.portal-grid-approved) .editorial-head{display:block}body:has(.portal-grid-approved) .portal-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){body:has(.portal-grid-approved){background-attachment:scroll}body:has(.portal-grid-approved) .portal-grid{grid-template-columns:1fr;padding:10px}body:has(.portal-grid-approved) .editorial-head{padding:18px 18px 8px}body:has(.portal-grid-approved) .portal-card .media{height:175px}}
+
+/* Flyer-approved first fold: hero / parchment / 8 photos / navy evidence strip */
+body:has(.portal-grid-approved) .hero{min-height:344px}
+body:has(.portal-grid-approved) .portal-card .media{height:155px}
+body:has(.portal-grid-approved) .editorial-panel{margin-top:-1px}
+body:has(.portal-grid-approved) .stats-bar{margin-top:0}
+body:has(.portal-grid-approved) .field-expedition{margin-top:30px}
+body:has(.portal-grid-approved) .hero .eyebrow{letter-spacing:.30em}
+body:has(.portal-grid-approved) .hero h1{max-width:750px}
+body:has(.portal-grid-approved) .hero p{max-width:705px}
+body:has(.portal-grid-approved) .portal-card:nth-child(1) .media{background-position:93% 48%}
+body:has(.portal-grid-approved) .portal-card:nth-child(2) .media{background-position:55% 48%;filter:hue-rotate(8deg) saturate(1.2)}
+body:has(.portal-grid-approved) .portal-card:nth-child(3) .media{background-position:89% 48%;filter:sepia(.24) saturate(.9)}
+body:has(.portal-grid-approved) .portal-card:nth-child(4) .media{background-position:98% 43%;filter:hue-rotate(165deg) saturate(.65)}
+body:has(.portal-grid-approved) .portal-card:nth-child(5) .media{background-position:88% 67%;filter:grayscale(.55) contrast(1.2)}
+body:has(.portal-grid-approved) .portal-card:nth-child(6) .media{background-position:72% 30%;filter:sepia(.7) saturate(.65)}
+body:has(.portal-grid-approved) .portal-card:nth-child(7) .media{background-position:60% 55%}
+body:has(.portal-grid-approved) .portal-card:nth-child(8) .media{background-position:46% 30%;filter:sepia(.2)}
+
+/* ------------------------------------------------------------------
+   IBEROS+ · SISTEMA VISUAL DEL FLYER OFICIAL · PÁGINAS INTERIORES
+   Capa no destructiva: preserva buscadores, mapas, editores y visores.
+   ------------------------------------------------------------------ */
+:root{--flyer-paper:#fff6e7;--flyer-navy:#061c2c;--flyer-gold:#e6bd73;--flyer-stroke:#d8bc88}
+body:not(:has(.portal-grid-approved)){background:linear-gradient(180deg,rgba(6,25,39,.08),rgba(244,234,215,.94) 680px),radial-gradient(circle at 50% 0%,#e9ce9f,#f4ead7 65%);color:var(--ink)}
+body:not(:has(.portal-grid-approved)) .site-header{background:rgba(4,22,36,.97)}
+body:not(:has(.portal-grid-approved)) .hero{min-height:300px;border-bottom:5px solid var(--flyer-gold)}
+body:not(:has(.portal-grid-approved)) .hero:before{background-image:linear-gradient(90deg,rgba(3,21,34,.97) 0%,rgba(6,29,45,.87) 39%,rgba(4,27,42,.19) 83%),url("./iberosplus-hero.webp");background-position:center 52%}
+body:not(:has(.portal-grid-approved)) .hero-inner{padding:47px 24px 42px}
+body:not(:has(.portal-grid-approved)) .hero h1{font:700 clamp(2.9rem,5.7vw,5.4rem)/.95 Georgia,serif;max-width:1050px;letter-spacing:-.04em;text-shadow:0 2px 16px rgba(0,0,0,.4)}
+body:not(:has(.portal-grid-approved)) .hero h1 em{color:#f5d69b}
+body:not(:has(.portal-grid-approved)) .hero p{color:#f8ecdc;font:1.11rem/1.42 Georgia,serif;max-width:780px}
+body:not(:has(.portal-grid-approved)) main{background:linear-gradient(140deg,rgba(255,249,238,.96),rgba(247,234,210,.97));border:1px solid #e1c9a1;border-top:0;box-shadow:0 16px 42px rgba(15,32,42,.15);border-radius:0 0 20px 20px;margin:0 auto 35px;padding:29px clamp(15px,2.2vw,35px) 55px}
+body:not(:has(.portal-grid-approved)) .section-title{font-size:clamp(2rem,3.3vw,3.1rem);letter-spacing:-.035em}
+body:not(:has(.portal-grid-approved)) :is(.card,.lab-panel,.resource-card,.viewer-card,.filters,.atlas-panel,.result-card,.case-card,.site-card,.repro-step,.module-status article,.evidence-node,.research-dock){border:1px solid var(--flyer-stroke);box-shadow:0 8px 22px rgba(47,35,16,.10);background-color:var(--flyer-paper)}
+body:not(:has(.portal-grid-approved)) :is(.card,.lab-panel,.resource-card,.filters,.atlas-panel,.result-card,.case-card,.site-card){border-radius:12px}
+body:not(:has(.portal-grid-approved)) :is(.card,.lab-panel,.resource-card,.result-card,.case-card,.filters,.atlas-panel) h2,
+body:not(:has(.portal-grid-approved)) :is(.card,.lab-panel,.resource-card,.result-card,.case-card,.filters,.atlas-panel) h3{font-family:Georgia,"Times New Roman",serif;letter-spacing:-.025em}
+body:not(:has(.portal-grid-approved)) .btn.gold,
+body:not(:has(.portal-grid-approved)) .hero-search button{background:linear-gradient(180deg,#f9dfa9,#e4b66a);border:1px solid #d6a252;color:#152c38;font-family:Georgia,serif;box-shadow:0 3px 11px rgba(106,69,17,.15)}
+body:not(:has(.portal-grid-approved)) :is(.case-card .media,.site-card .media,.result-card .media,.resource-card .thumb){background-color:#0c3149;border-bottom:2px solid #c49b59}
+body:not(:has(.portal-grid-approved)) .notice{background:#fff3d9;border-left:4px solid #cf9e4f}
+body:not(:has(.portal-grid-approved)) .pill{border:1px solid rgba(33,72,87,.13)}
+body:not(:has(.portal-grid-approved)) :is(.toolbar input,.toolbar select,.form-group input,.form-group textarea,.form-group select){background:#fffdf8}
+body:not(:has(.portal-grid-approved)) .viewer-card{background:#08273b;color:#fff}
+body:not(:has(.portal-grid-approved)) .viewer-copy h3{color:var(--gold2)}
+body:not(:has(.portal-grid-approved)) .stats-bar{background:#071e30}
+body:not(:has(.portal-grid-approved)) .atlas-shell #map{border:3px solid #d4ae70!important}
+body:not(:has(.portal-grid-approved)) .artifact-stage{border:2px solid var(--flyer-gold)}
+body:not(:has(.portal-grid-approved)) .casefile{border:1px solid rgba(226,180,97,.6)}
+.site-header .brand-mark{font-family:Georgia,serif;background:linear-gradient(155deg,rgba(228,180,91,.16),transparent);box-shadow:inset 0 0 0 3px rgba(7,31,49,.8)}
+.site-header .nav-cta{background:linear-gradient(180deg,#f9dea6,#dca75a);box-shadow:0 3px 12px rgba(0,0,0,.15)}
+.site-header .main-nav a:focus-visible,.site-header .nav-cta:focus-visible{outline:3px solid #6ec6d2;outline-offset:3px}
+@media(max-width:850px){
+ body:not(:has(.portal-grid-approved)) .hero{min-height:245px}
+ body:not(:has(.portal-grid-approved)) .hero-inner{padding:35px 20px 32px}
+ body:not(:has(.portal-grid-approved)) main{margin-bottom:16px;padding:20px 14px 35px}
+ body:not(:has(.portal-grid-approved)) .atlas-shell{display:grid;grid-template-columns:1fr}
+ body:not(:has(.portal-grid-approved)) :is(.case-grid,.resource-shelf,.viewer-shell){grid-template-columns:1fr}
+}
+@media(prefers-reduced-motion:reduce){.result-card,.case-card,.portal-card{transition:none!important}}
+
+/* Flyer restoration preview: precise hierarchy with preserved actual metrics. */
+body:has(.portal-grid-approved){--max:1500px}
+body:has(.portal-grid-approved) .hero{min-height:376px}
+body:has(.portal-grid-approved) .hero-inner{padding:27px 40px 28px}
+body:has(.portal-grid-approved) .hero h1{font-size:clamp(3rem,5vw,5.15rem);max-width:640px}
+body:has(.portal-grid-approved) .hero p{font-size:1.2rem;max-width:720px}
+body:has(.portal-grid-approved) .hero-search{max-width:680px}
+body:has(.portal-grid-approved) main{padding:0 18px 32px}
+body:has(.portal-grid-approved) .editorial-panel{border-radius:16px 16px 0 0}
+body:has(.portal-grid-approved) .editorial-head{display:grid;grid-template-columns:minmax(330px,.9fr) minmax(290px,1.25fr) minmax(160px,.55fr);gap:24px;align-items:center;padding:20px 26px 7px}
+body:has(.portal-grid-approved) .editorial-head .section-kicker{display:none}
+body:has(.portal-grid-approved) .editorial-head h2{font-size:clamp(2.4rem,3.6vw,3.75rem);white-space:nowrap}
+body:has(.portal-grid-approved) .portal-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;padding:8px 19px 14px}
+body:has(.portal-grid-approved) .portal-card .media{height:147px}
+body:has(.portal-grid-approved) .portal-card{border-radius:9px}
+body:has(.portal-grid-approved) .portal-card .copy{padding:8px 14px 11px}
+body:has(.portal-grid-approved) .portal-card h3{font-size:1.55rem}
+body:has(.portal-grid-approved) .portal-card p{font-size:.87rem}
+body:has(.portal-grid-approved) .flyer-statistics{border-radius:0 0 12px 12px;margin:0 0 24px;grid-template-columns:repeat(5,1fr);box-shadow:0 13px 35px rgba(2,17,29,.23)}
+body:has(.portal-grid-approved) .flyer-statistics .stat-item{display:flex;flex-direction:column;justify-content:center;padding:17px 24px;min-height:82px}
+body:has(.portal-grid-approved) .flyer-statistics .stat-item strong{font-size:1.85rem}
+.flyer-motto{font:700 .63rem/1.8 Georgia,serif;color:#132b3b;letter-spacing:.19em;text-align:center;white-space:nowrap}.flyer-motto span{font-size:.58rem}
+.flyer-decoration{position:absolute;inset:0;pointer-events:none}
+.flyer-map{position:absolute;left:45%;top:9%;color:#e9c37b;font:5rem Georgia,serif;opacity:.4}
+.flyer-handwriting{position:absolute;right:1%;top:46%;font:italic clamp(.9rem,1.5vw,1.5rem)/1.15 Georgia,serif;color:#fff3d4;transform:rotate(-10deg);text-align:center;text-shadow:0 2px 7px #061d2e}
+@media(max-width:1100px){body:has(.portal-grid-approved) .editorial-head{grid-template-columns:1fr 1fr}.flyer-motto{display:none}body:has(.portal-grid-approved) .portal-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.flyer-handwriting{display:none}}
+@media(max-width:670px){body:has(.portal-grid-approved) .hero-inner{padding:30px 20px}body:has(.portal-grid-approved) .editorial-head{display:block;padding:20px 15px 10px}body:has(.portal-grid-approved) .editorial-head h2{white-space:normal}body:has(.portal-grid-approved) .portal-grid{grid-template-columns:1fr;padding:10px}body:has(.portal-grid-approved) .flyer-statistics{grid-template-columns:repeat(2,1fr)}.flyer-map{display:none}}
+
+/* Dedicated provisional visual for each approved flyer card. */
+body:has(.portal-grid-approved) .portal-grid .portal-card:nth-child(1) .media{background-image:linear-gradient(180deg,rgba(3,22,35,.02),rgba(4,25,38,.07)),url("./flyer-corpus.svg");background-size:cover;background-position:center;filter:none}
+body:has(.portal-grid-approved) .portal-grid .portal-card:nth-child(2) .media{background-image:linear-gradient(180deg,rgba(3,22,35,.02),rgba(4,25,38,.07)),url("./flyer-atlas.svg");background-size:cover;background-position:center;filter:none}
+body:has(.portal-grid-approved) .portal-grid .portal-card:nth-child(3) .media{background-image:linear-gradient(180deg,rgba(3,22,35,.02),rgba(4,25,38,.07)),url("./flyer-fichas.svg");background-size:cover;background-position:center;filter:none}
+body:has(.portal-grid-approved) .portal-grid .portal-card:nth-child(4) .media{background-image:linear-gradient(180deg,rgba(3,22,35,.02),rgba(4,25,38,.07)),url("./flyer-laboratorio.svg");background-size:cover;background-position:center;filter:none}
+body:has(.portal-grid-approved) .portal-grid .portal-card:nth-child(5) .media{background-image:linear-gradient(180deg,rgba(3,22,35,.02),rgba(4,25,38,.07)),url("./flyer-modelos3d.svg");background-size:cover;background-position:center;filter:none}
+body:has(.portal-grid-approved) .portal-grid .portal-card:nth-child(6) .media{background-image:linear-gradient(180deg,rgba(3,22,35,.02),rgba(4,25,38,.07)),url("./flyer-recursos.svg");background-size:cover;background-position:center;filter:none}
+body:has(.portal-grid-approved) .portal-grid .portal-card:nth-child(7) .media{background-image:linear-gradient(180deg,rgba(3,22,35,.02),rgba(4,25,38,.07)),url("./flyer-casos.svg");background-size:cover;background-position:center;filter:none}
+body:has(.portal-grid-approved) .portal-grid .portal-card:nth-child(8) .media{background-image:linear-gradient(180deg,rgba(3,22,35,.02),rgba(4,25,38,.07)),url("./flyer-comunidad.svg");background-size:cover;background-position:center;filter:none}
+
+/* Exact flyer navigation hierarchy: six central links, search, language, access label. */
+.site-header .header-inner{gap:20px}
+.site-header .main-nav{gap:clamp(6px,1.3vw,23px)}
+.site-header .main-nav a{font-family:Georgia,serif;font-weight:600}
+.site-header .brand-mark{border:0;box-shadow:none;background:none;color:#f4c971;font-size:2.5rem;width:44px}
+.site-header .nav-actions{margin-left:auto;gap:0;border:1px solid rgba(226,184,111,.38);border-radius:11px;padding:5px;background:rgba(2,19,31,.8)}
+.site-header .nav-search{border:0;border-right:1px solid rgba(226,184,111,.35);border-radius:0;font-size:1.8rem}
+.site-header .nav-lang{font-family:Georgia,serif;color:#fff5dd;font-size:.91rem;font-weight:700;padding:0 14px;white-space:nowrap}
+.site-header .nav-cta{font-family:Georgia,serif;border-radius:8px;padding:11px 17px}
+@media(max-width:1180px){.site-header .header-inner{gap:11px}.site-header .brand-text small{font-size:.46rem}.site-header .main-nav a{font-size:.81rem;padding:9px 5px}.site-header .nav-cta{display:inline-flex;font-size:.76rem;padding:9px}}
+@media(max-width:850px){.site-header .nav-lang{padding:0 9px}.site-header .nav-cta{font-size:.7rem}.site-header .nav-actions{margin-left:auto}}
+@media(max-width:440px){.site-header .brand-text strong{font-size:1.12rem}.site-header .nav-search{display:none}.site-header .nav-cta{padding:7px 8px}.site-header .nav-lang{font-size:.8rem;padding:0 5px}}
+
+/* IberOS+ | Identidad arqueológica aprobada · 2026-10-08
+   Capa compartida: no modifica lógica, rutas ni conjuntos de datos. */
+:root{--gold:#dba95b;--gold2:#f9d99b;--cream:#f3e5c8;--paper:#fff8eb;--ink:#102436;--line:#d5b887}
+body{background:linear-gradient(90deg,rgba(7,25,38,.08),transparent 7%,transparent 93%,rgba(7,25,38,.08)),#ead8b5;color:var(--ink)}
+body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background-image:linear-gradient(0deg,rgba(23,23,21,.48),rgba(6,27,43,.08) 38%,rgba(5,25,40,.34)),url("./iberosplus-hero.webp");background-size:cover;background-position:center;opacity:.38}
+.site-header{background:rgba(3,21,35,.94);border-bottom:1px solid rgba(246,209,147,.34)}
+.site-header .brand-text strong{letter-spacing:-.045em;text-shadow:0 1px 8px #031a2c}
+.site-header .main-nav a{font-family:Georgia,"Times New Roman",serif;font-weight:600;letter-spacing:.012em}
+.site-header .main-nav a.active{color:#f6d69a;border-color:#f2c67f}
+.site-header .nav-cta,.btn.gold,.hero-search button{background:linear-gradient(180deg,#ffe4ad,#e2ac60);color:#112338;border:1px solid #f1cc8b;box-shadow:inset 0 1px rgba(255,255,255,.6),0 3px 9px rgba(22,16,7,.11);font-family:Georgia,"Times New Roman",serif;font-weight:700}
+.hero{border-bottom:0;min-height:320px}
+.hero::before{background-image:linear-gradient(90deg,rgba(3,22,36,.97) 0%,rgba(5,29,45,.89) 27%,rgba(6,27,42,.47) 52%,rgba(3,24,37,.08) 85%),url("./iberosplus-hero.webp");background-position:center 46%;filter:saturate(1.13) contrast(1.045)}
+.hero::after{background:linear-gradient(180deg,transparent 64%,rgba(3,20,31,.33))}
+.hero .eyebrow,.section-kicker{letter-spacing:.25em;text-transform:uppercase;color:#f5cb84;font-family:Georgia,serif}
+.hero h1{font-family:Georgia,"Times New Roman",serif;letter-spacing:-.037em;line-height:1.01;text-shadow:0 3px 15px rgba(2,17,28,.55)}
+.hero h1 em{color:#f7d494;font-style:normal}
+.hero p{font-family:Georgia,"Times New Roman",serif;line-height:1.35;text-shadow:0 2px 8px #071b28}
+.hero-search{box-shadow:0 8px 24px rgba(1,14,24,.4);border-radius:9px;overflow:hidden}
+.hero-chip{border:1px solid rgba(117,194,215,.65);background:rgba(4,32,51,.78);color:#fff8e9}
+.editorial-panel,.panel,.card,.portal-card,.expedition-stop{background-color:#fff8eb;border-color:#d7ba8b}
+.editorial-panel{background:linear-gradient(160deg,rgba(255,251,241,.98),rgba(244,231,205,.98));box-shadow:0 16px 45px rgba(2,19,33,.28)}
+.editorial-head h2,.section-title,.portal-card h3{font-family:Georgia,"Times New Roman",serif;letter-spacing:-.035em}
+.portal-card{box-shadow:0 5px 16px rgba(43,32,19,.12);transition:transform .17s ease,box-shadow .17s ease}
+.portal-card:hover{transform:translateY(-3px);box-shadow:0 12px 25px rgba(43,32,19,.18)}
+.portal-card .media{border-bottom:2px solid rgba(209,157,75,.48)}
+.portal-card .icon-disc{background:#061f33;border:2px solid #c99b4f;color:#f5ca7d}
+.stats-bar{background:linear-gradient(180deg,#082d45,#061827);color:#fff5df;border-top:2px solid #bd9148}
+.stats-bar .stat-item strong{color:#f9ddac;font-family:Georgia,serif}
+footer{background:#061a29;color:#f5e5c9}
+@media(max-width:670px){.hero h1{font-size:clamp(2.45rem,10vw,4.5rem)}.hero::before{background-position:63% center}.hero-inner{position:relative}.editorial-panel{border-radius:13px}body::before{background-position:65% center}}
+@media(prefers-reduced-motion:reduce){.portal-card{transition:none}.portal-card:hover{transform:none}}
+
+/* IberOS+ / Sistema visual aprobado para todas las páginas interiores.
+   La portada validada permanece intacta. */
+body.iberos-inner{background:#e9d5b5;color:#10263a}
+body.iberos-inner::before{position:fixed;inset:0;z-index:-1;opacity:.24;content:"";pointer-events:none;background:linear-gradient(0deg,#160e0a66,#001c2c44),url("../flyer-final-aprobado.jpg") center center/cover no-repeat}
+body.iberos-inner .site-header{background:linear-gradient(90deg,#031927f7,#07253ae8);border-bottom:1px solid #f4c57e80;box-shadow:0 4px 20px #00152270}
+body.iberos-inner .site-header .header-inner{max-width:1484px;min-height:69px}
+body.iberos-inner .site-header .brand-text strong{font-size:clamp(1.45rem,2.3vw,2.55rem);line-height:1;color:#fffdf7}
+body.iberos-inner .site-header .brand-text strong span{color:#81cada}
+body.iberos-inner .site-header .brand-text small{color:#e9e6d8;letter-spacing:.10em;text-transform:uppercase;font:600 .55rem/1.6 system-ui,sans-serif}
+body.iberos-inner .site-header .brand-mark{color:#f1c475;font:700 2.2rem/1 Georgia,serif}
+body.iberos-inner .site-header .main-nav a{font:600 clamp(.8rem,.98vw,1rem)/1.4 Georgia,serif;color:#f7eddd}
+body.iberos-inner .site-header .main-nav a.active{color:#ffda9a;text-decoration:underline;text-decoration-color:#f5cd8b;text-underline-offset:10px}
+body.iberos-inner .nav-cta{background:linear-gradient(#ffe9bd,#e9b46f);color:#082033;border-radius:9px}
+body.iberos-inner .hero{height:auto;min-height:290px;isolation:isolate;overflow:hidden;background:#071e30;border:0}
+body.iberos-inner .hero::before{background-image:linear-gradient(90deg,#041c2ffb 0%,#051d2df1 23%,#06283bcc 44%,#09273945 73%,#071f2d18 100%),url("../flyer-final-aprobado.jpg");background-size:cover,145% auto;background-position:center,right 14%;filter:none;transform:none}
+body.iberos-inner .hero::after{background:linear-gradient(0deg,#062334b3 0%,transparent 35%)}
+body.iberos-inner .hero-inner{max-width:1484px;margin:auto;padding:35px 48px 46px;position:relative;z-index:2}
+body.iberos-inner .hero .eyebrow{font:700 .76rem Georgia,serif;letter-spacing:.28em;color:#f5d392;text-transform:uppercase}
+body.iberos-inner .hero h1{font:700 clamp(3.4rem,5.8vw,6rem)/.98 Georgia,"Times New Roman",serif;letter-spacing:-.05em;max-width:950px;margin:14px 0;color:#fff9ed;text-shadow:0 3px 16px #0015228c}
+body.iberos-inner .hero h1 em{font-style:normal;color:#f4c985}
+body.iberos-inner .hero p{font:clamp(1.1rem,1.55vw,1.55rem)/1.35 Georgia,serif;max-width:780px;margin:12px 0 18px;color:#fff5df}
+body.iberos-inner .hero-search{max-width:760px;background:#fffaf0;border-radius:9px;box-shadow:0 8px 25px #00142166}
+body.iberos-inner .hero-search input{color:#17334a;font-family:Georgia,serif}
+body.iberos-inner .hero-search button{background:linear-gradient(#ffe4b4,#e8b269);color:#061e30;font-family:Georgia,serif}
+body.iberos-inner .hero-chip{background:#082c43e6;border:1px solid #72b4cacc;color:#fdf2dc;font-family:Georgia,serif}
+body.iberos-inner main{max-width:1500px;margin:-5px auto 0;position:relative;z-index:1}
+body.iberos-inner main>section,body.iberos-inner main>.wrap,body.iberos-inner main>.panel{border-color:#d8b786}
+body.iberos-inner .editorial-panel,body.iberos-inner .panel,body.iberos-inner .filters,body.iberos-inner .portal-card,body.iberos-inner .filter-panel,body.iberos-inner .record-card{background:linear-gradient(155deg,#fffaf0,#f5e8d1);border-color:#dac49e;box-shadow:0 7px 22px #28180818}
+body.iberos-inner h2,body.iberos-inner h3,body.iberos-inner .section-title{font-family:Georgia,"Times New Roman",serif;color:#10263d}
+body.iberos-inner .btn.gold{background:linear-gradient(#ffe4b1,#e4ad63);color:#10243a;border:1px solid #dfb777}
+body.iberos-inner .stats-bar{background:linear-gradient(#092c42,#041c2e);color:#f9ebd8}
+body.iberos-inner footer{background:#061b2d;color:#e4d6bc}
+body.iberos-inner a:focus-visible,body.iberos-inner button:focus-visible,body.iberos-inner input:focus-visible{outline:3px solid #23b7d7;outline-offset:2px}
+@media(max-width:850px){body.iberos-inner .hero{min-height:260px}body.iberos-inner .hero::before{background-size:cover,215% auto;background-position:center,70% 12%}body.iberos-inner .hero-inner{padding:35px 22px 42px}body.iberos-inner .hero h1{font-size:clamp(2.8rem,9vw,4.8rem);max-width:97%}body.iberos-inner .hero p{font-size:1.07rem}body.iberos-inner .site-header .main-nav a{font-size:.92rem}}
+@media(max-width:500px){body.iberos-inner .hero::before{background-size:cover,270% auto;background-position:center,75% 11%}body.iberos-inner .hero .eyebrow{font-size:.62rem;letter-spacing:.17em}body.iberos-inner .hero h1{font-size:clamp(2.6rem,11vw,4rem)}body.iberos-inner .hero-search{display:flex;max-width:100%}body.iberos-inner .hero-search input{min-width:0}body.iberos-inner .hero-search button{white-space:nowrap}}
+
+/* Corrección verificada contra captura real: no reutilizar el flyer ENTERO detrás de páginas interiores. */
+body.iberos-inner::before{background-image:linear-gradient(145deg,#092638e8,#80684620),url("./iberosplus-hero.webp");background-position:center;background-size:cover;opacity:.18}
+body.iberos-inner .hero{background:#08283b;overflow:hidden}
+body.iberos-inner .hero::before{background-image:linear-gradient(90deg,#041a2cf9 0%,#08283bea 47%,#08283ba0 100%),url("./iberosplus-hero.webp");background-size:cover;background-position:center center;filter:none}
+body.iberos-inner .hero::after{background:linear-gradient(0deg,#061e30aa,transparent 34%)}
+body.iberos-inner .hero h1{overflow-wrap:normal}
+@media(max-width:850px){
+ body.iberos-inner .site-header .header-inner{min-height:62px;padding:7px 12px;gap:8px}
+ body.iberos-inner .site-header .brand{gap:6px;min-width:0;margin-right:0}
+ body.iberos-inner .site-header .brand-mark{font-size:1.45rem;width:25px;height:30px}
+ body.iberos-inner .site-header .brand-text strong{font-size:1.38rem}
+ body.iberos-inner .site-header .brand-text small{font-size:.42rem;letter-spacing:.025em}
+ body.iberos-inner .site-header .nav-actions{padding:2px;border-radius:7px;gap:1px}
+ body.iberos-inner .site-header .nav-cta{font-size:.65rem;padding:7px 8px;border-radius:6px}
+ body.iberos-inner .site-header .nav-lang{font-size:.7rem;padding:0 5px}
+ body.iberos-inner .site-header .menu-toggle{font-size:1.1rem;padding:7px 9px}
+ body.iberos-inner .hero{min-height:0}
+ body.iberos-inner .hero-inner{padding:29px 19px 35px}
+ body.iberos-inner .hero::before{background-size:cover;background-position:60% center}
+ body.iberos-inner .hero .eyebrow{font-size:.64rem;letter-spacing:.15em}
+ body.iberos-inner .hero h1{font-size:clamp(2.4rem,8vw,3.7rem);line-height:1.07;margin:10px 0}
+ body.iberos-inner .hero p{font-size:1rem;line-height:1.4;max-width:640px}
+ body.iberos-inner .hero-search{display:flex;flex-direction:row;max-width:100%;align-items:stretch}
+ body.iberos-inner .hero-search input{flex:1;min-width:0;font-size:.93rem;padding:10px}
+ body.iberos-inner .hero-search button{flex:0 0 auto;width:auto;font-size:.88rem;padding:10px 13px}
+ body.iberos-inner .hero-chips{gap:6px;flex-wrap:wrap}
+ body.iberos-inner .hero-chip{font-size:.79rem;padding:6px 10px}
+ body.iberos-inner .research-dock{margin:12px 10px;padding:12px;gap:10px}
+ body.iberos-inner .research-dock strong{font-size:1.02rem}
+ body.iberos-inner .research-dock .section-kicker{font-size:.67rem;letter-spacing:.12em}
+ body.iberos-inner .research-dock-actions{display:flex;flex-wrap:wrap;gap:8px}
+}
+@media(max-width:430px){
+ body.iberos-inner .site-header .brand-text small{display:none}
+ body.iberos-inner .site-header .brand-text strong{font-size:1.25rem}
+ body.iberos-inner .site-header .nav-cta{font-size:.59rem;padding:6px}
+ body.iberos-inner .site-header .menu-toggle{padding:6px}
+ body.iberos-inner .hero h1{font-size:clamp(2.25rem,9.2vw,3.1rem)}
+}
+
+/* Hotfix from actual iPhone screenshot: compact native inner-page layout, NO flyer below headings. */
+body.iberos-inner::before{background-image:none!important;background:#ead9be!important;opacity:1!important}
+body.iberos-inner .hero{background:linear-gradient(112deg,#061b2d 0%,#0b3448 76%,#173c4a 100%)!important}
+body.iberos-inner .hero::before{background-image:radial-gradient(ellipse at 90% 2%,rgba(248,195,109,.24),transparent 39%),linear-gradient(112deg,#061b2d 0%,#0c3145 79%)!important;background-size:cover!important;background-position:center!important}
+body.iberos-inner .hero::after{background:linear-gradient(0deg,#09283a77,transparent 42%)!important}
+@media(max-width:850px){
+ body.iberos-inner .site-header .header-inner{min-height:58px!important;padding:8px 12px!important;gap:7px!important}
+ body.iberos-inner .site-header .brand-text strong{font-size:1.23rem!important}
+ body.iberos-inner .site-header .brand-mark{font-size:1.35rem!important;width:23px!important;height:29px!important}
+ body.iberos-inner .site-header .nav-actions{margin-left:auto!important}
+ body.iberos-inner .site-header .nav-cta{font:600 .66rem/1.2 Georgia,serif!important;padding:7px 8px!important}
+ body.iberos-inner .site-header .nav-lang{font-size:.76rem!important;padding:0 6px!important}
+ body.iberos-inner .hero{min-height:0!important}
+ body.iberos-inner .hero-inner{padding:26px 17px 28px!important}
+ body.iberos-inner .hero .eyebrow{font-size:.57rem!important;letter-spacing:.12em!important;line-height:1.3!important}
+ body.iberos-inner .hero h1{font-size:clamp(2.05rem,8.4vw,3.1rem)!important;line-height:1.05!important;letter-spacing:-.03em!important;margin:10px 0 9px!important}
+ body.iberos-inner .hero p{font-size:.96rem!important;line-height:1.36!important;margin:0 0 13px!important}
+ body.iberos-inner .hero .hero-search{display:grid!important;grid-template-columns:minmax(0,1fr) auto!important;max-width:100%!important;margin:12px 0 0!important;border-radius:7px!important;overflow:hidden!important}
+ body.iberos-inner .hero .hero-search input{box-sizing:border-box!important;width:100%!important;min-width:0!important;max-width:none!important;font-size:.83rem!important;line-height:1.25!important;padding:12px 9px!important}
+ body.iberos-inner .hero .hero-search button,body.iberos-inner .hero .hero-search a{box-sizing:border-box!important;width:auto!important;min-width:82px!important;max-width:none!important;padding:11px 9px!important;white-space:nowrap!important;font-size:.78rem!important;display:flex!important;align-items:center!important;justify-content:center!important}
+ body.iberos-inner .hero .hero-chips{margin-top:10px!important;gap:5px!important}
+ body.iberos-inner .hero .hero-chip{font-size:.72rem!important;padding:5px 8px!important}
+ body.iberos-inner .research-dock{margin:10px!important;padding:12px!important}
+ body.iberos-inner .research-dock .section-kicker{font-size:.56rem!important;letter-spacing:.12em!important}
+ body.iberos-inner .research-dock strong{font-size:1.02rem!important;line-height:1.25!important}
+ body.iberos-inner .research-dock .meta{font-size:.78rem!important}
+ body.iberos-inner .research-dock .btn{padding:9px 11px!important;font-size:.82rem!important}
+}
+
+/* IberOS+ responsive architecture: desktop >= 901px / tablet 601-900px / phone <= 600px.
+   Interior pages only. No changes to approved cover. */
+@media (min-width:901px){
+ body.iberos-inner .site-header .main-nav{display:flex}
+ body.iberos-inner .site-header .menu-toggle{display:none}
+ body.iberos-inner .hero-inner{padding:42px 48px 48px!important}
+ body.iberos-inner .hero h1{font-size:clamp(3.4rem,5.8vw,6rem)!important}
+ body.iberos-inner .hero .hero-search{display:flex!important;max-width:760px!important}
+ body.iberos-inner .hero .hero-search button{width:auto!important;padding:14px 24px!important}
+}
+@media (max-width:600px){
+ body.iberos-inner .site-header .main-nav:not(.open){display:none!important}
+ body.iberos-inner .site-header .main-nav.open{display:flex!important;flex-direction:column;position:absolute;top:100%;left:0;right:0;background:#061d30;padding:14px;box-shadow:0 9px 20px #00172780;z-index:30}
+ body.iberos-inner .site-header .menu-toggle{display:block!important;order:2}
+ body.iberos-inner .site-header .nav-actions{order:1}
+ body.iberos-inner .site-header .nav-search{display:none}
+ body.iberos-inner .site-header .brand-text small{display:none}
+ body.iberos-inner .site-header .nav-cta{max-width:110px;text-align:center}
+ body.iberos-inner .hero .hero-inner{padding:26px 16px 27px!important}
+ body.iberos-inner .hero h1{font-size:clamp(2rem,8.5vw,2.9rem)!important;max-width:100%!important}
+ body.iberos-inner .hero p{font-size:.95rem!important}
+ body.iberos-inner .hero .hero-search{display:grid!important;grid-template-columns:minmax(0,1fr) 78px!important}
+ body.iberos-inner .hero .hero-search button{min-width:0!important;width:78px!important;padding:9px 5px!important;font-size:.76rem!important}
+ body.iberos-inner .hero .hero-search input{font-size:.8rem!important;min-width:0!important}
+ body.iberos-inner .corpus-shell,body.iberos-inner .atlas-shell,body.iberos-inner .lab-shell,body.iberos-inner .detail,body.iberos-inner .artifact-stage{display:grid!important;grid-template-columns:minmax(0,1fr)!important}
+ body.iberos-inner .filters{position:static!important;max-width:100%!important;min-width:0!important}
+ body.iberos-inner .corpus-grid,body.iberos-inner .portal-grid,body.iberos-inner .resource-shelf,body.iberos-inner .viewer-shell{display:grid!important;grid-template-columns:minmax(0,1fr)!important}
+ body.iberos-inner .research-dock{display:flex!important;flex-wrap:wrap!important}
+ body.iberos-inner main{min-width:0!important;max-width:100%!important;overflow-wrap:anywhere}
+}
+@media (min-width:601px) and (max-width:900px){
+ body.iberos-inner .hero h1{font-size:clamp(2.8rem,6vw,4.2rem)!important}
+ body.iberos-inner .portal-grid,body.iberos-inner .corpus-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+
+/* Corpus: panel de filtros plegable exclusivamente en teléfonos */
+.mobile-filter-toggle{display:none}
+@media(max-width:600px){
+ body.iberos-corpus .mobile-filter-toggle{display:block;grid-column:1/-1;width:100%;padding:12px 16px;background:linear-gradient(#ffebc5,#e2b373);color:#082237;border:1px solid #c89451;border-radius:9px;font:700 1rem Georgia,serif;text-align:left;cursor:pointer}
+ body.iberos-corpus .corpus-shell>.filters{display:none!important}
+ body.iberos-corpus .corpus-shell>.filters.is-open{display:block!important}
+ body.iberos-corpus .corpus-shell{gap:12px!important;padding:8px 12px!important}
+ body.iberos-corpus .hero::before{background-image:linear-gradient(90deg,rgba(3,20,34,.92),rgba(3,22,34,.72)),url("./iberosplus-hero.webp")!important;background-size:cover!important;background-position:68% center!important}
+ body.iberos-corpus .site-header .header-inner{padding:7px 10px!important;gap:6px!important;min-height:55px!important}
+ body.iberos-corpus .site-header .brand-mark{display:none!important}
+ body.iberos-corpus .site-header .brand-text strong{font-size:1.35rem!important}
+ body.iberos-corpus .site-header .nav-cta{font-size:.6rem!important;max-width:99px!important}
+ body.iberos-corpus .site-header .menu-toggle{font-size:1rem!important;flex:0 0 auto!important}
+ body.iberos-corpus .results-head{padding:12px!important}
+ body.iberos-corpus .results-head h2{font-size:1.4rem!important}
+}
+
+/* v2026-10-10: mobile Corpus puts evidence before administrative tools. */
+@media(max-width:600px){
+body.iberos-corpus .site-header .brand-text strong{font-size:1.17rem!important}
+body.iberos-corpus .site-header .nav-lang{display:none!important}
+body.iberos-corpus .site-header .nav-cta{font-size:.58rem!important;max-width:88px!important;padding:6px!important}
+body.iberos-corpus .hero{min-height:0!important}
+body.iberos-corpus .hero::before{background-image:linear-gradient(90deg,#051b2be8,#061e2cd0),url("./iberosplus-hero.webp")!important;background-position:center,66% center!important}
+body.iberos-corpus .hero .hero-inner{padding:18px 14px 18px!important}
+body.iberos-corpus .hero .eyebrow{font-size:.55rem!important}
+body.iberos-corpus .hero h1{font-size:clamp(2rem,8vw,2.5rem)!important;margin:6px 0 8px!important}
+body.iberos-corpus .hero p{display:none!important}
+body.iberos-corpus .hero .hero-search{margin:9px 0 0!important}
+body.iberos-corpus .hero .hero-chips{display:none!important}
+body.iberos-corpus .research-dock{margin:0 10px 8px!important;padding:8px 10px!important;border-radius:0 0 9px 9px!important;gap:6px!important}
+body.iberos-corpus .research-dock .section-kicker,body.iberos-corpus .research-dock .meta{display:none!important}
+body.iberos-corpus .research-dock strong{font-size:.88rem!important}
+body.iberos-corpus .research-dock-actions .btn{padding:6px 8px!important;font-size:.75rem!important}
+body.iberos-corpus .corpus-shell{padding:3px 9px 15px!important;gap:7px!important}
+body.iberos-corpus .mobile-filter-toggle{font-size:.84rem!important;padding:9px 12px!important}
+body.iberos-corpus .results-head{padding:9px 8px!important;gap:7px!important}
+body.iberos-corpus .results-head .section-kicker{display:none!important}
+body.iberos-corpus .results-head h2{font-size:1.15rem!important;margin:0!important}
+body.iberos-corpus .explorer-controls{gap:6px!important}
+body.iberos-corpus .explorer-controls input{padding:7px!important;font-size:.81rem!important}
+body.iberos-corpus .explorer-controls select{padding:7px!important;font-size:.81rem!important}
+body.iberos-corpus #grid{margin-top:5px!important}
+body.iberos-corpus .corpus-grid{gap:10px!important}
+}
+/* IberOS+ / Cierre de identidad arqueológica 2026-10-11.
+   Solo páginas interiores, sin introducir imágenes con texto o tarjetas del flyer.
+   Maquetación escritorio / tableta / móvil; respeta el JS científico. */
+body.iberos-inner{--visual-paper:#fff9ec;--visual-ink:#0b2539;--visual-gold:#e0ae64;--visual-line:#dac59e;color:var(--visual-ink);background:#e8d8bb}
+body.iberos-inner main{background:linear-gradient(150deg,#fff9ed,#f5e8d2);border-radius:14px 14px 0 0;box-shadow:0 10px 38px rgba(5,24,40,.13);padding-bottom:20px}
+body.iberos-inner .hero::before{background-image:linear-gradient(90deg,rgba(3,19,33,.96),rgba(3,23,38,.78) 56%,rgba(6,29,43,.45)),url("./iberosplus-hero.webp")!important;background-size:cover!important;background-position:60% 45%!important}
+body.iberos-inner .hero::after{background:linear-gradient(0deg,rgba(2,20,34,.48),transparent 55%)}
+body.iberos-inner .hero h1{max-width:950px}
+body.iberos-inner .site-header .brand-mark{font-family:Georgia,serif}
+body.iberos-inner .site-header .nav-cta{white-space:nowrap}
+body.iberos-inner :is(.results-head,.explorer-head,.research-dock,.filters,.lab-panel,.artifact-stage,.detail,.record-card,.resource-card,.portal-card){border-color:var(--visual-line)}
+body.iberos-inner :is(.results-head,.explorer-head,.research-dock,.filters,.lab-panel,.record-card,.resource-card){background:#fff9eb;color:var(--visual-ink)}
+body.iberos-inner :is(input,select,textarea){max-width:100%}
+body.iberos-inner .portal-card .copy h3{color:#0d293f}
+body.iberos-inner :is(.portal-card,.record-card,.resource-card){overflow:hidden}
+body.iberos-inner :is(.portal-card,.record-card,.resource-card) img{max-width:100%;object-fit:cover}
+body.iberos-inner :is(.btn.gold,.hero-search button){border-radius:7px;background:linear-gradient(180deg,#ffe4b1,#dfab62);color:#102438}
+@media(min-width:901px){
+ body.iberos-inner .hero-inner{max-width:1484px;padding:35px 46px 42px!important}
+ body.iberos-inner .hero h1{font-size:clamp(3.4rem,5.5vw,5.6rem)!important}
+ body.iberos-inner .hero p{display:block!important}
+ body.iberos-inner .hero-chips{display:flex!important}
+ body.iberos-inner main{margin:-6px auto 0;padding:20px 22px 34px;max-width:1484px}
+ body.iberos-inner .corpus-shell{grid-template-columns:minmax(235px,290px) minmax(0,1fr)}
+}
+@media(min-width:601px) and (max-width:900px){
+ body.iberos-inner main{margin:-4px 10px 0;padding:12px}
+ body.iberos-inner .hero-inner{padding:30px 24px 34px!important}
+}
+@media(max-width:600px){
+ body.iberos-inner{background:#f2e4c9}
+ body.iberos-inner main{margin:0!important;padding:8px 8px 24px!important;border-radius:0;box-shadow:none}
+ body.iberos-inner .site-header .brand{flex:0 1 auto;min-width:0}
+ body.iberos-inner .site-header .nav-cta{white-space:normal}
+ body.iberos-inner .hero{min-height:0!important}
+ body.iberos-inner .hero::before{background-position:60% center!important}
+ body.iberos-inner .hero-inner{padding:24px 16px 25px!important}
+ body.iberos-inner .hero h1{line-height:1.07!important}
+ body.iberos-inner .hero-search{width:100%;min-width:0}
+ body.iberos-inner .hero-search :is(input,button){min-height:42px}
+ body.iberos-inner :is(.corpus-shell,.atlas-shell,.lab-shell,.artifact-stage,.detail,.viewer-shell,.portal-grid,.resource-shelf){min-width:0;max-width:100%}
+ body.iberos-inner :is(.results-head,.explorer-head,.research-dock,.filters,.lab-panel,.record-card,.resource-card){border-radius:9px}
+ body.iberos-inner :is(.results-head,.explorer-head) h2{overflow-wrap:break-word}
+ body.iberos-inner .portal-card .media{min-height:115px}
+ body.iberos-inner :is(.results-head,.explorer-head) .explorer-controls{width:100%;min-width:0;flex-wrap:wrap}
+ body.iberos-inner :is(.results-head,.explorer-head) .explorer-controls input{flex:1 1 145px;min-width:0}
+}
+
+/* Acabado específico Corpus, Archivo y Ficha individual: 2026-10-11 */
+body:is(.iberos-corpus,.iberos-fichas,.iberos-ficha) :is(.corpus-shell,.archive-grid,.detail,.results-head,.filters,.research-dock){min-width:0}
+body:is(.iberos-corpus,.iberos-fichas,.iberos-ficha) :is(.filters,.research-dock,.results-head,.record-card,.archive-card,.detail-panel){border:1px solid #d6b989;background:linear-gradient(155deg,#fffaf1,#f4e7d0);box-shadow:0 5px 16px rgba(20,35,44,.09)}
+body:is(.iberos-corpus,.iberos-fichas,.iberos-ficha) :is(.record-card,.archive-card,.corpus-card){overflow:hidden;border-radius:11px}
+body:is(.iberos-corpus,.iberos-fichas,.iberos-ficha) :is(.record-card,.archive-card,.corpus-card) img{max-width:100%;height:auto;object-fit:cover}
+body:is(.iberos-corpus,.iberos-fichas,.iberos-ficha) :is(button,input,select){font-family:inherit}
+body:is(.iberos-corpus,.iberos-fichas,.iberos-ficha) :is(button,a):focus-visible{outline:3px solid #2ca4c0;outline-offset:2px}
+@media(min-width:901px){
+ body.iberos-corpus .corpus-shell{display:grid;grid-template-columns:minmax(230px,290px) minmax(0,1fr);gap:18px}
+ body.iberos-corpus .filters{align-self:start}
+ body.iberos-corpus .mobile-filter-toggle{display:none}
+ body:is(.iberos-fichas,.iberos-ficha) main{padding:25px 24px 36px}
+}
+@media(max-width:600px){
+ body:is(.iberos-corpus,.iberos-fichas) .hero .hero-inner{padding:20px 16px 23px!important}
+ body:is(.iberos-corpus,.iberos-fichas) .hero h1{font-size:clamp(2rem,8vw,2.7rem)!important;margin:7px 0 9px!important}
+ body.iberos-fichas .hero p{font-size:.92rem!important;line-height:1.4!important;margin:5px 0 12px!important}
+ body.iberos-fichas .hero-actions{display:flex;flex-wrap:wrap;gap:7px}
+ body.iberos-fichas .hero-actions .btn{font-size:.77rem;padding:7px 9px}
+ body:is(.iberos-corpus,.iberos-fichas) .hero-search{display:grid!important;grid-template-columns:minmax(0,1fr) 80px!important;max-width:100%!important}
+ body:is(.iberos-corpus,.iberos-fichas) .hero-search input{min-width:0!important;width:100%!important;font-size:.8rem!important;padding:10px 8px!important}
+ body:is(.iberos-corpus,.iberos-fichas) .hero-search button{width:80px!important;min-width:0!important;padding:9px 5px!important;font-size:.77rem!important;white-space:nowrap!important}
+ body.iberos-corpus .corpus-shell{display:grid!important;grid-template-columns:minmax(0,1fr)!important}
+ body.iberos-corpus .mobile-filter-toggle{display:block}
+ body:is(.iberos-corpus,.iberos-fichas,.iberos-ficha) :is(.results-head,.explorer-head,.research-dock){padding:10px!important}
+ body:is(.iberos-corpus,.iberos-fichas,.iberos-ficha) :is(.results-head,.explorer-head) h2{font-size:1.25rem!important}
+ body:is(.iberos-corpus,.iberos-fichas,.iberos-ficha) :is(.corpus-grid,.archive-grid,.detail){grid-template-columns:minmax(0,1fr)!important}
+ body.iberos-ficha main{padding:10px!important}
+}
+
+/* IberOS+ · Atlas y Mesa de investigación: acabado responsive aprobado */
+body:is(.iberos-atlas,.iberos-laboratorio) :is(.atlas-panel,.lab-panel,.field-step,.atlas-feature){background:linear-gradient(155deg,#fffaf0,#f3e5ce);border:1px solid #d5b889;border-radius:12px;box-shadow:0 6px 18px #17253712;color:#132b40;min-width:0}
+body:is(.iberos-atlas,.iberos-laboratorio) :is(.atlas-panel,.lab-panel,.field-step) h3{font-family:Georgia,serif;color:#102b3f}
+body.iberos-atlas #map{min-height:370px;border:2px solid #caa875;border-radius:12px;overflow:hidden;box-shadow:0 8px 25px #061c3030;z-index:0}
+body.iberos-atlas .atlas-shell{align-items:start;gap:15px}
+body.iberos-laboratorio .lab-shell{align-items:start;gap:16px}
+body.iberos-laboratorio .field-strip{gap:9px;margin-bottom:17px}
+body.iberos-laboratorio .field-step b{font-family:Georgia,serif;color:#0b2b41}
+body.iberos-laboratorio :is(input,select,textarea){background:#fffdf7;border:1px solid #cfb586;border-radius:8px;max-width:100%}
+body.iberos-laboratorio :is(input,select,textarea):focus-visible{outline:2px solid #2c95b5;outline-offset:1px}
+@media(min-width:901px){
+ body.iberos-atlas .atlas-shell{display:grid;grid-template-columns:minmax(190px,250px) minmax(340px,1fr) minmax(200px,260px)}
+ body.iberos-atlas #map{height:min(63vw,590px)}
+ body.iberos-laboratorio .field-strip{display:grid;grid-template-columns:repeat(4,minmax(0,1fr))}
+}
+@media(min-width:601px) and (max-width:900px){
+ body.iberos-atlas .atlas-shell{display:grid;grid-template-columns:minmax(0,1fr)}
+ body.iberos-atlas #map{height:480px}
+ body.iberos-laboratorio .field-strip{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:600px){
+ body.iberos-atlas .hero .hero-inner,body.iberos-laboratorio .hero .hero-inner{padding:20px 16px 23px!important}
+ body.iberos-atlas .hero h1,body.iberos-laboratorio .hero h1{font-size:clamp(2.2rem,9vw,2.85rem)!important;margin:8px 0!important}
+ body.iberos-atlas .hero p,body.iberos-laboratorio .hero p{font-size:.94rem!important;line-height:1.4!important}
+ body.iberos-atlas .hero-search{display:grid!important;grid-template-columns:minmax(0,1fr) 78px!important}
+ body.iberos-atlas .hero-search input{width:100%!important;min-width:0!important;font-size:.8rem!important;padding:9px!important}
+ body.iberos-atlas .hero-search button{width:78px!important;min-width:0!important;padding:8px!important;font-size:.78rem!important}
+ body.iberos-atlas .atlas-shell{display:flex!important;flex-direction:column!important;gap:10px!important}
+ body.iberos-atlas .atlas-shell>section{order:0;width:100%;min-width:0}
+ body.iberos-atlas .atlas-shell>.atlas-panel:first-child{order:1;width:100%;min-width:0}
+ body.iberos-atlas .atlas-shell>.atlas-feature{order:2;width:100%;min-width:0}
+ body.iberos-atlas #map{height:360px!important;min-height:360px!important;width:100%!important}
+ body.iberos-atlas .atlas-panel{width:100%;padding:13px!important}
+ body.iberos-laboratorio .field-strip{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:7px!important}
+ body.iberos-laboratorio .field-step{padding:10px!important}
+ body.iberos-laboratorio .field-step b{font-size:.86rem}
+ body.iberos-laboratorio .field-step span{font-size:.76rem}
+ body.iberos-laboratorio .lab-shell{display:grid!important;grid-template-columns:minmax(0,1fr)!important;gap:11px!important}
+ body.iberos-laboratorio .lab-panel{min-width:0;padding:14px!important}
+ body.iberos-laboratorio .lab-panel .section-title{font-size:1.65rem!important}
+ body.iberos-laboratorio .form-grid{grid-template-columns:minmax(0,1fr)!important}
+ body.iberos-laboratorio .hero-actions{display:flex;gap:7px;flex-wrap:wrap}
+ body.iberos-laboratorio .hero-actions .btn{font-size:.72rem;padding:6px 8px}
+}
+
+/* IberOS+ acabado arqueológico: Patrimonio 3D, Recursos, Casos. */
+body:is(.iberos-modelos3d,.iberos-recursos,.iberos-casos) :is(.viewer-card,.resource-card,.case-card){background:linear-gradient(145deg,#fffcf4,#f2e3c8);border:1px solid #d2b183;border-radius:12px;overflow:hidden;box-shadow:0 6px 20px #061e3020;color:#132b40}
+body:is(.iberos-modelos3d,.iberos-recursos,.iberos-casos) :is(.viewer-card,.resource-card,.case-card) :is(h3,h2){font-family:Georgia,serif;color:#102c40}
+body:is(.iberos-modelos3d,.iberos-recursos,.iberos-casos) :is(.viewer-card,.resource-card,.case-card) a:focus-visible{outline:3px solid #36a6c2;outline-offset:2px}
+body.iberos-modelos3d .viewer-card model-viewer{display:block;width:100%;min-height:260px;background:radial-gradient(circle at 50% 40%,#d8c7a2,#4a5b5b);--poster-color:#e4d7bd}
+body.iberos-modelos3d .viewer-copy{padding:16px}
+body.iberos-recursos .resource-shelf{gap:15px}
+body.iberos-recursos .resource-card{min-width:0}
+body.iberos-recursos .resource-card .thumb{background:linear-gradient(145deg,#0a3148,#30535b 65%,#bd9460);border-bottom:3px solid #c39b61;min-height:95px}
+body.iberos-casos .case-grid{gap:15px}
+body.iberos-casos .case-card .copy{padding:18px}
+body.iberos-casos .case-card .media{min-height:145px;background:radial-gradient(circle at 65% 55%,#a78c67,#394a48 58%,#112f41);border-bottom:3px solid #cca56a}
+body.iberos-casos .case-card .case-footer{display:flex;flex-wrap:wrap;gap:7px}
+@media(min-width:901px){
+ body.iberos-modelos3d .viewer-shell{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+ body.iberos-recursos .resource-shelf{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+ body.iberos-casos .case-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+@media(min-width:601px) and (max-width:900px){
+ body.iberos-modelos3d .viewer-shell,body.iberos-recursos .resource-shelf,body.iberos-casos .case-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+}
+@media(max-width:600px){
+ body:is(.iberos-modelos3d,.iberos-recursos,.iberos-casos) .hero .hero-inner{padding:22px 16px 23px!important}
+ body:is(.iberos-modelos3d,.iberos-recursos,.iberos-casos) .hero h1{font-size:clamp(2.1rem,8.5vw,2.7rem)!important;margin:8px 0!important}
+ body:is(.iberos-modelos3d,.iberos-recursos,.iberos-casos) .hero p{font-size:.92rem!important;line-height:1.43!important}
+ body:is(.iberos-modelos3d,.iberos-recursos,.iberos-casos) :is(.viewer-shell,.resource-shelf,.case-grid){display:grid!important;grid-template-columns:minmax(0,1fr)!important;gap:11px!important}
+ body.iberos-modelos3d .viewer-card model-viewer{height:300px;min-height:300px}
+ body.iberos-modelos3d .viewer-copy{padding:13px}
+ body.iberos-recursos .resource-card{padding:14px!important}
+ body.iberos-recursos .resource-card .thumb{min-height:78px}
+ body.iberos-casos .case-card .media{min-height:105px}
+ body.iberos-casos .case-card .copy{padding:13px}
+ body.iberos-casos .case-footer .btn{font-size:.78rem;padding:8px 10px}
+}
+
+/* Contactar y finalización visual de páginas comunitarias */
+body.iberos-contactar .contact-intro{max-width:820px;margin:0 0 24px}
+body.iberos-contactar .contact-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}
+body.iberos-contactar .contact-card{display:flex;flex-direction:column;gap:10px;padding:23px;background:linear-gradient(145deg,#fffcf4,#f2e3c8);border:1px solid #d2b183;border-radius:12px;box-shadow:0 7px 22px #061e3020}
+body.iberos-contactar .contact-card h3{font:700 1.65rem Georgia,serif;color:#123046;margin:0}
+body.iberos-contactar .contact-card p{margin:0 0 14px}
+body.iberos-contactar .contact-card .btn{align-self:flex-start;margin-top:auto}
+body.iberos-contactar .notice{margin-top:23px}
+body:is(.iberos-comunidad,.iberos-acerca,.iberos-herramientas) :is(.resource-card,.card,.portal-card){border:1px solid #d2b183;border-radius:12px;box-shadow:0 7px 20px #061e3020;overflow:hidden}
+body.iberos-comunidad .contact-notice{margin:22px 0}
+@media(min-width:901px){body.iberos-inner .main-nav{gap:2px}body.iberos-inner .main-nav a{padding:10px 7px;font-size:.87rem}}
+@media(max-width:900px){body.iberos-contactar .contact-grid{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:600px){body.iberos-contactar .contact-card{padding:17px}body.iberos-contactar .contact-card h3{font-size:1.35rem}body:is(.iberos-comunidad,.iberos-acerca,.iberos-herramientas,.iberos-contactar) .hero-inner{padding:20px 16px 24px!important}body:is(.iberos-comunidad,.iberos-acerca,.iberos-herramientas,.iberos-contactar) .hero h1{font-size:clamp(2rem,8vw,2.7rem)!important}}
+
+@media(min-width:901px){body.iberos-contactar .contact-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}body.iberos-contactar .contact-card strong{overflow-wrap:anywhere;color:#15384c}
+
+/* Navegación móvil y tableta coherente en todas las páginas interiores */
+@media(max-width:900px){
+ body.iberos-inner .site-header .header-inner{position:relative;gap:8px!important;padding:8px 12px!important;min-height:59px!important}
+ body.iberos-inner .site-header .menu-toggle{display:flex!important;align-items:center;justify-content:center;order:2;min-width:42px;min-height:42px;cursor:pointer;flex:0 0 auto}
+ body.iberos-inner .site-header .main-nav:not(.open){display:none!important}
+ body.iberos-inner .site-header .main-nav.open{display:flex!important;position:absolute!important;top:100%!important;left:0!important;right:0!important;flex-direction:column!important;align-items:stretch!important;gap:1px!important;background:#061d30!important;padding:9px 13px 14px!important;box-shadow:0 12px 27px #04111dcc;z-index:1001!important;max-height:calc(100dvh - 60px);overflow:auto}
+ body.iberos-inner .site-header .main-nav.open a{display:block!important;padding:12px 14px!important;min-height:44px;font-size:1rem!important;border-bottom:1px solid #bba06d33}
+ body.iberos-inner .site-header .nav-actions{order:1;margin-left:auto!important}
+ body.iberos-inner .site-header .brand{min-width:0;flex:0 1 auto}
+ body.iberos-inner .site-header .brand-text small{display:none!important}
+ body.iberos-inner .site-header .nav-search{display:none!important}
+}
+@media(max-width:380px){
+ body.iberos-inner .site-header .nav-lang{display:none!important}
+ body.iberos-inner .site-header .brand-mark{display:none!important}
+ body.iberos-inner .site-header .nav-cta{font-size:.61rem!important;padding:7px 6px!important}
+}
+
+/* Research journey follows selected OBJECT_ID across tools without pretending automatic analysis */
+body .research-context{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:0 0 18px;padding:12px 14px;background:linear-gradient(135deg,#092a40,#124056);border:1px solid #d4a560;border-radius:11px;color:#fff4d6}
+body .research-context strong{margin-right:7px;overflow-wrap:anywhere;font:700 .95rem Georgia,serif}
+body .research-context a{display:inline-flex;align-items:center;min-height:34px;padding:6px 10px;border:1px solid #ddba7b;border-radius:6px;color:#f9e1b3;text-decoration:none;font-size:.84rem}
+body .research-context a[aria-current="page"]{background:#ebc88d;color:#092339}
+body .research-context small{flex-basis:100%;color:#d6e4e9;font-size:.76rem}
+@media(max-width:600px){body .research-context{padding:10px;gap:6px}body .research-context strong{flex-basis:100%}body .research-context a{min-height:38px;font-size:.77rem;padding:6px 9px}}
+
+/* Visores epigráficos 3D simbólicos. Rotación por arrastre. */
+body.iberos-modelos3d .inscribed-viewer{width:100%;height:340px;min-height:310px;display:block;position:relative;background:#203543;touch-action:pan-y;overflow:hidden;cursor:grab}
+body.iberos-modelos3d .inscribed-viewer:active{cursor:grabbing}
+body.iberos-modelos3d .inscribed-viewer canvas{width:100%!important;height:100%!important;display:block}
+@media(max-width:600px){body.iberos-modelos3d .inscribed-viewer{height:310px;min-height:310px}}
+
+/* Visible fallback if third-party 3D scripts, WebGL or GPU initialization fail. */
+body.iberos-modelos3d .inscribed-viewer .inscribed-fallback{display:block;width:100%;height:100%;max-height:100%;object-fit:contain;background:#233d4a}
+body.iberos-modelos3d .inscribed-viewer:has(.inscribed-fallback){cursor:default}
+
+/* Visor espacial de piedra: sin WebGL/CDN, signos visibles y control táctil */
+body.iberos-modelos3d .inscribed-viewer.stone-3d-ready{height:370px;position:relative;overflow:hidden;background:radial-gradient(ellipse at 50% 40%,#46606b,#182e3a 78%);touch-action:pan-y;cursor:default}
+body.iberos-modelos3d .stone-3d-scene{position:absolute;inset:0 0 51px;perspective:750px;display:grid;place-items:center;touch-action:none;cursor:grab;user-select:none}
+body.iberos-modelos3d .stone-3d-scene:active{cursor:grabbing}
+body.iberos-modelos3d .stone-3d-body{width:min(70%,290px);aspect-ratio:1;position:relative;transform-style:preserve-3d;will-change:transform}
+body.iberos-modelos3d .stone-3d-face{position:absolute;inset:0;backface-visibility:hidden}
+body.iberos-modelos3d .stone-3d-front{transform:translateZ(13px);box-shadow:0 11px 28px #0008}
+body.iberos-modelos3d .stone-3d-front .inscribed-fallback{display:block;width:100%;height:100%;object-fit:contain}
+body.iberos-modelos3d .stone-3d-back{transform:rotateY(180deg) translateZ(13px);background:linear-gradient(135deg,#bdab87,#76644c 55%,#99886a);border:5px solid #bda783}
+body.iberos-modelos3d .stone-3d-side{inset:0 auto 0 100%;width:26px;background:linear-gradient(90deg,#554535,#b4a07e,#63513b);transform-origin:left center;transform:rotateY(90deg)}
+body.iberos-modelos3d .stone-3d-top{inset:0 0 auto 0;height:26px;background:#aa9673;transform-origin:center top;transform:rotateX(-90deg)}
+body.iberos-modelos3d .stone-3d-controls{position:absolute;bottom:7px;left:0;right:0;display:flex;justify-content:center;gap:9px;z-index:3}
+body.iberos-modelos3d .stone-3d-controls button{border:1px solid #d6b37c;border-radius:7px;background:#0a2c40;color:#fce5bc;min-width:50px;min-height:37px;padding:7px 12px;cursor:pointer}
+body.iberos-modelos3d .stone-3d-controls button:focus-visible{outline:3px solid #64cfda;outline-offset:2px}
+@media(max-width:600px){body.iberos-modelos3d .inscribed-viewer.stone-3d-ready{height:340px}body.iberos-modelos3d .stone-3d-body{width:min(73%,275px)}}
+
+/* Actual volumetric stone geometry is drawn in Canvas; not a rotating picture frame */
+body.iberos-modelos3d .inscribed-viewer.stone-mesh-ready{position:relative;height:370px;overflow:hidden;background:#203543}
+body.iberos-modelos3d .stone-mesh-canvas{display:block;width:100%;height:100%;cursor:grab;touch-action:none}
+body.iberos-modelos3d .stone-mesh-canvas:active{cursor:grabbing}
+body.iberos-modelos3d .stone-mesh-controls{position:absolute;bottom:7px;left:0;right:0;z-index:3;display:flex;justify-content:center;gap:9px}
+body.iberos-modelos3d .stone-mesh-controls button{border:1px solid #d6b37c;border-radius:7px;background:#0a2c40;color:#fce5bc;min-width:50px;min-height:38px;padding:7px 12px;cursor:pointer}
+body.iberos-modelos3d .stone-mesh-controls button:focus-visible{outline:3px solid #64cfda;outline-offset:2px}
+@media(max-width:600px){body.iberos-modelos3d .inscribed-viewer.stone-mesh-ready{height:340px}}
+
+/* glTF mesh layer: no blank canvas on load failure */
+body.iberos-modelos3d .inscribed-viewer{position:relative;height:350px;min-height:310px}
+body.iberos-modelos3d .inscribed-viewer .inscribed-real-model{display:block;opacity:0;pointer-events:none;position:absolute;inset:0;width:100%;height:100%;background:#233d4a}
+body.iberos-modelos3d .inscribed-viewer.gltf-loaded .inscribed-real-model{opacity:1;pointer-events:auto}
+body.iberos-modelos3d .inscribed-viewer.gltf-loaded .inscribed-fallback{visibility:hidden}
+body.iberos-modelos3d .inscribed-viewer .inscribed-fallback{width:100%;height:100%;display:block;object-fit:contain}
+
+/* IberOS+ museo arqueológico 2026 — identidad para interiores; portada aprobada intacta */
+body.iberos-inner:not(.iberos-modelos3d) .hero,body.iberos-modelos3d .hero{
+ position:relative;isolation:isolate;background-color:#171814!important;
+ background-image:linear-gradient(90deg,rgba(6,12,17,.95) 0%,rgba(10,15,17,.79) 51%,rgba(31,25,19,.55) 100%),url("../assets/iberosplus-hero.webp")!important;
+ background-position:center,center!important;background-size:cover!important;
+ border-bottom:2px solid #a57c45;
+}
+body.iberos-inner .hero::after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(ellipse at 80% 45%,rgba(202,145,69,.19),transparent 49%),linear-gradient(0deg,rgba(8,11,13,.3),transparent 40%)}
+body.iberos-inner .hero .eyebrow{color:#e3b975!important;letter-spacing:.13em;text-transform:uppercase}
+body.iberos-inner .hero h1{color:#fff2d7!important;text-shadow:0 2px 14px #0a1014a8}
+body.iberos-inner .hero h1 em{color:#eec283!important}
+body.iberos-inner .hero p{color:#f2e6d3!important;text-shadow:0 1px 9px #050708a1}
+body.iberos-inner .viewer-card,body.iberos-inner .resource-card,body.iberos-inner .case-card,body.iberos-inner .portal-card{
+ box-shadow:0 15px 35px #30201519;border-color:#c9a97888;transition:box-shadow .2s ease,transform .2s ease;
+}
+@media(hover:hover){body.iberos-inner .viewer-card:hover,body.iberos-inner .resource-card:hover,body.iberos-inner .portal-card:hover{box-shadow:0 17px 34px #2c191936;transform:translateY(-2px)}}
+body.iberos-modelos3d .viewer-card .viewer-copy{background:linear-gradient(155deg,#fff5dd,#e9dcc2)!important;color:#32291b}
+body.iberos-modelos3d .viewer-card .model-type{color:#815c2b}
+body.iberos-modelos3d .viewer-shell{gap:22px}
+body.iberos-modelos3d .inscribed-viewer{background:#171b1b!important;border-bottom:3px solid #b78a51}
+@media(prefers-reduced-motion:reduce){body.iberos-inner .viewer-card,body.iberos-inner .resource-card,body.iberos-inner .case-card,body.iberos-inner .portal-card{transition:none!important;transform:none!important}}
+
+
+/* IberOS+ ilustraciones originales de los ocho módulos: imágenes conceptuales, no hallazgos documentados. */
+body.iberos-corpus .hero{background-image:linear-gradient(90deg,rgba(7,12,15,.95) 0%,rgba(7,12,15,.80) 43%,rgba(7,12,15,.12) 100%),url("corpus.webp")!important}
+body.iberos-atlas .hero{background-image:linear-gradient(90deg,rgba(7,12,15,.95) 0%,rgba(7,12,15,.80) 43%,rgba(7,12,15,.12) 100%),url("atlas.webp")!important}
+body.iberos-fichas .hero{background-image:linear-gradient(90deg,rgba(7,12,15,.95) 0%,rgba(7,12,15,.80) 43%,rgba(7,12,15,.12) 100%),url("fichas.webp")!important}
+body.iberos-laboratorio .hero{background-image:linear-gradient(90deg,rgba(7,12,15,.95) 0%,rgba(7,12,15,.80) 43%,rgba(7,12,15,.12) 100%),url("laboratorio.webp")!important}
+body.iberos-modelos3d .hero{background-image:linear-gradient(90deg,rgba(7,12,15,.95) 0%,rgba(7,12,15,.80) 43%,rgba(7,12,15,.12) 100%),url("modelos3d.webp")!important}
+body.iberos-recursos .hero{background-image:linear-gradient(90deg,rgba(7,12,15,.95) 0%,rgba(7,12,15,.80) 43%,rgba(7,12,15,.12) 100%),url("recursos.webp")!important}
+body.iberos-casos .hero{background-image:linear-gradient(90deg,rgba(7,12,15,.95) 0%,rgba(7,12,15,.80) 43%,rgba(7,12,15,.12) 100%),url("casos.webp")!important}
+body.iberos-comunidad .hero{background-image:linear-gradient(90deg,rgba(7,12,15,.95) 0%,rgba(7,12,15,.80) 43%,rgba(7,12,15,.12) 100%),url("comunidad.webp")!important}
+body.iberos-inner .hero{background-size:cover!important;background-position:center center!important;background-repeat:no-repeat!important;min-height:310px}
+body.iberos-inner .hero .hero-inner{position:relative;z-index:1}
+body.iberos-inner .hero .hero-inner::after{content:"Imagen conceptual generada digitalmente · No es documentación de una pieza arqueológica real";display:block;max-width:570px;margin-top:1.3rem;color:#f0dfc2;font:normal .72rem/1.5 system-ui,sans-serif;letter-spacing:.02em;opacity:.86}
+@media(max-width:700px){body.iberos-inner .hero{background-position:63% center!important}body.iberos-inner .hero .hero-inner{background:rgba(7,12,15,.17);border-radius:12px}body.iberos-inner .hero .hero-inner::after{font-size:.66rem}}
+
+/* Accesibilidad de las tarjetas 3D en fondos crema */
+body.iberos-modelos3d .viewer-card .viewer-copy,
+body.iberos-modelos3d .viewer-card .viewer-copy p,
+body.iberos-modelos3d .viewer-card .viewer-copy h3{color:#302519!important;text-shadow:none!important;opacity:1!important}
+body.iberos-modelos3d .viewer-card .viewer-copy h3{font-weight:700!important}
+body.iberos-modelos3d .viewer-card .viewer-copy .model-type{color:#765329!important;font-weight:800!important}
+body.iberos-modelos3d .viewer-card .viewer-copy a.btn{background:#153b4b!important;color:#fff6e6!important;border-color:#153b4b!important;text-shadow:none!important}
+body.iberos-modelos3d .inscribed-viewer .inscribed-real-model{background:radial-gradient(ellipse at 55% 36%,#3f4850 0%,#121b21 80%)!important}
+
+/* Fichas: no dejar cuadros vacíos si aún no hay foto documental */
+body.iberos-fichas .result-card .media.fiche-illustration{min-height:150px;background:#1c2528}
+body.iberos-fichas .result-card .media.fiche-illustration img{width:100%;height:100%;display:block;object-fit:cover;object-position:center}
+body.iberos-fichas .result-card .media.fiche-illustration::after{display:none}
+body.iberos-fichas .result-card .media.fiche-illustration .media-badge{position:absolute;bottom:9px;left:10px;z-index:2;background:#172c36ed;color:#fff2db;padding:5px 8px;border-radius:5px;font:700 .7rem system-ui,sans-serif}
+body.iberos-ficha .artifact-visual.fiche-illustration{position:relative;background:#1c2528;overflow:hidden;min-height:220px}
+body.iberos-ficha .artifact-visual.fiche-illustration img{height:100%;width:100%;object-fit:cover}
+body.iberos-ficha .artifact-visual.fiche-illustration .artifact-doc-label{z-index:2;max-width:95%}
+
+/* Fichas: imagen como fondo visible; distintivo pequeño y sin panel superpuesto */
+body.iberos-fichas .result-card .media.fiche-illustration{
+ position:relative!important;display:block!important;overflow:hidden!important;
+ height:clamp(195px,31vw,265px)!important;min-height:195px!important;
+ background:#1b2730!important;
+}
+body.iberos-fichas .result-card .media.fiche-illustration>img{
+ position:absolute!important;inset:0!important;width:100%!important;height:100%!important;
+ object-fit:cover!important;object-position:center 45%!important;
+ filter:none!important;opacity:1!important;display:block!important;z-index:0!important;
+}
+body.iberos-fichas .result-card .media.fiche-illustration::before,
+body.iberos-fichas .result-card .media.fiche-illustration::after{
+ content:none!important;display:none!important;
+}
+body.iberos-fichas .result-card .media.fiche-illustration>.media-badge{
+ position:absolute!important;inset:auto auto 10px 10px!important;top:auto!important;right:auto!important;
+ bottom:10px!important;left:10px!important;width:max-content!important;height:auto!important;
+ max-width:calc(100% - 20px)!important;min-height:0!important;min-width:0!important;
+ margin:0!important;padding:5px 9px!important;display:inline-block!important;flex:none!important;
+ transform:none!important;line-height:1.25!important;font:700 12px/1.25 system-ui,sans-serif!important;
+ background:rgba(12,29,37,.85)!important;color:#fff8e9!important;
+ border:1px solid rgba(230,198,145,.35)!important;border-radius:6px!important;
+ box-shadow:none!important;z-index:2!important;
+}
+
+/* Reparación definitiva: fotografía sin capas superpuestas */
+body.iberos-fichas .result-card .media.fiche-illustration > .media-badge,
+body.iberos-fichas .result-card .media.fiche-illustration > span,
+body.iberos-fichas .result-card .media.fiche-illustration::before,
+body.iberos-fichas .result-card .media.fiche-illustration::after{display:none!important;content:none!important}
+body.iberos-fichas .result-card .media.fiche-illustration{display:block!important;background:#182630!important;isolation:isolate}
+body.iberos-fichas .result-card .media.fiche-illustration>img{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;object-fit:cover!important;opacity:1!important;filter:none!important;z-index:1!important}
+body.iberos-fichas .result-card .picture-note{padding:5px 0 8px;color:#62543e;font-size:12px;line-height:1.35}
+
+/* Registros sin fotografía: una cartela propia por pieza, nunca la misma falsa foto */
+body.iberos-fichas .result-card .media.fiche-identity,body.iberos-ficha .artifact-visual.fiche-identity{
+ position:relative!important;display:flex!important;align-items:center!important;justify-content:center!important;
+ background:linear-gradient(145deg,#1d3341,#314853 60%,#5d4933)!important;
+ background-image:linear-gradient(145deg,#1d3341,#314853 60%,#5d4933)!important;
+ padding:20px!important;height:auto;min-height:200px;overflow:hidden
+}
+.fiche-identity-inner{width:100%;max-width:480px;border:1px solid #d4b8809e;border-radius:9px;padding:15px 17px;background:#071b2ba8;display:flex;flex-direction:column;gap:10px;color:#fff4dd}
+.fiche-identity-inner span{font:700 .66rem system-ui,sans-serif;color:#e0bd81;letter-spacing:.16em}
+.fiche-identity-inner strong{font:700 clamp(1.05rem,2.2vw,1.5rem)/1.2 Georgia,serif;color:#fff2d5;overflow-wrap:anywhere}
+.fiche-identity-inner small{font:.83rem/1.45 system-ui,sans-serif;color:#efe1ca}
+.fiche-identity-inner em{font:.72rem system-ui,sans-serif;color:#ecd1a1}
+body.iberos-fichas .result-card .media.fiche-identity::after,body.iberos-fichas .result-card .media.fiche-identity::before{display:none!important}
+body.iberos-fichas .media.fiche-identity .fiche-identity-inner{position:relative;z-index:2}
+.fiche-illustration.without-image{background:#2d3e45!important}
+.fiche-illustration.without-image::before{content:"Portada documental no disponible";display:block;padding:30px;color:#fff2db;font:700 1rem Georgia,serif}
+
+/* Fotografías documentales: pie de autoría siempre visible y legible. */
+body.iberos-fichas .photo-credit{padding:2px 0 10px;font:600 .75rem/1.4 system-ui,sans-serif}
+body.iberos-fichas .photo-credit a{color:#28536b;text-decoration:underline}
+body.iberos-ficha figure.artifact-visual{margin:0}
+body.iberos-ficha figure.artifact-visual .artifact-doc-label{position:absolute;bottom:7px;left:8px;right:8px;max-width:calc(100% - 16px);font:600 .68rem/1.35 system-ui,sans-serif;padding:6px 8px;overflow-wrap:anywhere;background:#0e2834e6;color:#fff7e9}
+body.iberos-ficha figure.artifact-visual .artifact-doc-label a{color:#ffe4a8;text-decoration:underline}
+
+/* Enlaces de rescate cuando Wikimedia no entrega la fotografía */
+body.iberos-fichas .fiche-illustration.without-image,body.iberos-ficha .fiche-illustration.without-image{position:relative;display:flex!important;align-items:center;justify-content:center;min-height:190px;background:linear-gradient(145deg,#1c3344,#394950)!important}
+body.iberos-fichas .fiche-illustration.without-image::before,body.iberos-ficha .fiche-illustration.without-image::before{display:none!important;content:none!important}
+body.iberos-fichas .fiche-illustration.without-image .photo-direct,body.iberos-ficha .fiche-illustration.without-image .photo-direct{display:block!important;position:relative;z-index:6;padding:12px 15px;border:1px solid #cfb477;border-radius:8px;background:#102838;color:#fff2da;font:700 .88rem/1.5 system-ui,sans-serif;text-align:center;text-decoration:underline;max-width:85%}
+
+/* Los errores de red deben poder ocultar las imágenes, incluso con CSS histórico !important */
+body.iberos-fichas .fiche-illustration img[hidden],
+body.iberos-ficha .fiche-illustration img[hidden],
+body.iberos-fichas .fiche-illustration .photo-direct[hidden],
+body.iberos-ficha .fiche-illustration .photo-direct[hidden]{display:none!important}
+body.iberos-fichas .fiche-illustration .local-cover:not([hidden]),
+body.iberos-ficha .fiche-illustration .local-cover:not([hidden]){display:block!important;position:absolute!important;inset:0;width:100%!important;height:100%!important;object-fit:cover;opacity:1!important;z-index:1}
+body.iberos-fichas .fiche-illustration.without-image .photo-direct:not([hidden]),
+body.iberos-ficha .fiche-illustration.without-image .photo-direct:not([hidden]){display:block!important}
+
+/* iPhone: priorizar imagen local y ofrecer enlace de fotografía real sin recuadros ocultos */
+body.iberos-fichas .result-card .media.fiche-illustration{display:block!important;position:relative!important;background:#21333d!important}
+body.iberos-fichas .result-card .media.fiche-illustration>img:not([hidden]){display:block!important;object-fit:cover!important}
+body.iberos-fichas .result-card .media.fiche-illustration>.photo-direct{display:inline-block!important;position:absolute!important;z-index:4!important;inset:auto 10px 10px 10px!important;width:auto!important;max-width:calc(100% - 20px);padding:7px 9px!important;border-radius:6px;background:rgba(12,31,41,.88)!important;color:#fff4de!important;font:700 .74rem/1.35 system-ui,sans-serif;text-decoration:underline}
+body.iberos-fichas .fiche-identity .photo-direct,body.iberos-ficha .fiche-identity a{display:inline-block!important;color:#ffe2a7!important;text-decoration:underline;font:700 .85rem/1.5 system-ui,sans-serif}
+body.iberos-ficha .photo-credit{font:700 .9rem/1.5 system-ui,sans-serif;padding:9px 0;color:#224d62}
+body.iberos-ficha .photo-credit a{color:#224d62!important;text-decoration:underline}
+
+/* Core: resultados de investigación legibles en iPhone; JSON opcional */
+.core-result-card{background:#fffaf0;color:#203141;border:1px solid #d7bc8e;border-radius:11px;padding:17px;margin:12px 0;box-shadow:0 5px 15px #172b3414;overflow-wrap:anywhere}
+.core-result-card h4{font:700 clamp(1.25rem,4vw,1.7rem)/1.25 Georgia,serif;color:#18384d;margin:6px 0 14px}
+.core-result-card p{color:#273e50;line-height:1.55;margin:7px 0}
+.core-result-card p strong{color:#173449}
+.core-eyebrow{font:700 .72rem system-ui,sans-serif!important;letter-spacing:.08em;text-transform:uppercase;color:#816136!important}
+.core-observation{border-top:1px solid #d9c6a5;padding-top:12px;margin-top:12px!important}
+.core-actions{display:flex;flex-wrap:wrap;gap:9px;margin:16px 0}
+.core-actions a{display:inline-flex;align-items:center;padding:10px 12px;border-radius:7px;background:#16445b;color:#fff9e9!important;text-decoration:none;font-weight:700;font-size:.85rem;min-height:40px}
+.core-count{font-weight:700;color:#163c52}
+.core-json-details{margin-top:22px;border:1px solid #c7aa79;border-radius:9px;padding:10px;background:#fff8e9}
+.core-json-details summary{font-weight:700;color:#1c3a4b;cursor:pointer;padding:7px}
+.core-json-details pre{max-width:100%;white-space:pre-wrap;overflow-wrap:anywhere;overflow-x:auto;font-size:.75rem}
+@media(max-width:650px){.core-result-card{padding:14px}.core-actions a{width:100%;justify-content:center}}
+
+/* Core: fichas editoriales visuales antes de la salida JSON opcional */
+.core-visual-card{display:grid;grid-template-columns:minmax(180px,38%) minmax(0,1fr);gap:0!important;overflow:hidden;padding:0!important;align-items:stretch}
+.core-visual-copy{padding:20px}
+.core-artifact-photo,.core-artifact-placeholder{min-height:270px;position:relative;overflow:hidden;background:#203d49}
+.core-artifact-photo img{display:block;width:100%;height:100%;min-height:270px;object-fit:cover}
+.core-artifact-photo span{position:absolute;inset:auto 8px 8px;display:block;padding:8px;background:#122a36e8;color:#ffe3aa;font-size:.69rem;line-height:1.35}
+.core-artifact-placeholder{display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:22px;gap:13px;background:radial-gradient(circle at 30% 20%,#566574,#1c3445 80%);color:#fff6e7}
+.core-artifact-placeholder span{font-size:.65rem;letter-spacing:.15em;color:#e4c18a}
+.core-artifact-placeholder strong{font:700 clamp(1.25rem,2.5vw,2rem)/1.2 Georgia,serif;color:#fff1d1}
+.core-artifact-placeholder small{font-size:.83rem;color:#e4e1d8}
+.core-artifact-placeholder em{font-size:.68rem;color:#e0d1b7;font-style:normal}
+@media(max-width:650px){.core-visual-card{grid-template-columns:1fr}.core-artifact-photo,.core-artifact-placeholder{min-height:210px}.core-artifact-photo img{max-height:280px}.core-visual-copy{padding:15px}}
+
+/* Lectura principal de una ficha arqueológica: estado de traducción visible */
+.interpretation-feature{margin:19px 0 22px;padding:21px 22px;background:linear-gradient(145deg,#152e3d,#264753);border-left:5px solid #d6ad6c;border-radius:9px;color:#ffefda;box-shadow:0 8px 20px #0e1e2933}
+.interpretation-eyebrow{display:block;color:#e7c184;letter-spacing:.11em;font:700 .76rem/1.45 system-ui,sans-serif}
+.interpretation-feature .interpretation-main{font:700 clamp(1.6rem,4vw,2.75rem)/1.13 Georgia,serif;color:#fff2d2!important;margin:12px 0!important;letter-spacing:-.02em}
+.interpretation-feature .interpretation-caveat{font:400 .9rem/1.6 system-ui,sans-serif;color:#e4e8e5!important;margin:0!important;max-width:66ch}
+@media(max-width:650px){.interpretation-feature{margin:15px 0;padding:16px}.interpretation-feature .interpretation-main{font-size:clamp(1.5rem,6vw,2rem)}}
+
+/* Vista condensada de hipótesis en archivo documental */
+.fiche-preview{padding:13px 15px;margin:13px 0 16px;box-shadow:none}
+.fiche-preview .interpretation-main{font-size:clamp(1.15rem,2vw,1.55rem);line-height:1.28}
+.fiche-preview .interpretation-eyebrow{font-size:.64rem}
+
+/* Guía breve de descubrimiento: bienvenida contextual, discreta y accesible */
+.ib-discovery-help{max-width:1100px;margin:16px auto;padding:0 16px;position:relative;z-index:2}
+.ib-discovery-help details{background:#fff8e8;color:#183347;border:1px solid #b99a65;border-radius:12px;box-shadow:0 5px 18px #071b2b1a}
+.ib-discovery-help summary{cursor:pointer;list-style:none;padding:13px 18px;font:700 .94rem/1.4 system-ui,sans-serif}
+.ib-discovery-help summary::-webkit-details-marker{display:none}
+.ib-discovery-help summary:after{content:"+";float:right;font-size:1.1rem}
+.ib-discovery-help details[open] summary:after{content:"−"}
+.ib-discovery-help .ib-help-content{padding:0 18px 15px;font: .91rem/1.55 system-ui,sans-serif}
+.ib-discovery-help p{margin:7px 0;color:#273e4c}
+.ib-discovery-help a{color:#005773;font-weight:700;text-decoration:underline;text-underline-offset:3px}
+.ib-discovery-help .ib-help-route{display:flex;flex-wrap:wrap;gap:9px;margin-top:10px}
+.ib-discovery-help .ib-help-route a{padding:7px 10px;border:1px solid #bd9f70;border-radius:7px;background:#f5ead3}
+@media(max-width:650px){.ib-discovery-help{margin:9px auto;padding:0 10px}.ib-discovery-help summary{padding:11px 13px}.ib-discovery-help .ib-help-content{padding:0 13px 12px}}
+
+
+/* Portada: guía inicial compacta y ventana lateral de noticias */
+.ib-discovery-help{max-width:1100px;margin:7px auto 8px}
+.ib-discovery-help summary{padding:8px 13px;font-size:.85rem;line-height:1.25}
+.ib-discovery-help .ib-help-content{padding:0 13px 9px;font-size:.81rem;line-height:1.35}
+.ib-discovery-help p{margin:4px 0}
+.ib-discovery-help .ib-help-route{gap:6px;margin-top:6px}
+.ib-discovery-help .ib-help-route a{padding:5px 8px;font-size:.81rem}
+.ib-news-popup{position:fixed;right:10px;top:32%;z-index:30;font:14px/1.45 system-ui,sans-serif;color:#173347}
+.ib-news-popup details{background:#fff8e8;border:1px solid #b99a65;border-radius:12px;box-shadow:0 8px 25px #071b2b4d;max-width:min(350px,calc(100vw - 24px))}
+.ib-news-popup summary{cursor:pointer;list-style:none;padding:11px 15px;background:#09293d;color:#ffe0a5;font-weight:700;border-radius:10px;white-space:nowrap}
+.ib-news-popup summary::-webkit-details-marker{display:none}
+.ib-news-popup summary:focus-visible{outline:3px solid #f0b85d;outline-offset:3px}
+.ib-news-popup details[open] summary{border-radius:10px 10px 0 0}
+.ib-news-popup details[open] summary::after{content:" ×";float:right;margin-left:20px}
+.ib-news-dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:#e9b967;margin-left:5px}
+.ib-news-panel{padding:15px;max-height:65vh;overflow:auto}
+.ib-news-intro{font-size:.84rem;margin:5px 0 11px}
+.ib-news-panel article{border-top:1px solid #d9c8a6;padding:11px 0}
+.ib-news-panel article b{display:block;font-size:.88rem}
+.ib-news-panel article p{font-size:.82rem;margin:5px 0;color:#385162}
+.ib-news-all{display:block;color:#005773;font-weight:700;margin-top:7px}
+@media(max-width:700px){.ib-news-popup{top:auto;right:10px;bottom:12px}.ib-news-popup details{max-width:min(330px,calc(100vw - 20px))}.ib-news-panel{max-height:50vh}}
+
+
+/* Proyecto destacado integrado en la portada, no pestaña fijada al navegador. */
+.ib-news-popup{display:none!important}
+.ib-project-feature{position:absolute;z-index:7;top:11%;right:2.1%;width:clamp(210px,21.5%,290px);background:linear-gradient(160deg,rgba(7,32,49,.96),rgba(12,54,72,.94));color:#fff4df;border:1px solid #e3b96d;border-radius:13px;box-shadow:0 14px 35px rgba(0,11,20,.48);overflow:hidden;font-family:system-ui,sans-serif}
+.ib-project-feature-head{padding:9px 12px;display:flex;justify-content:space-between;align-items:center;background:#09273b;color:#f5cb79;font-size:clamp(.7rem,1vw,.89rem);font-weight:800}
+.ib-project-feature-head a{color:#ffd78f;text-decoration:none}
+.ib-project-feature-image{display:block;height:clamp(70px,9vw,122px);overflow:hidden}
+.ib-project-feature-image img{display:block;width:100%;height:100%;object-fit:cover}
+.ib-project-feature-copy{padding:10px 12px 12px}
+.ib-project-feature-state{font-size:.68rem;font-weight:800;color:#ffce83}
+.ib-project-feature-copy h2{font:700 clamp(1.12rem,1.7vw,1.5rem)/1.13 Georgia,serif;color:#fff4df;margin:5px 0}
+.ib-project-feature-copy p{font-size:clamp(.7rem,.9vw,.83rem);line-height:1.3;margin:4px 0}
+.ib-project-feature-copy small{display:block;color:#cbd9db;font-size:.66rem;line-height:1.3;margin:6px 0}
+.ib-project-feature-link{display:inline-block;background:#eac078;color:#082438;border-radius:6px;padding:6px 10px;font-size:.74rem;font-weight:800;text-decoration:none;margin-top:5px}
+.ib-project-feature a:focus-visible{outline:3px solid #62cbe8;outline-offset:2px}
+@media(max-width:850px){.ib-project-feature{top:13%;right:1.3%;width:30%}.ib-project-feature-image{height:72px}.ib-project-feature-copy small{display:none}.ib-project-feature-copy{padding:7px}.ib-project-feature-copy p{font-size:.68rem}}
+@media(max-width:600px){.ib-project-feature{position:relative;top:auto;right:auto;width:auto;margin:9px 12px 13px;border-radius:12px;display:grid;grid-template-columns:42% 1fr}.ib-project-feature-head{grid-column:1 / -1}.ib-project-feature-image{height:100%;min-height:135px}.ib-project-feature-copy{padding:9px}.ib-project-feature-copy small{display:block}.ib-project-feature-copy h2{font-size:1.22rem}.ib-project-feature-copy p{font-size:.79rem}}
+
+
+/* La Picola REC–101: mostrar la lámina original completa, incluido su paisaje. */
+.ib-project-feature-image{height:auto;aspect-ratio:16/9;background:#071b2b}
+.ib-project-feature-image img{width:100%;height:100%;object-fit:contain;object-position:center}
+@media(max-width:850px){.ib-project-feature-image{height:auto;aspect-ratio:16/9}}
+@media(max-width:600px){.ib-project-feature-image{height:100%;min-height:135px;aspect-ratio:auto}}
+
+/* Ajuste final solicitado: elevar suavemente Nuevos Proyectos en escritorio. */
+@media(min-width:851px){.ib-project-feature{top:8.5%}}
+
+/* IberOS visual evidence / image SEO */
+.ib-media-block{margin:24px 0 32px;padding:18px;background:#fffaf1;border:1px solid #ccb488;border-radius:12px;box-shadow:0 6px 20px rgba(7,27,43,.08)}
+.ib-media-block figure{margin:0}.ib-media-block img{display:block;width:100%;height:auto;border-radius:10px;border:1px solid #d7c29a;background:#f4ead7}
+.ib-media-block figcaption{margin-top:12px;color:#2b4355;font:15px/1.65 system-ui,sans-serif}
+.ib-caption-title{display:block;font:700 1.05rem/1.4 Georgia,serif;color:#143247;margin-bottom:6px}.ib-caption-meta{display:block;font:700 .77rem/1.5 system-ui,sans-serif;text-transform:uppercase;letter-spacing:.05em;color:#7c5c31;margin-bottom:8px}.ib-caption-note{display:block;margin-top:10px;padding:10px 12px;border-left:4px solid #b58a4c;background:#f5ead6;color:#394e5d;font-size:.95rem}
+.ib-media-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin:24px 0}.ib-media-card{background:#fffaf1;border:1px solid #ccb488;border-radius:12px;overflow:hidden;box-shadow:0 6px 20px rgba(7,27,43,.08)}.ib-media-card img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;background:#e8dcc7}.ib-media-card-body{padding:14px}.ib-media-card h2,.ib-media-card h3{margin:.2em 0 .45em;color:#143247;font:700 1.15rem/1.3 Georgia,serif}.ib-media-card p{margin:.35em 0;color:#2b4355;line-height:1.55}.ib-media-card .ib-note{font-size:.9rem;color:#5b6570}.ib-media-card a{display:inline-block;margin-top:10px;font-weight:700;color:#17374c}

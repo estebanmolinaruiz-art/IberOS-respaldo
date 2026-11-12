@@ -1,0 +1,181 @@
+{
+  "schema": "IberOS-Serreta-Editorial-Variants/1.0",
+  "date": "2026-10-23",
+  "object_id": "IBR-PLM-0009",
+  "physical_objects": 1,
+  "text_blocks": [
+    "A-I (7 líneas)",
+    "A-II transversal/superpuesto (2 líneas)",
+    "B (5 líneas)"
+  ],
+  "editorial_anchor": "Velaza (2011) as reproduced by Ngomo Fernández (2021)",
+  "source_document": "Fletcher Valls y Silgo Gauche (1992), Recerques del Museu d'Alcoi 1:9–36",
+  "variants": [
+    {
+      "line": "A1",
+      "historical": [
+        "ORTI",
+        "ORITI"
+      ],
+      "modern": "orti",
+      "photo_sign_verified": false
+    },
+    {
+      "line": "A2",
+      "historical": [
+        "BUISTINER",
+        "BUISTINERI"
+      ],
+      "modern": "buiśtiner",
+      "photo_sign_verified": false
+    },
+    {
+      "line": "A2",
+      "historical": [
+        "TURLBAI",
+        "TURABAI"
+      ],
+      "modern": "tuŕlbai",
+      "photo_sign_verified": false
+    },
+    {
+      "line": "B1",
+      "historical": [
+        "IUNSTIR",
+        "IUNSTIRI"
+      ],
+      "modern": "iunstir",
+      "photo_sign_verified": false,
+      "historical_reading_years": [
+        {
+          "year": 1922,
+          "reading": "IUNSTIR"
+        },
+        {
+          "year": 1962,
+          "reading": "IUNSTIRI"
+        }
+      ],
+      "year_comparison_source": "Fletcher y Silgo (1992), p. 11: Gómez Moreno 1922/1962",
+      "historical_comparison_text_checked": true
+    },
+    {
+      "line": "B1",
+      "historical": [
+        "SALIRG",
+        "SALIRIG"
+      ],
+      "modern": "śalirg",
+      "photo_sign_verified": false,
+      "historical_reading_years": [
+        {
+          "year": 1922,
+          "reading": "SALIRG"
+        },
+        {
+          "year": 1962,
+          "reading": "SALIRIG"
+        }
+      ],
+      "year_comparison_source": "Fletcher y Silgo (1992), p. 11: Gómez Moreno 1922/1962",
+      "historical_comparison_text_checked": true,
+      "editorial_resolution": {
+        "preferred": "śalirg",
+        "status": "EDITORIAL_PREFERENCE_SUPPORTED_NOT_GLYPH_VERIFIED",
+        "reason": "Se adopta como lectura editorial de trabajo el segmento śalirg (no śalirig): Gómez Moreno 1922 publica SALIRG, el cambio a SALIRIG consta en 1962, y Silgo 2015 vuelve a transcribir SALIRG en B1. No se han adjudicado trazos de la fotografía con coordenadas.",
+        "sources": [
+          {
+            "citation": "Fletcher Valls y Silgo Gauche 1992, Recerques 1, p.11: columna Gómez Moreno 1922 SALIRG / 1962 SALIRIG",
+            "url": "https://box.inh.cat/histocat.cat/resource/FletcherSerreta.pdf",
+            "kind": "PRIMARY_HISTORY_OF_READINGS"
+          },
+          {
+            "citation": "Silgo Gauche 2015, Recerques 24, pp.37–42: transcripción B1 IUNZTIR : SALIRG",
+            "url": "https://euskerarenjatorria.eus/wp-content/uploads/2015/07/Serreta.MLH-G.1.1c.pdf",
+            "kind": "MODERN_EDITORIAL_READING"
+          }
+        ],
+        "difference": "La variante SALIRIG introduce una I entre R y G respecto de SALIRG, en transliteración editorial.",
+        "independent_image_readings": 0,
+        "independent_sign_coordinate": null,
+        "photo_sign_verified": false,
+        "automatic_core_promotion": false,
+        "glyph_photo_verified": false
+      }
+    },
+    {
+      "line": "B2",
+      "historical": [
+        "BIRINAR",
+        "BIRIGNAR"
+      ],
+      "modern": "birinaŕ",
+      "photo_sign_verified": false,
+      "historical_reading_years": [
+        {
+          "year": 1922,
+          "reading": "BIRINAR"
+        },
+        {
+          "year": 1962,
+          "reading": "BIRIGNAR"
+        }
+      ],
+      "year_comparison_source": "Fletcher y Silgo (1992), p. 11: Gómez Moreno 1922/1962",
+      "historical_comparison_text_checked": true
+    },
+    {
+      "line": "B5",
+      "historical": [
+        "SEBAGEDIRAN",
+        "SEBAGEDIRAIN"
+      ],
+      "modern": "sebagediŕan",
+      "photo_sign_verified": false
+    }
+  ],
+  "gates": {
+    "bibliographic_source_verified": true,
+    "twelve_row_modern_reading_recorded": true,
+    "seven_variants_modern_editorial_anchor": true,
+    "seven_independent_glyph_photo_checks": 0,
+    "eligible_for_scientific_promotion": false
+  },
+  "note": "La lectura editorial moderna selecciona una opción en cada variante histórica, pero IberOS no certifica esos grafemas por lectura independiente de la fotografía.",
+  "primary_visual_source": {
+    "citation": "Fletcher Valls y Silgo Gauche (1992), Recerques del Museu d'Alcoi 1, pp. 9–36",
+    "official_catalogue_url": "https://www.alcoi.org/es/areas/cultura/museo/publicaciones/recerques/recerques_0001.html",
+    "full_paper_reference_url": "https://box.inh.cat/histocat.cat/resource/FletcherSerreta.pdf",
+    "photographed_sides": "Fletcher y Silgo 1992, p. 10, fotografías de caras A y B acreditadas a J. Untermann",
+    "historical_editorial_variant_reference": "Fletcher y Silgo 1992, p. 11, comparación de Gómez Moreno 1922 y 1962",
+    "primary_publication_text_location_checked": true,
+    "original_photo_usable_for_glyph_collation": false,
+    "exact_sign_coordinates_verified": 0,
+    "reproduction_rights": "NOT_VERIFIED",
+    "notice": "La reproducción fotográfica existe en la edición; no se ha acreditado que sea legible y revisada signo a signo. No republicar fotografías sin licencia."
+  },
+  "visual_surrogates": [
+    {
+      "kind": "PHOTOGRAPH_OF_OBJECT",
+      "face": "NOT_CONFIRMED_FROM_IMAGE_METADATA",
+      "creator": "Joanbanjo",
+      "date": "2011-09-07",
+      "file_page": "https://commons.wikimedia.org/wiki/File:Plom_I_de_la_Serreta,_escritpura_ib%C3%A8rica._Museu_Arqueol%C3%B2gic_Municipal_d%27Alcoi.JPG",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "usable_for_independent_B1_glyph_check": false,
+      "reason": "Fotografía de museo, posición y cara del trazo SALIRG/SALIRIG no cotejadas en resolución suficiente."
+    },
+    {
+      "kind": "SECONDARY_DRAWING_NOT_AUTOPSY",
+      "face": "B",
+      "creator": "Tautintanes",
+      "date": "2007-06-10",
+      "file_page": "https://commons.wikimedia.org/wiki/File:Plom_I_de_La_Serreta_(Cara_B).jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "usable_for_independent_B1_glyph_check": false,
+      "reason": "Dibujo moderno o representación secundaria, no lectura ciega sobre fotografía de la pieza."
+    }
+  ]
+}

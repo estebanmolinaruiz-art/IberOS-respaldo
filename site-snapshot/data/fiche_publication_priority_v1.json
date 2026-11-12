@@ -1,0 +1,13 @@
+{
+  "authority": {
+    "prospective_lock": "C474",
+    "rok_network": "C541",
+    "semantic_release": "C594",
+    "technical_floor": "C539"
+  },
+  "automatic_core_promotion": false,
+  "notice": "Ordering reflects declared metadata completeness only; no claim of scientific readiness.",
+  "pending_count": 0,
+  "schema": "IberOS-Publication-Priority/1.0",
+  "tasks": []
+}

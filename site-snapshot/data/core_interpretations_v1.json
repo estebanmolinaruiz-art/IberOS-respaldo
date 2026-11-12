@@ -1,0 +1,849 @@
+{
+  "authority": {
+    "prospective_lock": "C474",
+    "rok_network": "C541",
+    "semantic_release": "C594",
+    "technical_floor": "C539"
+  },
+  "notice": "Se muestran hipótesis editoriales existentes; ninguna traducción validada automáticamente.",
+  "object_count": 38,
+  "objects": {
+    "IBR-CER-0001": {
+      "candidates": [
+        {
+          "epistemic_layer": "HYPOTHESIS",
+          "estimated_probability": null,
+          "id": "EDITORIAL-FEATURED-01",
+          "meaning_validated": false,
+          "objections": [
+            "IberOS no traduce egiar con un verbo español concreto en esta ficha. No se asignan significados cerrados a aden, niśunin, bekoŕban, óřér, ugeŕdeisér o tardeḿbaŕ. La autenticidad arqueológica de la pieza no se “demuestra” computacionalmente por IberOS: se registra la evaluación epigráfica publicada, junto con los argumentos y desacuerdos bibliográficos.…"
+          ],
+          "possible_translation": "Paráfrasis funcional posible del labio: “secuencia formular con un posible nombre personal y una construcción con egiar, seguida de otro segmento complejo”. Paráfrasis funcional de la pared: “grupos de palabras asociados visualmente a escenas figuradas”.…",
+          "provenance": "EXISTING_FEATURED_FICHA_EDITORIAL",
+          "reading_verified_independently": false,
+          "sources": [
+            "Molina Ruiz, E. (2026). IBR-CER-0001 — Tinajilla de la Fundación Ballesta: ficha analítica IberOS v1.0. IberOS Object Catalogue. Nota: esta ficha distingue entre lectura publicada, análisis estructural y evaluación externa de autenticidad.…"
+          ],
+          "supporting_observations": [
+            "La inspección directa corrigió dos signos del texto del labio y confirmó sin cambios sustanciales la lectura de la pared. La pieza presenta dos inscripciones diferenciadas y rasgos paleográficos finos, incluida la dualidad de la vibrante ŕ. Las dos copias falsas contienen errores, ampliaciones, pérdidas y simplificaciones respecto del modelo, por lo que no son testimonios independientes.…"
+          ]
+        }
+      ],
+      "status": "EXISTING_EDITORIAL_HYPOTHESIS_UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-CER-0002": {
+      "candidates": [
+        {
+          "epistemic_layer": "HYPOTHESIS",
+          "estimated_probability": null,
+          "id": "EDITORIAL-FEATURED-01",
+          "meaning_validated": false,
+          "objections": [
+            "No existe una traducción continua demostrada del conjunto de inscripciones. No debe asumirse que todos los textos del vaso pertenecen al mismo género o función. La segmentación y lectura dual de algunos signos es discutida; IberOS no colapsa automáticamente esas alternativas. Las propuestas etimológicas externas, incluidas comparaciones con otras lenguas, no se usan como evidencia estructural primaria."
+          ],
+          "possible_translation": "Paráfrasis funcional: vaso de prestigio en el que texto e imagen forman un programa discursivo conjunto, con etiquetas breves y al menos una secuencia extensa. La propuesta de que la línea superior contenga verso o literatura es una hipótesis externa interesante, pero no se incorpora como resultado validado de IberOS.…",
+          "provenance": "EXISTING_FEATURED_FICHA_EDITORIAL",
+          "reading_verified_independently": false,
+          "sources": [
+            "De Hoz, J. (2017), «¿Inscripciones ilustradas o imágenes con didascalias? Los vasos de Liria», Palaeohispanica 17, 37–54, DOI: 10.36707/palaeohispanica.v0i17.132. Distingue epígrafes breves (posibles didascalias) y extensos (posible función literaria o didáctica); hipótesis de clase textual, no traducción de este vaso. https://www.ifc-ojs.es/index.php/palaeohispanica/es/article/view/132"
+          ],
+          "supporting_observations": [
+            "El vaso integra texto pintado e imagen figurada de forma deliberada y compleja. La pieza contiene múltiples inscripciones breves además de una línea superior significativamente más larga. Varias secuencias están espacialmente asociadas a jinetes o caballos, por lo que la disposición gráfica es informativa y no accidental.…"
+          ]
+        }
+      ],
+      "status": "EXISTING_EDITORIAL_HYPOTHESIS_UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-CER-0003": {
+      "candidates": [
+        {
+          "epistemic_layer": "HYPOTHESIS",
+          "estimated_probability": null,
+          "id": "EDITORIAL-FEATURED-01",
+          "meaning_validated": false,
+          "objections": [
+            "No debe segmentarse como palabras ni alimentar MORPH. La función votiva no está demostrada por el contenido lingüístico. Algunas parejas, como l/l' y vocales, siguen planteando problemas de interpretación fonológica."
+          ],
+          "possible_translation": "Paráfrasis funcional: secuencia ordenada de pares gráficos destinada a representar o exhibir el repertorio dual.",
+          "provenance": "EXISTING_FEATURED_FICHA_EDITORIAL",
+          "reading_verified_independently": false,
+          "sources": [
+            "Ferrer i Jané, J. (2013), «Els sistemes duals de les escriptures ibèriques», Palaeohispanica 13, 445–459, DOI: 10.36707/palaeohispanica.v0i13.175. Identifica expresamente Castellet de Bernabé como signario edetano y documenta dualidades en vocales y consonantes continuas; no demuestra función votiva. https://www.ifc-ojs.es/index.php/palaeohispanica/es/article/view/175"
+          ],
+          "supporting_observations": [
+            "Se conservan diez signos completos y restos de otros dos. La secuencia presenta parejas de variantes, incluida la alternancia to'/to asociada al sistema dual. El signario comparte con Tos Pelat dualidades que exceden las oclusivas, incluyendo vocales y continuas."
+          ]
+        }
+      ],
+      "status": "EXISTING_EDITORIAL_HYPOTHESIS_UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-CER-0004": {
+      "candidates": [
+        {
+          "epistemic_layer": "HYPOTHESIS",
+          "estimated_probability": null,
+          "id": "EDITORIAL-FEATURED-01",
+          "meaning_validated": false,
+          "objections": [
+            "No existe traducción continua demostrada. El contexto arqueológico de deposición es secundario y no garantiza la función original del vaso. No debe clasificarse como ritual o literario solo por ser atípico."
+          ],
+          "possible_translation": "Paráfrasis funcional: texto extenso de función especial, posiblemente cultual o literaria. La hipótesis de creación literaria es sugerente por longitud y estilo, pero no está demostrada semánticamente.",
+          "provenance": "EXISTING_FEATURED_FICHA_EDITORIAL",
+          "reading_verified_independently": false,
+          "sources": [
+            "Ferrer i Jané, J. (2006), «Nova lectura de la inscripció ibèrica de La Joncosa (Jorba, Barcelona)», Veleia 23, 129–170, DOI: 10.1387/veleia.2850. Confirma texto largo de aproximadamente 350 signos en diez líneas, anterior a cocción y distinto de modelos conocidos; no sustenta por sí sola una función cultual o literaria específica. https://ojs.ehu.eus/index.php/Veleia/article/view/2850"
+          ],
+          "supporting_observations": [
+            "La longitud y técnica de ejecución hacen de La Joncosa un caso excepcional dentro de la epigrafía ibérica. El texto fue inscrito antes de la cocción, por lo que forma parte del diseño original del recipiente. Su estructura no encaja bien con los modelos habituales de textos largos sobre plomo."
+          ]
+        }
+      ],
+      "status": "EXISTING_EDITORIAL_HYPOTHESIS_UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-CER-0005": {
+      "candidates": [
+        {
+          "epistemic_layer": "HYPOTHESIS",
+          "estimated_probability": null,
+          "id": "EDITORIAL-FEATURED-01",
+          "meaning_validated": false,
+          "objections": [
+            "No puede demostrarse la longitud ni el final del abecedario perdido. La función votiva es plausible, no demostrada. La raíz kutu no debe tratarse aquí como lexema lingüístico ordinario."
+          ],
+          "possible_translation": "Paráfrasis funcional: comienzo de un repertorio signario no dual incorporado deliberadamente al recipiente antes de cocerlo.",
+          "provenance": "EXISTING_FEATURED_FICHA_EDITORIAL",
+          "reading_verified_independently": false,
+          "sources": [
+            "Ferrer i Jané, J. (2014), «Ibèric kutu i els abecedaris ibèrics», Veleia 31, DOI: 10.1387/veleia.13345. El resumen de la edición identifica como probable abecedario no dual un texto de dolium de Val de Alegre (Azaila), por su inicio comparable a kutukiŕbitatiko. La función votiva y el valor semántico de kutu no están demostrados. https://ojs.ehu.eus/index.php/Veleia/article/view/13345"
+          ],
+          "supporting_observations": [
+            "La lectura conservada kutuki[ no presenta dudas relevantes en la edición. La secuencia coincide exactamente con el arranque característico de L'Esquirol, Can Rodon 1 y Latour-de-Carol no dual. La posición interior y ante coctionem hace improbable un texto utilitario visible durante el uso ordinario."
+          ]
+        }
+      ],
+      "status": "EXISTING_EDITORIAL_HYPOTHESIS_UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-COI-0001": {
+      "candidates": [
+        {
+          "epistemic_layer": "HYPOTHESIS",
+          "estimated_probability": null,
+          "id": "EDITORIAL-FEATURED-01",
+          "meaning_validated": false,
+          "objections": [
+            "No está demostrado qué antropónimo completo subyace a kaŕb. La expansión del segundo elemento como bilos, belauŕ u otro formante sigue siendo hipotética. Tampoco puede decidirse solo por el texto si el grafito marca propiedad, dedicación, control de vajilla u otra función social."
+          ],
+          "possible_translation": "Función probable del grafito: marca personal, de propiedad o identificación abreviada sobre vajilla valiosa. Esta paráfrasis describe una clase funcional posible; no traduce kaŕb ni identifica con certeza a una persona concreta.",
+          "provenance": "EXISTING_FEATURED_FICHA_EDITORIAL",
+          "reading_verified_independently": false,
+          "sources": [
+            "López Fernández, Aránzazu, «Epigrafía ibérica de Coimbra del Barranco Ancho (Jumilla, Murcia)», Palaeohispanica 16 (2016), pp. 155–181, especialmente pp. 155–157 y figs. 1–3, DOI 10.36707/palaeohispanica.v0i16.29. Documenta el grafito grecoibérico kaŕb y considera posibles abreviaciones onomásticas; no demuestra la expansión del nombre ni la función social del grafito. https://ifc-ojs.es/index.php/palaeohispanica/es/article/view/29"
+          ],
+          "supporting_observations": [
+            "La secuencia conservada es completa como grafito de cuatro signos: kaŕb. El soporte, la posición del grafito, la orientación y la cronología están documentados. La escritura greco-ibérica permite una lectura alfabética relativamente directa frente a las ambigüedades propias de los semisilabarios."
+          ]
+        }
+      ],
+      "status": "EXISTING_EDITORIAL_HYPOTHESIS_UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-COI-0002": {
+      "candidates": [],
+      "status": "AWAITING_DOCUMENTED_HYPOTHESES",
+      "translation_validated": false
+    },
+    "IBR-CTL-0001": {
+      "candidates": [],
+      "status": "AWAITING_DOCUMENTED_HYPOTHESES",
+      "translation_validated": false
+    },
+    "IBR-CTL-0002": {
+      "candidates": [],
+      "status": "AWAITING_DOCUMENTED_HYPOTHESES",
+      "translation_validated": false
+    },
+    "IBR-CTL-0003": {
+      "candidates": [],
+      "status": "AWAITING_DOCUMENTED_HYPOTHESES",
+      "translation_validated": false
+    },
+    "IBR-LAP-0001": {
+      "candidates": [
+        {
+          "epistemic_layer": "HYPOTHESIS",
+          "estimated_probability": null,
+          "id": "EDITORIAL-FEATURED-01",
+          "meaning_validated": false,
+          "objections": [
+            "No puede identificarse con seguridad un teónimo. No existe traducción continua posible con la lectura conservada. La posible lectura tokus es explícitamente alternativa, no lectura fijada. Las caras A y B podrían no formar una única secuencia textual."
+          ],
+          "possible_translation": "Paráfrasis funcional: inscripción breve de carácter cultual o votivo sobre un pequeño altar. Si el texto siguiera modelos votivos mediterráneos, podrían esperarse nombres, destinatario divino y/o verbo ritual; la pieza no permite identificarlos con seguridad.",
+          "provenance": "EXISTING_FEATURED_FICHA_EDITORIAL",
+          "reading_verified_independently": false,
+          "sources": [
+            "Simón Cornago, Ignacio (2009), «Una inscripción ibérica sobre un árula de Tarragona (C.18.7)», Palaeohispanica 9, pp. 519–522, DOI: 10.36707/palaeohispanica.v0i9.243. Relee el monumento MNAT inv. 338, destaca erosión y posible independencia entre caras A/B, y considera religiosa su función por el soporte, sin identificar teónimo ni traducir el texto. https://ifc.dpz.es/recursos/publicaciones/29/54/36simon.pdf"
+          ],
+          "supporting_observations": [
+            "El soporte es un árula de piedra y la inscripción es ibérica. La pieza se conserva en el Museu Nacional Arqueològic de Tarragona (MNAT 338) y fue reexaminada directamente. La cara A conserva tres líneas; bita es la secuencia más segura del conjunto. La cronología republicana tardía es compatible con material, paleografía y tipología del soporte."
+          ]
+        }
+      ],
+      "status": "EXISTING_EDITORIAL_HYPOTHESIS_UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-LAP-0002": {
+      "candidates": [
+        {
+          "epistemic_layer": "HYPOTHESIS",
+          "estimated_probability": null,
+          "id": "EDITORIAL-FEATURED-01",
+          "meaning_validated": false,
+          "objections": [
+            "No puede afirmarse que neitin sea con seguridad un teónimo en esta pieza. No existe traducción completa de las secuencias conservadas. La estela no debe clasificarse automáticamente como funeraria o religiosa excluyendo otras funciones conmemorativas. La fragmentación y restauración impiden reconstruir todo el programa textual original."
+          ],
+          "possible_translation": "Paráfrasis funcional: monumento público que conmemora violencia, victoria o memoria colectiva y que incorpora nombres o fórmulas de prestigio/ritual. La dedicación a una divinidad llamada Neitin es una hipótesis conocida, pero IberOS no la trata como hecho demostrado.…",
+          "provenance": "EXISTING_FEATURED_FICHA_EDITORIAL",
+          "reading_verified_independently": false,
+          "sources": [
+            "Garcés Estallo, I. (2007), «Nuevas interpretaciones sobre el monumento ibérico de La Vispesa (Tamarite de Litera, Huesca)», Caesaraugusta 78, pp. 337–354; estudio documental de relieve e inscripción. https://ifc.dpz.es/recursos/publicaciones/27/22/25.garces.pdf . La atribución de significado a neitin y la función exacta del monumento siguen como hipótesis, no como traducción confirmada."
+          ],
+          "supporting_observations": [
+            "El monumento combina inscripción ibérica con un programa iconográfico de carácter bélico. Los relieves conservan armas, cuerpos mutilados y motivos animales, lo que sitúa el texto en un contexto conmemorativo/ideológico excepcional. La secuencia neitin está atestiguada en la inscripción. La reorientación propuesta del monumento resuelve problemas de sentido de lectura y de disposición de los motivos."
+          ]
+        }
+      ],
+      "status": "EXISTING_EDITORIAL_HYPOTHESIS_UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-LAP-0003": {
+      "candidates": [
+        {
+          "epistemic_layer": "HYPOTHESIS",
+          "estimated_probability": null,
+          "id": "EDITORIAL-FEATURED-01",
+          "meaning_validated": false,
+          "objections": [
+            "No se adopta una traducción línea por línea del texto. No se aceptan propuestas vascoiberistas como confirmación independiente de los valores léxicos. La primera línea, posiblemente cuantitativa o formularia, sigue siendo especialmente problemática. Las categorías gramaticales exactas de eban/ebanen, ḿi y ieukiar/eukiar no están completamente resueltas."
+          ],
+          "possible_translation": "Paráfrasis funcional: monumento funerario que identifica personas y formula una o varias relaciones con la sepultura/monumento. La lectura de seltar como 'tumba' o equivalente funcional es plausible dentro de la bibliografía, pero IberOS la mantiene como glosa contextual, no traducción absoluta. Las relaciones de parentesco concretas entre los nombres siguen abiertas.",
+          "provenance": "EXISTING_FEATURED_FICHA_EDITORIAL",
+          "reading_verified_independently": false,
+          "sources": [
+            "Moncunill Martí, N. (2017), «Acta Palaeohispanica XII», análisis estructural de la estela de Sinarcas F.14.1, tablas 7a y 7b: documenta la reiteración de seltar y plantea una estructura sintáctica posible, no demostrada. https://ifc.dpz.es/recursos/publicaciones/36/49/09moncunill.pdf . El valor funerario preciso de seltar y los vínculos personales siguen sin demostración léxica completa."
+          ],
+          "supporting_observations": [
+            "La pieza es una estela funeraria de contexto y tipología bien definidos. seltarban aparece repetido en la inscripción, rasgo estructural central del texto. La inscripción contiene varias secuencias onomásticas plausibles y formas verbales propuestas como ieukiar/eukiar. La repetición de ḿi y seltarban permite segmentar períodos internos sin necesidad de traducir el conjunto."
+          ]
+        }
+      ],
+      "status": "EXISTING_EDITORIAL_HYPOTHESIS_UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-LAP-0004": {
+      "candidates": [
+        {
+          "epistemic_layer": "HYPOTHESIS",
+          "estimated_probability": null,
+          "id": "EDITORIAL-FEATURED-01",
+          "meaning_validated": false,
+          "objections": [
+            "La lectura tradicional contiene restituciones y segmentaciones antiguas que no deben tratarse como definitivas. No se puede traducir ebanen automáticamente como 'hijo' o 'hizo' sin contraste externo. El contexto arqueológico original no está bien controlado por excavación. No existe traducción continua demostrada."
+          ],
+          "possible_translation": "Paráfrasis funcional: inscripción monumental que identifica personas y expresa una relación formal propia de epigrafía sobre piedra. La posible interpretación funeraria se mantiene como hipótesis contextual hasta disponer de una reedición paleográfica moderna integral.",
+          "provenance": "EXISTING_FEATURED_FICHA_EDITORIAL",
+          "reading_verified_independently": false,
+          "sources": [
+            "Diputació de Barcelona, Mapes de Patrimoni Cultural, «Estela ibèrica. Santa Perpètua de Mogoda», inventario de patrimonio cultural: documenta 38 signos en siete líneas y la lectura histórica con restituciones atribuida a Gómez Moreno; cita a Velloso y Pericot (1940). https://patrimonicultural.diba.cat/element/estela-iberica . El soporte monumental queda documentado, pero la función funeraria y la semántica de ebanen no se infieren como demostradas."
+          ],
+          "supporting_observations": [
+            "La estela conserva 38 signos distribuidos en siete líneas. El soporte y formato pertenecen a la tradición lapidaria ibérica del nordeste. La secuencia ebanen aparece en la lectura histórica, conectando formalmente la pieza con otras inscripciones lapidarias."
+          ]
+        }
+      ],
+      "status": "EXISTING_EDITORIAL_HYPOTHESIS_UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-LAP-0005": {
+      "candidates": [
+        {
+          "epistemic_layer": "HYPOTHESIS",
+          "estimated_probability": null,
+          "id": "EDITORIAL-FEATURED-01",
+          "meaning_validated": false,
+          "objections": [
+            "No puede equipararse mecánicamente tebanen = coeravit sin analizar el resto de la familia epigráfica. No está demostrado que cada palabra ibérica tenga un correlato directo en la línea latina. La secuencia ibérica es fragmentaria en ambos extremos. El posible carácter religioso del soporte no está asegurado."
+          ],
+          "possible_translation": "Paráfrasis funcional: Isidorus intervino en la realización/financiación del elemento monumental, expresado en latín y de forma relacionada en ibérico. No se presupone que ambas líneas sean traducciones literales completas; pueden ser textos paralelos con información parcialmente coincidente.",
+          "provenance": "EXISTING_FEATURED_FICHA_EDITORIAL",
+          "reading_verified_independently": false,
+          "sources": [
+            "Orduña Aznar, E. (2008), «Ergatividad en ibérico», Emerita 76(2), pp. 281–283, DOI: 10.3989/emerita.2008.v76.i2.299. Expone Sagunto F.11.8, la línea latina COERAV[IT y la hipótesis (t)ebanen ↔ coeravit, contrapuesta a otras lecturas; no demuestra equivalencia palabra por palabra."
+          ],
+          "supporting_observations": [
+            "La inscripción combina una línea latina y una línea ibérica sobre el mismo elemento arquitectónico. El texto latino menciona a M. Fabius, liberto de Marcus, Isidorus, y el verbo coeravit/coerauit. La línea ibérica contiene tebanen y una secuencia inicial compatible formalmente con una adaptación de Isidorus. La pieza pertenece a la epigrafía monumental saguntina de época republicana tardía."
+          ]
+        }
+      ],
+      "status": "EXISTING_EDITORIAL_HYPOTHESIS_UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-MON-0001": {
+      "candidates": [
+        {
+          "epistemic_layer": "HYPOTHESIS",
+          "estimated_probability": null,
+          "id": "EDITORIAL-FEATURED-01",
+          "meaning_validated": false,
+          "objections": [
+            "Un único ejemplar no basta para reconstruir todo el sistema numeral ibérico. No debe extrapolarse automáticamente erder=1/2 a cualquier aparición textual sin examinar contexto y morfología. La cronología y clasificación de algunas series toscas de ildiŕda han sido discutidas. La hipótesis de parentesco o préstamo con el vasco no queda demostrada por la coincidencia léxica."
+          ],
+          "possible_translation": "Paráfrasis funcional: “marca de valor: mitad / semis”. La semejanza entre erder/erdi y el vasco erdi “mitad” puede generar hipótesis históricas, pero IberOS no la usa como prueba primaria del valor. El valor se deriva primero de la numismática y de la distribución de marcas; la comparación lingüística queda como evidencia externa secundaria.",
+          "provenance": "EXISTING_FEATURED_FICHA_EDITORIAL",
+          "reading_verified_independently": false,
+          "sources": [
+            "Ferrer i Jané, J.; Giral Royo, F. (2007), «A propósito de un semis de ildiŕda con leyenda erder. Marcas de valor léxicas sobre monedas ibéricas», Palaeohispanica 7, 83–99, DOI: 10.36707/palaeohispanica.v0i7.277. La marca de valor ½ se apoya en tipología monetaria y paralelos; la analogía vasca erdi no demuestra equivalencia léxica general. https://www.ifc-ojs.es/index.php/palaeohispanica/es/article/view/277"
+          ],
+          "supporting_observations": [
+            "El ejemplar pesa 8,20 g y presenta un creciente asociado tipológicamente a semises de ildiŕda. La lectura erder es favorecida por paralelos monetales y textuales frente a las alternativas paleográficas erter/erkur. erder aparece dentro de sistemas de marcas de valor monetales, especialmente en semises de undikesken. El soporte monetal permite contrastar la hipótesis semántica con denominaciones y relaciones de valor externas."
+          ]
+        }
+      ],
+      "status": "EXISTING_EDITORIAL_HYPOTHESIS_UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-MUS-0001": {
+      "candidates": [
+        {
+          "epistemic_layer": "HYPOTHESIS",
+          "estimated_probability": null,
+          "id": "EDITORIAL-FEATURED-01",
+          "meaning_validated": false,
+          "objections": [
+            "No puede decidirse solo con este texto si -te marca agente, relación nominal u otra función. No está demostrada una traducción palabra por palabra única. La identidad social concreta de Likine no está resuelta por la inscripción. La comparación con Andelo refuerza la estructura, pero no convierte los dos textos en bilingües exactos."
+          ],
+          "possible_translation": "Paráfrasis funcional: “Likine, relacionado con Usekerte, [es responsable de / hizo / encargó] la obra”. La identificación de Likine como artesano, propietario, empresario o representante de una asociación sigue abierta. La equivalencia exacta de ekiar con “hacer” es una hipótesis fuerte en la bibliografía, pero IberOS conserva una etiqueta semántica más amplia:…",
+          "provenance": "EXISTING_FEATURED_FICHA_EDITORIAL",
+          "reading_verified_independently": false,
+          "sources": [
+            "Simón Cornago, I. (2015), «Treinta años de investigaciones sobre la inscripción musiva de Caminreal», Palaeohispanica 15, pp. 96–102 y 116–117; DOI: 10.36707/palaeohispanica.v0i15.39. Revisa likine, NP-te + ekiar, la procedencia y alternativas funcionales; no avala una traducción literal única."
+          ],
+          "supporting_observations": [
+            "El texto está completo, es breve y su lectura general no presenta dificultades sustanciales. likine corresponde a un nombre personal bien relacionado con el celtibérico/latino Licinus/Likinos. ekiar pertenece a una familia recurrente de formas ibéricas asociadas a contextos de producción, autoría u obra. usekeŕte coincide con un topónimo conocido por documentación monetal; -ku aparece unido al topónimo en esta inscripción."
+          ]
+        }
+      ],
+      "status": "EXISTING_EDITORIAL_HYPOTHESIS_UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-MUS-0002": {
+      "candidates": [
+        {
+          "epistemic_layer": "HYPOTHESIS",
+          "estimated_probability": null,
+          "id": "EDITORIAL-FEATURED-01",
+          "meaning_validated": false,
+          "objections": [
+            "No está resuelta la lengua del texto con consenso general. No puede traducirse con seguridad -ŕaune ni -aŕs. La semejanza con Caminreal no demuestra que todos los morfemas sean equivalentes uno a uno. No se utilizará la adscripción lingüística elegida para forzar segmentaciones."
+          ],
+          "possible_translation": "Paráfrasis funcional: “Likine, [relacionado con Abulo…], realizó/dispuso [la obra], [relacionado con] Bilbilis”. La interpretación de ekien como variante flexiva de ekiar es plausible y muy productiva para IberOS. La hipótesis de que el texto sea vascónico en signario celtibérico debe mantenerse como alternativa académica, no eliminarse por conveniencia del modelo.",
+          "provenance": "EXISTING_FEATURED_FICHA_EDITORIAL",
+          "reading_verified_independently": false,
+          "sources": [
+            "Orduña Aznar, E. (2023), «La inscripción musiva de Andelo: nuevos planteamientos», Palaeohispanica 23, pp. 63–74, DOI 10.36707/palaeohispanica.v23i0.520. Interpreta Andelo como posible testimonio vascónico antiguo y compara su fórmula con Caminreal y La Cabañeta; adscripción lingüística e interpretación permanecen debatidas, no constituye traducción literal validada. https://ifc-ojs.es/index.php/palaeohispanica/es/article/view/520"
+          ],
+          "supporting_observations": [
+            "El texto comienza con likine, el mismo nombre que encabeza el mosaico de Caminreal. Incluye ekien, forma formalmente relacionada con ekiar y central para la comparación entre los dos mosaicos. bilbili- remite al topónimo Bilbilis; el final -aŕs queda unido a él. abulo- se relaciona con onomástica celtibérica (Abulu/Abulo), aunque la secuencia completa abuloŕaune requiere análisis adicional."
+          ]
+        }
+      ],
+      "status": "EXISTING_EDITORIAL_HYPOTHESIS_UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-OBJ-0001": {
+      "candidates": [
+        {
+          "epistemic_layer": "HYPOTHESIS",
+          "estimated_probability": null,
+          "id": "EDITORIAL-FEATURED-01",
+          "meaning_validated": false,
+          "objections": [
+            "No debe interpretarse kutuŕ como lexema ordinario en estos textos por semejanza con kutuŕ de inscripciones lingüísticas. El contexto arqueológico es secundario. La función concreta de la tortera inscrita sigue abierta."
+          ],
+          "possible_translation": "Paráfrasis funcional: tortera con dos secuencias de repertorio gráfico, posiblemente de función simbólica, ritual o didáctica. No se presupone que ambos textos representen exactamente el mismo orden completo.",
+          "provenance": "EXISTING_FEATURED_FICHA_EDITORIAL",
+          "reading_verified_independently": false,
+          "sources": [
+            "Ferrer i Jané, J.; Sinner, A. G.; Martín Menéndez, A. G. (2011), «Una tortera amb inscripció ibèrica de Can Rodon de l'Hort (Cabrera de Mar)», Sylloge Epigraphica Barcinonensis 9, pp. 17–38. Documenta 28 signos, kutu(r) de significado desconocido y un signo de valor discutido; la función ritual o didáctica no queda demostrada. https://dialnet.unirioja.es/servlet/articulo?codigo=5898057"
+          ],
+          "supporting_observations": [
+            "El primer texto tiene 16 signos, 15 de ellos diferentes; el segundo contiene 12 signos diferentes. El texto 1 comparte el arranque kutukiŕbitatiko con L'Esquirol y Latour-de-Carol no dual. La configuración estadística de ambos textos es anómala para lenguaje ordinario y consistente con un repertorio signario."
+          ]
+        }
+      ],
+      "status": "EXISTING_EDITORIAL_HYPOTHESIS_UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-OBJ-0002": {
+      "candidates": [
+        {
+          "epistemic_layer": "HYPOTHESIS",
+          "estimated_probability": null,
+          "id": "EDITORIAL-FEATURED-01",
+          "meaning_validated": false,
+          "objections": [
+            "La identificación como abecedario es menos segura que en L'Esquirol o Can Rodon. No debe reinterpretarse automáticamente kutuIn como kutun/kutuŕ léxico. El valor exacto del signo I continúa siendo problemático."
+          ],
+          "possible_translation": "Paráfrasis funcional: secuencia mixta en la que un pequeño abecedario o fórmula gráfica podría estar incorporado a una inscripción mayor.",
+          "provenance": "EXISTING_FEATURED_FICHA_EDITORIAL",
+          "reading_verified_independently": false,
+          "sources": [
+            "Ferrer i Jané, Joan (2014), «Ibèric kutu i els abecedaris ibèrics», Veleia 31, pp. 237–238 (apartado «La tortera d’Oliete», referencia E.5.5*), DOI 10.1387/veleia.13345. Examina la secuencia y tres análisis alternativos: posible abecedario parcial, lectura como texto lingüístico o fórmula mixta. Ni el valor del signo I ni un significado léxico de kutu quedan demostrados. https://ojs.ehu.eus/index.php/Veleia/article/view/13345"
+          ],
+          "supporting_observations": [
+            "La secuencia contiene kutu al inicio y una combinación de signos raros/nasales estudiada en relación con los abecedarios. La inscripción se ejecutó sobre una tortera, tipo de soporte con paralelos signarios en Can Rodon. La bibliografía ha señalado que kutuIn o kutuInmŕ podría constituir un abecedario simplificado integrado en un texto más largo."
+          ]
+        }
+      ],
+      "status": "EXISTING_EDITORIAL_HYPOTHESIS_UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-PLM-0001": {
+      "candidates": [
+        {
+          "epistemic_layer": "HYPOTHESIS",
+          "estimated_probability": null,
+          "id": "EDITORIAL-FEATURED-01",
+          "meaning_validated": false,
+          "objections": [
+            "No puede traducirse el texto línea por línea a partir de las recurrencias detectadas. No puede afirmarse que BAITES, SALDU o BATI tengan un significado léxico concreto solo porque formen familias recurrentes. La identificación de borste / abaŕkeborste como “5 / 15” pertenece a una propuesta numeral ampliamente discutida y debe citarse como hipótesis externa, no como equivalencia demostrada por IberOS.…"
+          ],
+          "possible_translation": "Paráfrasis funcional orientativa: “Documento escrito entre participantes identificables que registra o comunica varias entidades y relaciones, algunas de ellas cuantificadas.” La formulación “carta comercial” es plausible por el soporte, la estructura y la presencia de nombres/numerales propuesta por la investigación, pero no equivale a una traducción demostrada del contenido.…",
+          "provenance": "EXISTING_FEATURED_FICHA_EDITORIAL",
+          "reading_verified_independently": false,
+          "sources": [
+            "Cita sugerida: Molina Ruiz, E. (2026). “Ullastret C.2.3 / GI.15.04: recurrencias internas, cuantificación propuesta y análisis estructural”. IberOS Catálogo de Objetos, IBR-PLM-0001, Ficha v1.0. Documento asociado a IberOS v1.0, DOI 10.5281/zenodo.22939179."
+          ],
+          "supporting_observations": [
+            "La pieza contiene un texto largo y segmentado gráficamente, escrito por ambas caras, con suficientes recurrencias internas para análisis comparativo. BAITES aparece al menos en dos formas distintas dentro de la misma cara: baitesbi y baitesir. Esta alternancia es observable sin asignar significado a la base.…"
+          ]
+        }
+      ],
+      "status": "EXISTING_EDITORIAL_HYPOTHESIS_UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-PLM-0002": {
+      "candidates": [
+        {
+          "epistemic_layer": "HYPOTHESIS",
+          "estimated_probability": null,
+          "id": "EDITORIAL-FEATURED-01",
+          "meaning_validated": false,
+          "objections": [
+            "No puede afirmarse que ROK signifique específicamente “dar”, “recibir”, “pagar”, “deber” o cualquier otro verbo concreto. No puede traducirse śalir automáticamente como una unidad monetaria única y universal en todos sus contextos. La etiqueta funcional de -te- continúa siendo objeto de discusión en la bibliografía; esta ficha no la presenta como caso gramatical definitivamente identificado.…"
+          ],
+          "possible_translation": "Paráfrasis orientativa: “Śalaiaŕkis participa en una relación expresada por ROK respecto de una cantidad de śalir.” Puede tratarse de una operación de entrega, recepción, obligación, asignación u otra relación transaccional; la evidencia disponible no decide entre esas direcciones léxicas.…",
+          "provenance": "EXISTING_FEATURED_FICHA_EDITORIAL",
+          "reading_verified_independently": false,
+          "sources": [
+            "Cita sugerida de esta ficha: Molina Ruiz, E. (2026). “Tivissa T.07.03: análisis estructural de NP-te-ROK + SALIR + Q”. IberOS Case Studies I, Ficha 01, v1.0. Documento asociado a IberOS v1.0, DOI 10.5281/zenodo.22939179. Principio de lectura IberOS: observación ≠ inferencia ≠ hipótesis ≠ traducción."
+          ],
+          "supporting_observations": [
+            "La secuencia atestigua la coaparición inmediata de śalaiaŕkis-te-ŕokan con śalir y una expresión numeral. Śalir aparece en la bibliografía y en el corpus en contextos cuantificados y económico-contables, lo que lo convierte en un ancla contextual más segura que una glosa específica de ROK. Las formas relacionadas con eŕok/ŕok forman un paradigma recurrente en distintos textos;…"
+          ]
+        }
+      ],
+      "status": "EXISTING_EDITORIAL_HYPOTHESIS_UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-PLM-0003": {
+      "candidates": [
+        {
+          "epistemic_layer": "HYPOTHESIS",
+          "estimated_probability": null,
+          "id": "EDITORIAL-FEATURED-01",
+          "meaning_validated": false,
+          "objections": [
+            "No puede afirmarse que KUTUR signifique “precio”, “pago”, “mercancía”, “tributo” u otro valor económico concreto. No puede fijarse bideŕokan como “pagó”, “recibió”, “entregó” o equivalente verbal específico. La coaparición no basta para establecer una traducción completa de la secuencia. La hipótesis económica fuerte fue degradada en IberOS porque la evidencia estructural supera a la evidencia léxica."
+          ],
+          "possible_translation": "Paráfrasis orientativa: “se establece o registra una relación que involucra KUTUR mediante una forma de ROK”. Una lectura económica de la escena puede utilizarse solo como hipótesis de trabajo, no como conclusión. La paráfrasis puede representar una relación entre una entidad KUTUR y una operación/relación expresada por ROK, sin asignar traducción léxica a ninguno de los dos.",
+          "provenance": "EXISTING_FEATURED_FICHA_EDITORIAL",
+          "reading_verified_independently": false,
+          "sources": [
+            "Cita sugerida de esta ficha: Molina Ruiz, E. (2026). “Pech-Maho B.7.38: KUTUR y la familia ROK bajo control de hipótesis”. IberOS Case Studies I, Ficha 02, v1.0. Documento asociado a IberOS v1.0, DOI 10.5281/zenodo.22939179."
+          ],
+          "supporting_observations": [
+            "La secuencia B.7.38 atestigua la proximidad de BAN, KUTUR y bideŕokan. KUTUR reaparece en otros textos ibéricos y puede compararse con secuencias que contienen formas biteŕok-/ROK. La familia ROK/EŔOK presenta comportamiento relacional recurrente en el corpus IberOS. El soporte y el contexto permiten tratar el pasaje como evidencia epigráfica independiente dentro de una red de paralelos.…"
+          ]
+        }
+      ],
+      "status": "EXISTING_EDITORIAL_HYPOTHESIS_UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-PLM-0004": {
+      "candidates": [
+        {
+          "epistemic_layer": "HYPOTHESIS",
+          "estimated_probability": null,
+          "id": "EDITORIAL-FEATURED-01",
+          "meaning_validated": false,
+          "objections": [
+            "No debe insertarse un verbo que no aparezca en la inscripción. No puede traducirse KE automáticamente como “de”, “para”, “por”, “a” u otra preposición concreta. No se demuestra que KA y KE sean variantes libres ni que expresen exactamente la misma función. La convergencia gráfica y posicional no equivale a desciframiento semántico."
+          ],
+          "possible_translation": "Paráfrasis orientativa: “NP se relaciona mediante KE con una cantidad Q”, sin especificar la naturaleza de la relación. KA y KE pueden pertenecer a una familia de relaciones contextuales en construcciones nominales/cuantiﬁcadas. La diferencia KA/KE podría codificar una oposición funcional, fonológica o morfosintáctica todavía no resuelta.",
+          "provenance": "EXISTING_FEATURED_FICHA_EDITORIAL",
+          "reading_verified_independently": false,
+          "sources": [
+            "Cita sugerida de esta ficha: Molina Ruiz, E. (2026). “Coimbra del Barranco Ancho: patrón greco-ibérico NP-KE-Q”. IberOS Case Studies I, Ficha 03, v1.0. Documento asociado a IberOS v1.0, DOI 10.5281/zenodo.22939179."
+          ],
+          "supporting_observations": [
+            "El yacimiento de Coimbra del Barranco Ancho documenta epigrafía en escritura greco-ibérica. El patrón analizado por IberOS se conserva en su forma mínima NP-KE-Q. La corrección de NP-KE-V-Q a NP-KE-Q elimina un elemento verbal no atestiguado y mejora la trazabilidad de la afirmación. La comparación con NP+(I)KA/KE+Q se formula como relación de familia estructural, no como identidad semántica demostrada.…"
+          ]
+        }
+      ],
+      "status": "EXISTING_EDITORIAL_HYPOTHESIS_UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-PLM-0005": {
+      "candidates": [
+        {
+          "epistemic_layer": "HYPOTHESIS",
+          "estimated_probability": null,
+          "id": "EDITORIAL-FEATURED-01",
+          "meaning_validated": false,
+          "objections": [
+            "IberOS no traduce śalir como “dinero”, “plata”, “ganado”, “valor” ni otra palabra concreta. No se asigna significado léxico fijo a bobaida o bobaidinba. No se convierte automáticamente e/er en “dativo” ni de en “ablativo/ergativo”; esas etiquetas son análisis externos que deben conservar su condición de hipótesis lingüística.…"
+          ],
+          "possible_translation": "Paráfrasis funcional posible: “serie de anotaciones repetidas que relacionan participantes, un concepto o bien, un elemento śalir/śalibos y una cantidad”. La interpretación de los dos grupos morfológicos como entradas y salidas es plausible en la lectura contable, pero no se adopta como traducción demostrada por IberOS.…",
+          "provenance": "EXISTING_FEATURED_FICHA_EDITORIAL",
+          "reading_verified_independently": false,
+          "sources": [
+            "Molina Ruiz, E. (2026). IBR-PLM-0005 — Villares V F.17.1 / V.07.01: ficha analítica IberOS v1.0. IberOS Object Catalogue. Nota: esta ficha es un análisis metodológico reproducible y no una traducción definitiva de la lengua ibérica."
+          ],
+          "supporting_observations": [
+            "La revisión de 2024 organiza el texto en diez registros casi regulares con un armazón repetitivo. śalir/śalibos ocupa una posición central recurrente y aparece repetidamente junto a expresiones de cantidad. bobaida y bobaidinba se repiten y comparten una base formal evidente. La oposición posicional e/er ~ de divide conjuntos de registros de forma sistemática."
+          ]
+        }
+      ],
+      "status": "EXISTING_EDITORIAL_HYPOTHESIS_UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-PLM-0006": {
+      "candidates": [
+        {
+          "epistemic_layer": "HYPOTHESIS",
+          "estimated_probability": null,
+          "id": "EDITORIAL-FEATURED-01",
+          "meaning_validated": false,
+          "objections": [
+            "No puede afirmarse una traducción lineal completa de F.9.8. No se asigna significado léxico fijo a kebelsilun…, baitezi, boku ni a los antropónimos propuestos. Los valores concretos de las cantidades y unidades metrológicas no se derivan de IberOS por sí solos. El contexto arqueológico específico de F.9.8 no es tan seguro como el de otros plomos de Orleyl;…"
+          ],
+          "possible_translation": "Paráfrasis funcional posible: “registro de una o más operaciones cuantificadas asociadas a participantes o entidades identificadas”. La dirección concreta de la relación expresada por -iku no se traduce automáticamente como “de”, “desde”, “entrega” o “salida”. La posible lectura contable se usa como marco de contraste, no como traducción demostrada.",
+          "provenance": "EXISTING_FEATURED_FICHA_EDITORIAL",
+          "reading_verified_independently": false,
+          "sources": [
+            "Molina Ruiz, E. (2026). IBR-PLM-0006 — Punta d’Orleyl F.9.8 / Orleyl X: ficha analítica IberOS v1.0. IberOS Object Catalogue. Nota: esta ficha distingue lectura, estructura e hipótesis semántica; no constituye una traducción definitiva del texto ibérico."
+          ],
+          "supporting_observations": [
+            "La cara A contiene cuantificación explícita mediante secuencias como a II y o III. La cadena kebelsilun… aparece más de una vez en el mismo documento. baitezi pertenece a una familia formal documentada también en otros plomos ibéricos. La revisión de 2026 identifica problemas concretos de lectura y propone correcciones tras inspección directa de la pieza."
+          ]
+        }
+      ],
+      "status": "EXISTING_EDITORIAL_HYPOTHESIS_UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-PLM-0007": {
+      "candidates": [
+        {
+          "epistemic_layer": "HYPOTHESIS",
+          "estimated_probability": null,
+          "id": "EDITORIAL-FEATURED-01",
+          "meaning_validated": false,
+          "objections": [
+            "No puede traducirse aitusinka como una fórmula léxica cerrada más allá de su análisis estructural probable. No queda demostrado por esta pieza aislada que sisbi=7, śei=6, bi/bin=2 o abaŕ=10. La dualidad gráfica del texto es probable, pero los editores señalan que no puede asegurarse para todo el documento. La procedencia arqueológica exacta del hallazgo no está controlada por excavación."
+          ],
+          "possible_translation": "Paráfrasis funcional: registro de cantidades o medidas asociadas a personas, conceptos u operaciones. La relación exacta entre las unidades a, o y ki y valores de peso concretos depende de modelos metrológicos externos. La semejanza formal de ciertos numerales ibéricos con numerales vascos no se usa en IberOS como prueba de valor numérico.",
+          "provenance": "EXISTING_FEATURED_FICHA_EDITORIAL",
+          "reading_verified_independently": false,
+          "sources": [
+            "Ferrer i Jané, J.; Escrivà Torres, V. (2014), «Un plomo ibérico de Casinos (Valencia) con numerales léxicos y expresiones metrológicas», Palaeohispanica 14, pp. 205–227, DOI: 10.36707/palaeohispanica.v0i14.54. La edición documenta expresiones metrológicas a-o-ki en ambas caras y un contexto administrativo o contable, pero explícitamente NO confirma los valores numéricos propuestos para sisbi, śei, bi/bin o abaŕ. Origen arqueológico preciso no verificado por excavación. https://www.ifc-ojs.es/index.php/palaeohispanica/es/article/view/54"
+          ],
+          "supporting_observations": [
+            "La cara A contiene aitusinka seguido inmediatamente por la expresión metrológica a IIIIIII. La cara B contiene la secuencia sisbibeiabin y termina con la expresión metrológica a I · o I · gi/ki I. Las dos caras muestran asociaciones explícitas entre cadenas léxicas y cuantificación simbólica. El patrón aitusin + ka + Q es compatible con la construcción NP+KA+Q documentada en otros plomos."
+          ]
+        }
+      ],
+      "status": "EXISTING_EDITORIAL_HYPOTHESIS_UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-PLM-0008": {
+      "candidates": [
+        {
+          "epistemic_layer": "HYPOTHESIS",
+          "estimated_probability": null,
+          "id": "EDITORIAL-FEATURED-01",
+          "meaning_validated": false,
+          "objections": [
+            "No debe intentarse una traducción léxica de las secuencias como si fueran palabras concatenadas. No todas las parejas ni todos los trazos se conservan con igual seguridad por el estado fragmentario y palimpséstico. La función religiosa exacta permanece abierta. Las secuencias no deben alimentar modelos morfosintácticos de IberOS como si fueran texto discursivo normal."
+          ],
+          "possible_translation": "Paráfrasis funcional: objeto inscrito que enumera o practica pares de signos del repertorio ibérico dual. El uso ritual o votivo es plausible, pero no queda demostrado por una fórmula lingüística legible.",
+          "provenance": "EXISTING_FEATURED_FICHA_EDITORIAL",
+          "reading_verified_independently": false,
+          "sources": [
+            "Burriel Alberich, J. M. et al. (2011), «El plomo escrito del Tos Pelat (Moncada, Valencia)», Palaeohispanica 11, pp. 191–224, DOI: 10.36707/palaeohispanica.v0i11.82. La publicación describe un plomo fragmentario posiblemente interpretable como signario; su función sagrada o votiva es una hipótesis, no traducción ni función demostrada. https://ifc-ojs.es/index.php/palaeohispanica/es/article/view/82"
+          ],
+          "supporting_observations": [
+            "Las secuencias muestran parejas de variantes de un mismo signo, rasgo central del sistema dual. En las oclusivas dentales y velares, la variante compleja suele preceder a la simple. También aparecen dualidades no esperadas en vocales y algunas continuas, fenómeno compartido con el signario del Castellet de Bernabé. La disposición y repetición de secuencias es compatible con un inventario signario, no con una frase ordinaria."
+          ]
+        }
+      ],
+      "status": "EXISTING_EDITORIAL_HYPOTHESIS_UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-PLM-0009": {
+      "candidates": [
+        {
+          "epistemic_layer": "HYPOTHESIS",
+          "estimated_probability": null,
+          "id": "EDITORIAL-FEATURED-01",
+          "meaning_validated": false,
+          "objections": [
+            "No existe una traducción continua demostrada de ninguno de los textos. La relación exacta entre los textos A, B y el texto superpuesto sigue abierta. Los valores concretos de bin/binike y otras posibles expresiones numéricas dependen de análisis externos al texto aislado. IberOS no adopta traducciones vascoiberistas ni etimologías externas como evidencia primaria."
+          ],
+          "possible_translation": "Paráfrasis funcional: una lámina reutilizada para al menos dos actos escritos, posiblemente relacionados con comunicación y operaciones cuantificadas. La propuesta de 'carta comercial' es coherente con la arquitectura material y ciertos segmentos, pero no equivale a una traducción.…",
+          "provenance": "EXISTING_FEATURED_FICHA_EDITORIAL",
+          "reading_verified_independently": false,
+          "sources": [
+            "Ferrer i Jané, J.; Olcina Doménech, M.; Martínez Carmona, A.; Verdú Parra, E. (2024), «Una nueva lámina de plomo con inscripciones en alfabeto greco-ibérico de la Illeta dels Banyets», Palaeohispanica 24, DOI 10.36707/palaeohispanica.v24i1.629, tabla de comparaciones del corpus: BDH A.04.01 La Serreta figura como «Carta comercial» (clasificación editorial, no traducción demostrada). https://ifc.dpz.es/recursos/publicaciones/40/82/09ferrer.pdf . Las fases de escritura y sus relaciones precisas requieren cotejo con Untermann (1990), MLH III G.1.1."
+          ],
+          "supporting_observations": [
+            "El objeto conserva varios textos y al menos dos fases de escritura, demostradas por superposición, borrado parcial y diferencias de interpunción. La forma iŕike aparece repetida dentro del texto A, mientras que śalir/śalirg aparece tanto en A como en B. La cara B comienza con iunstir, forma recurrente en posiciones iniciales de varios textos ibéricos.…"
+          ]
+        }
+      ],
+      "status": "EXISTING_EDITORIAL_HYPOTHESIS_UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-PLM-0010": {
+      "candidates": [
+        {
+          "epistemic_layer": "HYPOTHESIS",
+          "estimated_probability": null,
+          "id": "EDITORIAL-FEATURED-01",
+          "meaning_validated": false,
+          "objections": [
+            "No puede traducirse baides como 'testigo', 'garante' u otra función concreta solo a partir de este texto. La presencia en una tumba no demuestra por sí sola que cada segmento tenga significado religioso. No existe traducción continua demostrada de la inscripción. No se debe usar el contexto funerario para retroalimentar la segmentación morfológica."
+          ],
+          "possible_translation": "Paráfrasis funcional: texto depositado en un contexto funerario, posiblemente con finalidad ritual, conmemorativa o de acompañamiento. El carácter literario-religioso ha sido propuesto en la bibliografía; IberOS lo conserva como hipótesis funcional apoyada, no como lectura semántica.",
+          "provenance": "EXISTING_FEATURED_FICHA_EDITORIAL",
+          "reading_verified_independently": false,
+          "sources": [
+            "Museo de Arte Ibérico El Cigarralejo (Región de Murcia), ficha de colección n.º 24 «Disco de plomo con escritura», inventario 191, tumba 21, https://museosregiondemurcia.carm.es/documents/540177/848155/Plomo%2Bcon%2Bescritura.pdf/6c7de166-ef40-ce40-1951-abf5c4aca427?download=true . Confirma escritura grecoibérica, contexto funerario y distintas hipótesis funcionales (despedida, religión, contrato o defixión), sin traducir el contenido; la forma baides requiere cotejo aparte con Untermann (1990), MLH III G.13.1."
+          ],
+          "supporting_observations": [
+            "La pieza procede de la sepultura 21 de la necrópolis de El Cigarralejo y forma parte de un contexto funerario arqueológicamente documentado. El texto está escrito en alfabeto greco-ibérico y es uno de los pocos plomos conocidos en esta escritura. La forma baides está documentada en este texto y también en plomos de otros contextos, incluidos Pech-Maho, Orleyl, Ullastret y La Serreta.…"
+          ]
+        }
+      ],
+      "status": "EXISTING_EDITORIAL_HYPOTHESIS_UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-PLM-0011": {
+      "candidates": [
+        {
+          "epistemic_layer": "HYPOTHESIS",
+          "estimated_probability": null,
+          "id": "EDITORIAL-FEATURED-01",
+          "meaning_validated": false,
+          "objections": [
+            "No se puede precisar la función del documento. No se deben completar signos o segmentos ausentes por analogía con otros plomos. No debe usarse como evidencia semántica fuerte aunque una secuencia parcial coincida con otra familia."
+          ],
+          "possible_translation": "Paráfrasis funcional: fragmento de un documento mayor cuya función original no puede recuperarse con seguridad.",
+          "provenance": "EXISTING_FEATURED_FICHA_EDITORIAL",
+          "reading_verified_independently": false,
+          "sources": [
+            "Ferrer i Jané, J.; Garcia i Rubert, D.; Moreno Martínez, I.; Velaza, J., «Una inscripción ibérica sobre plomo procedente del poblado de la Moleta del Remei (Alcanar, Montsià, Tarragona)», Palaeohispanica 8 (2008), 203–216, DOI 10.36707/palaeohispanica.v0i8.265. Los autores documentan 21 restos de signos en tres líneas, fragmentación y alteraciones del soporte; declaran imposible precisar la función. https://www.ifc-ojs.es/index.php/palaeohispanica/es/article/view/265"
+          ],
+          "supporting_observations": [
+            "La inscripción es auténtica y procede de materiales arqueológicos del poblado. El soporte fue reutilizado o alterado físicamente después de su fase inscrita. La pérdida del contexto textual es real y debe representarse explícitamente."
+          ]
+        }
+      ],
+      "status": "EXISTING_EDITORIAL_HYPOTHESIS_UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-PLM-0012": {
+      "candidates": [
+        {
+          "epistemic_layer": "HYPOTHESIS",
+          "estimated_probability": null,
+          "id": "EDITORIAL-FEATURED-01",
+          "meaning_validated": false,
+          "objections": [
+            "No se deben unir los tres textos en una única frase. La lectura ildurkon/ildurbon conserva una alternativa paleográfica. Los valores absolutos de las unidades metrológicas no quedan demostrados por esta pieza aislada."
+          ],
+          "possible_translation": "Paráfrasis funcional: etiqueta o pequeño documento reutilizado para identificar personas/propiedad y una cantidad o precio. Las equivalencias otar, śalir y fracciones propuestas por los editores se mantienen como hipótesis metrológicas externas.",
+          "provenance": "EXISTING_FEATURED_FICHA_EDITORIAL",
+          "reading_verified_independently": false,
+          "sources": [
+            "Ferrer i Jané, J.; Olcina Doménech, M.; Martínez Carmona, A.; Verdú Parra, E. (2024), «Una nueva lámina de plomo con inscripciones en alfabeto greco-ibérico de la Illeta dels Banyets (El Campello, Alicante)», Palaeohispanica 24, DOI 10.36707/palaeohispanica.v24i1.629. Edición de tres textos aparentemente independientes: nombres personales, posibles indicaciones de propiedad y metrología. Los valores de otar, śalir y fracciones son propuestas editoriales, no equivalencias demostradas. https://www.ifc-ojs.es/index.php/palaeohispanica/es/article/view/629"
+          ],
+          "supporting_observations": [
+            "La lámina contiene tres episodios textuales que no parecen formar una única unidad. El texto interior combina un antropónimo y una expresión metrológica. El elemento nai del exterior tiene paralelos funcionales con el nororiental ḿi en inscripciones de propiedad."
+          ]
+        }
+      ],
+      "status": "EXISTING_EDITORIAL_HYPOTHESIS_UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-PLM-0013": {
+      "candidates": [
+        {
+          "epistemic_layer": "HYPOTHESIS",
+          "estimated_probability": null,
+          "id": "EDITORIAL-FEATURED-01",
+          "meaning_validated": false,
+          "objections": [
+            "No puede inferirse la fecha de redacción a partir del estrato de amortización sin atender a la paleografía. No debe traducirse kutuŕ automáticamente como 'ofrenda', 'dios' o término ritual concreto. La temática religiosa es una hipótesis apoyada, no una traducción."
+          ],
+          "possible_translation": "Paráfrasis funcional: pequeño texto posiblemente votivo/religioso, conservado durante largo tiempo antes de acabar como metal destinado al reciclaje. kutuŕ puede funcionar como marcador de una construcción ritual, pero su significado léxico exacto permanece abierto.",
+          "provenance": "EXISTING_FEATURED_FICHA_EDITORIAL",
+          "reading_verified_independently": false,
+          "sources": [
+            "Ferrer i Jané, J.; Quixal Santos, D.; Velaza Frías, J.; Serrano Castellano, A.; Mata Parreño, C.; Pasíes Oviedo, T.; Gallello, G. (2021), «Una pequeña lámina de plomo con inscripción ibérica de paleografía arcaica del Pico de los Ajos (Yátova, València)», Veleia 38, pp. 91–109, DOI 10.1387/veleia.22508. Lámina hallada en 2018, plegada y con una línea por cara; doblete gráfico dual te/ŕ y kutuŕ. Interpretación religiosa provisional por paralelos votivos, no traducción demostrada. https://ojs.ehu.eus/index.php/Veleia/article/view/22508"
+          ],
+          "supporting_observations": [
+            "La lámina fue hallada en excavación reglada y apareció plegada. La convivencia de dos variantes de te y de ŕ demuestra de forma explícita el uso de un sistema dual. La paleografía es sensiblemente más arcaica que la fecha de amortización del objeto. kutuŕ está presente y tiene paralelos frecuentes en inscripciones rupestres de interpretación votiva."
+          ]
+        }
+      ],
+      "status": "EXISTING_EDITORIAL_HYPOTHESIS_UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-RUP-0001": {
+      "candidates": [
+        {
+          "epistemic_layer": "HYPOTHESIS",
+          "estimated_probability": null,
+          "id": "EDITORIAL-FEATURED-01",
+          "meaning_validated": false,
+          "objections": [
+            "No debe traducirse como frase. El orden de los signos no coincide exactamente con otros signarios. La función del signo T y su valor fonético siguen siendo discutidos."
+          ],
+          "possible_translation": "Paráfrasis funcional: repertorio signario dual grabado en roca, probablemente con valor simbólico o ritual.",
+          "provenance": "EXISTING_FEATURED_FICHA_EDITORIAL",
+          "reading_verified_independently": false,
+          "sources": [
+            "Ferrer i Jané, J. (2013), «Els sistemes duals de les escriptures ibèriques», Palaeohispanica 13, pp. 445–459, DOI 10.36707/palaeohispanica.v0i13.175: identifica Ger como signario rupestre dual ceretano, con dualidades aparentemente restringidas a velares y dentales; no demuestra función ritual. https://ifc-ojs.es/index.php/palaeohispanica/ca/article/view/175"
+          ],
+          "supporting_observations": [
+            "La secuencia contiene numerosas parejas duales consecutivas. El repertorio confirma que la dualidad no es exclusiva de los signarios edetanos. El signo especial transcrito T/ḿ refuerza la existencia de grafemas raros o marcados en la tradición ceretana."
+          ]
+        }
+      ],
+      "status": "EXISTING_EDITORIAL_HYPOTHESIS_UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-RUP-0002": {
+      "candidates": [
+        {
+          "epistemic_layer": "HYPOTHESIS",
+          "estimated_probability": null,
+          "id": "EDITORIAL-FEATURED-01",
+          "meaning_validated": false,
+          "objections": [
+            "No debe tratarse como una oración. La cronología es paleográfica y aproximada. El carácter votivo o ritual no está demostrado de manera directa."
+          ],
+          "possible_translation": "Paráfrasis funcional: repertorio parcial de signos duales grabado con una orientación excepcional.",
+          "provenance": "EXISTING_FEATURED_FICHA_EDITORIAL",
+          "reading_verified_independently": false,
+          "sources": [
+            "Ferrer i Jané, J. (2013), «Els sistemes duals de les escriptures ibèriques», Palaeohispanica 13, pp. 445–459, DOI 10.36707/palaeohispanica.v0i13.175: clasifica Bolvir entre los signarios rupestres duales ceretanos. Ferrer i Jané (2021), Revista d'Arqueologia de Ponent 31, p. 84, DOI 10.21001/rap.2021.31.4, también examina una secuencia de Bolvir con lecturas dudosas comparable al inicio no dual; no se deben identificar automáticamente ambas observaciones como un mismo texto. https://ifc-ojs.es/index.php/palaeohispanica/ca/article/view/175"
+          ],
+          "supporting_observations": [
+            "El signario está organizado por parejas duales y conserva aproximadamente su primera mitad. La variante compleja precede sistemáticamente a la simple en las parejas conservadas. La dirección derecha-a-izquierda lo diferencia de la práctica más habitual."
+          ]
+        }
+      ],
+      "status": "EXISTING_EDITORIAL_HYPOTHESIS_UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-RUP-0003": {
+      "candidates": [
+        {
+          "epistemic_layer": "HYPOTHESIS",
+          "estimated_probability": null,
+          "id": "EDITORIAL-FEATURED-01",
+          "meaning_validated": false,
+          "objections": [
+            "No debe traducirse como texto discursivo. Faltan signos para un inventario completo y algunos trazos siguen siendo dudosos. La función votiva sigue siendo interpretativa."
+          ],
+          "possible_translation": "Paráfrasis funcional: repertorio parcial de signos duales, probablemente con valor simbólico, ritual o de exhibición del sistema gráfico.",
+          "provenance": "EXISTING_FEATURED_FICHA_EDITORIAL",
+          "reading_verified_independently": false,
+          "sources": [
+            "Ferrer i Jané, J. (2014), «Deux nouveaux alphabets ibères rupestres de Cerdagne», Sources – Les cahiers de l'Âne Rouge 2, pp. 11–20: identifica sobre dos superficies de una roca de Latour-de-Carol un signario dual y otro no dual; el dual repite el comienzo de Ger, según las correcciones de lectura discutidas por el autor. No es texto discursivo traducible. https://www.researchgate.net/publication/262143707_Deux_nouveaux_alphabets_iberes_rupestres_de_Cerdagne"
+          ],
+          "supporting_observations": [
+            "La secuencia inicial reproduce el mismo orden documentado en el signario de Ger. La organización por pares de variantes confirma la naturaleza dual del repertorio. El objeto pertenece al conjunto rupestre ceretano y es independiente de los signarios edetanos."
+          ]
+        }
+      ],
+      "status": "EXISTING_EDITORIAL_HYPOTHESIS_UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-RUP-0004": {
+      "candidates": [
+        {
+          "epistemic_layer": "HYPOTHESIS",
+          "estimated_probability": null,
+          "id": "EDITORIAL-FEATURED-01",
+          "meaning_validated": false,
+          "objections": [
+            "No se puede fechar la relación exacta entre los dos signarios solo por su presencia en la misma roca. La secuencia kutu- no implica por sí sola un significado léxico de 'escritura'. No alimentar MORPH como texto ordinario."
+          ],
+          "possible_translation": "Paráfrasis funcional: repertorio parcial de signos en sistema no dual, usado como secuencia de inventario gráfico.",
+          "provenance": "EXISTING_FEATURED_FICHA_EDITORIAL",
+          "reading_verified_independently": false,
+          "sources": [
+            "Ferrer i Jané, J. (2014), «Deux nouveaux alphabets ibères rupestres de Cerdagne», Sources – Les cahiers de l'Âne Rouge 2, pp. 11–20: identifica el repertorio no dual de Latour-de-Carol por el comienzo kutukiŕbitatiko, compartido con L'Esquirol y Can Rodon; el posible valor de kutu como lexema no está demostrado. https://www.researchgate.net/publication/262143707_Deux_nouveaux_alphabets_iberes_rupestres_de_Cerdagne"
+          ],
+          "supporting_observations": [
+            "La secuencia inicial coincide con otros textos identificados como signarios no duales. La ausencia de pares sistemáticos de variantes distingue este repertorio del signario dual de la misma roca. La coexistencia local de ambos repertorios aporta un control excepcional sobre cambio o convivencia gráfica."
+          ]
+        }
+      ],
+      "status": "EXISTING_EDITORIAL_HYPOTHESIS_UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-RUP-0005": {
+      "candidates": [
+        {
+          "epistemic_layer": "HYPOTHESIS",
+          "estimated_probability": null,
+          "id": "EDITORIAL-FEATURED-01",
+          "meaning_validated": false,
+          "objections": [
+            "No debe segmentarse como frase ni interpretarse kutu como palabra léxica por el mero inicio de la secuencia. El tramo final presenta dudas de lectura. La función religiosa exacta no está demostrada por el propio abecedario."
+          ],
+          "possible_translation": "Paráfrasis funcional: repertorio casi completo de signos ibéricos no duales grabado en roca. La posible función ritual/votiva pertenece al contexto de uso de los signarios, no a una traducción lingüística.",
+          "provenance": "EXISTING_FEATURED_FICHA_EDITORIAL",
+          "reading_verified_independently": false,
+          "sources": [
+            "Ferrer i Jané, J. (2021), «L'abecedari ibèric no dual de l'Esquirol i altres novetats d'epigrafia ibèrica rupestre ausetana», Revista d'Arqueologia de Ponent 31, pp. 79–103, particularmente pp. 82–84, DOI 10.21001/rap.2021.31.4. Identifica un abecedario no dual casi completo, con secuencia inicial kutukiŕbitatiko; el uso votivo es hipótesis contextual, no traducción de los signos. https://doi.org/10.21001/rap.2021.31.4"
+          ],
+          "supporting_observations": [
+            "La secuencia contiene una proporción excepcionalmente alta de signos distintos y muy pocas repeticiones. Comienza por kutukiŕbitatiko, la misma secuencia característica documentada en Can Rodon 1 y Latour-de-Carol no dual. La edición moderna identifica 27 signos diferentes, lo que la convierte en el abecedario no dual más completo del grupo conocido."
+          ]
+        }
+      ],
+      "status": "EXISTING_EDITORIAL_HYPOTHESIS_UNVERIFIED",
+      "translation_validated": false
+    }
+  },
+  "schema": "IberOS-Interpretation-Web/1.0"
+}

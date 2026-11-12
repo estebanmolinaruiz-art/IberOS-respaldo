@@ -1,0 +1,88 @@
+{
+  "schema": "IberOS-Epigraphic-Extraction-Candidates/1.0",
+  "items": [
+    {
+      "object_id": "SOURCES-SOSES-RING-1890",
+      "name": "Anillo con inscripción ibérica de Soses",
+      "source_doi": "10.5209/cfcg.90633",
+      "source_url": "https://revistas.ucm.es/index.php/CFCG/article/view/90633",
+      "edition_figure": "Luján Martínez (2024), pp. 9–16, figuras de la documentación de 1890",
+      "inventory_or_catalogue_id": "BDHesp L.07.01 (citado en la edición, pendiente de cotejo directo)",
+      "transcription": null,
+      "reviewer": null,
+      "review_date": null,
+      "source_bibliographic_ficha_id": "BIB-000004",
+      "physical_object_status": "LOST_REPORTED",
+      "source_observation": "La publicación revisa la lectura sobre fotografía histórica de 1890; la pieza está perdida.",
+      "exact_object_match_verified": false,
+      "transcription_checked_against_edition": false,
+      "source_rights_checked": false,
+      "independent_review_completed": false,
+      "core_analysis_allowed": false,
+      "edition_readings": [
+        {
+          "reading": "suśtaŕtike",
+          "attribution": "Untermann (1990), transmitida y analizada por Luján (2024)",
+          "role": "PREVIOUS_EDITION",
+          "citation_location": "Luján (2024), p. 11–12",
+          "review_status": "SECONDARY_CROSS_CHECK_PENDING"
+        },
+        {
+          "reading": "belśtaŕtike",
+          "attribution": "Luján Martínez (2024)",
+          "role": "PREFERRED_BY_EDITION_AUTHOR",
+          "citation_location": "Luján (2024), p. 14",
+          "review_status": "INDEPENDENT_REVIEW_PENDING"
+        },
+        {
+          "reading": "belśtaŕm̄ke",
+          "attribution": "Luján Martínez (2024)",
+          "role": "ALTERNATIVE_LESS_LIKELY",
+          "citation_location": "Luján (2024), p. 14",
+          "review_status": "INDEPENDENT_REVIEW_PENDING"
+        }
+      ],
+      "edition_pdf_url": "https://revistas.ucm.es/index.php/CFCG/article/download/90633/4564456569086/4564456708295",
+      "edition_reading_notes": "Luján propone belśtaŕtike preferentemente y belśtaŕm̄ke como alternativa menos probable; no constituye verificación independiente ni traducción."
+    },
+    {
+      "object_id": "SOURCES-GADOR-LEAD-2025",
+      "name": "Plomo de Gádor",
+      "source_doi": "10.36707/palaeohispanica.v25i1.718",
+      "source_url": "https://www.ifc-ojs.es/index.php/palaeohispanica/es/article/view/718",
+      "source_bibliographic_ficha_id": "BIB-000007",
+      "source_observation": "La edición señala lecturas y procedencia discutidas; cotejo completo pendiente.",
+      "authenticity_status": "UNRESOLVED_READINGS",
+      "edition_figure": null,
+      "inventory_or_catalogue_id": null,
+      "transcription": null,
+      "reviewer": null,
+      "review_date": null,
+      "exact_object_match_verified": false,
+      "transcription_checked_against_edition": false,
+      "source_rights_checked": false,
+      "independent_review_completed": false,
+      "core_analysis_allowed": false
+    },
+    {
+      "object_id": "SOURCES-TORRES-VASE-2025",
+      "name": "Vaso de Torres (Jaén)",
+      "source_doi": "10.36707/palaeohispanica.v25i1.711",
+      "source_url": "https://ifc-ojs.es/index.php/palaeohispanica/es/article/view/711",
+      "source_bibliographic_ficha_id": "BIB-000008",
+      "source_observation": "La edición estudia la transmisión documental y plantea dudas de autenticidad del vaso conservado en el Louvre.",
+      "authenticity_status": "AUTHENTICITY_DISPUTED",
+      "edition_figure": null,
+      "inventory_or_catalogue_id": null,
+      "transcription": null,
+      "reviewer": null,
+      "review_date": null,
+      "exact_object_match_verified": false,
+      "transcription_checked_against_edition": false,
+      "source_rights_checked": false,
+      "independent_review_completed": false,
+      "core_analysis_allowed": false
+    }
+  ],
+  "note": "Only add individual inscription records after exact source figure, object identity, transcription and reviewer have been documented."
+}

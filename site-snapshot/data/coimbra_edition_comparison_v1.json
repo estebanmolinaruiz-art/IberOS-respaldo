@@ -1,0 +1,55 @@
+{
+  "core_pattern": "NP–KE–Q",
+  "core_pattern_status": "EDITORIAL_STRUCTURAL_ABSTRACTION_UNVALIDATED",
+  "disputed_readings": [
+    {
+      "edition_2016": "kukebuŕke",
+      "location": "línea 5",
+      "note": "Corrección de b a k discutida en la edición; incluye diferencia de representación de vibrante.",
+      "previous": "kukeburbe"
+    },
+    {
+      "alternative": "neŕsge[",
+      "edition_2016": "leŕsge[",
+      "location": "línea 6",
+      "note": "Segmento incompleto, variante explícita de la autora."
+    }
+  ],
+  "edition_observations": [
+    {
+      "page": 158,
+      "statement": "Plomo de escritura grecoibérica con nueve líneas conservadas, inicial y final fragmentarias; inventario COI-D-976."
+    },
+    {
+      "page": 160,
+      "statement": "La edición enumera lecturas previas de Muñoz, Untermann, Luján y Moncunill, y ofrece una nueva transcripción tras autopsias."
+    },
+    {
+      "page": 161,
+      "statement": "Se conserva ]oŕbiloske y una secuencia numeral contigua en línea 4; la terminación -ke es interpretación morfológica editorial."
+    },
+    {
+      "page": 161,
+      "statement": "La autora ofrece ]ŕike y kukebuŕke en línea 5 y alternativas leŕsge / neŕsge en línea 6."
+    }
+  ],
+  "editorial_page_comparison_completed": true,
+  "independent_epigraphic_review_completed": false,
+  "object_id": "IBR-PLM-0004",
+  "original_inscription_autopsy_completed_by_iberos": false,
+  "reading_approved": false,
+  "schema": "IberOS-Edition-Comparison/1.0",
+  "semantic_validation": false,
+  "source": {
+    "author": "Aránzazu López Fernández",
+    "doi": "10.36707/palaeohispanica.v0i16.29",
+    "figures": [
+      "4",
+      "5"
+    ],
+    "pages": "158-161",
+    "title": "Epigrafía ibérica de Coimbra del Barranco Ancho (Jumilla, Murcia)",
+    "url": "https://ifc.dpz.es/recursos/publicaciones/35/76/09lopezfernandez.pdf",
+    "year": 2016
+  }
+}

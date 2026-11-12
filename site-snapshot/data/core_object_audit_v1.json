@@ -1,0 +1,4412 @@
+{
+  "authority": {
+    "prospective_lock": "C474",
+    "rok_network": "C541",
+    "semantic_release": "C594",
+    "technical_floor": "C539"
+  },
+  "evaluation_policy": "REVIEWED_SOURCED_OBSERVATIONS_ONLY",
+  "notice": "Reglas candidatas y controles; no hay traducciones verificadas automáticamente.",
+  "object_count": 38,
+  "objects": {
+    "IBR-CER-0001": {
+      "automatic_core_promotion": false,
+      "evaluated_rules": [],
+      "families_tagged": [
+        "EGIAR_EKIAR"
+      ],
+      "modules": {
+        "GEO": "CONTEXT_ONLY",
+        "INFER": "PENDING_INDEPENDENT_VALIDATION",
+        "LEXSEM": "HYPOTHESES_NOT_TRANSLATION",
+        "MORPH": "REGISTRY_TAG_ONLY",
+        "PALEO": "METADATA_ONLY",
+        "TRACE": "DOCUMENTARY_METADATA"
+      },
+      "object_id": "IBR-CER-0001",
+      "rules": [
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "BI-DISAMBIG-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "PALEO-RHOTIC-LOCK-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "ROK-DIRECTION-GUARD-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "EPISTEMIC-LAYER-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "SALIR",
+          "id": "SALIR-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-RECIPIENT-02",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KA_KE_KU",
+          "id": "KA-DIRECTION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KUTUR",
+          "id": "KUTUR-PROSPECTIVE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "BAIDES_BATIR",
+          "id": "BAIDES-BATIR-ROLE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "NUM_METRO",
+          "id": "NUM-7-8-9-EXACT",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "D_E_I",
+          "id": "DEDI-COMBINED-GATE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-SEGMENTATION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        }
+      ],
+      "scientific_state": "UNVERIFIED"
+    },
+    "IBR-CER-0002": {
+      "automatic_core_promotion": false,
+      "evaluated_rules": [],
+      "families_tagged": [
+        "EGIAR_EKIAR",
+        "ICONO"
+      ],
+      "modules": {
+        "GEO": "CONTEXT_ONLY",
+        "INFER": "PENDING_INDEPENDENT_VALIDATION",
+        "LEXSEM": "HYPOTHESES_NOT_TRANSLATION",
+        "MORPH": "REGISTRY_TAG_ONLY",
+        "PALEO": "METADATA_ONLY",
+        "TRACE": "DOCUMENTARY_METADATA"
+      },
+      "object_id": "IBR-CER-0002",
+      "rules": [
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "BI-DISAMBIG-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "PALEO-RHOTIC-LOCK-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "ROK-DIRECTION-GUARD-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "EPISTEMIC-LAYER-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "SALIR",
+          "id": "SALIR-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-RECIPIENT-02",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KA_KE_KU",
+          "id": "KA-DIRECTION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KUTUR",
+          "id": "KUTUR-PROSPECTIVE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "BAIDES_BATIR",
+          "id": "BAIDES-BATIR-ROLE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "NUM_METRO",
+          "id": "NUM-7-8-9-EXACT",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "D_E_I",
+          "id": "DEDI-COMBINED-GATE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-SEGMENTATION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        }
+      ],
+      "scientific_state": "UNVERIFIED"
+    },
+    "IBR-CER-0003": {
+      "automatic_core_promotion": false,
+      "evaluated_rules": [],
+      "families_tagged": [
+        "SIGNARY"
+      ],
+      "modules": {
+        "GEO": "CONTEXT_ONLY",
+        "INFER": "PENDING_INDEPENDENT_VALIDATION",
+        "LEXSEM": "HYPOTHESES_NOT_TRANSLATION",
+        "MORPH": "REGISTRY_TAG_ONLY",
+        "PALEO": "METADATA_ONLY",
+        "TRACE": "DOCUMENTARY_METADATA"
+      },
+      "object_id": "IBR-CER-0003",
+      "rules": [
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "BI-DISAMBIG-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "PALEO-RHOTIC-LOCK-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "ROK-DIRECTION-GUARD-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "EPISTEMIC-LAYER-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "SALIR",
+          "id": "SALIR-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-RECIPIENT-02",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KA_KE_KU",
+          "id": "KA-DIRECTION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KUTUR",
+          "id": "KUTUR-PROSPECTIVE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "BAIDES_BATIR",
+          "id": "BAIDES-BATIR-ROLE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "NUM_METRO",
+          "id": "NUM-7-8-9-EXACT",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "D_E_I",
+          "id": "DEDI-COMBINED-GATE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-SEGMENTATION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        }
+      ],
+      "scientific_state": "UNVERIFIED"
+    },
+    "IBR-CER-0004": {
+      "automatic_core_promotion": false,
+      "evaluated_rules": [],
+      "families_tagged": [],
+      "modules": {
+        "GEO": "CONTEXT_ONLY",
+        "INFER": "PENDING_INDEPENDENT_VALIDATION",
+        "LEXSEM": "HYPOTHESES_NOT_TRANSLATION",
+        "MORPH": "REGISTRY_TAG_ONLY",
+        "PALEO": "METADATA_ONLY",
+        "TRACE": "DOCUMENTARY_METADATA"
+      },
+      "object_id": "IBR-CER-0004",
+      "rules": [
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "BI-DISAMBIG-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "PALEO-RHOTIC-LOCK-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "ROK-DIRECTION-GUARD-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "EPISTEMIC-LAYER-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "SALIR",
+          "id": "SALIR-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-RECIPIENT-02",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KA_KE_KU",
+          "id": "KA-DIRECTION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KUTUR",
+          "id": "KUTUR-PROSPECTIVE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "BAIDES_BATIR",
+          "id": "BAIDES-BATIR-ROLE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "NUM_METRO",
+          "id": "NUM-7-8-9-EXACT",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "D_E_I",
+          "id": "DEDI-COMBINED-GATE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-SEGMENTATION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        }
+      ],
+      "scientific_state": "UNVERIFIED"
+    },
+    "IBR-CER-0005": {
+      "automatic_core_promotion": false,
+      "evaluated_rules": [],
+      "families_tagged": [
+        "SIGNARY"
+      ],
+      "modules": {
+        "GEO": "CONTEXT_ONLY",
+        "INFER": "PENDING_INDEPENDENT_VALIDATION",
+        "LEXSEM": "HYPOTHESES_NOT_TRANSLATION",
+        "MORPH": "REGISTRY_TAG_ONLY",
+        "PALEO": "METADATA_ONLY",
+        "TRACE": "DOCUMENTARY_METADATA"
+      },
+      "object_id": "IBR-CER-0005",
+      "rules": [
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "BI-DISAMBIG-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "PALEO-RHOTIC-LOCK-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "ROK-DIRECTION-GUARD-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "EPISTEMIC-LAYER-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "SALIR",
+          "id": "SALIR-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-RECIPIENT-02",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KA_KE_KU",
+          "id": "KA-DIRECTION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KUTUR",
+          "id": "KUTUR-PROSPECTIVE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "BAIDES_BATIR",
+          "id": "BAIDES-BATIR-ROLE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "NUM_METRO",
+          "id": "NUM-7-8-9-EXACT",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "D_E_I",
+          "id": "DEDI-COMBINED-GATE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-SEGMENTATION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        }
+      ],
+      "scientific_state": "UNVERIFIED"
+    },
+    "IBR-COI-0001": {
+      "automatic_core_promotion": false,
+      "evaluated_rules": [],
+      "families_tagged": [
+        "GRECO_IBERIAN"
+      ],
+      "modules": {
+        "GEO": "CONTEXT_ONLY",
+        "INFER": "PENDING_INDEPENDENT_VALIDATION",
+        "LEXSEM": "HYPOTHESES_NOT_TRANSLATION",
+        "MORPH": "REGISTRY_TAG_ONLY",
+        "PALEO": "METADATA_ONLY",
+        "TRACE": "DOCUMENTARY_METADATA"
+      },
+      "object_id": "IBR-COI-0001",
+      "rules": [
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "BI-DISAMBIG-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "PALEO-RHOTIC-LOCK-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "ROK-DIRECTION-GUARD-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "EPISTEMIC-LAYER-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "SALIR",
+          "id": "SALIR-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-RECIPIENT-02",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KA_KE_KU",
+          "id": "KA-DIRECTION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KUTUR",
+          "id": "KUTUR-PROSPECTIVE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "BAIDES_BATIR",
+          "id": "BAIDES-BATIR-ROLE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "NUM_METRO",
+          "id": "NUM-7-8-9-EXACT",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "D_E_I",
+          "id": "DEDI-COMBINED-GATE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-SEGMENTATION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        }
+      ],
+      "scientific_state": "UNVERIFIED"
+    },
+    "IBR-COI-0002": {
+      "automatic_core_promotion": false,
+      "evaluated_rules": [],
+      "families_tagged": [
+        "PSEUDOSCRIPT"
+      ],
+      "modules": {
+        "GEO": "CONTEXT_ONLY",
+        "INFER": "PENDING_INDEPENDENT_VALIDATION",
+        "LEXSEM": "HYPOTHESES_NOT_TRANSLATION",
+        "MORPH": "REGISTRY_TAG_ONLY",
+        "PALEO": "METADATA_ONLY",
+        "TRACE": "DOCUMENTARY_METADATA"
+      },
+      "object_id": "IBR-COI-0002",
+      "rules": [
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "BI-DISAMBIG-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "PALEO-RHOTIC-LOCK-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "ROK-DIRECTION-GUARD-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "EPISTEMIC-LAYER-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "SALIR",
+          "id": "SALIR-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-RECIPIENT-02",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KA_KE_KU",
+          "id": "KA-DIRECTION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KUTUR",
+          "id": "KUTUR-PROSPECTIVE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "BAIDES_BATIR",
+          "id": "BAIDES-BATIR-ROLE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "NUM_METRO",
+          "id": "NUM-7-8-9-EXACT",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "D_E_I",
+          "id": "DEDI-COMBINED-GATE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-SEGMENTATION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        }
+      ],
+      "scientific_state": "UNVERIFIED"
+    },
+    "IBR-CTL-0001": {
+      "automatic_core_promotion": false,
+      "evaluated_rules": [],
+      "families_tagged": [
+        "DEPENDENCY_CONTROL",
+        "FORGERY"
+      ],
+      "modules": {
+        "GEO": "CONTEXT_ONLY",
+        "INFER": "PENDING_INDEPENDENT_VALIDATION",
+        "LEXSEM": "HYPOTHESES_NOT_TRANSLATION",
+        "MORPH": "REGISTRY_TAG_ONLY",
+        "PALEO": "METADATA_ONLY",
+        "TRACE": "DOCUMENTARY_METADATA"
+      },
+      "object_id": "IBR-CTL-0001",
+      "rules": [
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "BI-DISAMBIG-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "PALEO-RHOTIC-LOCK-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "ROK-DIRECTION-GUARD-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "EPISTEMIC-LAYER-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "SALIR",
+          "id": "SALIR-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-RECIPIENT-02",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KA_KE_KU",
+          "id": "KA-DIRECTION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KUTUR",
+          "id": "KUTUR-PROSPECTIVE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "BAIDES_BATIR",
+          "id": "BAIDES-BATIR-ROLE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "NUM_METRO",
+          "id": "NUM-7-8-9-EXACT",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "D_E_I",
+          "id": "DEDI-COMBINED-GATE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-SEGMENTATION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        }
+      ],
+      "scientific_state": "UNVERIFIED"
+    },
+    "IBR-CTL-0002": {
+      "automatic_core_promotion": false,
+      "evaluated_rules": [],
+      "families_tagged": [
+        "DEPENDENCY_CONTROL",
+        "FORGERY"
+      ],
+      "modules": {
+        "GEO": "CONTEXT_ONLY",
+        "INFER": "PENDING_INDEPENDENT_VALIDATION",
+        "LEXSEM": "HYPOTHESES_NOT_TRANSLATION",
+        "MORPH": "REGISTRY_TAG_ONLY",
+        "PALEO": "METADATA_ONLY",
+        "TRACE": "DOCUMENTARY_METADATA"
+      },
+      "object_id": "IBR-CTL-0002",
+      "rules": [
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "BI-DISAMBIG-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "PALEO-RHOTIC-LOCK-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "ROK-DIRECTION-GUARD-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "EPISTEMIC-LAYER-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "SALIR",
+          "id": "SALIR-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-RECIPIENT-02",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KA_KE_KU",
+          "id": "KA-DIRECTION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KUTUR",
+          "id": "KUTUR-PROSPECTIVE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "BAIDES_BATIR",
+          "id": "BAIDES-BATIR-ROLE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "NUM_METRO",
+          "id": "NUM-7-8-9-EXACT",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "D_E_I",
+          "id": "DEDI-COMBINED-GATE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-SEGMENTATION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        }
+      ],
+      "scientific_state": "UNVERIFIED"
+    },
+    "IBR-CTL-0003": {
+      "automatic_core_promotion": false,
+      "evaluated_rules": [],
+      "families_tagged": [
+        "DEPENDENCY_CONTROL",
+        "FORGERY"
+      ],
+      "modules": {
+        "GEO": "CONTEXT_ONLY",
+        "INFER": "PENDING_INDEPENDENT_VALIDATION",
+        "LEXSEM": "HYPOTHESES_NOT_TRANSLATION",
+        "MORPH": "REGISTRY_TAG_ONLY",
+        "PALEO": "METADATA_ONLY",
+        "TRACE": "DOCUMENTARY_METADATA"
+      },
+      "object_id": "IBR-CTL-0003",
+      "rules": [
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "BI-DISAMBIG-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "PALEO-RHOTIC-LOCK-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "ROK-DIRECTION-GUARD-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "EPISTEMIC-LAYER-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "SALIR",
+          "id": "SALIR-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-RECIPIENT-02",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KA_KE_KU",
+          "id": "KA-DIRECTION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KUTUR",
+          "id": "KUTUR-PROSPECTIVE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "BAIDES_BATIR",
+          "id": "BAIDES-BATIR-ROLE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "NUM_METRO",
+          "id": "NUM-7-8-9-EXACT",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "D_E_I",
+          "id": "DEDI-COMBINED-GATE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-SEGMENTATION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        }
+      ],
+      "scientific_state": "UNVERIFIED"
+    },
+    "IBR-LAP-0001": {
+      "automatic_core_promotion": false,
+      "evaluated_rules": [],
+      "families_tagged": [],
+      "modules": {
+        "GEO": "CONTEXT_ONLY",
+        "INFER": "PENDING_INDEPENDENT_VALIDATION",
+        "LEXSEM": "HYPOTHESES_NOT_TRANSLATION",
+        "MORPH": "REGISTRY_TAG_ONLY",
+        "PALEO": "METADATA_ONLY",
+        "TRACE": "DOCUMENTARY_METADATA"
+      },
+      "object_id": "IBR-LAP-0001",
+      "rules": [
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "BI-DISAMBIG-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "PALEO-RHOTIC-LOCK-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "ROK-DIRECTION-GUARD-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "EPISTEMIC-LAYER-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "SALIR",
+          "id": "SALIR-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-RECIPIENT-02",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KA_KE_KU",
+          "id": "KA-DIRECTION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KUTUR",
+          "id": "KUTUR-PROSPECTIVE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "BAIDES_BATIR",
+          "id": "BAIDES-BATIR-ROLE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "NUM_METRO",
+          "id": "NUM-7-8-9-EXACT",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "D_E_I",
+          "id": "DEDI-COMBINED-GATE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-SEGMENTATION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        }
+      ],
+      "scientific_state": "UNVERIFIED"
+    },
+    "IBR-LAP-0002": {
+      "automatic_core_promotion": false,
+      "evaluated_rules": [],
+      "families_tagged": [
+        "ICONO",
+        "NEITIN"
+      ],
+      "modules": {
+        "GEO": "CONTEXT_ONLY",
+        "INFER": "PENDING_INDEPENDENT_VALIDATION",
+        "LEXSEM": "HYPOTHESES_NOT_TRANSLATION",
+        "MORPH": "REGISTRY_TAG_ONLY",
+        "PALEO": "METADATA_ONLY",
+        "TRACE": "DOCUMENTARY_METADATA"
+      },
+      "object_id": "IBR-LAP-0002",
+      "rules": [
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "BI-DISAMBIG-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "PALEO-RHOTIC-LOCK-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "ROK-DIRECTION-GUARD-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "EPISTEMIC-LAYER-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "SALIR",
+          "id": "SALIR-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-RECIPIENT-02",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KA_KE_KU",
+          "id": "KA-DIRECTION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KUTUR",
+          "id": "KUTUR-PROSPECTIVE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "BAIDES_BATIR",
+          "id": "BAIDES-BATIR-ROLE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "NUM_METRO",
+          "id": "NUM-7-8-9-EXACT",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "D_E_I",
+          "id": "DEDI-COMBINED-GATE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-SEGMENTATION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        }
+      ],
+      "scientific_state": "UNVERIFIED"
+    },
+    "IBR-LAP-0003": {
+      "automatic_core_promotion": false,
+      "evaluated_rules": [],
+      "families_tagged": [
+        "EBAN_FAMILY",
+        "FUNERARY",
+        "SELTAR"
+      ],
+      "modules": {
+        "GEO": "CONTEXT_ONLY",
+        "INFER": "PENDING_INDEPENDENT_VALIDATION",
+        "LEXSEM": "HYPOTHESES_NOT_TRANSLATION",
+        "MORPH": "REGISTRY_TAG_ONLY",
+        "PALEO": "METADATA_ONLY",
+        "TRACE": "DOCUMENTARY_METADATA"
+      },
+      "object_id": "IBR-LAP-0003",
+      "rules": [
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "BI-DISAMBIG-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "PALEO-RHOTIC-LOCK-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "ROK-DIRECTION-GUARD-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "EPISTEMIC-LAYER-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "SALIR",
+          "id": "SALIR-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-RECIPIENT-02",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KA_KE_KU",
+          "id": "KA-DIRECTION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KUTUR",
+          "id": "KUTUR-PROSPECTIVE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "BAIDES_BATIR",
+          "id": "BAIDES-BATIR-ROLE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "NUM_METRO",
+          "id": "NUM-7-8-9-EXACT",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "D_E_I",
+          "id": "DEDI-COMBINED-GATE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-SEGMENTATION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        }
+      ],
+      "scientific_state": "UNVERIFIED"
+    },
+    "IBR-LAP-0004": {
+      "automatic_core_promotion": false,
+      "evaluated_rules": [],
+      "families_tagged": [
+        "EBAN_FAMILY"
+      ],
+      "modules": {
+        "GEO": "CONTEXT_ONLY",
+        "INFER": "PENDING_INDEPENDENT_VALIDATION",
+        "LEXSEM": "HYPOTHESES_NOT_TRANSLATION",
+        "MORPH": "REGISTRY_TAG_ONLY",
+        "PALEO": "METADATA_ONLY",
+        "TRACE": "DOCUMENTARY_METADATA"
+      },
+      "object_id": "IBR-LAP-0004",
+      "rules": [
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "BI-DISAMBIG-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "PALEO-RHOTIC-LOCK-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "ROK-DIRECTION-GUARD-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "EPISTEMIC-LAYER-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "SALIR",
+          "id": "SALIR-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-RECIPIENT-02",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KA_KE_KU",
+          "id": "KA-DIRECTION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KUTUR",
+          "id": "KUTUR-PROSPECTIVE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "BAIDES_BATIR",
+          "id": "BAIDES-BATIR-ROLE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "NUM_METRO",
+          "id": "NUM-7-8-9-EXACT",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "D_E_I",
+          "id": "DEDI-COMBINED-GATE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-SEGMENTATION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        }
+      ],
+      "scientific_state": "UNVERIFIED"
+    },
+    "IBR-LAP-0005": {
+      "automatic_core_promotion": false,
+      "evaluated_rules": [],
+      "families_tagged": [
+        "BILINGUAL",
+        "EBAN_FAMILY"
+      ],
+      "modules": {
+        "GEO": "CONTEXT_ONLY",
+        "INFER": "PENDING_INDEPENDENT_VALIDATION",
+        "LEXSEM": "HYPOTHESES_NOT_TRANSLATION",
+        "MORPH": "REGISTRY_TAG_ONLY",
+        "PALEO": "METADATA_ONLY",
+        "TRACE": "DOCUMENTARY_METADATA"
+      },
+      "object_id": "IBR-LAP-0005",
+      "rules": [
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "BI-DISAMBIG-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "PALEO-RHOTIC-LOCK-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "ROK-DIRECTION-GUARD-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "EPISTEMIC-LAYER-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "SALIR",
+          "id": "SALIR-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-RECIPIENT-02",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KA_KE_KU",
+          "id": "KA-DIRECTION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KUTUR",
+          "id": "KUTUR-PROSPECTIVE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "BAIDES_BATIR",
+          "id": "BAIDES-BATIR-ROLE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "NUM_METRO",
+          "id": "NUM-7-8-9-EXACT",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "D_E_I",
+          "id": "DEDI-COMBINED-GATE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-SEGMENTATION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        }
+      ],
+      "scientific_state": "UNVERIFIED"
+    },
+    "IBR-MON-0001": {
+      "automatic_core_promotion": false,
+      "evaluated_rules": [],
+      "families_tagged": [
+        "ERDER",
+        "NUMISMATIC"
+      ],
+      "modules": {
+        "GEO": "CONTEXT_ONLY",
+        "INFER": "PENDING_INDEPENDENT_VALIDATION",
+        "LEXSEM": "HYPOTHESES_NOT_TRANSLATION",
+        "MORPH": "REGISTRY_TAG_ONLY",
+        "PALEO": "METADATA_ONLY",
+        "TRACE": "DOCUMENTARY_METADATA"
+      },
+      "object_id": "IBR-MON-0001",
+      "rules": [
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "BI-DISAMBIG-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "PALEO-RHOTIC-LOCK-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "ROK-DIRECTION-GUARD-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "EPISTEMIC-LAYER-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "SALIR",
+          "id": "SALIR-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-RECIPIENT-02",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KA_KE_KU",
+          "id": "KA-DIRECTION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KUTUR",
+          "id": "KUTUR-PROSPECTIVE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "BAIDES_BATIR",
+          "id": "BAIDES-BATIR-ROLE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "NUM_METRO",
+          "id": "NUM-7-8-9-EXACT",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "D_E_I",
+          "id": "DEDI-COMBINED-GATE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-SEGMENTATION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        }
+      ],
+      "scientific_state": "UNVERIFIED"
+    },
+    "IBR-MUS-0001": {
+      "automatic_core_promotion": false,
+      "evaluated_rules": [],
+      "families_tagged": [
+        "EGIAR_EKIAR",
+        "LIKINE",
+        "MOSAIC"
+      ],
+      "modules": {
+        "GEO": "CONTEXT_ONLY",
+        "INFER": "PENDING_INDEPENDENT_VALIDATION",
+        "LEXSEM": "HYPOTHESES_NOT_TRANSLATION",
+        "MORPH": "REGISTRY_TAG_ONLY",
+        "PALEO": "METADATA_ONLY",
+        "TRACE": "DOCUMENTARY_METADATA"
+      },
+      "object_id": "IBR-MUS-0001",
+      "rules": [
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "BI-DISAMBIG-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "PALEO-RHOTIC-LOCK-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "ROK-DIRECTION-GUARD-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "EPISTEMIC-LAYER-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "SALIR",
+          "id": "SALIR-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-RECIPIENT-02",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KA_KE_KU",
+          "id": "KA-DIRECTION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KUTUR",
+          "id": "KUTUR-PROSPECTIVE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "BAIDES_BATIR",
+          "id": "BAIDES-BATIR-ROLE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "NUM_METRO",
+          "id": "NUM-7-8-9-EXACT",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "D_E_I",
+          "id": "DEDI-COMBINED-GATE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-SEGMENTATION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        }
+      ],
+      "scientific_state": "UNVERIFIED"
+    },
+    "IBR-MUS-0002": {
+      "automatic_core_promotion": false,
+      "evaluated_rules": [],
+      "families_tagged": [
+        "EGIAR_EKIAR",
+        "LIKINE",
+        "MOSAIC"
+      ],
+      "modules": {
+        "GEO": "CONTEXT_ONLY",
+        "INFER": "PENDING_INDEPENDENT_VALIDATION",
+        "LEXSEM": "HYPOTHESES_NOT_TRANSLATION",
+        "MORPH": "REGISTRY_TAG_ONLY",
+        "PALEO": "METADATA_ONLY",
+        "TRACE": "DOCUMENTARY_METADATA"
+      },
+      "object_id": "IBR-MUS-0002",
+      "rules": [
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "BI-DISAMBIG-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "PALEO-RHOTIC-LOCK-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "ROK-DIRECTION-GUARD-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "EPISTEMIC-LAYER-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "SALIR",
+          "id": "SALIR-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-RECIPIENT-02",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KA_KE_KU",
+          "id": "KA-DIRECTION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KUTUR",
+          "id": "KUTUR-PROSPECTIVE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "BAIDES_BATIR",
+          "id": "BAIDES-BATIR-ROLE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "NUM_METRO",
+          "id": "NUM-7-8-9-EXACT",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "D_E_I",
+          "id": "DEDI-COMBINED-GATE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-SEGMENTATION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        }
+      ],
+      "scientific_state": "UNVERIFIED"
+    },
+    "IBR-OBJ-0001": {
+      "automatic_core_promotion": false,
+      "evaluated_rules": [],
+      "families_tagged": [
+        "SIGNARY"
+      ],
+      "modules": {
+        "GEO": "CONTEXT_ONLY",
+        "INFER": "PENDING_INDEPENDENT_VALIDATION",
+        "LEXSEM": "HYPOTHESES_NOT_TRANSLATION",
+        "MORPH": "REGISTRY_TAG_ONLY",
+        "PALEO": "METADATA_ONLY",
+        "TRACE": "DOCUMENTARY_METADATA"
+      },
+      "object_id": "IBR-OBJ-0001",
+      "rules": [
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "BI-DISAMBIG-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "PALEO-RHOTIC-LOCK-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "ROK-DIRECTION-GUARD-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "EPISTEMIC-LAYER-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "SALIR",
+          "id": "SALIR-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-RECIPIENT-02",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KA_KE_KU",
+          "id": "KA-DIRECTION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KUTUR",
+          "id": "KUTUR-PROSPECTIVE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "BAIDES_BATIR",
+          "id": "BAIDES-BATIR-ROLE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "NUM_METRO",
+          "id": "NUM-7-8-9-EXACT",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "D_E_I",
+          "id": "DEDI-COMBINED-GATE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-SEGMENTATION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        }
+      ],
+      "scientific_state": "UNVERIFIED"
+    },
+    "IBR-OBJ-0002": {
+      "automatic_core_promotion": false,
+      "evaluated_rules": [],
+      "families_tagged": [
+        "SIGNARY"
+      ],
+      "modules": {
+        "GEO": "CONTEXT_ONLY",
+        "INFER": "PENDING_INDEPENDENT_VALIDATION",
+        "LEXSEM": "HYPOTHESES_NOT_TRANSLATION",
+        "MORPH": "REGISTRY_TAG_ONLY",
+        "PALEO": "METADATA_ONLY",
+        "TRACE": "DOCUMENTARY_METADATA"
+      },
+      "object_id": "IBR-OBJ-0002",
+      "rules": [
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "BI-DISAMBIG-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "PALEO-RHOTIC-LOCK-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "ROK-DIRECTION-GUARD-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "EPISTEMIC-LAYER-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "SALIR",
+          "id": "SALIR-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-RECIPIENT-02",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KA_KE_KU",
+          "id": "KA-DIRECTION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KUTUR",
+          "id": "KUTUR-PROSPECTIVE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "BAIDES_BATIR",
+          "id": "BAIDES-BATIR-ROLE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "NUM_METRO",
+          "id": "NUM-7-8-9-EXACT",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "D_E_I",
+          "id": "DEDI-COMBINED-GATE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-SEGMENTATION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        }
+      ],
+      "scientific_state": "UNVERIFIED"
+    },
+    "IBR-PLM-0001": {
+      "automatic_core_promotion": false,
+      "evaluated_rules": [],
+      "families_tagged": [
+        "BAIDES"
+      ],
+      "modules": {
+        "GEO": "CONTEXT_ONLY",
+        "INFER": "PENDING_INDEPENDENT_VALIDATION",
+        "LEXSEM": "HYPOTHESES_NOT_TRANSLATION",
+        "MORPH": "REGISTRY_TAG_ONLY",
+        "PALEO": "METADATA_ONLY",
+        "TRACE": "DOCUMENTARY_METADATA"
+      },
+      "object_id": "IBR-PLM-0001",
+      "rules": [
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "BI-DISAMBIG-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "PALEO-RHOTIC-LOCK-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "ROK-DIRECTION-GUARD-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "EPISTEMIC-LAYER-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "SALIR",
+          "id": "SALIR-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-RECIPIENT-02",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KA_KE_KU",
+          "id": "KA-DIRECTION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KUTUR",
+          "id": "KUTUR-PROSPECTIVE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "CANDIDATE_FROM_REGISTRY_TAGS",
+          "evidence_verified": false,
+          "family": "BAIDES_BATIR",
+          "id": "BAIDES-BATIR-ROLE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "NUM_METRO",
+          "id": "NUM-7-8-9-EXACT",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "D_E_I",
+          "id": "DEDI-COMBINED-GATE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-SEGMENTATION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        }
+      ],
+      "scientific_state": "UNVERIFIED"
+    },
+    "IBR-PLM-0002": {
+      "automatic_core_promotion": false,
+      "evaluated_rules": [],
+      "families_tagged": [
+        "QUANTIFIED",
+        "ROK",
+        "SALIR"
+      ],
+      "modules": {
+        "GEO": "CONTEXT_ONLY",
+        "INFER": "PENDING_INDEPENDENT_VALIDATION",
+        "LEXSEM": "HYPOTHESES_NOT_TRANSLATION",
+        "MORPH": "REGISTRY_TAG_ONLY",
+        "PALEO": "METADATA_ONLY",
+        "TRACE": "DOCUMENTARY_METADATA"
+      },
+      "object_id": "IBR-PLM-0002",
+      "rules": [
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "BI-DISAMBIG-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "PALEO-RHOTIC-LOCK-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "ROK-DIRECTION-GUARD-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "EPISTEMIC-LAYER-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "CANDIDATE_FROM_REGISTRY_TAGS",
+          "evidence_verified": false,
+          "family": "SALIR",
+          "id": "SALIR-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "CANDIDATE_FROM_REGISTRY_TAGS",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-RECIPIENT-02",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KA_KE_KU",
+          "id": "KA-DIRECTION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KUTUR",
+          "id": "KUTUR-PROSPECTIVE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "BAIDES_BATIR",
+          "id": "BAIDES-BATIR-ROLE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "NUM_METRO",
+          "id": "NUM-7-8-9-EXACT",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "D_E_I",
+          "id": "DEDI-COMBINED-GATE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "CANDIDATE_FROM_REGISTRY_TAGS",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-SEGMENTATION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        }
+      ],
+      "scientific_state": "UNVERIFIED"
+    },
+    "IBR-PLM-0003": {
+      "automatic_core_promotion": false,
+      "evaluated_rules": [],
+      "families_tagged": [
+        "BAN",
+        "KUTUR",
+        "ROK"
+      ],
+      "modules": {
+        "GEO": "CONTEXT_ONLY",
+        "INFER": "PENDING_INDEPENDENT_VALIDATION",
+        "LEXSEM": "HYPOTHESES_NOT_TRANSLATION",
+        "MORPH": "REGISTRY_TAG_ONLY",
+        "PALEO": "METADATA_ONLY",
+        "TRACE": "DOCUMENTARY_METADATA"
+      },
+      "object_id": "IBR-PLM-0003",
+      "rules": [
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "BI-DISAMBIG-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "PALEO-RHOTIC-LOCK-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "ROK-DIRECTION-GUARD-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "EPISTEMIC-LAYER-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "SALIR",
+          "id": "SALIR-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "CANDIDATE_FROM_REGISTRY_TAGS",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-RECIPIENT-02",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KA_KE_KU",
+          "id": "KA-DIRECTION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "CANDIDATE_FROM_REGISTRY_TAGS",
+          "evidence_verified": false,
+          "family": "KUTUR",
+          "id": "KUTUR-PROSPECTIVE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "BAIDES_BATIR",
+          "id": "BAIDES-BATIR-ROLE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "NUM_METRO",
+          "id": "NUM-7-8-9-EXACT",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "D_E_I",
+          "id": "DEDI-COMBINED-GATE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "CANDIDATE_FROM_REGISTRY_TAGS",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-SEGMENTATION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        }
+      ],
+      "scientific_state": "UNVERIFIED"
+    },
+    "IBR-PLM-0004": {
+      "automatic_core_promotion": false,
+      "evaluated_rules": [],
+      "families_tagged": [
+        "GRECO_IBERIAN",
+        "KA_KE_Q"
+      ],
+      "modules": {
+        "GEO": "CONTEXT_ONLY",
+        "INFER": "PENDING_INDEPENDENT_VALIDATION",
+        "LEXSEM": "HYPOTHESES_NOT_TRANSLATION",
+        "MORPH": "REGISTRY_TAG_ONLY",
+        "PALEO": "METADATA_ONLY",
+        "TRACE": "DOCUMENTARY_METADATA"
+      },
+      "object_id": "IBR-PLM-0004",
+      "rules": [
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "BI-DISAMBIG-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "PALEO-RHOTIC-LOCK-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "ROK-DIRECTION-GUARD-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "EPISTEMIC-LAYER-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "SALIR",
+          "id": "SALIR-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-RECIPIENT-02",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KA_KE_KU",
+          "id": "KA-DIRECTION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KUTUR",
+          "id": "KUTUR-PROSPECTIVE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "BAIDES_BATIR",
+          "id": "BAIDES-BATIR-ROLE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "NUM_METRO",
+          "id": "NUM-7-8-9-EXACT",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "D_E_I",
+          "id": "DEDI-COMBINED-GATE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-SEGMENTATION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        }
+      ],
+      "scientific_state": "UNVERIFIED"
+    },
+    "IBR-PLM-0005": {
+      "automatic_core_promotion": false,
+      "evaluated_rules": [],
+      "families_tagged": [
+        "ACCOUNTING",
+        "QUANTIFIED",
+        "SALIR"
+      ],
+      "modules": {
+        "GEO": "CONTEXT_ONLY",
+        "INFER": "PENDING_INDEPENDENT_VALIDATION",
+        "LEXSEM": "HYPOTHESES_NOT_TRANSLATION",
+        "MORPH": "REGISTRY_TAG_ONLY",
+        "PALEO": "METADATA_ONLY",
+        "TRACE": "DOCUMENTARY_METADATA"
+      },
+      "object_id": "IBR-PLM-0005",
+      "rules": [
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "BI-DISAMBIG-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "PALEO-RHOTIC-LOCK-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "ROK-DIRECTION-GUARD-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "EPISTEMIC-LAYER-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "CANDIDATE_FROM_REGISTRY_TAGS",
+          "evidence_verified": false,
+          "family": "SALIR",
+          "id": "SALIR-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-RECIPIENT-02",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KA_KE_KU",
+          "id": "KA-DIRECTION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KUTUR",
+          "id": "KUTUR-PROSPECTIVE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "BAIDES_BATIR",
+          "id": "BAIDES-BATIR-ROLE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "NUM_METRO",
+          "id": "NUM-7-8-9-EXACT",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "D_E_I",
+          "id": "DEDI-COMBINED-GATE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-SEGMENTATION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        }
+      ],
+      "scientific_state": "UNVERIFIED"
+    },
+    "IBR-PLM-0006": {
+      "automatic_core_promotion": false,
+      "evaluated_rules": [],
+      "families_tagged": [
+        "BAIDES",
+        "IKU",
+        "QUANTIFIED"
+      ],
+      "modules": {
+        "GEO": "CONTEXT_ONLY",
+        "INFER": "PENDING_INDEPENDENT_VALIDATION",
+        "LEXSEM": "HYPOTHESES_NOT_TRANSLATION",
+        "MORPH": "REGISTRY_TAG_ONLY",
+        "PALEO": "METADATA_ONLY",
+        "TRACE": "DOCUMENTARY_METADATA"
+      },
+      "object_id": "IBR-PLM-0006",
+      "rules": [
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "BI-DISAMBIG-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "PALEO-RHOTIC-LOCK-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "ROK-DIRECTION-GUARD-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "EPISTEMIC-LAYER-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "SALIR",
+          "id": "SALIR-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-RECIPIENT-02",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KA_KE_KU",
+          "id": "KA-DIRECTION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KUTUR",
+          "id": "KUTUR-PROSPECTIVE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "CANDIDATE_FROM_REGISTRY_TAGS",
+          "evidence_verified": false,
+          "family": "BAIDES_BATIR",
+          "id": "BAIDES-BATIR-ROLE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "NUM_METRO",
+          "id": "NUM-7-8-9-EXACT",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "D_E_I",
+          "id": "DEDI-COMBINED-GATE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-SEGMENTATION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        }
+      ],
+      "scientific_state": "UNVERIFIED"
+    },
+    "IBR-PLM-0007": {
+      "automatic_core_promotion": false,
+      "evaluated_rules": [],
+      "families_tagged": [
+        "KA_Q",
+        "METROLOGY",
+        "NUMERAL",
+        "QUANTIFIED"
+      ],
+      "modules": {
+        "GEO": "CONTEXT_ONLY",
+        "INFER": "PENDING_INDEPENDENT_VALIDATION",
+        "LEXSEM": "HYPOTHESES_NOT_TRANSLATION",
+        "MORPH": "REGISTRY_TAG_ONLY",
+        "PALEO": "METADATA_ONLY",
+        "TRACE": "DOCUMENTARY_METADATA"
+      },
+      "object_id": "IBR-PLM-0007",
+      "rules": [
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "BI-DISAMBIG-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "PALEO-RHOTIC-LOCK-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "ROK-DIRECTION-GUARD-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "EPISTEMIC-LAYER-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "SALIR",
+          "id": "SALIR-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-RECIPIENT-02",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KA_KE_KU",
+          "id": "KA-DIRECTION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KUTUR",
+          "id": "KUTUR-PROSPECTIVE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "BAIDES_BATIR",
+          "id": "BAIDES-BATIR-ROLE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "NUM_METRO",
+          "id": "NUM-7-8-9-EXACT",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "D_E_I",
+          "id": "DEDI-COMBINED-GATE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-SEGMENTATION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        }
+      ],
+      "scientific_state": "UNVERIFIED"
+    },
+    "IBR-PLM-0008": {
+      "automatic_core_promotion": false,
+      "evaluated_rules": [],
+      "families_tagged": [
+        "SIGNARY"
+      ],
+      "modules": {
+        "GEO": "CONTEXT_ONLY",
+        "INFER": "PENDING_INDEPENDENT_VALIDATION",
+        "LEXSEM": "HYPOTHESES_NOT_TRANSLATION",
+        "MORPH": "REGISTRY_TAG_ONLY",
+        "PALEO": "METADATA_ONLY",
+        "TRACE": "DOCUMENTARY_METADATA"
+      },
+      "object_id": "IBR-PLM-0008",
+      "rules": [
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "BI-DISAMBIG-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "PALEO-RHOTIC-LOCK-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "ROK-DIRECTION-GUARD-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "EPISTEMIC-LAYER-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "SALIR",
+          "id": "SALIR-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-RECIPIENT-02",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KA_KE_KU",
+          "id": "KA-DIRECTION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KUTUR",
+          "id": "KUTUR-PROSPECTIVE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "BAIDES_BATIR",
+          "id": "BAIDES-BATIR-ROLE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "NUM_METRO",
+          "id": "NUM-7-8-9-EXACT",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "D_E_I",
+          "id": "DEDI-COMBINED-GATE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-SEGMENTATION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        }
+      ],
+      "scientific_state": "UNVERIFIED"
+    },
+    "IBR-PLM-0009": {
+      "automatic_core_promotion": false,
+      "evaluated_rules": [],
+      "families_tagged": [
+        "GRECO_IBERIAN",
+        "IUNSTIR",
+        "SALIR"
+      ],
+      "modules": {
+        "GEO": "CONTEXT_ONLY",
+        "INFER": "PENDING_INDEPENDENT_VALIDATION",
+        "LEXSEM": "HYPOTHESES_NOT_TRANSLATION",
+        "MORPH": "REGISTRY_TAG_ONLY",
+        "PALEO": "METADATA_ONLY",
+        "TRACE": "DOCUMENTARY_METADATA"
+      },
+      "object_id": "IBR-PLM-0009",
+      "rules": [
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "BI-DISAMBIG-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "PALEO-RHOTIC-LOCK-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "ROK-DIRECTION-GUARD-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "EPISTEMIC-LAYER-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "CANDIDATE_FROM_REGISTRY_TAGS",
+          "evidence_verified": false,
+          "family": "SALIR",
+          "id": "SALIR-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-RECIPIENT-02",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KA_KE_KU",
+          "id": "KA-DIRECTION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KUTUR",
+          "id": "KUTUR-PROSPECTIVE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "BAIDES_BATIR",
+          "id": "BAIDES-BATIR-ROLE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "NUM_METRO",
+          "id": "NUM-7-8-9-EXACT",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "D_E_I",
+          "id": "DEDI-COMBINED-GATE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-SEGMENTATION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        }
+      ],
+      "scientific_state": "UNVERIFIED"
+    },
+    "IBR-PLM-0010": {
+      "automatic_core_promotion": false,
+      "evaluated_rules": [],
+      "families_tagged": [
+        "BAIDES",
+        "FUNERARY",
+        "GRECO_IBERIAN"
+      ],
+      "modules": {
+        "GEO": "CONTEXT_ONLY",
+        "INFER": "PENDING_INDEPENDENT_VALIDATION",
+        "LEXSEM": "HYPOTHESES_NOT_TRANSLATION",
+        "MORPH": "REGISTRY_TAG_ONLY",
+        "PALEO": "METADATA_ONLY",
+        "TRACE": "DOCUMENTARY_METADATA"
+      },
+      "object_id": "IBR-PLM-0010",
+      "rules": [
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "BI-DISAMBIG-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "PALEO-RHOTIC-LOCK-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "ROK-DIRECTION-GUARD-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "EPISTEMIC-LAYER-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "SALIR",
+          "id": "SALIR-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-RECIPIENT-02",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KA_KE_KU",
+          "id": "KA-DIRECTION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KUTUR",
+          "id": "KUTUR-PROSPECTIVE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "CANDIDATE_FROM_REGISTRY_TAGS",
+          "evidence_verified": false,
+          "family": "BAIDES_BATIR",
+          "id": "BAIDES-BATIR-ROLE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "NUM_METRO",
+          "id": "NUM-7-8-9-EXACT",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "D_E_I",
+          "id": "DEDI-COMBINED-GATE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-SEGMENTATION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        }
+      ],
+      "scientific_state": "UNVERIFIED"
+    },
+    "IBR-PLM-0011": {
+      "automatic_core_promotion": false,
+      "evaluated_rules": [],
+      "families_tagged": [],
+      "modules": {
+        "GEO": "CONTEXT_ONLY",
+        "INFER": "PENDING_INDEPENDENT_VALIDATION",
+        "LEXSEM": "HYPOTHESES_NOT_TRANSLATION",
+        "MORPH": "REGISTRY_TAG_ONLY",
+        "PALEO": "METADATA_ONLY",
+        "TRACE": "DOCUMENTARY_METADATA"
+      },
+      "object_id": "IBR-PLM-0011",
+      "rules": [
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "BI-DISAMBIG-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "PALEO-RHOTIC-LOCK-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "ROK-DIRECTION-GUARD-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "EPISTEMIC-LAYER-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "SALIR",
+          "id": "SALIR-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-RECIPIENT-02",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KA_KE_KU",
+          "id": "KA-DIRECTION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KUTUR",
+          "id": "KUTUR-PROSPECTIVE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "BAIDES_BATIR",
+          "id": "BAIDES-BATIR-ROLE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "NUM_METRO",
+          "id": "NUM-7-8-9-EXACT",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "D_E_I",
+          "id": "DEDI-COMBINED-GATE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-SEGMENTATION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        }
+      ],
+      "scientific_state": "UNVERIFIED"
+    },
+    "IBR-PLM-0012": {
+      "automatic_core_promotion": false,
+      "evaluated_rules": [],
+      "families_tagged": [
+        "GRECO_IBERIAN",
+        "METROLOGY",
+        "NAI",
+        "REUSE"
+      ],
+      "modules": {
+        "GEO": "CONTEXT_ONLY",
+        "INFER": "PENDING_INDEPENDENT_VALIDATION",
+        "LEXSEM": "HYPOTHESES_NOT_TRANSLATION",
+        "MORPH": "REGISTRY_TAG_ONLY",
+        "PALEO": "METADATA_ONLY",
+        "TRACE": "DOCUMENTARY_METADATA"
+      },
+      "object_id": "IBR-PLM-0012",
+      "rules": [
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "BI-DISAMBIG-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "PALEO-RHOTIC-LOCK-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "ROK-DIRECTION-GUARD-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "EPISTEMIC-LAYER-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "SALIR",
+          "id": "SALIR-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-RECIPIENT-02",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KA_KE_KU",
+          "id": "KA-DIRECTION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KUTUR",
+          "id": "KUTUR-PROSPECTIVE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "BAIDES_BATIR",
+          "id": "BAIDES-BATIR-ROLE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "NUM_METRO",
+          "id": "NUM-7-8-9-EXACT",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "D_E_I",
+          "id": "DEDI-COMBINED-GATE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-SEGMENTATION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        }
+      ],
+      "scientific_state": "UNVERIFIED"
+    },
+    "IBR-PLM-0013": {
+      "automatic_core_promotion": false,
+      "evaluated_rules": [],
+      "families_tagged": [
+        "KUTUR",
+        "VOTIVE"
+      ],
+      "modules": {
+        "GEO": "CONTEXT_ONLY",
+        "INFER": "PENDING_INDEPENDENT_VALIDATION",
+        "LEXSEM": "HYPOTHESES_NOT_TRANSLATION",
+        "MORPH": "REGISTRY_TAG_ONLY",
+        "PALEO": "METADATA_ONLY",
+        "TRACE": "DOCUMENTARY_METADATA"
+      },
+      "object_id": "IBR-PLM-0013",
+      "rules": [
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "BI-DISAMBIG-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "PALEO-RHOTIC-LOCK-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "ROK-DIRECTION-GUARD-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "EPISTEMIC-LAYER-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "SALIR",
+          "id": "SALIR-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-RECIPIENT-02",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KA_KE_KU",
+          "id": "KA-DIRECTION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "CANDIDATE_FROM_REGISTRY_TAGS",
+          "evidence_verified": false,
+          "family": "KUTUR",
+          "id": "KUTUR-PROSPECTIVE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "BAIDES_BATIR",
+          "id": "BAIDES-BATIR-ROLE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "NUM_METRO",
+          "id": "NUM-7-8-9-EXACT",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "D_E_I",
+          "id": "DEDI-COMBINED-GATE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-SEGMENTATION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        }
+      ],
+      "scientific_state": "UNVERIFIED"
+    },
+    "IBR-RUP-0001": {
+      "automatic_core_promotion": false,
+      "evaluated_rules": [],
+      "families_tagged": [
+        "SIGNARY"
+      ],
+      "modules": {
+        "GEO": "CONTEXT_ONLY",
+        "INFER": "PENDING_INDEPENDENT_VALIDATION",
+        "LEXSEM": "HYPOTHESES_NOT_TRANSLATION",
+        "MORPH": "REGISTRY_TAG_ONLY",
+        "PALEO": "METADATA_ONLY",
+        "TRACE": "DOCUMENTARY_METADATA"
+      },
+      "object_id": "IBR-RUP-0001",
+      "rules": [
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "BI-DISAMBIG-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "PALEO-RHOTIC-LOCK-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "ROK-DIRECTION-GUARD-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "EPISTEMIC-LAYER-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "SALIR",
+          "id": "SALIR-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-RECIPIENT-02",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KA_KE_KU",
+          "id": "KA-DIRECTION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KUTUR",
+          "id": "KUTUR-PROSPECTIVE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "BAIDES_BATIR",
+          "id": "BAIDES-BATIR-ROLE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "NUM_METRO",
+          "id": "NUM-7-8-9-EXACT",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "D_E_I",
+          "id": "DEDI-COMBINED-GATE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-SEGMENTATION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        }
+      ],
+      "scientific_state": "UNVERIFIED"
+    },
+    "IBR-RUP-0002": {
+      "automatic_core_promotion": false,
+      "evaluated_rules": [],
+      "families_tagged": [
+        "SIGNARY"
+      ],
+      "modules": {
+        "GEO": "CONTEXT_ONLY",
+        "INFER": "PENDING_INDEPENDENT_VALIDATION",
+        "LEXSEM": "HYPOTHESES_NOT_TRANSLATION",
+        "MORPH": "REGISTRY_TAG_ONLY",
+        "PALEO": "METADATA_ONLY",
+        "TRACE": "DOCUMENTARY_METADATA"
+      },
+      "object_id": "IBR-RUP-0002",
+      "rules": [
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "BI-DISAMBIG-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "PALEO-RHOTIC-LOCK-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "ROK-DIRECTION-GUARD-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "EPISTEMIC-LAYER-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "SALIR",
+          "id": "SALIR-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-RECIPIENT-02",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KA_KE_KU",
+          "id": "KA-DIRECTION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KUTUR",
+          "id": "KUTUR-PROSPECTIVE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "BAIDES_BATIR",
+          "id": "BAIDES-BATIR-ROLE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "NUM_METRO",
+          "id": "NUM-7-8-9-EXACT",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "D_E_I",
+          "id": "DEDI-COMBINED-GATE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-SEGMENTATION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        }
+      ],
+      "scientific_state": "UNVERIFIED"
+    },
+    "IBR-RUP-0003": {
+      "automatic_core_promotion": false,
+      "evaluated_rules": [],
+      "families_tagged": [
+        "SIGNARY"
+      ],
+      "modules": {
+        "GEO": "CONTEXT_ONLY",
+        "INFER": "PENDING_INDEPENDENT_VALIDATION",
+        "LEXSEM": "HYPOTHESES_NOT_TRANSLATION",
+        "MORPH": "REGISTRY_TAG_ONLY",
+        "PALEO": "METADATA_ONLY",
+        "TRACE": "DOCUMENTARY_METADATA"
+      },
+      "object_id": "IBR-RUP-0003",
+      "rules": [
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "BI-DISAMBIG-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "PALEO-RHOTIC-LOCK-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "ROK-DIRECTION-GUARD-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "EPISTEMIC-LAYER-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "SALIR",
+          "id": "SALIR-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-RECIPIENT-02",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KA_KE_KU",
+          "id": "KA-DIRECTION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KUTUR",
+          "id": "KUTUR-PROSPECTIVE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "BAIDES_BATIR",
+          "id": "BAIDES-BATIR-ROLE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "NUM_METRO",
+          "id": "NUM-7-8-9-EXACT",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "D_E_I",
+          "id": "DEDI-COMBINED-GATE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-SEGMENTATION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        }
+      ],
+      "scientific_state": "UNVERIFIED"
+    },
+    "IBR-RUP-0004": {
+      "automatic_core_promotion": false,
+      "evaluated_rules": [],
+      "families_tagged": [
+        "SIGNARY"
+      ],
+      "modules": {
+        "GEO": "CONTEXT_ONLY",
+        "INFER": "PENDING_INDEPENDENT_VALIDATION",
+        "LEXSEM": "HYPOTHESES_NOT_TRANSLATION",
+        "MORPH": "REGISTRY_TAG_ONLY",
+        "PALEO": "METADATA_ONLY",
+        "TRACE": "DOCUMENTARY_METADATA"
+      },
+      "object_id": "IBR-RUP-0004",
+      "rules": [
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "BI-DISAMBIG-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "PALEO-RHOTIC-LOCK-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "ROK-DIRECTION-GUARD-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "EPISTEMIC-LAYER-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "SALIR",
+          "id": "SALIR-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-RECIPIENT-02",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KA_KE_KU",
+          "id": "KA-DIRECTION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KUTUR",
+          "id": "KUTUR-PROSPECTIVE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "BAIDES_BATIR",
+          "id": "BAIDES-BATIR-ROLE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "NUM_METRO",
+          "id": "NUM-7-8-9-EXACT",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "D_E_I",
+          "id": "DEDI-COMBINED-GATE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-SEGMENTATION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        }
+      ],
+      "scientific_state": "UNVERIFIED"
+    },
+    "IBR-RUP-0005": {
+      "automatic_core_promotion": false,
+      "evaluated_rules": [],
+      "families_tagged": [
+        "SIGNARY"
+      ],
+      "modules": {
+        "GEO": "CONTEXT_ONLY",
+        "INFER": "PENDING_INDEPENDENT_VALIDATION",
+        "LEXSEM": "HYPOTHESES_NOT_TRANSLATION",
+        "MORPH": "REGISTRY_TAG_ONLY",
+        "PALEO": "METADATA_ONLY",
+        "TRACE": "DOCUMENTARY_METADATA"
+      },
+      "object_id": "IBR-RUP-0005",
+      "rules": [
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "BI-DISAMBIG-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "PALEO-RHOTIC-LOCK-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "ROK-DIRECTION-GUARD-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "GENERAL_GUARD_AVAILABLE",
+          "evidence_verified": false,
+          "family": null,
+          "id": "EPISTEMIC-LAYER-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "SALIR",
+          "id": "SALIR-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-RECIPIENT-02",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KA_KE_KU",
+          "id": "KA-DIRECTION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "KUTUR",
+          "id": "KUTUR-PROSPECTIVE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "BAIDES_BATIR",
+          "id": "BAIDES-BATIR-ROLE",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "NUM_METRO",
+          "id": "NUM-7-8-9-EXACT",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "D_E_I",
+          "id": "DEDI-COMBINED-GATE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        },
+        {
+          "applicability": "NOT_EVALUATED_FOR_OBJECT",
+          "evidence_verified": false,
+          "family": "ROK",
+          "id": "ROK-SEGMENTATION-PROSPECTIVE-01",
+          "rule_passed": null,
+          "semantic_translation_verified": false
+        }
+      ],
+      "scientific_state": "UNVERIFIED"
+    }
+  },
+  "schema": "IberOS-Web-Core-Audit/1.0",
+  "source": "src/iberos/object_rule_audit.py"
+}

@@ -1,0 +1,551 @@
+{
+  "cases": [
+    {
+      "figure": "22",
+      "figure_pdf_page": 65,
+      "glyph_positions_verified": [],
+      "historic_reading": "BITEROKETETINE",
+      "reference": "F.9.5",
+      "sequence": "Orleyl V-19",
+      "target_glyph_position": null,
+      "target_substring": "TE"
+    },
+    {
+      "figure": "25",
+      "figure_pdf_page": 111,
+      "glyph_positions_verified": [],
+      "historic_reading": "BITEROKETINE",
+      "reference": "F.9.7",
+      "sequence": "Orleyl VII-B 7",
+      "target_glyph_position": null,
+      "target_substring": "TE absent in editorial string"
+    }
+  ],
+  "comparison_index_reconciliation_2026_10_22": {
+    "authority_unchanged": [
+      "C594",
+      "C474",
+      "C539",
+      "C541"
+    ],
+    "comparison_index_to_editorial_sequence_index": {
+      "1": 3,
+      "2": 4,
+      "3": 5,
+      "4": 6,
+      "5": 7,
+      "6": 8,
+      "7": 9,
+      "8": 10
+    },
+    "comparison_substring": [
+      "BI",
+      "TE",
+      "R",
+      "O",
+      "KE",
+      "TI",
+      "N",
+      "E"
+    ],
+    "eligible_for_core_execution": false,
+    "fletcher_bas_boundary": "BAS may belong to the preceding word; sequence numbering does not decide segmentation.",
+    "full_editorial_sequence": [
+      "BA",
+      "S",
+      "BI",
+      "TE",
+      "R",
+      "O",
+      "KE",
+      "TI",
+      "N",
+      "E"
+    ],
+    "index_basis": "EDITORIAL_TOKEN_ORDER_ONLY_NOT_VISUAL_SIGN_IDENTIFICATION",
+    "individual_sign_identifications_verified": false,
+    "legacy_coordinate_warning": "The 17-sign CSV boxes are preserved for traceability only. Their raster provenance and alignment to the ten-unit candidate block remain unverified. Do not transplant coordinates or infer bounds from the index offset.",
+    "photo_confirmed": false,
+    "prefix_without_comparison_boxes": [
+      "BA",
+      "S"
+    ],
+    "project": "IberOS — Esteban Molina Ruiz"
+  },
+  "drawing_inspected_at_overview_level": true,
+  "edition": {
+    "author": "Domingo Fletcher Valls",
+    "comparison_location": "PDF p.89 (printed p.88), Orleyl V-19; VII-B-7 discussion in PDF approximately p.114 (printed p.113); verify pagination per viewer",
+    "source_url": "https://mupreva.org/dedalo/media/pdf/publicaciones/standar/mupreva194_mupreva153_101.pdf",
+    "title": "Los plomos escritos (Orleyl V, VI y VII)",
+    "year": 1981
+  },
+  "editorial_alignment_v2": {
+    "critical_note": "The edited word has ŕ, while Fletcher's upper-case transcription writes R. Do not use unaccented string matching to assert graphic sign identity.",
+    "editorial_line_numbers_are_not_physical_rows": true,
+    "eligible_for_core_execution": false,
+    "image_coordinates": null,
+    "next_check": "Identify visually the two flanking separators, then annotate individual signs on the complete figure 25; retain unverified status until image evidence.",
+    "orientation": "ROTATED_180_DEGREES_ORIENTED_FOR_READING",
+    "physical_row": null,
+    "primary_source": {
+      "author": "Domingo Fletcher Valls",
+      "comment": "Fletcher explicitly contrasts -TINE here with -TETINE in Orleyl V-19",
+      "reading": "BASBITEROKETINE",
+      "reference": "Orleyl VII-B-7",
+      "url": "https://mupreva.org/dedalo/media/pdf/publicaciones/standar/mupreva194_mupreva153_101.pdf",
+      "year": 1981
+    },
+    "secondary_source": {
+      "attribution": "Rodríguez Ramos (2005), transcription reproduced in Zaragoza TFM (2014), p. 107",
+      "context": "areŕe : kutuboike : basbiteŕoketine : iŕika :",
+      "url": "https://zaguan.unizar.es/record/31144/files/TAZ-TFM-2014-595.pdf"
+    },
+    "segmentation_hypotheses": [
+      "BAS|BITEROKE|TINE (editorial analytical option only)",
+      "(previous word + BAS)|BITEROKE|TINE (Fletcher's stated alternative at VII-B-7)"
+    ],
+    "segmentation_note": "The additional -TE- is attested editorially in V-19, not VII-B-7; earlier hypothetical VII-B 'bas|biteŕoke|te|tine' was an invalid conflation of testimonies and is retired. Fletcher explicitly cautions BAS may be the end of the preceding word despite dotted separation.",
+    "status": "TEXTUAL_ALIGNMENT_CONFIRMED_GLYPH_ALIGNMENT_PENDING",
+    "target_anchor_after": "iŕika",
+    "target_anchor_before": "kutuboike",
+    "target_word": "basbiteŕoketine",
+    "te_morpheme_confirmed": false
+  },
+  "eligible_for_core_execution": false,
+  "exact_glyph_coordinates_verified": false,
+  "figure25_candidate_mapping": {
+    "annotated_image_local_only": "orleyl_vii_b_line_candidate_annotated.png",
+    "candidate_physical_row": 2,
+    "candidate_row_status": "CONFIRMED_BY_FLETCHER_LINE_2_EDITORIAL_TRANSCRIPTION_NOT_GLYPH_VERIFIED",
+    "figure_rights_for_redistribution_verified": false,
+    "glyph_sequence_bounds_verified": false,
+    "historical_element_numbers": "VII-B 6 and 7 are sequence/item numbers, not physical line numbers",
+    "physical_rows_visible": 5,
+    "source": "Fletcher Valls 1981 figure 25; secondary transcription Rodríguez Ramos (2005) quoted in Zaragoza TFM (2014), p.107",
+    "te_absence_graphically_verified": false,
+    "transcription_context": "areŕe : kutuboike : basbiteŕoketine : iŕika"
+  },
+  "figure25_line2_coordinate_grid_check_2026_10_20": {
+    "basis": "Direct pixel-coordinate overlay on user PDF Fletcher 1981 fig 25, 2.5x, 90 clockwise; original rotated bitmap 1906x1439",
+    "core_gate": "OPEN",
+    "finding": "Approximate vertical-dot delimiters of target editorial block at x≈979 and x≈1402; alternative x≈862 and x≈1185 are within the preceding/target sign runs and were rejected upon coordinate-overlay inspection",
+    "observed_graphic_units": "approximately ten between the candidate dividers; grouping individual complex glyph strokes remains to be checked",
+    "photo_verified": false,
+    "reviewed_x": [
+      752,
+      862,
+      979,
+      1185,
+      1402,
+      1602
+    ],
+    "status": "CANDIDATE_DELIMITERS_SUPPORTED_BY_PIXEL_OVERLAY_NOT_SIGN_LEVEL_PROOF",
+    "target_bbox_candidate_xyxy": [
+      979,
+      554,
+      1402,
+      614
+    ],
+    "target_syllabic_sign_count_expected": 10,
+    "te_absence_verified": false
+  },
+  "figure25_line2_group_candidates_2026_10_19": {
+    "boxes_xyxy_px": [
+      {
+        "bbox": [
+          664,
+          549,
+          855,
+          617
+        ],
+        "reading": "CUDUBOIKE"
+      },
+      {
+        "bbox": [
+          866,
+          549,
+          1239,
+          617
+        ],
+        "reading": "BASBITEROKETINE"
+      },
+      {
+        "bbox": [
+          1250,
+          549,
+          1608,
+          617
+        ],
+        "reading": "IRICA"
+      }
+    ],
+    "glyphs_individually_verified": false,
+    "line": 2,
+    "note": "Review of full line-2 figure against Fletcher PDF p.110 reveals that the CUDUBOIKE candidate box starts too far right and omits initial strokes/signs. Previous group boxes must not be used as verified group boundaries; target and right-hand box boundaries also remain hypotheses pending individual separator-to-sign collation.",
+    "orientation": "ROTATE_90_CLOCKWISE",
+    "photo_plate_XXII_glyphs_verified": false,
+    "render_scale": 2.5,
+    "rendered_dimensions_px": [
+      1906,
+      1439
+    ],
+    "semantic_gate": "OPEN",
+    "separator_points": "VISIBLE_IN_DRAWING; precise association provisional",
+    "source": "User-supplied Fletcher 1981 PDF, page 111 fig 25; transliteration PDF page 110",
+    "source_pdf_sha256": "cc8e110f12d8047567e30ee6344a345e599ee55638450b78e22bccfbbc9c6551",
+    "status": "SUPERSEDED_PARTIALLY_INVALID_BLOCK_BOUNDARIES"
+  },
+  "figure25_line2_reassessment_2026_10_19": {
+    "editorial_sequence": [
+      "preceding editorial element (partially unclear in PDF text extraction)",
+      "CUDUBOIKE",
+      "BASBITEROKETINE",
+      "IRICA"
+    ],
+    "glyphs_verified": false,
+    "new_coordinates_verified": false,
+    "next_action": "Re-annotate full row including all initial signs and each vertical-dot cluster. Match boundary signs to Fletcher syllabic sequence and photograph before accepting any box.",
+    "observed": "Visible vertical-dot separator clusters in drawn line 2; per-cluster identity and exact pixel boxes not yet independently confirmed",
+    "photo_verified": false,
+    "prior_bbox_warning": "The prior CUDUBOIKE box [664,549,855,617] excludes its initial graphic portion; do not use these previous bounds as evidence",
+    "semantic_gate": "OPEN",
+    "source": "Uploaded primary Fletcher PDF, PDF pp.110-111",
+    "verified_level": "EDITORIAL_ORDER_AND_ROW_ONLY"
+  },
+  "figure25_line2_separator_audit_v2": {
+    "candidate_separator_x": [
+      752,
+      979,
+      1402,
+      1602
+    ],
+    "candidate_target_x_range": [
+      979,
+      1402
+    ],
+    "editorial_line_2": [
+      "initial group (uncertain)",
+      "CUDUBOIKE",
+      "BASBITEROKETINE",
+      "IRICA"
+    ],
+    "eligible_for_core_execution": false,
+    "observation": "Dots-like marks at four proposed vertical boundaries visible in Fletcher drawing; row-neighbor traces remain in the wide context strip.",
+    "pdf_sha256": "cc8e110f12d8047567e30ee6344a345e599ee55638450b78e22bccfbbc9c6551",
+    "photo_verified": false,
+    "provisional": true,
+    "raster": {
+      "context_bbox_xyxy": [
+        395,
+        530,
+        1720,
+        635
+      ],
+      "dimensions_px": [
+        1906,
+        1439
+      ],
+      "rotation_degrees_clockwise": 90,
+      "scale": 2.5
+    },
+    "retired_group_boxes_source": "figure25_line2_group_candidates_2026_10_19",
+    "sign_by_sign_verified": false,
+    "source": "User supplied Fletcher 1981 PDF p.111 fig25 and p.110 complete transcription",
+    "status": "VISUAL_SEPARATOR_CANDIDATES_WITH_EDITORIAL_ALIGNMENT",
+    "target_between_separator_candidates": [
+      "S2",
+      "S3"
+    ],
+    "te_glyph_absence_verified": false
+  },
+  "figure25_ten_candidate_units_2026_10_20": {
+    "core_gate": "OPEN",
+    "fletcher_editorial_labels": [
+      "BA",
+      "S",
+      "BI",
+      "TE",
+      "R",
+      "O",
+      "KE",
+      "TI",
+      "N",
+      "E"
+    ],
+    "image_group_candidate_x": [
+      979,
+      1402
+    ],
+    "individual_sign_identifications_verified": false,
+    "notes": "Numbering is an alignment scaffold, not a positive sign identification; source image drawing only; no TE morphological conclusion.",
+    "photo_confirmed": false,
+    "render": {
+      "dimensions_px": [
+        1906,
+        1439
+      ],
+      "figure": 25,
+      "page": 111,
+      "rotation": "90_CLOCKWISE",
+      "scale": 2.5
+    },
+    "source_pdf_sha256": "cc8e110f12d8047567e30ee6344a345e599ee55638450b78e22bccfbbc9c6551",
+    "status": "TEN_CANDIDATE_DRAWN_UNITS_NUMBERED_NOT_PALEOGRAPHICALLY_VALIDATED",
+    "unit_count": 10,
+    "x_centers_approx": [
+      1005,
+      1027,
+      1057,
+      1095,
+      1139,
+      1188,
+      1221,
+      1270,
+      1332,
+      1372
+    ]
+  },
+  "figure_25_inspection": {
+    "finding": "Fletcher's transcription on PDF p.110 assigns BASBITEROKETINE to physical line 2 of VII-B; sign-level attribution remains pending. Earlier five bands use another raster, so coordinates must not be transplanted.",
+    "inspection_bands": [
+      {
+        "mapped_to_fletcher_element_7": false,
+        "visual_row": 1,
+        "x_range_px": [
+          480,
+          2175
+        ],
+        "y_range_px": [
+          580,
+          667
+        ]
+      },
+      {
+        "mapped_to_fletcher_element_7": false,
+        "visual_row": 2,
+        "x_range_px": [
+          480,
+          2175
+        ],
+        "y_range_px": [
+          652,
+          733
+        ]
+      },
+      {
+        "mapped_to_fletcher_element_7": false,
+        "visual_row": 3,
+        "x_range_px": [
+          480,
+          2175
+        ],
+        "y_range_px": [
+          722,
+          807
+        ]
+      },
+      {
+        "mapped_to_fletcher_element_7": false,
+        "visual_row": 4,
+        "x_range_px": [
+          480,
+          2175
+        ],
+        "y_range_px": [
+          795,
+          884
+        ]
+      },
+      {
+        "mapped_to_fletcher_element_7": false,
+        "visual_row": 5,
+        "x_range_px": [
+          480,
+          2175
+        ],
+        "y_range_px": [
+          872,
+          978
+        ]
+      }
+    ],
+    "orientation": "ORIENTED_FOR_READING",
+    "publication_rights_checked": false,
+    "sign_by_sign_verification": false,
+    "source_image_dimensions_px": [
+      2287,
+      1727
+    ],
+    "visual_sequence_assigned": false
+  },
+  "fletcher_line2_2026_10_19": {
+    "basis": "Original PDF user supplied; Fletcher 1981, PDF p.110 transcription, fig.25 PDF p.111",
+    "core_promotion": false,
+    "editorial_items": [
+      "VII-B-6 CUDUBOIKE",
+      "VII-B-7 BASBITEROKETINE",
+      "VII-B-8 IRICA"
+    ],
+    "graphic_row": 2,
+    "photo_page": 158,
+    "raster_local": {
+      "dimensions_px": [
+        1906,
+        1439
+      ],
+      "exclusive_line_bounds_verified": false,
+      "inspection_bbox_xyxy_px": [
+        410,
+        554,
+        1710,
+        614
+      ],
+      "orientation": "90_CLOCKWISE",
+      "source_render_scale": 2.5
+    },
+    "separator_before_bas_verified": false,
+    "sign_coordinates_verified": false,
+    "status": "PHYSICAL_ROW_2_EDITORIALLY_CONFIRMED_SIGN_POSITIONS_PENDING"
+  },
+  "image_quality_control": {
+    "corrected_full_figure": {
+      "caption_legible": true,
+      "complete_inscribed_field_visible": true,
+      "correction": "ROTATED_180_DEGREES",
+      "figure": "25, Orleyl VII-B",
+      "glyph_to_text_line_mapping_complete": false,
+      "license_for_web_redistribution_verified": false,
+      "previous_orientation": "UPSIDE_DOWN",
+      "source": "Fletcher Valls (1981), fig.25"
+    },
+    "observation": "The previous Orleyl VII-B line crop contains mostly blank space and does not reproduce enough glyphs to check the proposed TE absence.",
+    "previous_crop_may_be_used_as_evidence": false,
+    "required_remediation": [
+      "Re-identify exact line on figure 25 from published sign numbering rather than guessed image row",
+      "Crop the complete relevant sequence with context on both sides",
+      "Map each glyph and divider to a source figure pixel coordinate and edition transliteration",
+      "Compare independently with figure 22 and later readings"
+    ],
+    "review_status": "FIVE_VISIBLE_ROWS_ISOLATED_TARGET_GLYPHS_NOT_IDENTIFIED",
+    "reviewer_independent": false,
+    "usable_overview": "Fletcher figures 22 and 25 show inscriptions at overview scale, but target TE glyphs have not been aligned to exact positions."
+  },
+  "independent_visual_silhouette_review_2026_10_20": {
+    "count": 10,
+    "figure25_pdf_page": 111,
+    "neutral_silhouettes": [
+      "near-vertical stroke",
+      "angular zigzag",
+      "upright with curved loop",
+      "four-section quadrilateral cluster",
+      "diamond head descending stem",
+      "two uprights joined diagonally",
+      "angular sign with triangular interior",
+      "three uprights joined by lower bar with extending center",
+      "two uprights joined diagonally",
+      "forked vertical with oblique branches"
+    ],
+    "next_gate": "Compare independent signary variants and sign-level drawing/photo coordinates; do not claim TE function.",
+    "photo_independent_sign_mapping": false,
+    "photo_plateXXII_pdf_page": 158,
+    "photo_warning": "Published halftone has heavy damage and opposite-face show-through described by Fletcher; no clean photo-to-drawing 1:1 match achieved",
+    "sign_identity_independently_confirmed": false,
+    "source_pdf_sha256": "cc8e110f12d8047567e30ee6344a345e599ee55638450b78e22bccfbbc9c6551",
+    "status": "TEN_VISIBLE_SHAPES_EDITORIAL_LABELS_NOT_INDEPENDENTLY_CONFIRMED",
+    "target_candidate_bbox_xyxy": [
+      979,
+      554,
+      1402,
+      614
+    ],
+    "transcription_pdf_page": 110
+  },
+  "modern_readings_independently_verified": false,
+  "notice": "The case object id is a placeholder link to the curated Orleyl record and must not be used to identify both inscribed objects until their IDs are independently reconciled.",
+  "primary_source_new_check_2026_10_19": {
+    "effect": "SEGMENTATION_AMBIGUITY_REGISTERED",
+    "locator": "VII-B-7.-BASBITEROKETINE",
+    "quotation_summary": "Fletcher questions whether BAS belongs to the previous word despite a vertical dotted divider; identifies -BITEROKE parallel in V-19 and 41, and -TINE versus V-19 -TETINE.",
+    "source": "https://mupreva.org/web_mupreva_dedalo/publicaciones/101/va",
+    "verified_from_indexed_edition_text": true,
+    "visual_position_verified": false
+  },
+  "protocol": "ROK-RECIPIENT-02",
+  "recipient_semantics_confirmed": false,
+  "required_checks": [
+    "Match each sign to exact line and image coordinates",
+    "Record visual alternative readings and damaged signs",
+    "Distinguish original ink/strokes from editorial drawings",
+    "Compare normalized modern editions at same sign positions",
+    "Independent expert checks segmentation"
+  ],
+  "schema": "IberOS-Orleyl-TE-Glyph-Review/1.0",
+  "source_raster_reconciliation_v3": {
+    "access_check_2026_10_19": {
+      "online_primary_pdf_retrieval": "TIMEOUT",
+      "repository_image_files_matching_orleyl": "NONE_IN_MAIN_TREE",
+      "visual_glyph_verification_performed_now": false
+    },
+    "gate": "OPEN",
+    "historical_candidate_regions": [
+      {
+        "bbox_xyxy_px": [
+          0,
+          431,
+          1296,
+          495
+        ],
+        "object": "Orleyl V",
+        "orientation": "ROTATED_90_CLOCKWISE",
+        "pdf_page": 65,
+        "photo_pdf_page": 153,
+        "raster_dimensions_px": [
+          1296,
+          979
+        ],
+        "reference": "line 3",
+        "source_figure": 22,
+        "status": "CANDIDATE_REGION_MULTIROW"
+      },
+      {
+        "bbox_xyxy_px": [
+          0,
+          368,
+          1296,
+          440
+        ],
+        "object": "Orleyl VII-B",
+        "orientation": "ROTATED_90_CLOCKWISE",
+        "pdf_page": 111,
+        "photo_pdf_page": 158,
+        "raster_dimensions_px": [
+          1296,
+          979
+        ],
+        "reference": "line 2",
+        "source_figure": 25,
+        "status": "CANDIDATE_REGION_WITH_NEIGHBOR"
+      }
+    ],
+    "independent_photographic_comparison": false,
+    "modern_figure25_bands": {
+      "coordinate_frame_compatible_with_historical_regions": false,
+      "dimensions_px": [
+        2287,
+        1727
+      ],
+      "orientation": "ORIENTED_FOR_READING",
+      "source_field": "figure_25_inspection.inspection_bands"
+    },
+    "provenance": "docs/ROK_ORLEYL_RASTER_LINE_AUDIT_2026-10-14.md; docs/ROK_ORLEYL_PRIMARY_EDITION_COLLATION_2026-10-14.md",
+    "rules": [
+      "Never transplant pixel coordinates between differently scaled or rotated rasters",
+      "Historical regions are explicitly non-exclusive and include neighboring signs/rows",
+      "Confirm target dividers and rótica on the actual figure before assigning any sign position",
+      "No TE morphological or recipient semantic promotion without independent review"
+    ],
+    "status": "HISTORIC_CROPS_ARE_CANDIDATE_REGIONS_NOT_VERIFIED_GLYPHS"
+  },
+  "te_morpheme_confirmed": false
+}

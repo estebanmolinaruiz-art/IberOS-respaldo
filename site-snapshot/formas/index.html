@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="es"><head><meta name="robots" content="noindex,nofollow"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Formas y variantes documentales | IberOS</title>
+<meta name="description" content="Explorador experimental de lecturas y variantes editoriales ibéricas; evidencia y límites documentales explícitos.">
+<link rel="stylesheet" href="../assets/iberos-plus.css">
+<style>
+.ib-forms-shell{max-width:1150px;margin:24px auto;padding:0 16px 45px;color:#17384a}
+.ib-forms-shell h2{font:700 clamp(1.5rem,3vw,2.1rem) Georgia,serif}
+.ib-forms-panel{border:1px solid #bca073;background:#fff8e9;border-radius:12px;padding:clamp(16px,3vw,28px);margin:16px 0}
+.ib-forms-search{display:flex;gap:10px;flex-wrap:wrap;margin:15px 0}.ib-forms-search input{flex:1;min-width:220px;padding:12px;border-radius:6px;border:1px solid #a88c60;font:1rem system-ui}
+.ib-forms-result{border:1px solid #c7ac82;border-radius:9px;background:#f2e6cd;padding:15px;margin:12px 0}
+.ib-forms-result h3{margin:2px 0 7px;font:700 1.28rem Georgia,serif}
+.ib-forms-meta{font:.85rem system-ui;color:#4d555c}
+.ib-forms-result code{overflow-wrap:anywhere;color:#14384a}
+.ib-forms-actions{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0}
+.ib-forms-actions a{color:#0d4e69;font-weight:700}
+.ib-forms-note{background:#f7edd7;border-left:4px solid #a57334;padding:12px 15px;line-height:1.6}
+</style></head>
+<body class="iberos-inner"><div id="head"></div>
+<section class="hero"><div class="hero-inner"><div class="eyebrow">WEB-06 · Cotejo documental</div><h1>Formas y <em>variantes editoriales</em></h1><p>Busca formas registradas en testimonios concretos. Una coincidencia escrita no establece una traducción, una identidad paleográfica ni un testimonio independiente.</p></div></section>
+<main class="ib-forms-shell">
+<section class="ib-forms-panel" aria-labelledby="cross-title" id="indice-transversal">
+<h2 id="cross-title">WEB-07 · Comparación entre testimonios</h2>
+<p>Índice documental limitado a cinco piezas con menciones de <strong>ekiar / ekien</strong> y <strong>śalir / śalirg / śalibos</strong>. Se distingue entre una forma citada como lectura editorial y una relación formal propuesta. No incluye todo el corpus ni acredita traducciones o cotejos paleográficos independientes.</p>
+<label for="crossQuery"><strong>Consultar una forma registrada</strong></label>
+<div class="ib-forms-search"><input type="search" id="crossQuery" placeholder="ekiar, ekien, śalir, śalirg…" autocomplete="off"><button class="btn gold" id="crossSearch" type="button">Comparar</button></div>
+<p class="ib-forms-meta">La coincidencia busca exactamente en el campo de formas registradas, no en paráfrasis o hipótesis. Separamos menciones editoriales, variantes y comparaciones que no son lectura literal.</p><label for="crossEvidence"><strong>Tipo de evidencia</strong></label><select id="crossEvidence" aria-label="Filtrar tipo de evidencia"><option value="all">Todas las anotaciones</option><option value="EDITORIAL_FORM_UNCOLLATED">Formas en lecturas editoriales</option><option value="EDITORIAL_VARIANT_UNCOLLATED">Variantes editoriales</option><option value="FORMAL_COMPARISON_NOT_ATTESTED">Comparaciones formales, no atestiguadas</option></select><p class="ib-forms-meta" id="crossGate">Cotejos independientes de grafemas: pendiente de comprobación.</p>
+<p id="crossSummary" aria-live="polite" role="status">Preparando testimonios documentales…</p>
+<div id="crossResults"></div>
+<details><summary>Alcance de este índice y datos originales</summary>
+<p>Los cinco objetos ya forman parte del Corpus de IberOS. WEB-09 incorpora localizadores de edición cuando están sustentados: página o línea editorial no significan fotografía de signos cotejada. Villares V y La Serreta mantienen pasos documentales pendientes. Las mismas publicaciones citadas varias veces no cuentan como pruebas nuevas.</p>
+<a href="../data/form-witnesses-v1.json">Descargar registro documental WEB-07 (JSON) →</a><p><a href="../cotejo-villares-v/">WEB-11 · Matriz de 14 líneas de Villares V (museo frente a edición de 2024) →</a></p><p><a href="../cotejo-signos/">CORE-VIS-02 · La Serreta B1 y Villares A3: lecturas y fuentes gráficas originales →</a></p>
+</details></section>
+<section class="ib-forms-panel" aria-labelledby="scope-title"><h2 id="scope-title">Archivo experimental de variantes</h2>
+<p>Primera incorporación: <strong>La Serreta</strong>, un solo objeto físico (IBR-PLM-0009) con siete cotejos editoriales pendientes de verificación individual de signos mediante fotografía. El total de variantes <strong>no</strong> equivale a objetos ni evidencias independientes.</p>
+<label for="formQuery"><strong>Buscar lectura moderna o variante histórica</strong></label>
+<div class="ib-forms-search"><input id="formQuery" type="search" placeholder="Por ejemplo: śalirg, SALIRIG, orti" autocomplete="off"><button class="btn gold" id="formSearch" type="button">Buscar</button></div>
+<p class="ib-forms-meta">Comparación textual literal sin equivalencias fonéticas automáticas. Coincidencias parciales posibles; no se busca todavía en todo el corpus.</p>
+<p id="formSummary" role="status" aria-live="polite">Cargando índice documental…</p><div id="formResults"></div>
+</section>
+<section class="ib-forms-panel"><h2>Procedencia y límites</h2><p id="formProvenance">Consultando registro original de variantes…</p>
+<div class="ib-forms-note"><strong>Regla científica:</strong> una lectura editorial anotada no equivale a un signo cotejado independientemente. No se incorporan nuevas reglas semánticas al Core por estas búsquedas. Consulta siempre las publicaciones originales y las verificaciones pendientes.</div>
+<div class="ib-forms-actions"><a href="../ficha/?id=IBR-PLM-0009">Ficha de La Serreta</a><a href="../data/serreta-variants-v1.json">Datos originales (JSON)</a><a href="../corpus/">Corpus general</a></div></section>
+</main>
+<script type="module">
+import {header} from "../assets/portal-data.js";
+document.getElementById("head").innerHTML=header("../");
+const field=document.getElementById("formQuery"),results=document.getElementById("formResults"),summary=document.getElementById("formSummary"),provenance=document.getElementById("formProvenance");
+let dataset=null;
+function el(tag,cls,text){const n=document.createElement(tag);if(cls)n.className=cls;if(text!==undefined)n.textContent=text;return n}
+function para(parent,label,value){const p=el("p");const b=el("strong",null,label+": ");p.append(b,document.createTextNode(value));parent.append(p)}
+function normalized(v){return String(v||"").trim().normalize("NFC").toLocaleLowerCase("es")}
+function render(){
+ if(!dataset)return;
+ const query=normalized(field.value);
+ const hits=dataset.variants.filter(v=>!query||[v.modern,...v.historical].some(x=>normalized(x).includes(query)));
+ results.replaceChildren();
+ summary.textContent=hits.length+" cotejo"+(hits.length===1?"":"s")+" editorial"+(hits.length===1?"":"es")+" encontrado"+(hits.length===1?"":"s")+" (1 objeto físico como máximo).";
+ if(!hits.length){results.append(el("p","ib-forms-note","No consta esta forma en el índice editorial limitado de La Serreta. No significa que esté ausente del resto del corpus."));return}
+ for(const v of hits){
+  const card=el("article","ib-forms-result");card.append(el("h3",null,v.modern));
+  para(card,"Pasaje",v.line);para(card,"Alternativas históricas",v.historical.join(" / "));
+  para(card,"Cotejo fotográfico independiente",v.photo_sign_verified?"Registrado":"Pendiente");
+  const a=el("a",null,"Examinar la ficha de la pieza →");a.href="../ficha/?id="+encodeURIComponent(dataset.object_id);card.append(a);results.append(card);
+ }
+}
+document.getElementById("formSearch").addEventListener("click",render);
+field.addEventListener("input",render);field.addEventListener("keydown",e=>{if(e.key==="Enter")render()});
+
+let crossIndex=null;
+const crossField=document.getElementById("crossQuery"),crossResults=document.getElementById("crossResults"),crossSummary=document.getElementById("crossSummary"),crossEvidence=document.getElementById("crossEvidence"),crossGate=document.getElementById("crossGate");
+const roleNames={reported_form:"Forma descrita en la lectura editorial",reported_variant_context:"Variante contextual según expediente",formal_comparison_only:"Solo comparación formal: no es lectura literal"};
+function renderCross(){
+ if(!crossIndex)return;
+ const query=normalized(crossField.value);
+ crossResults.replaceChildren();
+ const selectedClass=crossEvidence.value;
+ const matches=crossIndex.records.map(record=>({...record,matchedForms:record.forms.filter(f=>(!query||normalized(f.text)===query)&&(selectedClass==="all"||f.evidence_class===selectedClass))})).filter(r=>r.matchedForms.length>0);
+ const literalCount=matches.filter(r=>r.matchedForms.some(f=>f.evidence_class!=="FORMAL_COMPARISON_NOT_ATTESTED")).length;
+ crossSummary.textContent=matches.length+" objetos con anotaciones de la forma; "+literalCount+" con mención editorial o variante contextual; "+(matches.length-literalCount)+" solo en comparación formal. Ninguna cifra indica traducciones verificadas ni ocurrencias cotejadas.";
+ if(!matches.length){crossResults.append(el("p","ib-forms-note","No consta la forma en estos cinco expedientes. No se infiere ausencia del resto del corpus."));return;}
+ for(const record of matches){
+  const card=el("article","ib-forms-result");
+  card.append(el("h3",null,record.title));
+  para(card,"Pieza física",record.object_id);
+  for(const item of record.matchedForms){para(card,"Relación con "+item.text,roleNames[item.role]||"Clasificación editorial pendiente");para(card,"Control de signos y localización",item.sign_position_verified?"Comprobado":"Sin cotejo independiente de grafemas o posición en este índice");}
+  para(card,"Contexto registrado",record.context);
+  para(card,"Control de lectura",record.evidence_status);
+  para(card,"Independencia",record.independence_status);
+  para(card,"Fuente bibliográfica",record.source);
+  const locator=record.source_locator;
+  if(locator){
+   para(card,"Localizador editorial",locator.citation);
+   if(locator.museum_inventory)para(card,"Inventario museístico",locator.museum_inventory);
+   para(card,"Pasaje de la inscripción",locator.inscription_locator);
+   para(card,"Alcance de la verificación",locator.verification);
+   if(locator.visual_target){const details=el("details");details.append(el("summary",null,"Imágenes y verificaciones pendientes"));details.append(el("p",null,locator.visual_target));card.append(details);}
+  }
+  const actions=el("div","ib-forms-actions"),ficha=el("a",null,"Ficha original →");ficha.href="../ficha/?id="+encodeURIComponent(record.object_id);actions.append(ficha);
+  const editorialUrl=record.source_locator?.source_url||record.source_url;
+  if(editorialUrl&&/^https:\/\//.test(editorialUrl)){const source=el("a",null,"Consultar edición y localizador →");source.href=editorialUrl;source.target="_blank";source.rel="noopener noreferrer";actions.append(source);}
+  if(record.source_locator?.museum_catalogue_url){const catalogue=el("a",null,"Ficha de museo / inventario →");catalogue.href=record.source_locator.museum_catalogue_url;catalogue.target="_blank";catalogue.rel="noopener noreferrer";actions.append(catalogue);}
+  card.append(actions);crossResults.append(card);
+ }
+}
+crossEvidence.addEventListener("change",renderCross);
+document.getElementById("crossSearch").addEventListener("click",renderCross);
+crossField.addEventListener("input",renderCross);
+crossField.addEventListener("keydown",e=>{if(e.key==="Enter")renderCross()});
+const crossQ=new URLSearchParams(location.search).get("forma");if(crossQ)crossField.value=crossQ;
+try{
+ const response=await fetch("../data/form-witnesses-v1.json");
+ if(!response.ok)throw Error("HTTP "+response.status);
+ const data=await response.json();
+ if(data.schema!=="IberOS-WEB07-Form-Witnesses/1.0"||!Array.isArray(data.records)||data.records.length!==5||new Set(data.records.map(x=>x.object_id)).size!==5||data.scientific_gates?.semantic_promotions!==0||data.evidence_classification?.independent_sign_collations!==0||data.records.some(r=>r.forms.some(f=>!data.evidence_classification.classes[f.evidence_class])))throw Error("Registro WEB-08 inválido");
+ crossGate.textContent="WEB-08: cero cotejos independientes de grafemas acreditados en este índice; cero posiciones de ocurrencia verificadas. Se muestran menciones y relaciones documentales, no frecuencias epigráficas.";
+ crossIndex=data;renderCross();
+}catch(e){crossSummary.textContent="No se ha podido cargar la comparación. Consulta el registro de datos desde el enlace inferior.";console.error("WEB-07",e)}
+
+const q=new URLSearchParams(location.search).get("q");if(q)field.value=q;
+try{
+ const response=await fetch("../data/serreta-variants-v1.json");
+ if(!response.ok)throw Error("HTTP "+response.status);
+ const data=await response.json();
+ if(data.schema!=="IberOS-Serreta-Editorial-Variants/1.0"||data.object_id!=="IBR-PLM-0009"||!Array.isArray(data.variants))throw Error("Formato documental inesperado");
+ dataset=data;
+ provenance.textContent=data.editorial_anchor+" · "+data.source_document+". "+data.note+" Cotejos de signos sobre fotografía registrados: "+data.gates.seven_independent_glyph_photo_checks+".";
+ render();
+}catch(e){summary.textContent="No se ha podido cargar el índice. Abre el registro original desde el enlace inferior.";provenance.textContent="Información documental no disponible temporalmente.";console.error("WEB-06",e)}
+</script></body></html>

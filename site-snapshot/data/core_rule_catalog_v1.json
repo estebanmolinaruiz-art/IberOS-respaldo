@@ -1,0 +1,124 @@
+{
+  "authority": {
+    "prospective_lock": "C474",
+    "rok_network": "C541",
+    "semantic_release": "C594",
+    "technical_floor": "C539"
+  },
+  "automatic_core_promotion": false,
+  "catalog_version": "IBEROS-RULE-CATALOG-1",
+  "counts": {
+    "active_guards": 4,
+    "documented_entries": 12,
+    "family_gates": 7,
+    "research_protocols": 1,
+    "verified_translation_rules": 0
+  },
+  "entries": [
+    {
+      "description": "BI/BIN=2 is allowed only when the context is independently quantitative; BI in BI+D(E/I)+V is non-numeral by default.",
+      "id": "BI-DISAMBIG-01",
+      "kind": "ACTIVE_GUARD",
+      "semantic_translation_verified": false,
+      "source": "src/iberos/core.py:ACTIVE_PROTOCOLS",
+      "validation": "IMPLEMENTED_GUARD"
+    },
+    {
+      "description": "R/R1 must be preserved for grouping, independence, splits and promotion; neutralization is permitted only as a search key.",
+      "id": "PALEO-RHOTIC-LOCK-01",
+      "kind": "ACTIVE_GUARD",
+      "semantic_translation_verified": false,
+      "source": "src/iberos/core.py:ACTIVE_PROTOCOLS",
+      "validation": "IMPLEMENTED_GUARD"
+    },
+    {
+      "description": "ROK is a transfer-related functional domain; exact direction and giver/receiver mapping remain open.",
+      "id": "ROK-DIRECTION-GUARD-01",
+      "kind": "ACTIVE_GUARD",
+      "semantic_translation_verified": false,
+      "source": "src/iberos/core.py:ACTIVE_PROTOCOLS",
+      "validation": "IMPLEMENTED_GUARD"
+    },
+    {
+      "description": "Keep EVIDENCE, INFERENCE, HYPOTHESIS and ESTIMATED_TRANSLATION separate.",
+      "id": "EPISTEMIC-LAYER-01",
+      "kind": "ACTIVE_GUARD",
+      "semantic_translation_verified": false,
+      "source": "src/iberos/core.py:ACTIVE_PROTOCOLS",
+      "validation": "IMPLEMENTED_GUARD"
+    },
+    {
+      "description": "quantifiable economic/value domain",
+      "family": "SALIR",
+      "id": "SALIR-PROSPECTIVE-01",
+      "kind": "FAMILY_GATE",
+      "semantic_translation_verified": false,
+      "source": "src/iberos/core.py:FAMILY_GATE_POLICIES",
+      "validation": "OPEN_PROSPECTIVE_GATE"
+    },
+    {
+      "description": "transfer-related structural/functional domain",
+      "family": "ROK",
+      "id": "ROK-RECIPIENT-02",
+      "kind": "FAMILY_GATE",
+      "semantic_translation_verified": false,
+      "source": "src/iberos/core.py:FAMILY_GATE_POLICIES",
+      "validation": "OPEN_PROSPECTIVE_GATE"
+    },
+    {
+      "description": "relational opposition; KA enriched in quantified contexts; KU provenance/origin/affiliation contextual",
+      "family": "KA_KE_KU",
+      "id": "KA-DIRECTION-PROSPECTIVE-01",
+      "kind": "FAMILY_GATE",
+      "semantic_translation_verified": false,
+      "source": "src/iberos/core.py:FAMILY_GATE_POLICIES",
+      "validation": "OPEN_PROSPECTIVE_GATE"
+    },
+    {
+      "description": "writing/inscription/formulary-compatible domain",
+      "family": "KUTUR",
+      "id": "KUTUR-PROSPECTIVE",
+      "kind": "FAMILY_GATE",
+      "semantic_translation_verified": false,
+      "source": "src/iberos/core.py:FAMILY_GATE_POLICIES",
+      "validation": "OPEN_PROSPECTIVE_GATE"
+    },
+    {
+      "description": "human role/appellative families; BAIDES/BAITES distinct from BATIR",
+      "family": "BAIDES_BATIR",
+      "id": "BAIDES-BATIR-ROLE",
+      "kind": "FAMILY_GATE",
+      "semantic_translation_verified": false,
+      "source": "src/iberos/core.py:FAMILY_GATE_POLICIES",
+      "validation": "OPEN_PROSPECTIVE_GATE"
+    },
+    {
+      "description": "numeral/metrological compositional system",
+      "family": "NUM_METRO",
+      "id": "NUM-7-8-9-EXACT",
+      "kind": "FAMILY_GATE",
+      "semantic_translation_verified": false,
+      "source": "src/iberos/core.py:FAMILY_GATE_POLICIES",
+      "validation": "OPEN_PROSPECTIVE_GATE"
+    },
+    {
+      "description": "Formal D(E/I) contrast; exact grammatical variable unresolved",
+      "family": "D_E_I",
+      "id": "DEDI-COMBINED-GATE-01",
+      "kind": "FAMILY_GATE",
+      "semantic_translation_verified": false,
+      "source": "src/iberos/core.py:dedi_combined_gate",
+      "validation": "OPEN_PROSPECTIVE_GATE"
+    },
+    {
+      "description": "Preregister H1/H2/H3 alternatives with documentary-independence checks",
+      "family": "ROK",
+      "id": "ROK-SEGMENTATION-PROSPECTIVE-01",
+      "kind": "RESEARCH_PROTOCOL",
+      "semantic_translation_verified": false,
+      "source": "src/iberos/rok_prospective.py",
+      "validation": "AWAITING_INDEPENDENT_EVIDENCE"
+    }
+  ],
+  "note": "Catalog coverage counts code-linked entries only; it is not an exhaustive count of every if-statement or scientific inference. Zero verified translation rules in this catalog does not imply zero existing external linguistic knowledge."
+}

@@ -1,0 +1,76 @@
+{
+  "autopsy_by_iberos": false,
+  "claims": [
+    {
+      "content": "En la tabla comparativa figura Pech-Maho B.7.38* con los segmentos fragmentarios «...ban kutu r bideŕokan».",
+      "kind": "secondary_comparative_citation"
+    },
+    {
+      "content": "La tabla es una referencia comparativa, no la autopsia ni una traducción del objeto por IberOS.",
+      "kind": "epistemic_limit"
+    }
+  ],
+  "claims_needing_further_verification": [
+    "Localizar la edición primaria exacta de B.7.38*",
+    "Confrontar signos y límites de ...ban, kutur y bideŕokan en fotografía y edición primaria",
+    "Evaluar si el espaciado de la tabla es paleográfico o tipográfico"
+  ],
+  "doi": "10.1387/veleia.13345",
+  "edition": "Ferrer i Jané (2014), Ibèric kutu i els abecedaris ibèrics, Veleia 31",
+  "edition_page": 251,
+  "form_comparison": {
+    "forms": [
+      {
+        "context": "śalir and bitiŕokan contiguous",
+        "form": "bitiŕokan",
+        "location": "Pech-Maho A I 3",
+        "vowel": "i"
+      },
+      {
+        "context": "kutur:biteŕokan",
+        "form": "biteŕokan",
+        "location": "Pech-Maho A I 8",
+        "vowel": "e"
+      },
+      {
+        "context": "anthroponym and proposed teŕokan",
+        "form": "teŕokan",
+        "location": "Tivissa",
+        "vowel": "e"
+      }
+    ],
+    "independent_physical_objects": 2,
+    "shared_morphology_verified": false,
+    "shared_semantics_verified": false,
+    "source_status": "published readings; not independently checked visually"
+  },
+  "object_id": "IBR-PLM-0003",
+  "reading_approved": false,
+  "schema": "IberOS-Edition-Comparison/1.0",
+  "scholarly_edition_check": {
+    "additional_comparandum": {
+      "location": "Cara A I, línea 3",
+      "published_transcription": "]śiśalirbitiŕokankube",
+      "reading_approved": false,
+      "significance": "Co-presencia en el mismo documento de śalir / bitiŕokan y de ban:kutur:biteŕokan; sin inferencia de sentido ni reconstrucción de separadores en línea 3",
+      "source": "Velaza (2015), Palaeohispanica 15, p. 253, §1.7 (reproducción de Untermann 2014)"
+    },
+    "analytical_controls": [
+      "Las líneas 3 y 8 no son una secuencia contigua ni dos pruebas independientes de significado.",
+      "La ausencia de separadores visibles en la transcripción de línea 3 impide imponer límites morfológicos.",
+      "El paralelismo entre bitiŕokan / biteŕokan requiere cotejo paleográfico antes de agrupar variantes.",
+      "No sumar una nueva pieza física al corpus curado."
+    ],
+    "difference_from_comparative": "Ferrer 2014 tabla comparativa: ...ban kutu r bideŕokan; Velaza 2015: :ban:kutur:biteŕokan",
+    "editio_princeps": "Y. Solier y H. Barbouteau, Découverte de nouveaux plombs inscrits en ibère dans la région de Narbonne, RAN 21 (1988), pp. 61–94",
+    "exact_signs_independently_confirmed": false,
+    "facsimile_reinspected": false,
+    "location": "Cara A I, línea 8",
+    "published_transcription": "]itiatu:ban:kutur:biteŕokan",
+    "reference": "Javier Velaza, Chronica Epigraphica Iberica XII (2014), Palaeohispanica 15 (2015), pp. 252–253, §1.7",
+    "underlying_edition": "J. Untermann, Iberische Bleiinschriften in Südfrankreich und im Empordà, Berlín 2014, pp. 62–69",
+    "url": "https://ifc.dpz.es/recursos/publicaciones/35/02/12velaza.pdf"
+  },
+  "semantic_validation": false,
+  "url": "https://www.researchgate.net/publication/262143836_Iberic_kutu_i_els_abecedaris_iberics"
+}

@@ -1,0 +1,488 @@
+<!doctype html><html lang="es"><head><meta name="robots" content="noindex,nofollow"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>IberOS+ · Ficha</title><link rel="stylesheet" href="../assets/iberos-plus.css"><style>
+.ib-reconstruction{max-width:1280px;margin:22px auto 30px;padding:clamp(22px,5vw,58px) clamp(14px,4vw,42px);background:linear-gradient(150deg,#fff9e9,#efe0c2);border:2px solid #c5a36d;border-radius:18px;text-align:center;box-shadow:0 12px 30px #0926381e;color:#142c3c}
+.ib-reconstruction .ib-caption{font:700 .8rem/1.5 system-ui,sans-serif;letter-spacing:.15em;color:#805827}
+.ib-reconstruction .ib-display{margin:14px auto;font:700 clamp(1.2rem,2.2vw,2rem)/1.45 Georgia,serif;overflow-wrap:anywhere;max-width:920px}
+.ib-reconstruction .ib-display .ib-evidence{color:#173347}.ib-reconstruction .ib-display .ib-inference{color:#9a6321}.ib-reconstruction .ib-display .ib-ambiguous{color:#147b91}.ib-reconstruction .ib-display .ib-unresolved{color:#777b80}
+.ib-reconstruction .ib-display{background:#fffaf0;border:1px solid #d7bf96;border-radius:12px;padding:clamp(18px,3vw,34px);text-align:left;white-space:normal;hyphens:auto}.ib-reconstruction .ib-display .ib-ambiguous{color:#15576b}.ib-reconstruction .ib-note{max-width:830px;margin:12px auto;font: .95rem/1.6 system-ui,sans-serif;color:#45525c}
+.ib-reconstruction .ib-legend{display:flex;flex-wrap:wrap;gap:8px 16px;justify-content:center;margin-top:19px;font: .8rem/1.5 system-ui,sans-serif}
+.ib-reconstruction .ib-legend span{display:inline-flex;align-items:center;gap:6px}
+.ib-reconstruction .ib-legend i{display:inline-block;width:12px;height:12px;border-radius:3px;background:var(--swatch)}
+.ib-reconstruction .ib-explanation{font: .76rem/1.5 system-ui,sans-serif;color:#62605c;margin-top:12px}
+@media(max-width:650px){.ib-reconstruction{padding:22px 14px}.ib-reconstruction .ib-display{font-size:clamp(1.13rem,4.3vw,1.55rem);line-height:1.5}}
+
+.ib-expert-nav{max-width:1280px;margin:10px auto 16px;padding:10px 14px;background:#142f40;color:#f8ead1;border:1px solid #b99a65;border-radius:10px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.ib-expert-nav strong{font:700 .83rem system-ui,sans-serif;letter-spacing:.05em}
+.ib-expert-nav a,.ib-expert-nav button{color:#fff7df;background:transparent;border:1px solid #a98a5b;border-radius:6px;padding:7px 10px;font:600 .82rem system-ui,sans-serif;text-decoration:none;cursor:pointer}
+.ib-expert-nav a:hover,.ib-expert-nav a:focus-visible,.ib-expert-nav button:hover{background:#365269}
+.ib-expert-nav a:focus-visible,.ib-expert-nav button:focus-visible{outline:2px solid #ffd17c;outline-offset:2px}
+#interpretationMain,#documentary-slot,#variant-review-slot{scroll-margin-top:18px}
+@media(max-width:650px){.ib-expert-nav{margin:9px 10px;padding:9px;gap:6px}.ib-expert-nav a,.ib-expert-nav button{font-size:.75rem;padding:6px 8px}}
+
+.ib-geography{max-width:1280px;margin:16px auto 22px;padding:22px;background:#fff7e7;color:#183347;border:1px solid #bfa575;border-radius:12px}.ib-geography h2{font-family:Georgia,serif;margin:7px 0 12px}.ib-geography .ib-geo-info p{margin:9px 0;line-height:1.5}.ib-geography .ib-geo-caution{font-size:.84rem;color:#5b5a56}.ib-geography .btn{display:inline-block;margin:7px 0}#geography-slot{scroll-margin-top:18px}
+
+.ib-sign-reading{max-width:1280px;margin:16px auto;padding:20px 24px;background:#fff7e6;color:#17364b;border:1px solid #c3a36d;border-radius:12px}.ib-sign-reading h2{font:700 clamp(1.25rem,2.2vw,1.7rem) Georgia,serif;margin:8px 0}.ib-sign-reading p{line-height:1.5}.ib-sign-line{margin:14px 0;padding:15px;background:#f3e6cc;border-radius:8px}.ib-sign-line>span{font-size:.8rem;color:#6d5228;font-weight:700}.ib-sign-script{font:700 clamp(1rem,2.2vw,1.65rem)/1.5 Georgia,serif;overflow-wrap:anywhere}.ib-sign-line details{margin-top:10px}.ib-sign-line summary{cursor:pointer;font-weight:700}#sign-reading-slot{scroll-margin-top:18px}
+.ib-source-images{max-width:1280px;margin:8px auto;padding:12px 18px;background:#f6e8ca;color:#223847;border-left:4px solid #bd9860;font:.9rem/1.5 system-ui,sans-serif}.ib-source-images a{color:#07536d;text-decoration:underline} 
+/* Ficha arqueológica canónica: soporte material + capas epistemológicas */
+.ib-sign-reading{background:radial-gradient(ellipse at 17% 20%,#fff9ea 0%,#f0dfba 65%,#dac397 100%);border:3px ridge #ae8854;box-shadow:inset 0 0 28px #8a643c24,0 13px 28px #071b2b24}
+.ib-sign-line{background:#f3e6cc;border-left:5px solid #147b91;box-shadow:inset 0 2px 8px #7b61421a}
+.ib-sign-reading .ib-sign-legend{display:flex;flex-wrap:wrap;gap:8px 16px;margin:12px 0;font:.81rem/1.5 system-ui,sans-serif}
+.ib-sign-reading .ib-sign-legend span{display:inline-flex;align-items:center;gap:7px}
+.ib-sign-reading .ib-sign-legend i{display:inline-block;width:12px;height:12px;border-radius:3px;background:var(--swatch)}
+.ib-sign-reading .ib-original-placeholder{border:1px dashed #98794e;padding:11px 14px;border-radius:8px;font-size:.9rem}
+.ib-sign-reading .ib-original-placeholder strong{display:block;margin-bottom:4px}
+
+/* Plantilla canónica aprobada: portada terracota, módulos azul petróleo, soporte pergamino */
+.ib-canonical-banner{max-width:1280px;margin:17px auto 0;border-radius:12px 12px 0 0;border:1px solid #9b4e32;background:linear-gradient(105deg,#77271e,#a34b34 70%,#64352d);color:#fff2db;padding:15px 22px;display:flex;justify-content:space-between;gap:12px;align-items:baseline;flex-wrap:wrap}
+.ib-canonical-banner span{font:700 clamp(1.35rem,3vw,2.4rem)/1.1 Georgia,serif;letter-spacing:.02em}
+.ib-canonical-banner small{font:700 .65rem/1.5 system-ui,sans-serif;letter-spacing:.1em}
+.ib-canonical-flags{max-width:1280px;margin:0 auto 18px;display:flex;gap:8px;flex-wrap:wrap;background:#eee0c7;border:1px solid #bfa379;padding:11px 15px;border-radius:0 0 10px 10px}
+.ib-canonical-flags span{padding:7px 10px;background:#214b59;color:#fff6e1;border-radius:6px;font:600 .77rem/1.3 system-ui,sans-serif}
+.ib-canonical-flags span:nth-child(3){background:#8b5c25}.ib-canonical-flags span:nth-child(4){background:#685963}
+.ib-primary-grid{max-width:1280px;margin:0 auto;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:start;gap:14px}
+.ib-primary-object{margin:0;min-width:0}.ib-primary-readings{min-width:0}.ib-primary-readings .ib-sign-reading{margin:0 0 12px}
+.ib-primary-readings .ib-source-images{margin:0}.ib-primary-readings .ib-sign-script{font-size:clamp(1rem,1.65vw,1.4rem)}
+.ib-primary-grid .artifact-summary h1{font-size:clamp(1.35rem,2vw,2rem)}
+.ib-reconstruction{border:2px solid #87352b}.ib-reconstruction .ib-caption{background:#833129;color:#fff2da;padding:12px;margin:-22px -14px 15px;border-radius:9px 9px 0 0}
+@media(max-width:860px){.ib-primary-grid{grid-template-columns:1fr;margin:0 10px}.ib-canonical-banner,.ib-canonical-flags{margin-left:10px;margin-right:10px}}
+
+.ib-analysis-grid{max-width:1280px;margin:16px auto;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}
+.ib-analysis-card{background:linear-gradient(#fff8e9,#efdfc3);border:1px solid #c4a57c;border-radius:9px;color:#173247;overflow:hidden;padding:0 15px 15px}
+.ib-analysis-card h2{background:#214a57;color:#fff2d9;margin:0 -15px 13px;padding:10px 15px;font:700 1.15rem Georgia,serif}
+.ib-analysis-card p{line-height:1.5}.ib-analysis-card table{border-collapse:collapse;width:100%;font:.81rem/1.5 system-ui,sans-serif}
+.ib-analysis-card th,.ib-analysis-card td{border:1px solid #d7c3a3;padding:7px;text-align:left;vertical-align:top;overflow-wrap:anywhere}
+.ib-analysis-card th{background:#e8d7b7}.ib-analysis-note{font-size:.79rem;color:#675945}
+.ib-evidence-chain{display:flex;flex-wrap:wrap;gap:8px}.ib-evidence-chain span{background:#bfd0ce;padding:7px 9px;border-radius:5px;font:.79rem system-ui,sans-serif}
+.ib-evidence-chain span:nth-child(n+4){background:#e6c9a4}.ib-state{font-weight:700;color:#805223}
+@media(max-width:790px){.ib-analysis-grid{grid-template-columns:1fr;margin:12px 10px}}
+
+/* IberOS ficha canónica — equivalencia visual con lámina aprobada */
+body.iberos-ficha main{background:radial-gradient(ellipse at top,#ebd7b3,#d6bd92);padding:8px 12px 44px}
+body.iberos-ficha #body{max-width:1360px;margin:auto;background:#f7eddb;padding:18px clamp(12px,2vw,28px) 30px;box-shadow:0 10px 34px #533b2444;border:1px solid #c5a57a;border-radius:7px}
+body.iberos-ficha .ib-canonical-banner{max-width:none;margin:0;background:linear-gradient(108deg,#752418,#a74b32 68%,#753021);border-radius:7px 7px 0 0;padding:15px 23px}
+body.iberos-ficha .ib-canonical-banner span{font-size:clamp(1.55rem,3.2vw,2.7rem)}
+body.iberos-ficha .ib-canonical-flags{max-width:none;margin:0 0 10px;justify-content:space-between;background:#e9dbc4;padding:9px;border-radius:0 0 7px 7px}
+body.iberos-ficha .ib-canonical-flags span{flex:1;text-align:center;background:#a13b2b;border:1px solid #bd9260;white-space:normal}
+body.iberos-ficha .ib-canonical-flags span:nth-child(2){background:#245567}
+body.iberos-ficha .ib-canonical-flags span:nth-child(3){background:#4f674a}
+body.iberos-ficha .ib-canonical-flags span:nth-child(4){background:#a27430}
+body.iberos-ficha .ib-primary-grid,body.iberos-ficha .ib-analysis-grid{max-width:none;gap:11px}
+body.iberos-ficha .ib-primary-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+body.iberos-ficha .ib-primary-object{padding:0;background:transparent;border:0;box-shadow:none;display:flex;flex-direction:column;gap:10px}
+body.iberos-ficha .artifact-summary,body.iberos-ficha .ib-sign-reading,body.iberos-ficha .ib-source-images{border:1px solid #bea17c;border-radius:7px;background:linear-gradient(120deg,#fff8ec,#ede0ca);box-shadow:none}
+body.iberos-ficha .ib-sign-reading,body.iberos-ficha .artifact-summary{padding:14px}
+body.iberos-ficha .ib-sign-reading h2{background:#1c4a59;color:#fff4e3;font:700 1.15rem Georgia,serif;padding:10px;margin:-14px -14px 14px;border-radius:6px 6px 0 0}
+body.iberos-ficha .ib-sign-line{border:1px solid #cfb395;border-left:5px solid #2c5b69;border-radius:5px}
+body.iberos-ficha .ib-sign-script{font-size:clamp(1rem,1.9vw,1.5rem);color:#122b46}
+body.iberos-ficha .ib-reconstruction{max-width:none;border:2px solid #8d3329;border-radius:8px;background:linear-gradient(#fff7e8,#f1dfc2);padding:20px;margin:13px auto;box-shadow:none}
+body.iberos-ficha .ib-reconstruction .ib-caption{margin:-20px -20px 15px;border-radius:5px 5px 0 0;background:#8d3025;padding:12px;color:#fff5e5;letter-spacing:.04em}
+body.iberos-ficha .ib-analysis-grid{margin:12px auto}
+body.iberos-ficha .ib-analysis-card{border-radius:6px;box-shadow:none;background:linear-gradient(#fff8e9,#efe1c6)}
+body.iberos-ficha .ib-analysis-card h2{background:#1c4a59;color:#fff4e6}
+body.iberos-ficha .ib-geography{max-width:none}
+body.iberos-ficha .ib-expert-nav{max-width:none;margin:0 0 12px;gap:6px;padding:7px;background:#0c2b36}
+body.iberos-ficha .ib-expert-nav a,body.iberos-ficha .ib-expert-nav button{font-size:.75rem;padding:5px 8px}
+body.iberos-ficha .ib-original-placeholder{background:#ead9b9}
+@media(max-width:820px){body.iberos-ficha .ib-primary-grid,body.iberos-ficha .ib-analysis-grid{grid-template-columns:1fr}body.iberos-ficha #body{padding:10px}body.iberos-ficha .ib-canonical-flags span{min-width:42%}}
+
+.ib-primary-object .ib-panel-heading,.ib-piece-original h2{background:#1d4b5a;color:#fff5e8;padding:10px 14px;margin:0;font:700 1.12rem/1.2 Georgia,serif;border-radius:5px 5px 0 0}.ib-primary-object .artifact-summary{margin:0 0 10px}.ib-piece-original{border:1px solid #bfa47e;background:#fbf4e5;border-radius:6px;overflow:hidden}.ib-piece-original .artifact-visual{margin:8px 12px}.ib-piece-caption{font:italic .8rem/1.4 Georgia,serif;color:#625440;padding:5px 12px 12px;margin:0}.ib-piece-original .photo-credit{padding:0 12px}.ib-primary-object .artifact-summary h1{line-height:1.17}
+.ib-diplomatic-line{display:grid;grid-template-columns:minmax(85px,1fr) 2fr;gap:5px 12px;border-bottom:1px solid #d2b995;padding:8px 0}.ib-diplomatic-line span{font:700 1.12rem/1.35 Georgia,serif;color:#183e4b;overflow-wrap:anywhere}.ib-diplomatic-line small{grid-column:1/-1;color:#675d50}.ib-analysis-card.ib-diplomatic{grid-column:1/-1}.ib-analysis-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.ib-analysis-card:nth-child(4){grid-column:1/-1}@media(max-width:790px){.ib-analysis-card.ib-diplomatic,.ib-analysis-card:nth-child(4){grid-column:auto}}
+.ib-epigraph-sequence{display:flex;flex-wrap:wrap;align-items:center;gap:5px;min-width:0}.ib-epigraph-unit{display:inline-block;border:1px solid #a6b9b7;border-radius:4px;background:#dce8e4;color:#173e4a;padding:5px 8px;font:700 clamp(.9rem,1.4vw,1.1rem)/1.3 Georgia,serif;overflow-wrap:anywhere}.ib-epigraph-divider{background:#e5cdae;border-color:#ba9362;color:#865522;padding:5px 4px}.ib-diplomatic-line .ib-epigraph-sequence{font-size:inherit}
+.ib-normalized-reading{margin:12px 0 0;padding:11px 13px;background:#e8dbc1;border-left:4px solid #a37434;border-radius:4px}.ib-normalized-reading strong{font:700 .76rem/1.4 system-ui,sans-serif;color:#784b24}.ib-normalized-reading .ib-sign-script{margin:7px 0;color:#815721}.ib-normalized-reading small{font-size:.75rem;color:#685a43}
+.ib-authentic-object{display:flex;flex-direction:column;align-items:center;gap:9px;padding:10px;background:#ede1cc}.ib-authentic-object img{width:auto;max-width:100%;max-height:340px;object-fit:contain}.ib-authentic-object figcaption{font:.78rem/1.5 system-ui,sans-serif;color:#534c40;text-align:center}.ib-authentic-object a{color:#13546b;text-decoration:underline}
+.ib-edition-lines{background:#f1e2c5;border:1px solid #b89c72;border-radius:7px;padding:12px;margin:7px 0 14px}.ib-edition-line{display:flex;gap:12px;align-items:baseline;margin:7px 0}.ib-edition-line span{font:700 .75rem system-ui;color:#8c5e32;min-width:23px}.ib-edition-line code{font:700 clamp(.94rem,1.7vw,1.3rem)/1.5 Georgia,serif;color:#1b4053;white-space:normal;overflow-wrap:anywhere}.ib-edition-lines a{color:#15546a;text-decoration:underline}
+.ib-graphic-notes{background:#e7e4d9;border-left:4px solid #1f5963;padding:11px 15px;margin:12px 0;color:#25424c;font:.85rem/1.5 system-ui,sans-serif}.ib-graphic-notes ul{padding-left:22px}.ib-graphic-notes li{margin:5px 0}
+.ib-punctuation-warning{border-left:4px solid #ae792e;background:#f2e4c9;padding:10px 13px;color:#674925;font:.85rem/1.5 system-ui,sans-serif}.ib-epigraph-divider{border-style:dashed}
+.ib-sign-correspondence{grid-column:1/-1}.ib-sign-classes{display:flex;flex-wrap:wrap;gap:6px}.ib-sign-classes span{background:#dbe7e2;border:1px solid #9baea8;color:#173e4c;border-radius:4px;padding:5px 8px;font:700 .9rem Georgia,serif}.ib-sign-verification{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:5px;margin:12px 0}.ib-sign-verification span{background:#285565;color:#fff6e5;padding:9px;font-size:.8rem}.ib-sign-verification strong{background:#efe0c2;padding:9px;font-size:.85rem;color:#765331}@media(max-width:600px){.ib-sign-verification{font-size:.7rem}.ib-sign-verification span,.ib-sign-verification strong{padding:5px}}
+.ib-sign-classes .ib-sign-choice{cursor:pointer;border:1px solid #9baea8;border-radius:5px;background:#dbe7e2;color:#173e4c;padding:7px 11px;font:700 .9rem Georgia,serif}.ib-sign-classes .ib-sign-choice[aria-pressed="true"]{background:#214a57;color:white;outline:2px solid #ac792f;outline-offset:1px}.ib-sign-classes .ib-sign-choice:focus-visible{outline:3px solid #ac792f;outline-offset:2px}.ib-sign-detail{margin:10px 0;padding:12px;background:#fff5e1;border:1px solid #c9ac7d;color:#263c47;border-radius:6px}.ib-sign-detail p{margin:6px 0}
+.ib-sign-detail a{display:inline-block;margin-top:8px;color:#07556a;font-weight:700;text-decoration:underline}.ib-sign-detail a:focus-visible{outline:2px solid #b4843b;outline-offset:3px}
+.ib-object-awaiting{background:radial-gradient(ellipse,#e9d9bc,#cdb88f);border:2px dashed #9b815c;min-height:205px;padding:22px;text-align:center;display:flex;align-items:center;justify-content:center;flex-direction:column;color:#463d34}.ib-object-awaiting strong{font:700 1.2rem Georgia,serif}.ib-object-awaiting .ib-object-icon{font:3rem Georgia,serif;color:#94734c}.ib-object-awaiting p{margin:6px 0}.ib-object-awaiting a{color:#164e67;text-decoration:underline}
+.ib-graphic-viewer{background:#f6e9d1;border:1px solid #bca078;border-radius:7px;max-width:1280px;margin:12px auto;padding:14px;color:#244456}.ib-graphic-viewer h2{background:#204a59;color:#fff3e0;padding:12px;margin:-14px -14px 13px;font:700 1.15rem Georgia,serif}.ib-graphic-viewer p{line-height:1.5}.ib-graphic-notready{background:#e7d7b9;border:1px dashed #ad906c;padding:17px;border-radius:5px}.ib-graphic-source{display:block;max-width:100%;max-height:550px;margin:auto;object-fit:contain}.ib-graphic-viewer a{color:#07566c;text-decoration:underline}
+.ib-glyph-map-pending{border:1px dashed #a88d64;background:#eee0c5;padding:12px;margin:12px 0;border-radius:6px}.ib-glyph-map-pending p{margin:5px 0;font-size:.86rem}.ib-glyph-tiles{display:flex;flex-wrap:wrap;gap:12px}.ib-glyph-tiles figure{width:125px;background:#fff8e8;padding:7px;margin:0;border:1px solid #c8ae87}.ib-glyph-tiles img{width:100%;height:85px;object-fit:contain}.ib-glyph-tiles figcaption{font-size:.72rem}
+.ib-glyph-plate{position:relative;display:inline-block;max-width:100%;margin:12px auto}.ib-glyph-plate>img{display:block;max-width:100%;max-height:620px}.ib-glyph-hotspot{position:absolute;background:#d69a3b40;border:2px solid #edc368;cursor:pointer}.ib-glyph-hotspot[aria-pressed="true"],.ib-glyph-hotspot:focus-visible{background:#2b7e9780;outline:3px solid #143d56}.ib-glyph-tile{width:125px;padding:7px;border:1px solid #b99b76;background:#fff8e8;cursor:pointer}.ib-glyph-tile[aria-pressed="true"]{outline:3px solid #1c6173}.ib-glyph-tile img{width:100%;height:85px;object-fit:contain}.ib-glyph-tile span{display:block;font-size:.75rem}.ib-glyph-information{margin:12px 0;padding:12px;background:#eee1c9;border-radius:5px}
+.ib-hypothesis-matrix{background:#f4ead7;border:1px solid #bc996a;border-radius:8px;padding:12px;margin:16px 0}.ib-hypothesis-matrix h4{font:700 1.1rem Georgia,serif;color:#173c51;margin:0 0 9px}.ib-matrix-scroll{overflow-x:auto}.ib-hypothesis-matrix table{width:100%;border-collapse:collapse;min-width:620px;font: .84rem/1.5 system-ui,sans-serif}.ib-hypothesis-matrix th{background:#244b58;color:#fff7df;text-align:left}.ib-hypothesis-matrix td,.ib-hypothesis-matrix th{border:1px solid #bea47d;padding:9px;vertical-align:top}.ib-hypothesis-matrix tr:nth-child(even){background:#e9dcc5}.ib-hypothesis-matrix p{font-size:.78rem;color:#705634}
+
+/* IberOS legibility pass: dark ink on parchment, bright ink on petrol; hue is never sole status indicator. */
+.ib-hypothesis-matrix,.ib-hypothesis-matrix td,.ib-hypothesis-matrix p,
+.ib-graphic-viewer,.ib-glyph-map-pending,.ib-sign-detail,
+#core-rule-evidence,#core-rule-evidence li,#core-rule-evidence p,
+#core-rule-evidence summary{color:#172b38!important}
+.ib-hypothesis-matrix th{background:#173c4b!important;color:#ffffff!important;font-weight:750;font-size:.91rem}
+.ib-hypothesis-matrix td{background:#fff9ec!important;color:#172b38!important;font-size:.92rem;line-height:1.55}
+.ib-hypothesis-matrix tbody tr:nth-child(even) td{background:#eee1c8!important}
+.ib-hypothesis-matrix h4{color:#10384b!important;font-size:1.17rem}
+.ib-hypothesis-matrix p{font-size:.91rem}
+.ib-sign-classes .ib-sign-choice{color:#163341!important;background:#f6ecda!important;font-size:1rem}
+.ib-sign-classes .ib-sign-choice[aria-pressed="true"]{color:#ffffff!important;background:#173c4b!important}
+.ib-sign-detail,.ib-glyph-information{background:#fff8e9!important;color:#172b38!important}
+.ib-graphic-viewer h2{background:#173c4b!important;color:#ffffff!important}
+.ib-graphic-viewer a,#core-rule-evidence a,.ib-object-awaiting a{color:#09516b!important;text-decoration:underline;text-underline-offset:2px;font-weight:700}
+.ib-graphic-viewer h2 a{color:#ffffff!important}
+.ib-hypothesis-matrix th,.ib-hypothesis-matrix td{padding:12px}
+@media(max-width:700px){.ib-hypothesis-matrix td{font-size:.91rem}.ib-hypothesis-matrix th{font-size:.88rem}.ib-hypothesis-matrix{padding:10px}}
+
+
+/* High legibility across reading, interpretation and expert navigation. */
+.ib-sign-reading,.ib-normalized-reading,.ib-analysis-card,.ib-reconstruction,
+.ib-primary-grid .artifact-summary,.ib-primary-grid .ib-piece-original{font-size:max(1rem,16px);line-height:1.55}
+.ib-sign-reading,.ib-normalized-reading,.ib-analysis-card{color:#152d3c}
+.ib-sign-reading p,.ib-sign-reading li,.ib-normalized-reading p,.ib-analysis-card p,.ib-analysis-card li{color:#192f3c}
+.ib-sign-reading h2,.ib-analysis-card h2{background:#173c4b;color:#fff!important}
+.ib-reconstruction .ib-display{line-height:1.5}
+.ib-expert-nav a{font-size:max(.93rem,15px);line-height:1.45}
+.ib-expert-nav a:focus-visible,.ib-sign-choice:focus-visible{outline:3px solid #ffcf75;outline-offset:3px}
+@media(max-width:700px){.ib-sign-reading,.ib-normalized-reading,.ib-analysis-card{padding:15px;font-size:1rem}.ib-expert-nav a{min-height:40px}}
+
+/* Readability correction: do not encode transcription in pale ochre ink. */
+.ib-normalized-reading .ib-sign-script,.ib-sign-line .ib-sign-script{color:#112e42!important;background:transparent!important;font-weight:700}
+.ib-normalized-reading strong,.ib-sign-line>span{color:#203d50!important;font-size:.9rem!important}
+.ib-normalized-reading small,.ib-sign-line small{color:#294251!important;font-size:.86rem!important}
+.ib-expert-nav a,.ib-expert-nav button{color:#fff!important;border-color:#cfb384!important;background:#1d4052!important}
+.ib-expert-nav a:hover,.ib-expert-nav button:hover{background:#315c70!important}
+.ib-reconstruction .ib-caption{color:#593e23!important}
+.ib-hypothesis-matrix td,.ib-analysis-card td{overflow-wrap:anywhere}
+@media(max-width:700px){.ib-sign-line .ib-sign-script,.ib-normalized-reading .ib-sign-script{overflow-wrap:anywhere;word-break:normal}.ib-expert-nav a{padding:10px 12px}}
+.ib-documentary-checklist{background:#fff8e8;color:#193445;border:1px solid #b69a6b;border-radius:8px;padding:12px;margin:12px 0}.ib-documentary-checklist summary{cursor:pointer;font-weight:750;color:#143c50}.ib-documentary-checklist li,.ib-documentary-checklist p{color:#193445;line-height:1.6}
+
+/* Definitive color correction for screenshot: dark copy on parchment in IDENTIFICACIÓN. */
+body.iberos-ficha .ib-primary-grid .artifact-summary{background:#f3e8d3!important;color:#182b38!important}
+body.iberos-ficha .ib-primary-grid .artifact-summary h1{color:#173c4a!important;-webkit-text-fill-color:#173c4a!important;text-shadow:none!important}
+body.iberos-ficha .ib-primary-grid .artifact-summary p,
+body.iberos-ficha .ib-primary-grid .artifact-summary .meta,
+body.iberos-ficha .ib-primary-grid .artifact-summary .section-kicker,
+body.iberos-ficha .ib-primary-grid .artifact-summary details,
+body.iberos-ficha .ib-primary-grid .artifact-summary summary,
+body.iberos-ficha .ib-primary-grid .artifact-summary code{color:#182b38!important;-webkit-text-fill-color:currentColor!important;text-shadow:none!important;opacity:1!important}
+body.iberos-ficha .ib-primary-grid .artifact-summary .section-kicker{color:#68441f!important;-webkit-text-fill-color:#68441f!important}
+body.iberos-ficha .ib-primary-grid .artifact-summary .ib-panel-heading{background:#1f4e5f!important;color:#fff9ec!important;-webkit-text-fill-color:#fff9ec!important}
+body.iberos-ficha .ib-primary-grid .artifact-summary .artifact-actions a{background:#eadcc4!important;color:#173c4a!important;-webkit-text-fill-color:#173c4a!important;border:1px solid #c7a46a!important;text-shadow:none!important;opacity:1!important;font-weight:750!important}
+body.iberos-ficha .ib-primary-grid .artifact-summary .artifact-actions a:first-child{background:#d7b06a!important;color:#182b38!important;-webkit-text-fill-color:#182b38!important}
+body.iberos-ficha .ib-primary-grid .artifact-summary .artifact-actions a:focus-visible{outline:3px solid #1f4e5f;outline-offset:2px}
+body.iberos-ficha .ib-primary-grid .artifact-summary .pill{background:#dce5e8!important;color:#1f4e5f!important;-webkit-text-fill-color:#1f4e5f!important;border:1px solid #afc3c9!important}
+body.iberos-ficha .ib-primary-grid .ib-piece-original h2,body.iberos-ficha .ib-primary-grid .ib-panel-heading{color:#fff9ec!important;-webkit-text-fill-color:#fff9ec!important}
+
+/* Core states are readable on phones; internal enum codes are not public-facing labels. */
+body.iberos-ficha #core-audit-slot .rc-tags{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:8px;margin:12px 0}
+body.iberos-ficha #core-audit-slot .ib-core-state{display:flex;flex-direction:column;align-items:flex-start;gap:3px;min-width:0;max-width:100%;white-space:normal;overflow-wrap:anywhere;padding:10px 12px;background:#e4edf0!important;color:#173c4a!important;border:1px solid #a7bec6;border-radius:9px;font:500 .88rem/1.5 system-ui,sans-serif}
+body.iberos-ficha #core-audit-slot .ib-core-state strong{font-size:.9rem;color:#173c4a}
+body.iberos-ficha #core-audit-slot .ib-core-state span{color:#294a57}
+body.iberos-ficha #core-audit-slot .notice,body.iberos-ficha #core-audit-slot .notice strong,body.iberos-ficha #core-audit-slot .notice p{color:#193747!important;opacity:1!important}
+
+.ib-ficha-guide{max-width:1280px;margin:18px auto 25px;padding:22px;background:#fff9ed;border:1px solid #bea578;border-radius:12px;color:#17384a}.ib-ficha-guide h2{margin:0 0 10px;font:700 1.55rem Georgia,serif}.ib-ficha-guide p{line-height:1.58}.ib-ficha-guide-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.ib-ficha-guide-grid article{background:#f2e5ce;padding:13px 16px;border-radius:8px}.ib-ficha-guide-grid h3{font:700 1rem Georgia,serif;margin:0 0 7px}.ib-ficha-guide-grid p{font-size:.88rem;margin:0}.ib-ficha-guide-alert{border-left:4px solid #986a36;padding:9px 13px;background:#fbefd9}@media(max-width:700px){.ib-ficha-guide-grid{grid-template-columns:1fr}.ib-ficha-guide{margin:12px;padding:15px}}
+.ib-quick-read{max-width:1280px;margin:16px auto;padding:20px 24px;background:#fff7e7;border:2px solid #c4a478;border-radius:12px;color:#17384a;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:12px 24px;align-items:start}.ib-quick-kicker{font:700 .73rem system-ui,sans-serif;letter-spacing:.1em;color:#765226}.ib-quick-read h2{font:700 clamp(1.4rem,2.2vw,2rem) Georgia,serif;margin:8px 0}.ib-quick-read p{margin:7px 0;line-height:1.5}.ib-quick-status{background:#f1e4cc;border-radius:8px;padding:10px 15px}.ib-quick-actions{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:8px}.ib-quick-actions a{background:#214b59;color:#fff7e7;padding:9px 12px;border-radius:6px;font:600 .85rem system-ui,sans-serif;text-decoration:none}.ib-quick-actions a:focus-visible{outline:3px solid #b47b27;outline-offset:2px}@media(max-width:760px){.ib-quick-read{grid-template-columns:1fr;margin:12px;padding:15px}}</style></head><body class="iberos-inner iberos-ficha"><div id="head"></div><aside class="ib-discovery-help" aria-label="Cómo leer esta ficha"><details><summary>✦ Frente a la pieza · aprende a leer las pistas</summary><div class="ib-help-content"><p><strong>Primero:</strong> identifica el objeto y lee la gran propuesta central. <strong>Después:</strong> compara evidencia, inferencia, variantes y bibliografía.</p><p><strong>Qué esperar:</strong> una hipótesis no es una traducción probada. Si aparece «No establecida», la lectura sigue abierta: es información científica, no un fallo.</p><div class="ib-help-route"><a href="#geography-slot">Contexto geográfico ↘</a><a href="#documentary-slot">Acceso experto · evidencia y bibliografía ↘</a><a href="#variant-review-slot">Variantes ↘</a><a href="../corpus/">Elegir otra pieza →</a><a href="../laboratorio/">Abrir cuaderno de investigación →</a></div></div></details></aside><main><div id="body"><div class="notice" role="status">Cargando ficha arqueológica… Si permanece este mensaje, consulta el <a href="../corpus/">Corpus</a>.</div></div></main><footer><div class="wrap">Ficha web derivada del registro público. La portada documental no se presenta como fotografía del objeto.</div></footer>
+<script type="module">import{showResearchContext}from"../assets/research-context.js";showResearchContext();
+import{header,text,csv,esc}from"../assets/portal-data.js";
+document.getElementById("head").innerHTML=header("../");
+let rows=[],rels=[],dataLoadFailed=false;try{rows=csv(await text("../data/objects.csv"));if(!rows.length)throw Error("El catálogo está vacío");}catch(e){dataLoadFailed=true;document.getElementById("body").innerHTML='<div class="notice" role="alert"><h2>La ficha no está disponible temporalmente</h2><p>No hemos podido cargar los registros. Prueba de nuevo o consulta el <a href="../corpus/">Corpus</a>.</p></div>';console.error("Error de fichas",e)}
+try{rels=csv(await text("../data/families.csv"))}catch(e){console.warn("Relaciones no disponibles",e)}
+const id=new URLSearchParams(location.search).get("id");
+const r=rows.find(x=>x.OBJECT_ID===id);
+const body=document.getElementById("body");
+function shardFor(id){
+ if(/^IBR-CER-/.test(id)||/^IBR-COI-/.test(id)||id==="IBR-CTL-0001")return 1;
+ if(/^IBR-LAP-/.test(id)||/^IBR-MON-/.test(id)||id==="IBR-CTL-0002"||id==="IBR-CTL-0003")return 2;
+ if(/^IBR-MUS-/.test(id)||/^IBR-OBJ-/.test(id)||/^IBR-PLM-000[1-4]$/.test(id))return 3;
+ if(/^IBR-PLM-00(0[5-9]|1[0-2])$/.test(id))return 4;
+ if(id==="IBR-PLM-0013"||/^IBR-RUP-/.test(id))return 5;
+ return null;
+}
+if(dataLoadFailed){
+ // El aviso de red ya se ha mostrado; no confundir con identificador inexistente.
+}else if(!r){
+ body.innerHTML='<div class="notice">Objeto no encontrado.</div>';
+}else{
+ document.title="IberOS+ · "+r.Nombre_objeto;
+ const fam=rels.filter(x=>x.OBJECT_ID===r.OBJECT_ID).map(x=>x.Familia);
+ let en=null;
+ const verifiedPhotos={"IBR-LAP-0003":{"file":"Estela funeraria ibérica, (siglo I a. C.), Sinarcas, Museo de Prehistoria de Valencia 01.jpg","author":"Dorieo","license":"CC BY-SA 4.0","page":"https://commons.wikimedia.org/wiki/File:Estela_funeraria_ib%C3%A9rica,_(siglo_I_a._C.),_Sinarcas,_Museo_de_Prehistoria_de_Valencia_01.jpg","caption":"Fotografía de la estela funeraria de Sinarcas","src":"https://commons.wikimedia.org/wiki/Special:Redirect/file/Estela%20funeraria%20ib%C3%A9rica%2C%20(siglo%20I%20a.%20C.)%2C%20Sinarcas%2C%20Museo%20de%20Prehistoria%20de%20Valencia%2001.jpg?width=800"},"IBR-MUS-0001":{"file":"Mosaico Casa de Likine - La Caridad.jpg","author":"Sonsinbeles","license":"Dominio público (Public Domain Mark)","page":"https://commons.wikimedia.org/wiki/File:Mosaico_Casa_de_Likine_-_La_Caridad.jpg","caption":"Fotografía del mosaico de La Caridad","src":"https://commons.wikimedia.org/wiki/Special:Redirect/file/Mosaico%20Casa%20de%20Likine%20-%20La%20Caridad.jpg?width=800"}};
+ const covers={"IBR-PLM-0001":"../assets/ficha-covers/ullastret.webp","IBR-PLM-0002":"../assets/ficha-covers/tivissa.webp","IBR-PLM-0003":"../assets/ficha-covers/pech-maho.webp","IBR-PLM-0004":"../assets/ficha-covers/coimbra.webp","IBR-MUS-0001":"../assets/ficha-covers/caminreal.webp","IBR-LAP-0005":"../assets/ficha-covers/sagunto.webp"};
+ const cover=covers[r.OBJECT_ID]||"";
+ const dictionary={"INCLUDE":"Incluida en el corpus de investigación","CONDITIONAL":"Incluida con reservas documentales","CONTROL_ONLY":"Pieza de control; no cuenta como inscripción independiente","EXCLUDED_CONTROL":"Excluida del corpus de inscripciones auténticas","READY":"Revisión paleográfica preparada","REVIEW_NEEDED":"Necesita revisión paleográfica","HIGH_UNCERTAINTY":"Lectura o interpretación incierta","INDEPENDENT_OR_UNRESOLVED":"Independencia documental no resuelta","DEPENDENT_COPY":"Copia dependiente de otra pieza","ONE_OR_FEW_ENTRIES":"Una o pocas inscripciones registradas","NEEDS_SUBENTRY_SPLIT":"Necesita separar las inscripciones del objeto","PALEO":"Análisis de signos y escritura","TRACE":"Trazabilidad documental","MORPH":"Análisis morfológico experimental","LEXSEM":"Estudio léxico y semántico experimental","DUAL_LOCK":"Control de escritura dual","GRECO_LOCK":"Control de escritura grecoibérica","ICONO":"Estudio iconográfico","SIGNARY_DETECT":"Detección de signarios","NEGATIVE_CONTROL":"Control negativo","LEAK_SAFE":"Control de dependencia entre datos","DEPENDENCY":"Análisis de relaciones documentales","NUMISMATIC":"Estudio numismático","BILINGUAL_CONTROL":"Comparación bilingüe","FICHA PUBLICABLE":"Ficha disponible para consulta"};const readable=v=>String(v||"").split(";").map(x=>dictionary[x.trim()]||x.trim().replaceAll("_"," ").toLowerCase()).join("; "); const fields=[["Tipo",r.Tipo_objeto],["Yacimiento",r.Yacimiento],["Localidad",r.Localidad],["Soporte",r.Soporte],["Escritura",r.Escritura],["Cronología",r.Cronología],["Uso en investigación",r.IberOS_Inclusion],["Revisión de escritura",r.PALEO_Status],["Herramientas disponibles",r.Modulos_Activos],["Relación con otros registros",r.Dependency_Group],["Estado de ficha",r.Estado_ficha],["Referencia de archivo (no implica descarga disponible)",r.Archivo_ficha]];
+ const by=Object.fromEntries(rows.map(x=>[x.OBJECT_ID,x]));
+ const related=[...new Set(rels.filter(x=>fam.includes(x.Familia)&&x.OBJECT_ID!==r.OBJECT_ID).map(x=>x.OBJECT_ID))].slice(0,6);
+ function coverHtml(){
+ const photo=verifiedPhotos[r.OBJECT_ID];
+ if(photo)return '<figure class="artifact-visual ib-authentic-object"><img src="'+esc(photo.src)+'" loading="lazy" alt="'+esc(photo.caption)+'" onerror="this.hidden=true;this.parentElement.classList.add(\'without-image\');this.parentElement.querySelector(\'figcaption\').prepend(\'Imagen no disponible en este momento. \')"><figcaption>Fotografía documentada · '+esc(photo.author)+' · '+esc(photo.license)+' · <a href="'+esc(photo.page)+'" target="_blank" rel="noopener noreferrer">Fuente y atribución ↗</a></figcaption></figure>';
+ const source=r.Fuente&&/^https:\/\//.test(r.Fuente)?'<a href="'+esc(r.Fuente)+'" target="_blank" rel="noopener noreferrer">Consultar fuente del registro ↗</a>':'';
+ return '<div class="ib-object-awaiting" role="note"><span class="ib-object-icon" aria-hidden="true">◇</span><strong>Imagen arqueológica pendiente</strong><p>No se ha incorporado una fotografía o calco acreditado de esta pieza.</p><p>'+source+'</p></div>';
+}
+ function documentaryCandidatesHtml(item){
+  const candidates=Array.isArray(item.external_image_candidates)?item.external_image_candidates:[];
+  if(!candidates.length)return "";
+  return '<details class="ib-documentary-checklist"><summary>Reproducciones externas candidatas (sin cotejo de identidad)</summary><ul>'+candidates.map(c=>{
+    const url=typeof c.record_url==="string"&&/^https:\/\//.test(c.record_url)?c.record_url:null;
+    return '<li><strong>'+esc(c.source||"Fuente")+'</strong> · '+esc(c.license_claim||"Licencia pendiente")+' · Correspondencia epigráfica: '+(c.exact_object_match_verified===true?"cotejada":"pendiente")+(url?' · <a href="'+esc(url)+'" target="_blank" rel="noopener noreferrer">Ver fuente original ↗</a>':"")+'<ul class="ib-candidate-checks">'+(Array.isArray(c.match_requirements)?c.match_requirements:[]).map(req=>'<li>Por comprobar: '+esc(req)+'</li>').join('')+'</ul></li>';
+  }).join("")+'</ul><p>La licencia de una imagen no demuestra que represente esta inscripción.</p></details>';
+}
+function visualRegistryHtml(item){
+  if(!item)return '<section class="ib-graphic-viewer" id="graphic-viewer"><h2>◈ Visor documental de la pieza</h2><p>No hay aún un expediente gráfico individual en el registro. La identificación de imágenes y signos sigue pendiente.</p></section>';
+  const approved=item.status==="READY_FOR_DISPLAY"&&item.rights_verified===true&&item.exact_object_match_verified===true&&typeof item.image_url==="string"&&/^https:\/\//.test(item.image_url)&&typeof item.source_citation==="string"&&item.image_reuse_permission_verified===true&&item.image_author_credit_verified===true&&item.watermark_preserved_verified===true;
+  return '<section class="ib-graphic-viewer" id="graphic-viewer"><h2>◈ Visor documental de la pieza</h2>'+(approved?'<a href="'+esc(item.image_url)+'" target="_blank" rel="noopener noreferrer"><img loading="lazy" class="ib-graphic-source" src="'+esc(item.image_url)+'" alt="Reproducción documental acreditada; abrir para ampliar"></a>':'<div class="ib-graphic-notready"><strong>Imagen gráfica todavía no integrada</strong><p>Sin figura y derechos de reutilización totalmente verificados. No se generan calcos ni glifos ficticios.</p></div>')+'<p><strong>Fuente:</strong> '+esc(item.source_citation||"En revisión")+'</p><p><strong>Localizador:</strong> '+esc(item.figure_locator||"Figura por determinar")+'</p><p><strong>Estado:</strong> '+esc(item.status||"Pendiente")+' · <strong>Signos individualizados:</strong> '+(Array.isArray(item.glyphs)?item.glyphs.length:0)+'</p>'+'<p><strong>Autoría y marcas originales:</strong> deben conservarse intactas; el crédito y la marca de agua no sustituyen la autorización.</p>'+documentaryChecklistHtml(item,approved)+documentaryCandidatesHtml(item)+graphicSignMapHtml(item,approved)+(item.source_figure_url&&/^https:\/\//.test(item.source_figure_url)?'<p><a class="ib-figure-direct" href="'+esc(item.source_figure_url)+'" target="_blank" rel="noopener noreferrer">Ver figuras originales en la página exacta ↗</a></p>':'')+(item.source_url&&/^https:\/\//.test(item.source_url)?'<a href="'+esc(item.source_url)+'" target="_blank" rel="noopener noreferrer">Abrir publicación y comprobar la figura ↗</a>':'')+'</section>';
+ }
+ function documentaryChecklistHtml(item,approved){
+   const validGlyphs=approved&&Array.isArray(item.glyphs)?item.glyphs.filter(g=>g&&g.reviewed===true&&g.source_position_verified===true&&g.equivalence_reviewed===true&&typeof g.svg_url==="string"&&/^https:\/\//.test(g.svg_url)&&typeof g.license==="string"&&g.license.length>0).length:0;
+   return '<details class="ib-documentary-checklist"><summary>Verificación documental de imagen y signos</summary><ul><li>Identidad física de la pieza: '+(item.exact_object_match_verified===true?'cotejada':'pendiente')+'</li><li>Derechos de reproducción: '+(item.rights_verified===true?'verificados':'pendientes')+'</li><li>Imagen acreditada y publicable: '+(approved?'sí':'no')+'</li><li>Signos gráficos individualizados aptos para publicación: '+validGlyphs+'</li></ul><p>Estado de documentación gráfica; no demuestra una traducción lingüística.</p></details>';
+ }
+ function graphicSignMapHtml(item,approved){
+  const validPosition=p=>p&&["x","y","width","height"].every(k=>Number.isFinite(p[k])&&p[k]>=0&&p[k]<=100)&&p.width>0&&p.height>0&&p.x+p.width<=100&&p.y+p.height<=100;
+  const glyphs=Array.isArray(item.glyphs)?item.glyphs.filter(g=>g&&g.reviewed===true&&g.source_position_verified===true&&g.equivalence_reviewed===true&&typeof g.svg_url==="string"&&/^https:\/\//.test(g.svg_url)&&typeof g.label==="string"&&typeof g.source_locator==="string"&&typeof g.license==="string"&&validPosition(g.image_position_pct)):[];
+  const mapped=approved?glyphs:[];
+  if(!mapped.length)return '<div class="ib-glyph-map-pending" role="note"><strong>Mapa de signos sobre la pieza</strong><p>No existen aún trazados SVG individuales con correspondencia gráfica, posición, fuente y licencia verificadas.</p><p><strong>Siguiente paso documental:</strong> cotejar una figura concreta y registrar los signos uno a uno.</p></div>';
+  const overlays=mapped.map((g,i)=>'<button type="button" class="ib-glyph-hotspot" data-glyph="'+i+'" style="left:'+g.image_position_pct.x+'%;top:'+g.image_position_pct.y+'%;width:'+g.image_position_pct.width+'%;height:'+g.image_position_pct.height+'%" aria-label="Examinar signo '+esc(g.label)+'" aria-pressed="false"></button>').join('');
+  return '<div class="ib-glyph-map"><h3>Signos documentados sobre la pieza</h3><div class="ib-glyph-plate"><img src="'+esc(item.image_url)+'" alt="Reproducción documental autorizada con signos identificados" loading="lazy">'+overlays+'</div><div class="ib-glyph-tiles">'+mapped.map((g,i)=>'<button type="button" class="ib-glyph-tile" data-glyph="'+i+'" aria-pressed="false"><img loading="lazy" src="'+esc(g.svg_url)+'" alt=""><span>'+esc(g.label)+' · '+esc(g.transliteration||"Lectura pendiente")+'</span></button>').join('')+'</div><div class="ib-glyph-information" role="status" aria-live="polite">Selecciona un signo para ver su fuente, posición y lectura.</div></div>';
+ }
+ function initGraphicGlyphs(item){
+  const root=document.getElementById("graphic-viewer-slot");const plate=root?.querySelector(".ib-glyph-map");if(!plate)return;
+  const glyphs=item.glyphs.filter(g=>g&&g.reviewed===true&&g.source_position_verified===true&&g.equivalence_reviewed===true&&typeof g.svg_url==="string"&&/^https:\/\//.test(g.svg_url)&&typeof g.label==="string"&&typeof g.source_locator==="string"&&typeof g.license==="string"&&g.image_position_pct&&["x","y","width","height"].every(k=>Number.isFinite(g.image_position_pct[k])&&g.image_position_pct[k]>=0&&g.image_position_pct[k]<=100)&&g.image_position_pct.width>0&&g.image_position_pct.height>0&&g.image_position_pct.x+g.image_position_pct.width<=100&&g.image_position_pct.y+g.image_position_pct.height<=100);
+  plate.querySelectorAll("[data-glyph]").forEach(button=>button.addEventListener("click",()=>{
+   const index=Number(button.dataset.glyph);const g=glyphs[index];if(!g)return;
+   plate.querySelectorAll("[data-glyph]").forEach(x=>x.setAttribute("aria-pressed",String(Number(x.dataset.glyph)===index)));
+   const detail=plate.querySelector(".ib-glyph-information");detail.replaceChildren();
+   for(const [label,value] of [["Signo",g.label],["Transliteración",g.transliteration||"Pendiente"],["Fuente",g.source_locator],["Licencia",g.license]]){
+    const p=document.createElement("p"),strong=document.createElement("strong");strong.textContent=label+": ";p.append(strong,document.createTextNode(value));detail.append(p);
+   }
+  }));
+ }
+ async function loadGraphicRegistry(){
+  const slot=document.getElementById("graphic-viewer-slot");if(!slot)return;
+  try{const resp=await fetch("../data/epigraphic-visual-registry-v1.json");if(!resp.ok)throw Error("HTTP "+resp.status);const data=await resp.json();const record=Array.isArray(data.records)?data.records.find(x=>x.object_id===r.OBJECT_ID):null;slot.innerHTML=visualRegistryHtml(record);if(record)initGraphicGlyphs(record)}
+  catch(err){slot.innerHTML='<section class="ib-graphic-viewer"><h2>◈ Visor documental</h2><p>El registro gráfico no está disponible en este momento. No se ha podido verificar una imagen.</p></section>'}
+ }
+ function summaryHtml(){
+   return '<div class="artifact-summary"><div class="ib-panel-heading">▤ IDENTIFICACIÓN</div><div class="section-kicker" style="color:var(--gold2)">Ficha de pieza</div><h1>'+esc(r.Nombre_objeto)+'</h1><p class="meta">La propuesta interpretativa, cuando esté documentada, se presenta en el bloque central con su grado de incertidumbre.</p><p class="meta">Referencia arqueológica: '+esc(r.Referencia_epigráfica||"no fijada")+'</p><details class="technical-ref"><summary>Identificador interno</summary><code>'+esc(r.OBJECT_ID)+'</code></details><p><strong>Estado editorial del registro:</strong> '+esc(r.Estado_ficha||'No establecido')+' · <strong>Estado paleográfico:</strong> '+esc(r.PALEO_Status||'Pendiente')+' · <strong>Desglose de inscripciones:</strong> '+esc(r.ENTRY_Status||'Pendiente')+'</p><p><strong>Alcance de la ficha:</strong> '+(r.PALEO_Status==='READY'?'Metadatos paleográficos preparados para cotejo; no implica validación de todos los signos.':'Análisis paleográfico pendiente o incompleto; consultar documentación y variantes antes de aceptar una lectura.')+'</p><p><strong>Control de entradas:</strong> '+(r.ENTRY_Status==='ONE_OR_FEW_ENTRIES'?'Entrada(s) registradas; verificar límites y número frente a la edición.':r.ENTRY_Status==='NEEDS_SUBENTRY_SPLIT'?'Objeto con inscripciones o líneas que requieren separación individual y cotejo.':'Desglose por inscripciones sujeto a revisión documental.')+'</p><p><strong>Fuente registrada:</strong> '+(r.Fuente&&/^https:\/\//.test(r.Fuente)?'<a href="'+esc(r.Fuente)+'" target="_blank" rel="noopener noreferrer">Consultar edición o referencia original ↗</a>':'Referencia primaria no enlazada; verificar la fuente en la documentación inferior')+'</p><p>'+esc(r.Yacimiento||"Procedencia no fijada")+(r.Localidad?' · '+esc(r.Localidad):'')+'</p><p><span class="pill">'+esc(r.Soporte||"—")+'</span><span class="pill">'+esc(r.Escritura||"—")+'</span><span class="pill">'+esc(r.Cronología||"—")+'</span></p><div class="artifact-actions"><a href="../webengine/?q='+encodeURIComponent(r.OBJECT_ID)+'">Ver en Core →</a><a href="../laboratorio/?id='+encodeURIComponent(r.OBJECT_ID)+'">Llevar al laboratorio</a><a href="../atlas/">Abrir en Atlas</a><a href="../modelos3d/">Explorar 3D</a></div></div>'+'<section class="ib-piece-original" aria-label="Pieza original"><h2>◈ PIEZA ORIGINAL</h2>'+coverHtml()+'<p class="ib-piece-caption">'+(verifiedPhotos[r.OBJECT_ID]?'IMAGEN DOCUMENTADA · verificar carga y atribución':'IMAGEN DEL OBJETO PENDIENTE · fotografía o calco sin integrar')+'.</p></section>';
+ }
+function geographyHtml(){
+ const site=String(r.Yacimiento||"").trim(),locality=String(r.Localidad||"").trim();
+ const search=site&&!/procedencia no fijada|desconocid/i.test(site)?site:locality;
+ const atlas="../atlas/"+(search?"?q="+encodeURIComponent(search):"");
+ return '<section class="ib-geography" id="geography-slot" aria-label="Contexto geográfico de la pieza"><div class="section-kicker">Contexto arqueológico</div><h2>¿Dónde se encontró esta pieza?</h2><div class="ib-geo-info"><p><strong>Yacimiento o procedencia registrada:</strong> '+esc(site||"No fijada en el registro")+'</p><p><strong>Localidad:</strong> '+esc(locality||"No fijada en el registro")+'</p><p>El lugar de hallazgo no identifica automáticamente el lugar de fabricación, la lengua hablada ni el origen de su autor.</p><a class="btn gold" href="'+esc(atlas)+'">Explorar esta procedencia en el Atlas →</a><p class="ib-geo-caution">El Atlas muestra solo los yacimientos con georreferenciación disponible. Si esta pieza no aparece en el mapa, su ubicación precisa permanece sin verificar.</p></div></section>';
+}
+function reconstructionHtml(){return '<section class="ib-reconstruction" aria-label="Traducción o reconstrucción orientativa"><div class="ib-caption" id="reconstructionTitle">RECONSTRUCCIÓN ORIENTATIVA</div><div class="ib-display" id="interpretationMain"><span class="ib-unresolved">Consultando documentación…</span></div><p class="ib-note"><strong>Lectura crítica:</strong> lo destacado a continuación puede ser una hipótesis editorial, no una traducción confirmada.</p><p class="ib-note" id="interpretationNote">No se ofrece una traducción literal sin evidencia contrastada.</p><div class="ib-legend" aria-label="Leyenda científica"><span><i style="--swatch:#173347"></i> Lectura documentada</span><span><i style="--swatch:#9a6321"></i> Reconstrucción propuesta</span><span><i style="--swatch:#147b91"></i> Ambiguo</span><span><i style="--swatch:#777b80"></i> No establecido</span></div><p class="ib-explanation">Los colores se asignan únicamente a segmentos con clasificación documental expresa; nunca mediante suposiciones automáticas.</p><p id="interpretationTrace" class="ib-note" aria-live="polite">Verificando procedencia de la propuesta…</p><p><a href="#documentary-slot">Consultar evidencia, inferencia, límites y bibliografía ↓</a></p></section>'}
+ function metadataHtml(){
+   const rowsHtml=fields.map(([a,b])=>'<div class="kv"><b>'+esc(a)+'</b><span>'+esc(readable(b)||"Sin información pública")+'</span></div>').join("");
+   const famHtml=fam.map(x=>'<span class="pill">'+esc(readable(x))+'</span>').join("");
+   const source=r.Fuente?'<a href="'+esc(r.Fuente)+'" target="_blank" rel="noopener">Abrir fuente original ↗</a>':'Pendiente en este registro';
+   return '<div class="evidence-path"><div class="evidence-node"><b>Descripción</b><span>metadatos y contexto</span></div><div class="evidence-node"><b>Familias</b><span>relaciones estructurales</span></div><div class="evidence-node"><b>Fuente</b><span>procedencia documental</span></div><div class="evidence-node"><b>Proyecto</b><span>pregunta reproducible</span></div></div><div class="detail"><section><div class="card"><h2>Datos de la pieza</h2><p>La información procede del registro público IberOS. Los términos técnicos se presentan en castellano; los identificadores internos se conservan para trazabilidad.</p>'+rowsHtml+'</div><div class="card" style="margin-top:12px"><h2>Observaciones</h2><p>'+esc(r.Observaciones||"Sin observaciones públicas adicionales en el registro.")+'</p></div></section><aside><div class="card"><h3>Familias relacionadas</h3><p>'+famHtml+'</p><h3>Fuente declarada</h3><p>'+source+'</p><a class="btn gold" href="../laboratorio/?id='+encodeURIComponent(r.OBJECT_ID)+'">Investigar esta pieza</a></div></aside></div>';
+ }
+function updateInterpretation(){const main=document.getElementById("interpretationMain"),note=document.getElementById("interpretationNote"),title=document.getElementById("reconstructionTitle");if(!main||!note||!title)return;const trace=document.getElementById("interpretationTrace");if(trace)trace.textContent=en?.citation?"Procedencia documental: "+en.citation:en?.bibliography?.length?"Apoyada en "+en.bibliography.length+" referencias bibliográficas de la ficha.":en?"Ficha documental: sin referencia bibliográfica explícita para esta propuesta.":"Sin propuesta documental disponible para esta pieza.";const segments=Array.isArray(en?.reconstruction_segments)?en.reconstruction_segments:null;const types={EVIDENCE:"ib-evidence",INFERENCE:"ib-inference",HYPOTHESIS:"ib-ambiguous",AMBIGUOUS:"ib-ambiguous",UNRESOLVED:"ib-unresolved"};if(en?.reconstruction_review?.publication_approved===true&&en?.reconstruction_review?.source_audit==="REGISTERED_SOURCES_ONLY"&&en?.reconstruction_review?.independence_reviewed===true&&segments&&segments.length&&segments.length<=500&&segments.every(x=>x&&typeof x.text==="string"&&x.text.trim()&&x.text.length<=2000&&Object.hasOwn(types,x.layer)&&(x.layer==="UNRESOLVED"||typeof x.source==="string"&&x.source.trim())&&(!["INFERENCE","HYPOTHESIS","AMBIGUOUS"].includes(x.layer)||typeof x.rationale==="string"&&x.rationale.trim())&&(!("meaning_claim" in x)||typeof x.meaning_claim==="boolean")&&!(["EVIDENCE","UNRESOLVED"].includes(x.layer)&&x.meaning_claim===true))){main.innerHTML=segments.map(x=>'<span class="'+types[x.layer]+'" title="'+esc("Capa: "+x.layer+(x.source?" · Fuente declarada: "+x.source:"")+(x.rationale?" · Fundamento: "+x.rationale:""))+'">'+esc(x.text)+'</span>').join(" ");title.textContent="RECONSTRUCCIÓN ORIENTATIVA · SEGMENTOS CLASIFICADOS";note.textContent="Los colores representan las categorías declaradas en el registro. La fuente y el fundamento pueden consultarse situando el cursor sobre cada segmento; su existencia no demuestra independencia documental ni validez semántica.";return}const hypothesis=typeof en?.hypothesis==="string"?en.hypothesis.trim():"";if(!hypothesis){main.innerHTML='<span class="ib-unresolved">No establecida</span>';title.textContent="TRADUCCIÓN NO ESTABLECIDA";note.textContent="No consta reconstrucción lingüística segmentada y validada para esta pieza. La ausencia de traducción es un resultado científico legítimo.";return}title.textContent="POSIBLE INTERPRETACIÓN · HIPÓTESIS EDITORIAL NO VALIDADA";main.innerHTML='<span class="ib-ambiguous">'+esc(hypothesis)+'</span>';note.textContent="Propuesta documental íntegra; no es una traducción literal. El color indica hipótesis no segmentada, no certeza lingüística. Consulte los límites y la bibliografía de la ficha."}
+ function enrichmentHtml(){
+   if(!en)return '<div class="notice" style="margin-top:26px"><strong>Enriquecimiento documental pendiente en esta ficha pública.</strong> Los metadatos y herramientas siguen disponibles.</div>';
+   const bib=(en.bibliography||[]).map(b=>'<li>'+esc(b)+'</li>').join("");
+   const extractionShortened=["evidence","inference","hypothesis","limits","epistemology"].filter(key=>typeof en[key]==="string"&&/[.…]$/.test(en[key].trim())&&en[key].trim().endsWith("…"));const extractionWarning=extractionShortened.length?'<div class="notice" role="note"><strong>Transcripción digital abreviada.</strong> Uno o más apartados del resumen importado terminan con puntos suspensivos. Consulte el PDF original para verificar el texto íntegro antes de citar o clasificar segmentos.</div>':"";
+   const citation=en.citation?'<h3>Cita sugerida</h3><p>'+esc(en.citation)+'</p>':'';
+   const dossier=["IBR-PLM-0002","IBR-PLM-0003","IBR-PLM-0004"].includes(en.OBJECT_ID)?'<p><a class="btn gold" href="https://zenodo.org/records/22957236/files/IberOS_CaseStudies_I_v1.0_4_fichas.pdf?download=1">Abrir dossier PDF ↗</a></p>':'';
+   return extractionWarning+'<div class="section-kicker" style="margin-top:30px">Lectura documental</div><h2 class="section-title">Evidencia, inferencia y límites</h2><div class="case-grid"><article class="card"><span class="pill ok">Evidencia documentada</span><h3>Qué sostiene la ficha</h3><p>'+esc(en.evidence||"—")+'</p></article><article class="card"><span class="pill warn">Inferencia propuesta</span><h3>Qué se infiere</h3><p>'+esc(en.inference||"—")+'</p></article><article class="card"><span class="pill">Hipótesis</span><h3>Qué sigue abierto</h3><p>'+esc(en.hypothesis||"—")+'</p></article></div><div class="detail" style="margin-top:14px"><section><div class="card"><h3>Límites</h3><p>'+esc(en.limits||"—")+'</p><h3>Estado epistemológico</h3><p>'+esc(en.epistemology||"—")+'</p></div></section><aside><div class="card"><h3>Bibliografía</h3><ul>'+bib+'</ul>'+citation+'<div class="notice">'+esc(en.note||en.extraction_note||"")+'</div>'+dossier+'</div></aside></div>';
+ }
+ function signReadingHtml(record){
+   const variants=record?.variant_review?.variants;
+   if(!Array.isArray(variants)||!variants.length)return '<section class="ib-sign-reading" id="sign-reading-slot"><div class="section-kicker">Lectura epigráfica · expediente individual</div><h2>Signos originales y transliteración</h2><div class="ib-original-placeholder"><strong>Imagen y signos del soporte</strong>No consta aquí fotografía o calco acreditado con signos individualizados para esta entrada. No se sustituye por una ilustración ficticia.</div><div class="ib-sign-line"><span>01 · LECTURA EDITORIAL EN CARACTERES LATINOS</span><p>Sin secuencia completa cotejada en el expediente de esta pieza.</p><div class="ib-normalized-reading"><strong>02 · NORMALIZACIÓN / ANÁLISIS ALTERNATIVO</strong><p>Sin propuesta editorial documentada. No se asigna segmentación ni significado.</p></div></div><p><strong>Lectura diplomática:</strong> pendiente de incorporación documental y cotejo.</p><p><strong>Traducción al castellano:</strong> no establecida. La propuesta interpretativa de la ficha, si existe, se presenta separadamente.</p><p><a href="#documentary-slot">Ver evidencia, límites y referencias de esta pieza ↓</a></p></section>';
+   return '<section class="ib-sign-reading" id="sign-reading-slot" aria-label="Signos y transcripción editorial"><div class="section-kicker">Lectura epigráfica</div><h2>De los signos ibéricos a caracteres actuales</h2><p>Estas líneas son <strong>transliteraciones editoriales en alfabeto latino</strong>, no traducciones al castellano. No sustituyen a una fotografía, calco o facsímil del objeto.</p><div class="ib-original-placeholder"><strong>Signos ibéricos originales</strong>La imagen o calco con identificación individual de signos está pendiente de incorporación y cotejo. No se sustituyen los signos originales por caracteres inventados. Atención: en Pech-Maho existen también testimonios griegos y etruscos distintos; no deben confundirse con el ibérico B.7.38.</div><div class="ib-sign-legend" aria-label="Leyenda científica de lectura"><span><i style="--swatch:#173347"></i>Documentado</span><span><i style="--swatch:#9a6321"></i>Propuesto</span><span><i style="--swatch:#147b91"></i>Lectura discutida</span><span><i style="--swatch:#777b80"></i>No establecido</span></div>'+variants.map(v=>'<div class="ib-sign-line"><span>01 · LECTURA EDITORIAL EN CARACTERES LATINOS</span><p class="ib-sign-script">'+esc(v.reading_a||"Sin lectura")+'</p><small>'+esc(v.source_a||"Fuente no precisada")+'</small><div class="ib-normalized-reading"><strong>02 · NORMALIZACIÓN / ANÁLISIS ALTERNATIVO (SIN APROBAR)</strong><p class="ib-sign-script">'+esc(v.reading_b||"No registrada")+'</p><small>Las divisiones propuestas no demuestran palabras ni morfemas.</small></div><details><summary>Alternativa y precauciones</summary><p class="ib-sign-script">'+esc(v.reading_b||"Sin alternativa")+'</p><p>'+esc(v.difference||"")+'</p><p>'+esc(v.notes||"")+'</p></details></div>').join('')+'<p><a href="#variant-review-slot">Consultar cotejo de variantes y fuentes ↓</a></p></section>';
+ }
+ function editorialUnits(raw){
+  const text=String(raw||"").replace(/\s*\([^)]*\)\s*$/,"").trim();
+  if(!text)return [];
+  return text.split(/(:|·|\s+)/).filter(x=>x&&!/^\s+$/.test(x)).map(x=>({text:x,separator:x===":"||x==="·"}));
+ }
+ function editorialUnitsHtml(raw,record){
+  const units=editorialUnits(raw);
+  const physicalPunctuation=record?.graphic_collation?.original_punctuation_verified===true;
+  return units.map((unit,i)=>'<span class="ib-epigraph-unit '+(unit.separator?'ib-epigraph-divider':'')+'" title="'+(unit.separator?(physicalPunctuation?'Separador original identificado en el soporte':'Separación editorial: no comprobada como signo físico'):'Unidad gráfica de la lectura editorial; no es palabra traducida')+'">'+esc(unit.text)+'</span>').join('');
+ }
+ function signCorrespondenceHtml(record){
+  const classes=record?.graphic_collation?.editorial_palaeographic_sign_classes;
+  const has=Array.isArray(classes)&&classes.length>0;
+  return '<section class="ib-analysis-card ib-sign-correspondence" id="sign-correspondence"><h2>▦ Correspondencia de signos · edición / soporte</h2><p>Las grafías latinas son convenciones de transliteración. Una clase citada en una edición no equivale a una comprobación visual de cada trazo.</p>'+(has?'<div class="ib-sign-classes">'+classes.map((x,i)=>'<button type="button" class="ib-sign-choice" data-sign-index="'+i+'" aria-pressed="false">'+esc(x)+'</button>').join('')+'</div><div class="ib-sign-detail" id="ib-sign-detail" role="status">Selecciona una clase para consultar sus datos.</div><p><strong>Procedencia:</strong> '+esc(record.graphic_collation.sign_class_source_locator||'Edición citada')+'</p>':'<p><strong>Inventario paleográfico de esta pieza:</strong> no incorporado o sin cotejo verificable.</p>')+'<div class="ib-sign-verification"><span>Signo original (imagen/calco)</span><span>Transliteración editorial</span><span>Estado del cotejo</span><strong>Por individualizar</strong><strong>'+(has?'Clases editoriales registradas':'Pendiente')+'</strong><strong>Sin validación signo por signo</strong></div><p class="ib-analysis-note">No se muestran glifos hipotéticos ni porcentajes de acierto sin auditoría reproducible.</p></section>';
+ }
+function initSignInspector(record){
+ const root=document.getElementById("sign-correspondence");if(!root)return;
+ const classes=record?.graphic_collation?.editorial_palaeographic_sign_classes||[];
+ const detail=root.querySelector("#ib-sign-detail");
+ const sourceUrl=record?.graphic_collation?.source_url||record?.original_edition?.url||"";
+ const sourceLocator=record?.graphic_collation?.sign_class_source_locator||"Edición sin localizador individual";
+ root.querySelectorAll("[data-sign-index]").forEach(button=>button.addEventListener("click",()=>{
+  const code=classes[Number(button.dataset.signIndex)];if(!code)return;
+  root.querySelectorAll("[data-sign-index]").forEach(b=>b.setAttribute("aria-pressed",String(b===button)));
+  detail.replaceChildren();const heading=document.createElement("strong");heading.textContent="Clase paleográfica: "+code;detail.append(heading);
+  for(const [label,value] of [["Signo original","Calco individual sin verificar"],["Transliteración","Clase editorial registrada, no signo cotejado"],["Fuente",sourceLocator],["Variantes","Consultar la edición original"],["Seguridad","Pendiente de verificación individual"]]){
+   const para=document.createElement("p");const bold=document.createElement("strong");bold.textContent=label+": ";para.append(bold,document.createTextNode(value));detail.append(para);
+  }
+  if(/^https:\/\//.test(sourceUrl)){const link=document.createElement("a");link.href=sourceUrl;link.target="_blank";link.rel="noopener noreferrer";link.textContent="Abrir edición que documenta esta clase ↗";detail.append(link)}
+ }));
+}
+ function scientificPanelsHtml(record){
+   const variants=record?.variant_review?.variants||[];
+   const checks=record?.technical_audit?.blockers||[];
+   const rows=variants.map(v=>'<tr><th scope="row">'+esc(v.locus||"Secuencia")+'</th><td>'+esc(v.reading_a||"Sin lectura")+'</td><td>'+esc(v.reading_b||"Pendiente")+'</td><td>Sin decisión paleográfica</td></tr>').join('');
+const lines=Array.isArray(record?.edition_lineation?.editorial_lines)?record.edition_lineation.editorial_lines:[];
+   const graphic=record?.graphic_collation;
+   const punctuationNotice=record?.object_id==='IBR-PLM-0003'?'<p class="ib-punctuation-warning"><strong>Pech-Maho:</strong> los dos puntos de esta transliteración son separadores editoriales, NO puntuación original confirmada. El plomo presenta superposición de textos.</p>':record?.object_id==='IBR-PLM-0002'?'<p class="ib-punctuation-warning"><strong>Tivissa:</strong> la edición registra interpunciones, pero su valor como límite de palabra es discutido. No atribuir segmentación lingüística automáticamente.</p>':'<p class="ib-punctuation-warning">Los separadores que se ven en la transcripción son convenciones editoriales salvo verificación expresa del soporte.</p>';
+   const graphicNotes=graphic?.observations?.length?'<aside class="ib-graphic-notes"><strong>Cotejo gráfico de la edición · '+esc(graphic.figure_locator||'')+'</strong><ul>'+graphic.observations.map(x=>'<li>'+esc(x)+'</li>').join('')+'</ul><p>Correspondencia signo por signo: pendiente. '+esc(graphic.lexical_caution||'')+'</p></aside>':'';
+   const lineation=lines.length?'<div class="ib-edition-lines"><p><strong>Edición de referencia · '+esc(record.edition_lineation.source||'')+'</strong></p>'+lines.map((line,i)=>'<div class="ib-edition-line"><span>L'+(i+1)+'</span><code>'+esc(line)+'</code></div>').join('')+'<p class="ib-analysis-note">'+esc(record.edition_lineation.caution||'Cotejo paleográfico pendiente')+'</p><a href="'+esc(record.edition_lineation.source_url)+'" target="_blank" rel="noopener noreferrer">Comprobar en la edición original ↗</a></div>':'';
+   const diplomatic=variants.map(v=>'<div class="ib-diplomatic-line"><strong>'+esc(v.locus||"Pasaje")+'</strong><span class="ib-epigraph-sequence" aria-label="Transliteración editorial segmentada por separadores gráficos">'+editorialUnitsHtml(v.reading_a,record)+'</span><small>'+esc(v.source_a||"Fuente por cotejar")+'</small></div>').join('');
+   const blocked=!record||record.publication_approved!==true;
+   return '<div class="ib-analysis-grid" id="scientific-panels">'+signCorrespondenceHtml(record)+'<section class="ib-analysis-card ib-diplomatic"><h2>▤ Lectura diplomática</h2><p class="ib-analysis-note">Transliteración editorial del pasaje registrado. Los separadores visibles se resaltan sin atribuirles morfología ni significado; no reproduce glifos ni constituye traducción.</p>'+lineation+punctuationNotice+graphicNotes+(diplomatic||(!lines.length?'<p>No consta transcripción diplomática cotejada para este registro.</p>':''))+'</section><section class="ib-analysis-card"><h2>◈ Segmentación y lecturas</h2><table><thead><tr><th>Pasaje</th><th>Lectura documentada</th><th>Variante o análisis</th><th>Estado</th></tr></thead><tbody>'+(rows||'<tr><td colspan="4">Segmentación científica pendiente de cotejo</td></tr>')+'</tbody></table><p class="ib-analysis-note">Las diferencias editoriales no prueban por sí mismas una división morfológica ni un significado.</p></section><section class="ib-analysis-card"><h2>⌘ Arquitectura funcional</h2><p class="ib-state">'+(blocked?"Reconstrucción funcional pendiente de validación":"Consultar segmentos científicos revisados")+'</p><p>Relaciones entre signos, morfología y semántica: los datos actuales no autorizan cerrar una traducción literal.</p><p><a href="#documentary-slot">Contrastar evidencia e inferencias →</a></p></section><section class="ib-analysis-card"><h2>⛓ Cadena de evidencias</h2><div class="ib-evidence-chain"><span>Objeto</span><span>Lectura editorial</span><span>Variantes</span><span>Inferencia</span><span>Hipótesis</span></div><p>La existencia de etapas documentales no equivale a una validación completa. Identidad física, fuentes independientes y cotejo siguen sujetos a revisión.</p></section><section class="ib-analysis-card"><h2>◌ Confianza y límites</h2><p><strong>Publicación de segmentos:</strong> '+(blocked?"No aprobada":"Aprobación declarada en expediente")+'</p><p><strong>Revisión de independencia:</strong> '+(record?.technical_audit?.physical_independence_audited?"Registrada":"Pendiente")+'</p><p><strong>Cuestiones abiertas:</strong> '+esc(checks.length?checks.join("; "):"Consultar documentación y límites de la ficha.")+'</p><p class="ib-analysis-note">No se muestran puntuaciones sobre 100 sin medición reproducible y auditoría.</p></section></div>';
+ }
+ function variantReviewHtml(record){
+  if(!record||!record.variant_review)return '';
+  const v=record.variant_review;
+  const variants=Array.isArray(v.variants)?v.variants:[];
+  const rows=variants.map(item=>'<article class="card"><h3>'+esc(item.locus||"Pasaje en revisión")+'</h3><p><strong>Lectura A:</strong> '+esc(item.reading_a||"No registrada")+'</p><p><small>'+esc(item.source_a||"Fuente pendiente")+'</small></p><p><strong>Lectura B / análisis alternativo:</strong> '+esc(item.reading_b||"No registrada")+'</p><p><small>'+esc(item.source_b||"Fuente pendiente")+'</small></p><p><strong>Diferencia:</strong> '+esc(item.difference||"Sin determinar")+'</p><p>'+esc(item.notes||"")+'</p><span class="pill warn">Variante sin resolver · no es traducción</span></article>').join('');
+  const checks=(Array.isArray(v.issues)?v.issues:[]).map(x=>'<li>'+esc(x)+'</li>').join('');
+  const refs=(Array.isArray(record.references_checked)?record.references_checked:[]).filter(x=>typeof x.url==="string"&&/^https:\/\//.test(x.url)).map(x=>'<li><a href="'+esc(x.url)+'" target="_blank" rel="noopener noreferrer">'+esc(x.citation||"Publicación")+'</a> · '+esc(x.status||"Pendiente")+'</li>').join('');
+  return '<section class="wrap" aria-label="Cotejo de variantes"><div class="section-kicker">Core · control epigráfico</div><h2 class="section-title">Lecturas, variantes y verificaciones</h2><div class="notice">Registro documental en revisión. No existe aprobación científica de segmentos ni traducción confirmada.</div><div class="case-grid">'+rows+'</div><details><summary>Comprobaciones pendientes y fuentes</summary><ul>'+checks+refs+'</ul></details></section>';
+ }
+ function loadVariantReview(){
+   const host=document.getElementById("variant-review-slot");if(!host)return;
+   fetch("../data/scientific-review-queue-v1.json").then(x=>{if(!x.ok)throw Error("HTTP "+x.status);return x.json()}).then(data=>{
+     const record=Array.isArray(data.records)?data.records.find(x=>x.object_id===r.OBJECT_ID):null;
+     host.innerHTML=variantReviewHtml(record);const science=document.getElementById('scientific-panels-slot');if(science)science.innerHTML=scientificPanelsHtml(record);initSignInspector(record);const reading=document.getElementById('sign-reading-slot');if(reading)reading.outerHTML=signReadingHtml(record);const media=document.getElementById('documentary-image-links');if(media&&record?.original_edition){const edition=record.original_edition;media.innerHTML='<strong>Fuente gráfica de la pieza:</strong> <a href="'+esc(edition.url)+'" target="_blank" rel="noopener noreferrer">Abrir edición científica original ↗</a>'+(edition.figure_locator?'<p><strong>Figuras identificadas:</strong> '+esc(edition.figure_locator)+'</p>':'<p>Figura exacta pendiente de identificar.</p>')+(edition.text_locator?'<p><strong>Texto epigráfico:</strong> '+esc(edition.text_locator)+'</p>':'')+(edition.physical_description?'<p>'+esc(edition.physical_description)+'</p>':'')+'<p>La reproducción gráfica no se incrusta hasta comprobar los derechos de reutilización'+(edition.figure_identification_verified?'':' y su correspondencia con la pieza')+'.</p>'; }if(media&&record?.references_checked?.length&&!record?.original_edition){media.innerHTML='<strong>Consultar la pieza en las publicaciones documentales:</strong> '+record.references_checked.filter(x=>typeof x.url==='string'&&x.url.startsWith('https://')).map(x=>'<a href="'+esc(x.url)+'" target="_blank" rel="noopener noreferrer">'+esc(x.citation||'Abrir publicación')+' ↗</a>').join(' · ')}
+   }).catch(error=>{console.warn("Variantes no disponibles",error);host.innerHTML='<div class="notice">El cotejo de variantes no está disponible temporalmente. La ficha científica principal sigue accesible.</div>';const reading=document.getElementById('sign-reading-slot');if(reading)reading.innerHTML='<h2>Signos y transcripción</h2><p>La lectura editorial no está disponible. No se genera una transcripción sin fuente.</p>'});
+ }
+ function relatedHtml(){
+   if(!related.length)return "";
+   return '<div class="section-kicker" style="margin-top:30px">Objetos relacionados</div><h2 class="section-title">Paralelos por familia</h2><div class="corpus-grid">'+related.map(x=>'<article class="result-card"><div class="media"></div><div class="copy"><div class="meta">'+esc(x)+'</div><h3>'+esc(by[x]?.Nombre_objeto||x)+'</h3><a class="btn alt" href="?id='+encodeURIComponent(x)+'">Abrir ficha →</a></div></article>').join("")+'</div>';
+ }
+ body.innerHTML='<nav class="ib-expert-nav" aria-label="Acceso experto a la ficha"><strong>Acceso experto</strong><a href="#sign-reading-slot">Signos / escritura</a><a href="#interpretationMain">Interpretación</a><a href="#geography-slot">Geografía</a><a href="#documentary-slot">Evidencia y fuentes</a><a href="#variant-review-slot">Variantes</a><a href="../webengine/?q='+encodeURIComponent(r.OBJECT_ID)+'">Core</a><button type="button" id="expertExport" aria-label="Exportar datos documentales de esta ficha">Exportar datos JSON</button></nav><header class="ib-canonical-banner"><span>FICHA IBEROS · '+esc(r.Referencia_epigráfica||r.OBJECT_ID)+'</span><small>DOCUMENTACIÓN CIENTÍFICA · LECTURA · INTERPRETACIÓN</small></header><div class="ib-canonical-flags"><span>◈ Identificación: según registro disponible</span><span>◈ Lecturas: según fuente</span><span>◉ Hipótesis sujetas a revisión</span><span>◌ Traducción literal no garantizada</span></div><section class="ib-quick-read" aria-label="Resumen científico de la pieza"><div><span class="ib-quick-kicker">LECTURA RÁPIDA · '+esc(r.OBJECT_ID)+'</span><h2>'+esc(r.Nombre_objeto||"Pieza sin nombre")+'</h2><p>'+esc(r.Yacimiento||"Yacimiento sin acreditar")+' · '+esc(r.Soporte||r.Tipo_objeto||"Soporte no documentado")+'</p></div><div class="ib-quick-status"><p><strong>Imagen original:</strong> '+(verifiedPhotos[r.OBJECT_ID]?"fotografía con fuente y licencia identificadas":"fotografía o calco acreditado pendiente")+'</p><p><strong>Lectura:</strong> consulta la transcripción editorial y sus variantes; no equivale a traducción.</p><p><strong>Significado:</strong> hipótesis en revisión; no existe traducción literal validada de esta ficha.</p></div><div class="ib-quick-actions"><a href="#sign-reading-slot">Ver lectura y signos</a><a href="#interpretationMain">Interpretación y límites</a><a href="#documentary-slot">Fuentes y pruebas</a></div></section><section class="ib-ficha-guide" aria-label="Cómo interpretar los datos de esta ficha"><h2>Cómo leer este expediente científico</h2><p>Esta ficha distingue el <strong>objeto arqueológico</strong>, la <strong>lectura de sus signos</strong>, las <strong>hipótesis de significado</strong> y la <strong>validación independiente</strong>. Son niveles distintos: una lectura editorial no constituye por sí sola una traducción.</p><div class="ib-ficha-guide-grid"><article><h3>1 · Pieza y contexto</h3><p>Identificación, soporte, procedencia, cronología y lugar de conservación. Si falta un dato, se declara pendiente en lugar de completarlo por analogía.</p></article><article><h3>2 · Signos y variantes</h3><p>Transliteración documentada y diferencias entre ediciones. Se requiere cotejar fotografía, dibujo o calco con su fuente antes de validar individualmente un signo.</p></article><article><h3>3 · Interpretación propuesta</h3><p>Segmentación, paralelos e hipótesis con objeciones. Ninguna posibilidad semántica equivale a una traducción literal establecida sin pruebas adicionales.</p></article><article><h3>4 · Fuentes y reproducibilidad</h3><p>Comprueba enlaces, imágenes autorizadas, bibliografía y pendientes documentales. Los registros exportados permiten auditar el proceso, no certifican una lectura.</p></article></div><p class="ib-ficha-guide-alert"><strong>Regla de fiabilidad:</strong> la ausencia de documentación visual, lectura independiente o concordancia entre fuentes debe figurar explícitamente como limitación. No se confunden testimonios editoriales con objetos físicos diferentes.</p></section><div class="ib-primary-grid"><section class="artifact-stage ib-primary-object">'+summaryHtml()+'</section><div class="ib-primary-readings"><div id="sign-reading-slot"></div><div id="documentary-image-links" class="ib-source-images" aria-label="Fuentes gráficas originales"><strong>Pieza original y signos:</strong> las portadas editoriales no son fotografías. Consulta la documentación gráfica acreditada.</div></div></div>'+'<section id="independent-review-slot" class="research-card" style="margin:24px 0;background:#fff9e9;border:1px solid #c5a36d;padding:18px;border-radius:12px" aria-live="polite"><h2>Expediente de cotejo y revisión independiente</h2><p>Consultando fuentes específicas y comprobaciones pendientes…</p></section>'+'<section id="translation-candidates-slot" class="research-card" style="margin:24px 0" aria-live="polite"><h2>Posible traducción · hipótesis contrastables</h2><p>Consultando propuestas documentadas…</p></section>'+'<section id="core-audit-slot" class="research-card" style="margin:24px 0" aria-live="polite"><h2>Análisis CORE · Reglas y módulos</h2><p>Cargando auditoría científica…</p></section>'+'<div id="graphic-viewer-slot"></div><div id="scientific-panels-slot"></div>'+reconstructionHtml()+geographyHtml()+metadataHtml()+'<div id="documentary-slot"><div class="notice" style="margin-top:26px">Cargando lectura documental…</div></div>'+'<div id="variant-review-slot"></div>'+relatedHtml();
+ loadVariantReview();
+ loadGraphicRegistry();
+ fetch("../data/core_interpretations_v1.json")
+  .then(x=>{if(!x.ok)throw Error("HTTP "+x.status);return x.json()})
+  .then(feed=>{
+    const slot=document.getElementById("translation-candidates-slot");
+    if(!slot)return;
+    const item=feed.objects?.[r.OBJECT_ID];
+    const heading=document.createElement("h2");heading.textContent="Posible traducción · hipótesis contrastables";
+    const disclaimer=document.createElement("p");disclaimer.textContent="No es una traducción demostrada. Toda interpretación exige lectura, fuente y revisión independiente.";
+    const entries=Array.isArray(item?.candidates)?item.candidates.filter(p=>p.epistemic_layer==="HYPOTHESIS"&&p.meaning_validated===false&&Array.isArray(p.sources)&&p.sources.length):[];
+    if(!entries.length){
+      const msg=document.createElement("p");msg.textContent="Todavía no hay propuestas semánticas documentadas y revisadas para publicar en esta pieza.";
+      slot.replaceChildren(heading,disclaimer,msg);return;
+    }
+    const list=document.createElement("ol");
+    for(const hypothesis of entries){
+      const li=document.createElement("li"),name=document.createElement("strong");
+      name.textContent="Interpretación posible: "+String(hypothesis.possible_translation||"Sin glosa");
+      const meta=document.createElement("p");meta.textContent="Hipótesis no validada · Fuentes: "+hypothesis.sources.join("; ");
+      li.append(name,meta);list.append(li);
+    }
+    slot.replaceChildren(heading,disclaimer,list);
+  })
+  .catch(()=>{
+    const slot=document.getElementById("translation-candidates-slot");
+    if(slot)slot.textContent="Las propuestas de traducción no están disponibles. No se infiere una interpretación.";
+  });
+
+fetch("../data/core_object_audit_v1.json")
+  .then(resp=>{if(!resp.ok)throw Error("HTTP "+resp.status);return resp.json()})
+  .then(payload=>{
+    const slot=document.getElementById("core-audit-slot");
+    if(!slot)return;
+    const item=payload.objects?.[r.OBJECT_ID];
+    if(!item){slot.innerHTML='<h2>Análisis CORE</h2><p>Auditoría no disponible para este objeto.</p>';return}
+    const moduleLabels={GEO:"Contexto geográfico",INFER:"Inferencia",LEXSEM:"Léxico y significado",MORPH:"Morfología",PALEO:"Paleografía",TRACE:"Trazabilidad"};
+    const statusLabels={CONTEXT_ONLY:"Solo contexto",PENDING_INDEPENDENT_VALIDATION:"Pendiente de validación independiente",HYPOTHESES_NOT_TRANSLATION:"Hipótesis; no traducción",REGISTRY_TAG_ONLY:"Solo etiqueta del registro",METADATA_ONLY:"Solo metadatos",DOCUMENTARY_METADATA:"Metadatos documentales"};
+    const badges=Object.entries(item.modules||{}).map(([k,v])=>'<span class="pill ib-core-state"><strong>'+esc(moduleLabels[k]||k)+'</strong><span>'+esc(statusLabels[v]||String(v).replaceAll("_"," ").toLowerCase())+'</span></span>').join(" ");
+    const candidates=(item.rules||[]).filter(v=>v.applicability==="CANDIDATE_FROM_REGISTRY_TAGS");
+    const controls=(item.rules||[]).filter(v=>v.applicability==="GENERAL_GUARD_AVAILABLE");
+    const evaluated=item.evaluated_rules||[];
+    const evaluationHost=document.createElement("div");
+    evaluationHost.className="notice";
+    const heading=document.createElement("strong");
+    heading.textContent="Reglas ejecutadas con observaciones revisadas: "+evaluated.length;
+    evaluationHost.append(heading);
+    if(!evaluated.length){
+      const p=document.createElement("p");
+      p.textContent="Sin ejecuciones autorizadas para esta pieza. Las reglas candidatas no constituyen resultados.";
+      evaluationHost.append(p);
+    }else{
+      const list=document.createElement("ul");
+      for(const execution of evaluated){
+        for(const result of execution.results||[]){
+          const li=document.createElement("li");
+          li.textContent=(execution.evidence_id||"Fuente no identificada")+" · "+result.rule+" · "+result.status+" · Sin validación semántica automática";
+          list.append(li);
+        }
+      }
+      evaluationHost.append(list);
+    }
+    const enrichedRules=Promise.all([
+      fetch("../data/core_rule_catalog_v1.json").then(resp=>{if(!resp.ok)throw Error("Catalog HTTP "+resp.status);return resp.json()}),
+      fetch("../data/scientific-review-queue-v1.json").then(resp=>{if(!resp.ok)throw Error("Review HTTP "+resp.status);return resp.json()})
+    ]).catch(()=>null);
+    enrichedRules.then(data=>{
+      const host=document.getElementById("core-rule-evidence");
+      if(!host)return;
+      if(!data){host.textContent="Evidencia o catálogo científico no disponible; no se infiere validación.";return}
+      const [catalog,queue]=data;
+      const byId=new Map((catalog.entries||[]).map(x=>[x.id,x]));
+      const review=(queue.records||[]).find(x=>x.object_id===r.OBJECT_ID);
+      const matches=(item.rules||[]).filter(x=>x.applicability==="CANDIDATE_FROM_REGISTRY_TAGS");
+      const title=document.createElement("h3");title.textContent="Cadena de evidencia y límites por pieza";
+      const summary=document.createElement("p");summary.textContent="Candidaturas por metadatos: "+matches.length+" · Evidencia editorial vinculada: "+(review?.references_checked?.length||0)+" fuentes · Validación de traducción: no acreditada";
+      const list=document.createElement("ul");
+      for(const match of matches){
+        const spec=byId.get(match.id),li=document.createElement("li"),strong=document.createElement("strong");
+        strong.textContent=match.id;li.append(strong,document.createTextNode(" · "+(spec?.validation||"Sin catálogo")+" · "+(spec?.description||"Descripción no vinculada")));
+        list.append(li);
+      }
+      if(!matches.length){const li=document.createElement("li");li.textContent="Sin reglas familiares candidatas para esta pieza.";list.append(li)}
+      const evidence=document.createElement("details"),label=document.createElement("summary");label.textContent="Fuentes documentales y obstáculos de validación";evidence.append(label);
+      if(review){
+        for(const ref of review.references_checked||[]){
+          const para=document.createElement("p");para.append(document.createTextNode((ref.citation||"Referencia")+" · "+(ref.status||"En revisión")+" "));
+          if(typeof ref.url==="string"&&ref.url.startsWith("https://")){const a=document.createElement("a");a.href=ref.url;a.target="_blank";a.rel="noopener noreferrer";a.textContent="Consultar fuente ↗";para.append(a)}
+          evidence.append(para);
+        }
+        for(const blocker of review.technical_audit?.blockers||[]){const para=document.createElement("p");para.textContent="Pendiente: "+blocker;evidence.append(para)}
+      }else{const para=document.createElement("p");para.textContent="Esta pieza todavía no dispone de un expediente editorial individual revisado.";evidence.append(para)}
+      const matrix=document.createElement("section");matrix.className="ib-hypothesis-matrix";
+      const matrixTitle=document.createElement("h4");matrixTitle.textContent="Matriz científica · hipótesis / evidencias / objeciones";matrix.append(matrixTitle);
+      const table=document.createElement("table"),thead=document.createElement("thead"),hr=document.createElement("tr");
+      for(const heading of ["Hipótesis o regla","Indicio documental","Objeción / límite","Prueba necesaria"]){const th=document.createElement("th");th.scope="col";th.textContent=heading;hr.append(th)}thead.append(hr);table.append(thead);
+      const tbody=document.createElement("tbody");
+      const ruleRows=matches.length?matches:[{id:"Sin hipótesis familiar",applicability:"NOT_IDENTIFIED"}];
+      for(const match of ruleRows){
+        const row=document.createElement("tr"),spec=byId.get(match.id);
+        const cells=[match.id,"Coincidencia de etiquetas de familia; "+(review?.references_checked?.length||0)+" fuentes documentales generales","No existe cotejo que asocie esta regla con un segmento concreto ni validación semántica","Identificar pasaje exacto, revisar variantes, ejecutar protocolo y contrastar fuentes independientes"];
+        if(!matches.length)cells[1]="Sin regla candidata registrada para esta pieza";
+        for(const cell of cells){const td=document.createElement("td");td.textContent=cell;row.append(td)}tbody.append(row);
+      }
+      table.append(tbody);const scroller=document.createElement("div");scroller.className="ib-matrix-scroll";scroller.append(table);matrix.append(scroller);
+      const matrixNotice=document.createElement("p");matrixNotice.textContent="Matriz preliminar de requisitos de prueba. No equivale a una evaluación positiva o negativa de una hipótesis.";matrix.append(matrixNotice);
+      const note=document.createElement("p");note.textContent="Las fuentes respaldan el expediente documental; no prueban por sí mismas cada hipótesis ni permiten asignar confianza numérica.";
+      host.replaceChildren(title,summary,list,matrix,evidence,note);
+    });
+
+    slot.innerHTML='<h2>Análisis CORE · Reglas y módulos</h2><p class="meta">'+esc(payload.schema)+' · '+esc(payload.source)+'</p><div class="rc-tags">'+badges+'</div><h3>Reglas candidatas</h3>'+
+      (candidates.length?'<ul>'+candidates.map(v=>'<li>'+esc(v.id)+' · Sin ejecución epigráfica validada</li>').join("")+'</ul>':'<p>No hay reglas de familia identificadas por metadatos.</p>')+
+      '<p>Controles generales disponibles: '+controls.length+'. La coincidencia de una regla no demuestra su aplicación.</p>'+
+      '<p class="notice"><strong>Interpretación científica:</strong> ninguna traducción nueva validada automáticamente.</p><div id="core-rule-evidence" aria-live="polite">Consultando catálogo científico…</div>';
+    slot.prepend(evaluationHost);
+  })
+  .catch(error=>{console.warn("No se pudo cargar CORE",error);const slot=document.getElementById("core-audit-slot");if(slot)slot.innerHTML='<h2>Análisis CORE</h2><p>Informe CORE temporalmente no disponible; consulta la documentación de la ficha.</p>'});
+ fetch("../data/scientific-review-queue-v1.json").then(resp=>{if(!resp.ok)throw Error("HTTP "+resp.status);return resp.json()}).then(payload=>{const host=document.getElementById("independent-review-slot");if(!host)return;const review=(payload.records||[]).find(x=>x.object_id===r.OBJECT_ID);host.replaceChildren();const h=document.createElement("h2");h.textContent="Cotejo de fuentes y revisión independiente";host.append(h);if(!review){const p=document.createElement("p");p.textContent="Sin expediente individual de contraste externo incorporado a la cola. La ficha conserva su estado del catálogo; no se presupone revisión independiente.";host.append(p);return}const status=document.createElement("p");status.textContent="Estado científico: "+(review.scientific_state||"En revisión")+" · Publicación de reconstrucción semántica: "+(review.publication_approved?"Autorizada":"NO autorizada");host.append(status);const refs=document.createElement("h3");refs.textContent="Ediciones y referencias para contraste";host.append(refs);const ul=document.createElement("ul");for(const ref of review.references_checked||[]){const li=document.createElement("li");li.append(document.createTextNode((ref.citation||"Fuente")+" · "+(ref.status||"Cotejo pendiente")+" "));if(ref.url&&/^https:\/\//.test(ref.url)){const a=document.createElement("a");a.href=ref.url;a.target="_blank";a.rel="noopener noreferrer";a.textContent="Abrir publicación original ↗";li.append(a)}ul.append(li)}host.append(ul);const varReview=review.variant_review;if(varReview?.variants?.length){const h3=document.createElement("h3");h3.textContent="Variantes y límites editoriales";host.append(h3);const ol=document.createElement("ol");for(const item of varReview.variants){const li=document.createElement("li");li.textContent=(item.locus||"Locus pendiente")+": "+(item.reading_a||"") +" / "+(item.reading_b||"")+". "+(item.difference||"")+" · "+(item.assessment||"Sin dictamen");ol.append(li)}host.append(ol)}const h4=document.createElement("h3");h4.textContent="Verificaciones necesarias antes de validar";host.append(h4);const check=document.createElement("ul");for(const x of review.technical_audit?.blockers||review.required_checks||[]){const li=document.createElement("li");li.textContent=x;check.append(li)}host.append(check)}).catch(()=>{const host=document.getElementById("independent-review-slot");if(host)host.textContent="Registro de revisión no disponible: no se declara ninguna fuente contrastada."});
+ document.getElementById("expertExport")?.addEventListener("click",async()=>{
+   const button=document.getElementById("expertExport");button.disabled=true;
+   try{
+     let enrichment=en||null;
+     if(!enrichment){const shard=shardFor(r.OBJECT_ID);if(shard){const resp=await fetch("../data/ficha-enrichment-"+shard+".json");if(!resp.ok)throw Error("Documento HTTP "+resp.status);enrichment=(await resp.json()).find(x=>x.OBJECT_ID===r.OBJECT_ID)||null}}
+     const reviewResponse=await fetch("../data/scientific-review-queue-v1.json");
+     if(!reviewResponse.ok)throw Error("Variantes HTTP "+reviewResponse.status);
+     const review=(await reviewResponse.json()).records?.find(x=>x.object_id===r.OBJECT_ID)||null;
+     const bundle={schema:"IberOS-ficha-export/1.0",object_id:r.OBJECT_ID,object:r,documentary_enrichment:enrichment,scientific_review:review,notice:"Exportación documental. Las hipótesis no equivalen a traducciones validadas."};
+     const blob=new Blob([JSON.stringify(bundle,null,2)],{type:"application/json"});
+     const url=URL.createObjectURL(blob),a=document.createElement("a");a.href=url;a.download="IberOS-"+r.OBJECT_ID+"-ficha.json";a.click();setTimeout(()=>URL.revokeObjectURL(url),3000);
+   }catch(error){console.warn("Error de exportación",error);alert("No se puede exportar la documentación completa en este momento. Reintenta cuando se carguen los datos.")}
+   finally{button.disabled=false}
+ });
+ const slot=document.getElementById("documentary-slot");
+ const shard=shardFor(r.OBJECT_ID);
+ if(!shard){
+   slot.innerHTML=enrichmentHtml();updateInterpretation();
+ }else{
+   fetch("../data/ficha-enrichment-"+shard+".json")
+    .then(rr=>{if(!rr.ok)throw new Error("HTTP "+rr.status);return rr.json()})
+    .then(items=>{en=items.find(x=>x.OBJECT_ID===r.OBJECT_ID)||null;slot.innerHTML=enrichmentHtml();updateInterpretation()})
+    .catch(err=>{console.warn("Enriquecimiento no disponible",err);const title=document.getElementById("reconstructionTitle"),main=document.getElementById("interpretationMain"),trace=document.getElementById("interpretationTrace");if(title)title.textContent="DOCUMENTACIÓN TEMPORALMENTE NO DISPONIBLE";if(main)main.textContent="Sin resultado verificable";if(trace)trace.textContent="No se ha podido cargar la fuente documental. No se ofrece una interpretación sin contrastar.";slot.innerHTML='<div class="notice" style="margin-top:26px"><strong>La ficha base está disponible.</strong> La lectura documental no pudo cargarse en este momento.</div>'});
+ }
+}
+</script></body></html>

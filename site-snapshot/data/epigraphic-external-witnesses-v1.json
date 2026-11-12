@@ -1,0 +1,79 @@
+{
+  "schema": "IberOS-External-Epigraphic-Witnesses/1.0",
+  "description": "Documented physical witnesses not yet reconciled to the 38-object IberOS CORE. These are not numbered Core records and never count as validated transcriptions.",
+  "items": [
+    {
+      "external_witness_id": "EXT-GADOR-MLH-H.01.01",
+      "title": "Plomo de Gádor",
+      "corpus_reference": "MLH H.01.01",
+      "core_object_id": null,
+      "core_crosswalk_status": "NO_CONFIRMED_CORE_MATCH",
+      "excluded_core_id": "IBR-PLM-0013",
+      "excluded_core_id_reason": "That CORE ID refers to the Pico de los Ajos lead, not Gádor.",
+      "repository": "Real Academia de la Historia",
+      "findspot_status": "Reported Almería 1862; precise findspot disputed",
+      "primary_edition": {
+        "authors": "José Vicente Montes Novella",
+        "year": 2025,
+        "title": "El plomo de Gádor, nueva lectura y análisis",
+        "journal": "Palaeohispanica",
+        "volume": "25",
+        "pages": "301–324",
+        "doi": "10.36707/palaeohispanica.v25i1.718",
+        "url": "https://www.ifc-ojs.es/index.php/palaeohispanica/es/article/view/718",
+        "pdf": "https://ifc.dpz.es/recursos/publicaciones/41/87/12montes.pdf",
+        "publication_record_url": "https://ifc-ojs.es/index.php/palaeohispanica/es/article/view/718",
+        "article_license_stated": "CC BY-SA 4.0",
+        "article_license_caveat": "La licencia editorial declarada no confirma por sí sola derechos autónomos de todas las fotografías de terceros; verificar créditos de cada figura antes de reutilizar."
+      },
+      "figure_locators": [
+        {
+          "printed_page": 303,
+          "figure": "1",
+          "status": "EDITORIAL_LOCATOR"
+        },
+        {
+          "printed_page": 307,
+          "figure": "3",
+          "status": "EDITORIAL_LOCATOR"
+        },
+        {
+          "printed_page": 313,
+          "figure": "4–6",
+          "status": "EDITORIAL_LOCATOR"
+        }
+      ],
+      "image_url": null,
+      "rights_to_republish_figures_verified": false,
+      "sign_reading_independently_verified": false,
+      "translation_validated": false,
+      "core_processing_allowed": false,
+      "review_status": "PUBLISHER_SOURCE_IDENTIFIED_CROSSWALK_PENDING",
+      "palaeography_review": {
+        "source": "Montes Novella (2025), pp. 311–313, figs. 4–6",
+        "missing_initial_sign": {
+          "candidates_reported": [
+            "ba",
+            "ta",
+            "o",
+            "u",
+            "bi"
+          ],
+          "author_preferred": "ba",
+          "secondary": "ta",
+          "status": "PUBLISHED_HYPOTHESIS_NOT_INDEPENDENTLY_VERIFIED",
+          "note": "Comparación publicada del ductus: inclinación a derecha de ba; ta como alternativa secundaria. No se reconstruye el trazo ausente como certeza."
+        },
+        "critical_sign": "S64",
+        "status": "VALUE_DISPUTED",
+        "line_bar_counts_reported": [
+          9,
+          6,
+          4,
+          3
+        ],
+        "interpretive_limit": "No se adoptan identificaciones de numerales ni equivalencias monetarias como traducción demostrada."
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "automatic_core_promotion": false,
+  "count": 3,
+  "notice": "Lecturas editoriales preexistentes pendientes de cotejo; no entran en CORE.",
+  "records": [
+    {
+      "attribution": "Untermann (1990), transmitida y analizada por Luján (2024)",
+      "candidate_reading_id": "SOURCES-SOSES-RING-1890-ED-1",
+      "citation_location": "Luján (2024), p. 11–12",
+      "curated_object_id": null,
+      "eligible_for_core_execution": false,
+      "exact_object_match_verified": false,
+      "reading": "suśtaŕtike",
+      "review_status": "SECONDARY_READING_UNVERIFIED",
+      "source_object_id": "SOURCES-SOSES-RING-1890",
+      "transcription_checked_against_edition": false
+    },
+    {
+      "attribution": "Luján Martínez (2024)",
+      "candidate_reading_id": "SOURCES-SOSES-RING-1890-ED-2",
+      "citation_location": "Luján (2024), p. 14",
+      "curated_object_id": null,
+      "eligible_for_core_execution": false,
+      "exact_object_match_verified": false,
+      "reading": "belśtaŕtike",
+      "review_status": "SECONDARY_READING_UNVERIFIED",
+      "source_object_id": "SOURCES-SOSES-RING-1890",
+      "transcription_checked_against_edition": false
+    },
+    {
+      "attribution": "Luján Martínez (2024)",
+      "candidate_reading_id": "SOURCES-SOSES-RING-1890-ED-3",
+      "citation_location": "Luján (2024), p. 14",
+      "curated_object_id": null,
+      "eligible_for_core_execution": false,
+      "exact_object_match_verified": false,
+      "reading": "belśtaŕm̄ke",
+      "review_status": "SECONDARY_READING_UNVERIFIED",
+      "source_object_id": "SOURCES-SOSES-RING-1890",
+      "transcription_checked_against_edition": false
+    }
+  ],
+  "schema": "IberOS-Editorial-Readings-Queue/1.0"
+}

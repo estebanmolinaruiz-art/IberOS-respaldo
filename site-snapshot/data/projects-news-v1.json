@@ -1,0 +1,285 @@
+{
+  "schema": "IberOS-Projects-News/1.0",
+  "policy": {
+    "public_news_requires": [
+      "editorial_approval",
+      "source_verification",
+      "media_rights_verification"
+    ],
+    "drafts_are_not_public_news": true,
+    "do_not_claim_finished_reconstruction_without_evidence": true
+  },
+  "projects": [
+    {
+      "id": "la-picola-reconstruction",
+      "title": "Reconstrucción arqueológica de La Picola",
+      "location": "Santa Pola, Alicante",
+      "status": "IN_PROGRESS",
+      "public_news_approved": false,
+      "editorial_note": "IberOS · PICOLA-3D: avance documental GEO-10. Planta contrastada con Moret–Badie y YARQ_2, orientación provisional, maqueta editable e ilustración litoral interpretativa. Informe e imágenes con fuentes y límites científicos; reconstrucción no definitiva.",
+      "source_links": [
+        {
+          "title": "Badie y Moret (1997): metrología y organización espacial de La Picola",
+          "url": "https://www.persee.fr/doc/palla_0031-0387_1997_num_46_1_1428",
+          "doi": "10.3406/palla.1997.1428"
+        },
+        {
+          "title": "Declaración BIC zona arqueológica de La Picola (BOE, 2022)",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-4134"
+        },
+        {
+          "title": "Moret y Badie (1998), planta y metrología",
+          "url": "https://doi.org/10.3989/aespa.1998.v71.274"
+        },
+        {
+          "title": "Plan Director del BIC La Picola (2023), capítulo 12",
+          "url": "https://museodelmarsantapola.com/wp-content/uploads/2023/11/PDLAPICOLA-CAP12.pdf"
+        }
+      ],
+      "media": [],
+      "progress_image": {
+        "asset_expected": "site/assets/la-picola-rec101.jpg",
+        "caption": "La Picola (Santa Pola) · Reconstrucción 3D orientativa. Fase ibérica, siglos V–IV a. C. · REC–101.",
+        "file_uploaded_to_public_site": true,
+        "rights_confirmation": "AUTHORIZED_BY_PROJECT_OWNER",
+        "author_credit": "Autoría y reconstrucción 3D: Proyecto IberOS",
+        "image_is_reconstruction": true,
+        "archaeological_accuracy_claim": "NOT_DEFINITIVE",
+        "scientific_caveat": "El emplazamiento en promontorio y la costa mostrados en la imagen NO corresponden a la topografía documentada de La Picola, situada en terreno bajo y llano. No utilizar la lámina para geolocalización o reconstrucción paisajística exacta."
+      },
+      "detail_url": "la-picola/",
+      "updated_at": "2026-10-22",
+      "current_report": {
+        "path": "la-picola/",
+        "status": "PROVISIONAL_DOCUMENTARY_RECONSTRUCTION",
+        "geographic_azimuth_final_accepted": false,
+        "external_field_controls": 0,
+        "image_status": "AI_INTERPRETIVE_SCENARIO",
+        "image": "la-picola/imagenes/picola-vista-sur.jpg"
+      }
+    }
+  ],
+  "news": [
+    {
+      "id": "picola-permisos-fotografia-control-geo-v05-2026-11-10",
+      "project_id": "la-picola-reconstruction",
+      "title": "La Picola: cuatro fotografías identificadas, cronología corregida y perímetro BIC oficial",
+      "summary": "IberOS · PICOLA–GEO ha verificado en la galería institucional del Museo del Mar fotografías publicadas de urna ibérica, vasija ibérica, molino y kylix; se enlazan a la fuente original y no se copian por falta de licencia individual de reproducción. MARQ-009, vaso de paredes finas Mayet XXIV fechado en el siglo I d. C. según catálogo MARQ de 2012, se retira de los pendientes ibéricos y pasa al archivo romano. La selección queda en 14 registros de interés ibérico, 1 pendiente y 51 archivados, conservando 66 registros. Se añade el perímetro BIC con 21 vértices oficiales ETRS89 UTM30, sin interpretarlo como coordenadas de piezas ni homologías de la planta ibérica. Consulte el catálogo: https://estebanmolinaruiz-art.github.io/IberOS-respaldo/proyectos/la-picola/catalogo-visual/.",
+      "status": "PUBLISHED",
+      "public_news_approved": true,
+      "editorial_approval": true,
+      "source_verification": true,
+      "media_rights_verification": true,
+      "media": [],
+      "publication_date": "2026-11-10",
+      "author_credit": "IberOS · PICOLA–GEO",
+      "sources": [
+        {
+          "title": "Museo del Mar, piezas de época antigua",
+          "url": "https://museodelmarsantapola.com/piezas/epoca-antigua/"
+        },
+        {
+          "title": "Catálogo MARQ Santa Pola 2012",
+          "url": "https://marqalicante.com/contenido/publicaciones/pub2_87.pdf"
+        },
+        {
+          "title": "Decreto BIC La Picola, BOE-A-2022-4134",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-4134"
+        }
+      ]
+    },
+    {
+      "id": "picola-catalogo-maestro-visual-3d-2026-11-10",
+      "project_id": "la-picola-reconstruction",
+      "title": "La Picola: catálogo visual de hallazgos junto a la reconstrucción 3D",
+      "summary": "IberOS · PICOLA–GEO publica un catálogo maestro consultable con 66 registros y fichas documentales; mantiene una selección de 14 registros de interés ibérico, dos sujetos a revisión y 50 en archivo histórico. Cada ficha identifica inventario, cronología, procedencia, sector, ambiente o UE cuando constan en fuentes, y situación de imágenes y depósitos. La vista enlaza la maqueta 3D experimental, pero no inserta objetos sobre ella: REC-105 sigue con cero homologías métricas independientes aceptadas. No se reproducen fotografías de terceros sin licencia. Abrir: https://estebanmolinaruiz-art.github.io/IberOS-respaldo/proyectos/la-picola/catalogo-visual/.",
+      "status": "PUBLISHED",
+      "public_news_approved": true,
+      "editorial_approval": true,
+      "source_verification": true,
+      "media_rights_verification": true,
+      "media": [],
+      "publication_date": "2026-11-10",
+      "author_credit": "IberOS · PICOLA–GEO",
+      "sources": [
+        {
+          "title": "Catálogo maestro IberOS (66 registros)",
+          "url": "https://estebanmolinaruiz-art.github.io/IberOS-respaldo/data/picola-catalogo-maestro-visual-v1.tsv"
+        },
+        {
+          "title": "Reconstrucción 3D documental de La Picola",
+          "url": "https://estebanmolinaruiz-art.github.io/IberOS-respaldo/proyectos/la-picola/"
+        },
+        {
+          "title": "Catálogo MARQ Santa Pola",
+          "url": "https://marqalicante.com/contenido/publicaciones/pub2_87.pdf"
+        }
+      ]
+    },
+    {
+      "id": "picola-fichas-documentales-navegables-2026-11-10",
+      "project_id": "la-picola-reconstruction",
+      "title": "La Picola: fichas técnicas navegables para el inventario ibérico",
+      "summary": "IberOS · PICOLA–GEO incorpora fichas documentales navegables para los 16 registros seleccionados: 14 materiales de interés ibérico y dos piezas sometidas a revisión. La ficha de la copa ática MARQ-004 presenta medidas publicadas, cronología T1–T5, fuentes y controles pendientes. La publicación no afirma haber identificado todas las piezas excavadas ni acredita depósitos museísticos, y mantiene el archivo histórico de 66 registros y las evidencias de redeposición romana. Consulte el inventario: https://estebanmolinaruiz-art.github.io/IberOS-respaldo/proyectos/la-picola/inventario/.",
+      "status": "PUBLISHED",
+      "public_news_approved": true,
+      "editorial_approval": true,
+      "source_verification": true,
+      "media_rights_verification": true,
+      "media": [],
+      "publication_date": "2026-11-10",
+      "author_credit": "IberOS · PICOLA–GEO",
+      "sources": [
+        {
+          "title": "Catálogo MARQ, Santa Pola. Arqueología y Museo",
+          "url": "https://marqalicante.com/contenido/publicaciones/pub2_87.pdf"
+        },
+        {
+          "title": "Museo del Mar, La Picola",
+          "url": "https://museodelmarsantapola.com/sedes/la-picola/"
+        },
+        {
+          "title": "Selección ibérica de IberOS v0.4",
+          "url": "https://estebanmolinaruiz-art.github.io/IberOS-respaldo/proyectos/la-picola/inventario/"
+        }
+      ]
+    },
+    {
+      "id": "picola-cribado-iberico-2026-11-09",
+      "project_id": "la-picola-reconstruction",
+      "title": "La Picola: depuración del catálogo para priorizar la fase ibérica",
+      "summary": "IberOS · PICOLA–GEO separa 14 registros de interés ibérico, dos piezas bajo revisión y 50 registros romanos o sin relación ibérica acreditada. La selección principal no borra el catálogo histórico de 66 registros: preserva también las unidades estratigráficas romanas para evaluar desplazamientos y redeposiciones. La moneda de Melos y los fragmentos escultóricos ibéricos hallados en contextos romanos siguen en la selección, sin atribuirles un emplazamiento original. Consulta la selección y la matriz razonada en la página del inventario: https://estebanmolinaruiz-art.github.io/IberOS-respaldo/proyectos/la-picola/inventario/.",
+      "status": "PUBLISHED",
+      "public_news_approved": true,
+      "editorial_approval": true,
+      "source_verification": true,
+      "media_rights_verification": true,
+      "media": [],
+      "publication_date": "2026-11-09",
+      "author_credit": "IberOS · PICOLA–GEO",
+      "sources": [
+        {
+          "title": "Inventario IberOS v0.3 (66 registros)",
+          "url": "https://estebanmolinaruiz-art.github.io/IberOS-respaldo/data/picola-inventario-v0.3.tsv"
+        },
+        {
+          "title": "Matriz de cribado IberOS v0.4",
+          "url": "https://estebanmolinaruiz-art.github.io/IberOS-respaldo/data/picola-cribado-iberico-v0.4.tsv"
+        }
+      ]
+    },
+    {
+      "id": "picola-inventario-documental-v03-2026-11-09",
+      "project_id": "la-picola-reconstruction",
+      "title": "La Picola: 30 nuevos registros arqueológicos con contexto estratigráfico",
+      "summary": "IberOS · PICOLA–GEO amplía a 66 fichas y conjuntos su inventario documental: añade 28 registros de la UE 488 del patio de la cetaria y dos piezas de ambientes 3 y 5 sobre restos de peces, publicados por Molina Vidal (2005). Los números representan hallazgos documentales, no necesariamente vasijas completas; las cronologías tipológicas no equivalen a la fecha del depósito. Siguen pendientes numerosos objetos de excavación, fotografías autorizadas y confirmación de custodia museística. Catálogo abierto: https://estebanmolinaruiz-art.github.io/IberOS-respaldo/proyectos/la-picola/inventario/.",
+      "status": "PUBLISHED",
+      "public_news_approved": true,
+      "editorial_approval": true,
+      "source_verification": true,
+      "media_rights_verification": true,
+      "media": [],
+      "publication_date": "2026-11-09",
+      "author_credit": "IberOS · PICOLA–GEO",
+      "sources": [
+        {
+          "title": "Molina Vidal (2005), La cetaria de Picola, pp.109–110",
+          "url": "https://santapola.com/turismo/cetaria_picola/pdf/Cetaria_congreso_sal.pdf"
+        },
+        {
+          "title": "Inventario documental PICOLA v0.3",
+          "url": "https://estebanmolinaruiz-art.github.io/IberOS-respaldo/proyectos/la-picola/inventario/"
+        }
+      ]
+    },
+    {
+      "id": "picola-inventario-documental-v02-2026-11-06",
+      "project_id": "la-picola-reconstruction",
+      "title": "La Picola: inventario arqueológico documental y control de reutilizaciones romanas",
+      "summary": "IberOS · PICOLA–GEO publica un inventario documental abierto de 36 fichas o conjuntos, con clasificación por tipo, cronología publicada y procedencia. Incluye materiales de La Picola y un apartado separado del Portus Ilicitanus; conserva incidencias de identificación y datación y enlaces a las fuentes. Los 133 vasos áticos citados en la bibliografía no equivalen a 133 fichas individuales. El trabajo no es todavía el inventario completo de excavación: faltan depósitos actuales, unidades estratigráficas y fotografías autorizadas para numerosos objetos. Consulta: https://estebanmolinaruiz-art.github.io/IberOS-respaldo/proyectos/la-picola/inventario/.",
+      "status": "PUBLISHED",
+      "public_news_approved": true,
+      "editorial_approval": true,
+      "source_verification": true,
+      "media_rights_verification": true,
+      "media": [],
+      "publication_date": "2026-11-06",
+      "author_credit": "Proyecto IberOS · PICOLA–GEO",
+      "sources": [
+        {
+          "title": "Catálogo MARQ de Santa Pola",
+          "url": "https://marqalicante.com/contenido/publicaciones/pub2_87.pdf"
+        },
+        {
+          "title": "Soria y Mata (2015), Lucentum XXXIV",
+          "url": "https://rua.ua.es/server/api/core/bitstreams/0efcbea3-557a-41ee-8809-fd3375044ae5/content"
+        },
+        {
+          "title": "Plan Director del BIC La Picola (2023)",
+          "url": "https://museodelmarsantapola.com/wp-content/uploads/2023/11/PDLAPICOLA-CAP12.pdf"
+        }
+      ]
+    },
+    {
+      "id": "iberos-presentacion-publica-2026-10-16",
+      "title": "IberOS abre su presentación pública y demostraciones de investigación epigráfica",
+      "summary": "IberOS pone a disposición del público su portal de investigación sobre escritura ibérica, con un corpus navegable, fichas documentadas, Laboratorio y demostraciones guiadas de Tivissa, Pech-Maho y Coimbra. Cada caso distingue evidencias observadas, inferencias e hipótesis provisionales. El proyecto no presenta traducciones semánticas validadas; invita a consultar fuentes, objeciones y materiales reproducibles. Acceso a la presentación: https://estebanmolinaruiz-art.github.io/IberOS-respaldo/presentacion/ · Demostraciones: https://estebanmolinaruiz-art.github.io/IberOS-respaldo/demostracion/.",
+      "status": "PUBLISHED",
+      "public_news_approved": true,
+      "editorial_approval": true,
+      "source_verification": true,
+      "media_rights_verification": true,
+      "media": [],
+      "publication_date": "2026-10-16",
+      "author_credit": "Proyecto IberOS",
+      "sources": [
+        {
+          "title": "Repositorio público IberOS y código de investigación",
+          "url": "https://github.com/estebanmolinaruiz-art/IberOS"
+        },
+        {
+          "title": "Presentación pública IberOS",
+          "url": "https://estebanmolinaruiz-art.github.io/IberOS-respaldo/presentacion/"
+        },
+        {
+          "title": "Demostraciones documentadas",
+          "url": "https://estebanmolinaruiz-art.github.io/IberOS-respaldo/demostracion/"
+        }
+      ]
+    },
+    {
+      "id": "la-picola-rec101-progress-2026-10",
+      "project_id": "la-picola-reconstruction",
+      "title": "La Picola: primeros avances de la reconstrucción 3D de la fase ibérica",
+      "summary": "El Proyecto IberOS presenta REC–101, una propuesta visual en desarrollo sobre el asentamiento ibérico de La Picola (Santa Pola), de los siglos V–IV a. C. La lámina explora de forma orientativa viviendas, murallas y espacios de circulación, diferenciando estructuras documentadas de reconstrucciones hipotéticas. AVISO: el promontorio y el paisaje costero de la imagen son recreaciones artísticas y no representan la topografía histórica documentada: La Picola se emplazaba en terreno bajo y llano, como describen Badie y Moret (1997). Esta ilustración no constituye una reconstrucción arqueológica definitiva.",
+      "status": "PUBLISHED",
+      "public_news_approved": true,
+      "editorial_approval": true,
+      "source_verification": true,
+      "media_rights_verification": true,
+      "media": [
+        {
+          "path": "../assets/la-picola-rec101.jpg",
+          "status": "PUBLISHED",
+          "kind": "3D_RECONSTRUCTION",
+          "caption": "REC–101 · Recreación 3D orientativa; emplazamiento elevado, costa y escenas NO documentados para La Picola.",
+          "credit": "Autoría y reconstrucción 3D: Proyecto IberOS",
+          "rights": "PUBLICATION_AUTHORIZED_BY_PROJECT_OWNER"
+        }
+      ],
+      "publication_date": "2026-10-15",
+      "author_credit": "Autoría y reconstrucción 3D: Proyecto IberOS",
+      "sources": [
+        {
+          "title": "Badie y Moret (1997): metrología y organización espacial de La Picola",
+          "url": "https://www.persee.fr/doc/palla_0031-0387_1997_num_46_1_1428",
+          "doi": "10.3406/palla.1997.1428"
+        },
+        {
+          "title": "Declaración BIC zona arqueológica de La Picola (BOE, 2022)",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-4134"
+        }
+      ]
+    }
+  ]
+}

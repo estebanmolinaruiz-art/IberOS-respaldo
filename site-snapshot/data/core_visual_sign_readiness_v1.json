@@ -1,0 +1,438 @@
+{
+  "automatic_core_promotion": false,
+  "by_source": {
+    "PAL": 5,
+    "SERRETA": 7,
+    "VILLARES": 14
+  },
+  "editorial_decisions": [
+    {
+      "automatic_core_promotion": false,
+      "cited_sources": [
+        {
+          "citation": "Fletcher Valls y Silgo Gauche 1992, Recerques 1, p.11: columna Gómez Moreno 1922 SALIRG / 1962 SALIRIG",
+          "kind": "PRIMARY_HISTORY_OF_READINGS",
+          "url": "https://box.inh.cat/histocat.cat/resource/FletcherSerreta.pdf"
+        },
+        {
+          "citation": "Silgo Gauche 2015, Recerques 24, pp.37–42: transcripción B1 IUNZTIR : SALIRG",
+          "kind": "MODERN_EDITORIAL_READING",
+          "url": "https://euskerarenjatorria.eus/wp-content/uploads/2015/07/Serreta.MLH-G.1.1c.pdf"
+        }
+      ],
+      "competing_editorial": [
+        "SALIRG",
+        "SALIRIG"
+      ],
+      "face_line": "B1",
+      "glyph_photo_verified": false,
+      "independent_image_readings": 0,
+      "object_id": "IBR-PLM-0009",
+      "preferred_editorial": "śalirg",
+      "review_id": "SER-B1-SALIRG",
+      "status": "EDITORIAL_DECISION_ONLY"
+    },
+    {
+      "automatic_core_promotion": false,
+      "cited_sources": [
+        {
+          "citation": "Joan Ferrer i Jané (2024)",
+          "url": "https://www.researchgate.net/publication/387054058_Una_nova_mirada_al_plom_iberic_Villares_V_Kelin_Caudete_de_las_Fuentes_Un_text_comptable_amb_deu_transaccions"
+        }
+      ],
+      "competing_editorial": [
+        "śalirbosita : śalibos["
+      ],
+      "face_line": "A3",
+      "glyph_photo_verified": false,
+      "independent_image_readings": 0,
+      "object_id": "IBR-PLM-0005",
+      "preferred_editorial": "bobai-da",
+      "review_id": "VIL5-A3",
+      "status": "EDITORIAL_DECISION_ONLY"
+    }
+  ],
+  "editorial_decisions_supported": 2,
+  "editorial_pairs_compared": 21,
+  "editorial_pairs_different": 21,
+  "evidence_contract": {
+    "count": 26,
+    "layers": [
+      "GRAPHIC"
+    ],
+    "state": "UNVERIFIED"
+  },
+  "independent_blind_readings": 0,
+  "independently_verified_glyphs": 0,
+  "note": "Review units are editorial comparison targets, not distinct inscriptions or individually verified signs. Text differences cannot prove glyph identity, ancient semantics or translation. Reader consensus only permits external human adjudication.",
+  "object_ids": [
+    "IBR-PLM-0002",
+    "IBR-PLM-0003",
+    "IBR-PLM-0004",
+    "IBR-PLM-0005",
+    "IBR-PLM-0009"
+  ],
+  "physical_objects": 5,
+  "priorities": [
+    {
+      "editorial_delta": {
+        "edit_blocks": 1,
+        "edits": [
+          {
+            "a_end": 7,
+            "a_start": 7,
+            "after": "I",
+            "b_end": 8,
+            "b_start": 7,
+            "before": "",
+            "op": "insert"
+          }
+        ],
+        "kind": "EDITORIAL_UNICODE_CODEPOINT_DIFFERENCE",
+        "not_photographic_sign_count": true,
+        "source_text_identical": false
+      },
+      "editorial_strings": [
+        "IUNSTIR",
+        "IUNSTIRI"
+      ],
+      "face_line": "B1",
+      "figure_locator": "Fletcher y Silgo 1992, p. 10 fotografías A/B; localización exacta del signo pendiente",
+      "object_id": "IBR-PLM-0009",
+      "review_id": "SER-VAR-04",
+      "source_family": "SERRETA",
+      "status": "IMAGE_AND_BLIND_REVIEW_PENDING"
+    },
+    {
+      "editorial_delta": {
+        "edit_blocks": 1,
+        "edits": [
+          {
+            "a_end": 5,
+            "a_start": 5,
+            "after": "I",
+            "b_end": 6,
+            "b_start": 5,
+            "before": "",
+            "op": "insert"
+          }
+        ],
+        "kind": "EDITORIAL_UNICODE_CODEPOINT_DIFFERENCE",
+        "not_photographic_sign_count": true,
+        "source_text_identical": false
+      },
+      "editorial_strings": [
+        "SALIRG",
+        "SALIRIG"
+      ],
+      "face_line": "B1",
+      "figure_locator": "Fletcher y Silgo 1992, p. 10 fotografías A/B; localización exacta del signo pendiente",
+      "object_id": "IBR-PLM-0009",
+      "review_id": "SER-VAR-05",
+      "source_family": "SERRETA",
+      "status": "IMAGE_AND_BLIND_REVIEW_PENDING"
+    },
+    {
+      "editorial_delta": {
+        "edit_blocks": 3,
+        "edits": [
+          {
+            "a_end": 5,
+            "a_start": 5,
+            "after": " : ",
+            "b_end": 8,
+            "b_start": 5,
+            "before": "",
+            "op": "insert"
+          },
+          {
+            "a_end": 8,
+            "a_start": 7,
+            "after": "ba",
+            "b_end": 12,
+            "b_start": 10,
+            "before": "s",
+            "op": "replace"
+          },
+          {
+            "a_end": 10,
+            "a_start": 9,
+            "after": "-d",
+            "b_end": 15,
+            "b_start": 13,
+            "before": "t",
+            "op": "replace"
+          }
+        ],
+        "kind": "EDITORIAL_UNICODE_CODEPOINT_DIFFERENCE",
+        "not_photographic_sign_count": true,
+        "source_text_identical": false
+      },
+      "editorial_strings": [
+        "śalirbosita : śalibos[",
+        "śalir : bobai-da : śalibos["
+      ],
+      "face_line": "A3",
+      "figure_locator": "Ferrer i Jané 2024, fotografías fig. 1 p. 312 / dibujos fig. 2 p. 313",
+      "object_id": "IBR-PLM-0005",
+      "review_id": "VIL5-A3",
+      "source_family": "VILLARES",
+      "status": "IMAGE_AND_BLIND_REVIEW_PENDING"
+    },
+    {
+      "editorial_delta": {
+        "edit_blocks": 9,
+        "edits": [
+          {
+            "a_end": 2,
+            "a_start": 1,
+            "after": "d",
+            "b_end": 2,
+            "b_start": 1,
+            "before": "t",
+            "op": "replace"
+          },
+          {
+            "a_end": 6,
+            "a_start": 4,
+            "after": "i",
+            "b_end": 5,
+            "b_start": 4,
+            "before": "tí",
+            "op": "replace"
+          },
+          {
+            "a_end": 8,
+            "a_start": 7,
+            "after": "-d",
+            "b_end": 8,
+            "b_start": 6,
+            "before": "t",
+            "op": "replace"
+          },
+          {
+            "a_end": 18,
+            "a_start": 17,
+            "after": "g",
+            "b_end": 18,
+            "b_start": 17,
+            "before": "k",
+            "op": "replace"
+          },
+          {
+            "a_end": 24,
+            "a_start": 23,
+            "after": "o",
+            "b_end": 24,
+            "b_start": 23,
+            "before": "ó",
+            "op": "replace"
+          },
+          {
+            "a_end": 26,
+            "a_start": 25,
+            "after": "",
+            "b_end": 25,
+            "b_start": 25,
+            "before": "̲",
+            "op": "delete"
+          },
+          {
+            "a_end": 28,
+            "a_start": 27,
+            "after": "",
+            "b_end": 26,
+            "b_start": 26,
+            "before": "̲",
+            "op": "delete"
+          },
+          {
+            "a_end": 38,
+            "a_start": 29,
+            "after": "-d",
+            "b_end": 29,
+            "b_start": 27,
+            "before": "̲t̲i̲n̲b̲",
+            "op": "replace"
+          },
+          {
+            "a_end": 40,
+            "a_start": 39,
+            "after": "",
+            "b_end": 30,
+            "b_start": 30,
+            "before": "̲",
+            "op": "delete"
+          }
+        ],
+        "kind": "EDITORIAL_UNICODE_CODEPOINT_DIFFERENCE",
+        "not_photographic_sign_count": true,
+        "source_text_identical": false
+      },
+      "editorial_strings": [
+        "śtentíste : aŕabaki : bób̲a̲i̲t̲i̲n̲b̲a̲",
+        "śdenis-de : aŕabagi : bobai-da"
+      ],
+      "face_line": "A7",
+      "figure_locator": "Ferrer i Jané 2024, fotografías fig. 1 p. 312 / dibujos fig. 2 p. 313",
+      "object_id": "IBR-PLM-0005",
+      "review_id": "VIL5-A7",
+      "source_family": "VILLARES",
+      "status": "IMAGE_AND_BLIND_REVIEW_PENDING"
+    },
+    {
+      "editorial_delta": {
+        "edit_blocks": 2,
+        "edits": [
+          {
+            "a_end": 0,
+            "a_start": 0,
+            "after": "[bobai",
+            "b_end": 6,
+            "b_start": 0,
+            "before": "",
+            "op": "insert"
+          },
+          {
+            "a_end": 2,
+            "a_start": 1,
+            "after": "d",
+            "b_end": 8,
+            "b_start": 7,
+            "before": "t",
+            "op": "replace"
+          }
+        ],
+        "kind": "EDITORIAL_UNICODE_CODEPOINT_DIFFERENCE",
+        "not_photographic_sign_count": true,
+        "source_text_identical": false
+      },
+      "editorial_strings": [
+        "]tinba : baŕer : śalir",
+        "[bobai]dinba : baŕer : śalir"
+      ],
+      "face_line": "B1",
+      "figure_locator": "Ferrer i Jané 2024, fotografías fig. 1 p. 312 / dibujos fig. 2 p. 313",
+      "object_id": "IBR-PLM-0005",
+      "review_id": "VIL5-B1",
+      "source_family": "VILLARES",
+      "status": "IMAGE_AND_BLIND_REVIEW_PENDING"
+    },
+    {
+      "editorial_delta": {
+        "edit_blocks": 3,
+        "edits": [
+          {
+            "a_end": 0,
+            "a_start": 0,
+            "after": "[boba",
+            "b_end": 5,
+            "b_start": 0,
+            "before": "",
+            "op": "insert"
+          },
+          {
+            "a_end": 3,
+            "a_start": 2,
+            "after": "-d",
+            "b_end": 9,
+            "b_start": 7,
+            "before": "t",
+            "op": "replace"
+          },
+          {
+            "a_end": 19,
+            "a_start": 18,
+            "after": "d",
+            "b_end": 25,
+            "b_start": 24,
+            "before": "t",
+            "op": "replace"
+          }
+        ],
+        "kind": "EDITORIAL_UNICODE_CODEPOINT_DIFFERENCE",
+        "not_photographic_sign_count": true,
+        "source_text_identical": false
+      },
+      "editorial_strings": [
+        "]ita : śalibos : eteŕai",
+        "[boba]i-da : śalibos : edeŕai"
+      ],
+      "face_line": "B2",
+      "figure_locator": "Ferrer i Jané 2024, fotografías fig. 1 p. 312 / dibujos fig. 2 p. 313",
+      "object_id": "IBR-PLM-0005",
+      "review_id": "VIL5-B2",
+      "source_family": "VILLARES",
+      "status": "IMAGE_AND_BLIND_REVIEW_PENDING"
+    },
+    {
+      "editorial_delta": {
+        "edit_blocks": 5,
+        "edits": [
+          {
+            "a_end": 1,
+            "a_start": 0,
+            "after": "[śal]i",
+            "b_end": 6,
+            "b_start": 0,
+            "before": "ị",
+            "op": "replace"
+          },
+          {
+            "a_end": 7,
+            "a_start": 6,
+            "after": "u",
+            "b_end": 12,
+            "b_start": 11,
+            "before": "ú",
+            "op": "replace"
+          },
+          {
+            "a_end": 9,
+            "a_start": 8,
+            "after": "d",
+            "b_end": 14,
+            "b_start": 13,
+            "before": "t",
+            "op": "replace"
+          },
+          {
+            "a_end": 14,
+            "a_start": 13,
+            "after": "-d",
+            "b_end": 20,
+            "b_start": 18,
+            "before": "t",
+            "op": "replace"
+          },
+          {
+            "a_end": 24,
+            "a_start": 23,
+            "after": "-d",
+            "b_end": 31,
+            "b_start": 29,
+            "before": "t",
+            "op": "replace"
+          }
+        ],
+        "kind": "EDITORIAL_UNICODE_CODEPOINT_DIFFERENCE",
+        "not_photographic_sign_count": true,
+        "source_text_identical": false
+      },
+      "editorial_strings": [
+        "ịr : túntibaŕte : bobaitinba",
+        "[śal]ir : tundibaŕ-de : bobai-dinba"
+      ],
+      "face_line": "B4",
+      "figure_locator": "Ferrer i Jané 2024, fotografías fig. 1 p. 312 / dibujos fig. 2 p. 313",
+      "object_id": "IBR-PLM-0005",
+      "review_id": "VIL5-B4",
+      "source_family": "VILLARES",
+      "status": "IMAGE_AND_BLIND_REVIEW_PENDING"
+    }
+  ],
+  "ready_for_human_adjudication": 0,
+  "review_units": 26,
+  "schema": "IberOS-Core-Visual-Collation/1.0",
+  "scientific_verdict": "NOT_EVALUATED"
+}

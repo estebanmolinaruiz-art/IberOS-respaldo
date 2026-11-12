@@ -1,0 +1,963 @@
+{
+  "authority": {
+    "prospective_lock": "C474",
+    "rok_network": "C541",
+    "semantic_release": "C594",
+    "technical_floor": "C539"
+  },
+  "notice": "Editorial publishability does not certify reading, meaning or original image rights.",
+  "object_count": 38,
+  "records": {
+    "IBR-CER-0001": {
+      "automatic_core_promotion": false,
+      "documentary_control": false,
+      "editorial_fiche_registered": true,
+      "featured_interpretation_available": true,
+      "object_id": "IBR-CER-0001",
+      "pending_documentation": [],
+      "publication_status": "PUBLICABLE_EDITORIAL",
+      "scientific_documentation_checklist": {
+        "bibliographic_reference_present": true,
+        "editorial_hypothesis_documented": true,
+        "image_rights_verified": false,
+        "independent_epigraphic_review_completed": false,
+        "original_3d_model_rights_verified": false,
+        "reading_compared_with_original_edition": false
+      },
+      "scientific_documentation_pending": [
+        "Cotejar transcripción con edición o facsímil original",
+        "Registrar revisión epigráfica independiente",
+        "Verificar licencia y atribución de imágenes",
+        "Comprobar licencia y procedencia del modelo 3D antes de integrarlo"
+      ],
+      "scientific_validation_status": "UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-CER-0002": {
+      "automatic_core_promotion": false,
+      "documentary_control": false,
+      "editorial_fiche_registered": true,
+      "featured_interpretation_available": true,
+      "object_id": "IBR-CER-0002",
+      "pending_documentation": [],
+      "publication_status": "PUBLICABLE_EDITORIAL",
+      "scientific_documentation_checklist": {
+        "bibliographic_reference_present": true,
+        "editorial_hypothesis_documented": true,
+        "image_rights_verified": false,
+        "independent_epigraphic_review_completed": false,
+        "original_3d_model_rights_verified": false,
+        "reading_compared_with_original_edition": false
+      },
+      "scientific_documentation_pending": [
+        "Cotejar transcripción con edición o facsímil original",
+        "Registrar revisión epigráfica independiente",
+        "Verificar licencia y atribución de imágenes",
+        "Comprobar licencia y procedencia del modelo 3D antes de integrarlo"
+      ],
+      "scientific_validation_status": "UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-CER-0003": {
+      "automatic_core_promotion": false,
+      "documentary_control": false,
+      "editorial_fiche_registered": true,
+      "featured_interpretation_available": true,
+      "object_id": "IBR-CER-0003",
+      "pending_documentation": [],
+      "publication_status": "PUBLICABLE_EDITORIAL",
+      "scientific_documentation_checklist": {
+        "bibliographic_reference_present": true,
+        "editorial_hypothesis_documented": true,
+        "image_rights_verified": false,
+        "independent_epigraphic_review_completed": false,
+        "original_3d_model_rights_verified": false,
+        "reading_compared_with_original_edition": false
+      },
+      "scientific_documentation_pending": [
+        "Cotejar transcripción con edición o facsímil original",
+        "Registrar revisión epigráfica independiente",
+        "Verificar licencia y atribución de imágenes",
+        "Comprobar licencia y procedencia del modelo 3D antes de integrarlo"
+      ],
+      "scientific_validation_status": "UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-CER-0004": {
+      "automatic_core_promotion": false,
+      "documentary_control": false,
+      "editorial_fiche_registered": true,
+      "featured_interpretation_available": true,
+      "object_id": "IBR-CER-0004",
+      "pending_documentation": [],
+      "publication_status": "PUBLICABLE_EDITORIAL",
+      "scientific_documentation_checklist": {
+        "bibliographic_reference_present": true,
+        "editorial_hypothesis_documented": true,
+        "image_rights_verified": false,
+        "independent_epigraphic_review_completed": false,
+        "original_3d_model_rights_verified": false,
+        "reading_compared_with_original_edition": false
+      },
+      "scientific_documentation_pending": [
+        "Cotejar transcripción con edición o facsímil original",
+        "Registrar revisión epigráfica independiente",
+        "Verificar licencia y atribución de imágenes",
+        "Comprobar licencia y procedencia del modelo 3D antes de integrarlo"
+      ],
+      "scientific_validation_status": "UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-CER-0005": {
+      "automatic_core_promotion": false,
+      "documentary_control": false,
+      "editorial_fiche_registered": true,
+      "featured_interpretation_available": true,
+      "object_id": "IBR-CER-0005",
+      "pending_documentation": [],
+      "publication_status": "PUBLICABLE_EDITORIAL",
+      "scientific_documentation_checklist": {
+        "bibliographic_reference_present": true,
+        "editorial_hypothesis_documented": true,
+        "image_rights_verified": false,
+        "independent_epigraphic_review_completed": false,
+        "original_3d_model_rights_verified": false,
+        "reading_compared_with_original_edition": false
+      },
+      "scientific_documentation_pending": [
+        "Cotejar transcripción con edición o facsímil original",
+        "Registrar revisión epigráfica independiente",
+        "Verificar licencia y atribución de imágenes",
+        "Comprobar licencia y procedencia del modelo 3D antes de integrarlo"
+      ],
+      "scientific_validation_status": "UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-COI-0001": {
+      "automatic_core_promotion": false,
+      "documentary_control": false,
+      "editorial_fiche_registered": true,
+      "featured_interpretation_available": true,
+      "object_id": "IBR-COI-0001",
+      "pending_documentation": [],
+      "publication_status": "PUBLICABLE_EDITORIAL",
+      "scientific_documentation_checklist": {
+        "bibliographic_reference_present": true,
+        "editorial_hypothesis_documented": true,
+        "image_rights_verified": false,
+        "independent_epigraphic_review_completed": false,
+        "original_3d_model_rights_verified": false,
+        "reading_compared_with_original_edition": false
+      },
+      "scientific_documentation_pending": [
+        "Cotejar transcripción con edición o facsímil original",
+        "Registrar revisión epigráfica independiente",
+        "Verificar licencia y atribución de imágenes",
+        "Comprobar licencia y procedencia del modelo 3D antes de integrarlo"
+      ],
+      "scientific_validation_status": "UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-COI-0002": {
+      "automatic_core_promotion": false,
+      "documentary_control": true,
+      "editorial_fiche_registered": true,
+      "featured_interpretation_available": false,
+      "object_id": "IBR-COI-0002",
+      "pending_documentation": [],
+      "publication_status": "DOCUMENTARY_CONTROL_AVAILABLE",
+      "scientific_documentation_checklist": {
+        "bibliographic_reference_present": true,
+        "editorial_hypothesis_documented": false,
+        "image_rights_verified": false,
+        "independent_epigraphic_review_completed": false,
+        "original_3d_model_rights_verified": false,
+        "reading_compared_with_original_edition": false
+      },
+      "scientific_documentation_pending": [
+        "Cotejar transcripción con edición o facsímil original",
+        "Registrar revisión epigráfica independiente",
+        "Verificar licencia y atribución de imágenes",
+        "Comprobar licencia y procedencia del modelo 3D antes de integrarlo"
+      ],
+      "scientific_validation_status": "UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-CTL-0001": {
+      "automatic_core_promotion": false,
+      "documentary_control": true,
+      "editorial_fiche_registered": true,
+      "featured_interpretation_available": false,
+      "object_id": "IBR-CTL-0001",
+      "pending_documentation": [],
+      "publication_status": "DOCUMENTARY_CONTROL_AVAILABLE",
+      "scientific_documentation_checklist": {
+        "bibliographic_reference_present": true,
+        "editorial_hypothesis_documented": false,
+        "image_rights_verified": false,
+        "independent_epigraphic_review_completed": false,
+        "original_3d_model_rights_verified": false,
+        "reading_compared_with_original_edition": false
+      },
+      "scientific_documentation_pending": [
+        "Cotejar transcripción con edición o facsímil original",
+        "Registrar revisión epigráfica independiente",
+        "Verificar licencia y atribución de imágenes",
+        "Comprobar licencia y procedencia del modelo 3D antes de integrarlo"
+      ],
+      "scientific_validation_status": "UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-CTL-0002": {
+      "automatic_core_promotion": false,
+      "documentary_control": true,
+      "editorial_fiche_registered": true,
+      "featured_interpretation_available": false,
+      "object_id": "IBR-CTL-0002",
+      "pending_documentation": [],
+      "publication_status": "DOCUMENTARY_CONTROL_AVAILABLE",
+      "scientific_documentation_checklist": {
+        "bibliographic_reference_present": true,
+        "editorial_hypothesis_documented": false,
+        "image_rights_verified": false,
+        "independent_epigraphic_review_completed": false,
+        "original_3d_model_rights_verified": false,
+        "reading_compared_with_original_edition": false
+      },
+      "scientific_documentation_pending": [
+        "Cotejar transcripción con edición o facsímil original",
+        "Registrar revisión epigráfica independiente",
+        "Verificar licencia y atribución de imágenes",
+        "Comprobar licencia y procedencia del modelo 3D antes de integrarlo"
+      ],
+      "scientific_validation_status": "UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-CTL-0003": {
+      "automatic_core_promotion": false,
+      "documentary_control": true,
+      "editorial_fiche_registered": true,
+      "featured_interpretation_available": false,
+      "object_id": "IBR-CTL-0003",
+      "pending_documentation": [],
+      "publication_status": "DOCUMENTARY_CONTROL_AVAILABLE",
+      "scientific_documentation_checklist": {
+        "bibliographic_reference_present": true,
+        "editorial_hypothesis_documented": false,
+        "image_rights_verified": false,
+        "independent_epigraphic_review_completed": false,
+        "original_3d_model_rights_verified": false,
+        "reading_compared_with_original_edition": false
+      },
+      "scientific_documentation_pending": [
+        "Cotejar transcripción con edición o facsímil original",
+        "Registrar revisión epigráfica independiente",
+        "Verificar licencia y atribución de imágenes",
+        "Comprobar licencia y procedencia del modelo 3D antes de integrarlo"
+      ],
+      "scientific_validation_status": "UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-LAP-0001": {
+      "automatic_core_promotion": false,
+      "documentary_control": false,
+      "editorial_fiche_registered": true,
+      "featured_interpretation_available": true,
+      "object_id": "IBR-LAP-0001",
+      "pending_documentation": [],
+      "publication_status": "PUBLICABLE_EDITORIAL",
+      "scientific_documentation_checklist": {
+        "bibliographic_reference_present": true,
+        "editorial_hypothesis_documented": true,
+        "image_rights_verified": false,
+        "independent_epigraphic_review_completed": false,
+        "original_3d_model_rights_verified": false,
+        "reading_compared_with_original_edition": false
+      },
+      "scientific_documentation_pending": [
+        "Cotejar transcripción con edición o facsímil original",
+        "Registrar revisión epigráfica independiente",
+        "Verificar licencia y atribución de imágenes",
+        "Comprobar licencia y procedencia del modelo 3D antes de integrarlo"
+      ],
+      "scientific_validation_status": "UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-LAP-0002": {
+      "automatic_core_promotion": false,
+      "documentary_control": false,
+      "editorial_fiche_registered": true,
+      "featured_interpretation_available": true,
+      "object_id": "IBR-LAP-0002",
+      "pending_documentation": [],
+      "publication_status": "PUBLICABLE_EDITORIAL",
+      "scientific_documentation_checklist": {
+        "bibliographic_reference_present": true,
+        "editorial_hypothesis_documented": true,
+        "image_rights_verified": false,
+        "independent_epigraphic_review_completed": false,
+        "original_3d_model_rights_verified": false,
+        "reading_compared_with_original_edition": false
+      },
+      "scientific_documentation_pending": [
+        "Cotejar transcripción con edición o facsímil original",
+        "Registrar revisión epigráfica independiente",
+        "Verificar licencia y atribución de imágenes",
+        "Comprobar licencia y procedencia del modelo 3D antes de integrarlo"
+      ],
+      "scientific_validation_status": "UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-LAP-0003": {
+      "automatic_core_promotion": false,
+      "documentary_control": false,
+      "editorial_fiche_registered": true,
+      "featured_interpretation_available": true,
+      "object_id": "IBR-LAP-0003",
+      "pending_documentation": [],
+      "publication_status": "PUBLICABLE_EDITORIAL",
+      "scientific_documentation_checklist": {
+        "bibliographic_reference_present": true,
+        "editorial_hypothesis_documented": true,
+        "image_rights_verified": false,
+        "independent_epigraphic_review_completed": false,
+        "original_3d_model_rights_verified": false,
+        "reading_compared_with_original_edition": false
+      },
+      "scientific_documentation_pending": [
+        "Cotejar transcripción con edición o facsímil original",
+        "Registrar revisión epigráfica independiente",
+        "Verificar licencia y atribución de imágenes",
+        "Comprobar licencia y procedencia del modelo 3D antes de integrarlo"
+      ],
+      "scientific_validation_status": "UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-LAP-0004": {
+      "automatic_core_promotion": false,
+      "documentary_control": false,
+      "editorial_fiche_registered": true,
+      "featured_interpretation_available": true,
+      "object_id": "IBR-LAP-0004",
+      "pending_documentation": [],
+      "publication_status": "PUBLICABLE_EDITORIAL",
+      "scientific_documentation_checklist": {
+        "bibliographic_reference_present": true,
+        "editorial_hypothesis_documented": true,
+        "image_rights_verified": false,
+        "independent_epigraphic_review_completed": false,
+        "original_3d_model_rights_verified": false,
+        "reading_compared_with_original_edition": false
+      },
+      "scientific_documentation_pending": [
+        "Cotejar transcripción con edición o facsímil original",
+        "Registrar revisión epigráfica independiente",
+        "Verificar licencia y atribución de imágenes",
+        "Comprobar licencia y procedencia del modelo 3D antes de integrarlo"
+      ],
+      "scientific_validation_status": "UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-LAP-0005": {
+      "automatic_core_promotion": false,
+      "documentary_control": false,
+      "editorial_fiche_registered": true,
+      "featured_interpretation_available": true,
+      "object_id": "IBR-LAP-0005",
+      "pending_documentation": [],
+      "publication_status": "PUBLICABLE_EDITORIAL",
+      "scientific_documentation_checklist": {
+        "bibliographic_reference_present": true,
+        "editorial_hypothesis_documented": true,
+        "image_rights_verified": false,
+        "independent_epigraphic_review_completed": false,
+        "original_3d_model_rights_verified": false,
+        "reading_compared_with_original_edition": false
+      },
+      "scientific_documentation_pending": [
+        "Cotejar transcripción con edición o facsímil original",
+        "Registrar revisión epigráfica independiente",
+        "Verificar licencia y atribución de imágenes",
+        "Comprobar licencia y procedencia del modelo 3D antes de integrarlo"
+      ],
+      "scientific_validation_status": "UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-MON-0001": {
+      "automatic_core_promotion": false,
+      "documentary_control": false,
+      "editorial_fiche_registered": true,
+      "featured_interpretation_available": true,
+      "object_id": "IBR-MON-0001",
+      "pending_documentation": [],
+      "publication_status": "PUBLICABLE_EDITORIAL",
+      "scientific_documentation_checklist": {
+        "bibliographic_reference_present": true,
+        "editorial_hypothesis_documented": true,
+        "image_rights_verified": false,
+        "independent_epigraphic_review_completed": false,
+        "original_3d_model_rights_verified": false,
+        "reading_compared_with_original_edition": false
+      },
+      "scientific_documentation_pending": [
+        "Cotejar transcripción con edición o facsímil original",
+        "Registrar revisión epigráfica independiente",
+        "Verificar licencia y atribución de imágenes",
+        "Comprobar licencia y procedencia del modelo 3D antes de integrarlo"
+      ],
+      "scientific_validation_status": "UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-MUS-0001": {
+      "automatic_core_promotion": false,
+      "documentary_control": false,
+      "editorial_fiche_registered": true,
+      "featured_interpretation_available": true,
+      "object_id": "IBR-MUS-0001",
+      "pending_documentation": [],
+      "publication_status": "PUBLICABLE_EDITORIAL",
+      "scientific_documentation_checklist": {
+        "bibliographic_reference_present": true,
+        "editorial_hypothesis_documented": true,
+        "image_rights_verified": false,
+        "independent_epigraphic_review_completed": false,
+        "original_3d_model_rights_verified": false,
+        "reading_compared_with_original_edition": false
+      },
+      "scientific_documentation_pending": [
+        "Cotejar transcripción con edición o facsímil original",
+        "Registrar revisión epigráfica independiente",
+        "Verificar licencia y atribución de imágenes",
+        "Comprobar licencia y procedencia del modelo 3D antes de integrarlo"
+      ],
+      "scientific_validation_status": "UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-MUS-0002": {
+      "automatic_core_promotion": false,
+      "documentary_control": false,
+      "editorial_fiche_registered": true,
+      "featured_interpretation_available": true,
+      "object_id": "IBR-MUS-0002",
+      "pending_documentation": [],
+      "publication_status": "PUBLICABLE_EDITORIAL",
+      "scientific_documentation_checklist": {
+        "bibliographic_reference_present": true,
+        "editorial_hypothesis_documented": true,
+        "image_rights_verified": false,
+        "independent_epigraphic_review_completed": false,
+        "original_3d_model_rights_verified": false,
+        "reading_compared_with_original_edition": false
+      },
+      "scientific_documentation_pending": [
+        "Cotejar transcripción con edición o facsímil original",
+        "Registrar revisión epigráfica independiente",
+        "Verificar licencia y atribución de imágenes",
+        "Comprobar licencia y procedencia del modelo 3D antes de integrarlo"
+      ],
+      "scientific_validation_status": "UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-OBJ-0001": {
+      "automatic_core_promotion": false,
+      "documentary_control": false,
+      "editorial_fiche_registered": true,
+      "featured_interpretation_available": true,
+      "object_id": "IBR-OBJ-0001",
+      "pending_documentation": [],
+      "publication_status": "PUBLICABLE_EDITORIAL",
+      "scientific_documentation_checklist": {
+        "bibliographic_reference_present": true,
+        "editorial_hypothesis_documented": true,
+        "image_rights_verified": false,
+        "independent_epigraphic_review_completed": false,
+        "original_3d_model_rights_verified": false,
+        "reading_compared_with_original_edition": false
+      },
+      "scientific_documentation_pending": [
+        "Cotejar transcripción con edición o facsímil original",
+        "Registrar revisión epigráfica independiente",
+        "Verificar licencia y atribución de imágenes",
+        "Comprobar licencia y procedencia del modelo 3D antes de integrarlo"
+      ],
+      "scientific_validation_status": "UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-OBJ-0002": {
+      "automatic_core_promotion": false,
+      "documentary_control": false,
+      "editorial_fiche_registered": true,
+      "featured_interpretation_available": true,
+      "object_id": "IBR-OBJ-0002",
+      "pending_documentation": [],
+      "publication_status": "PUBLICABLE_EDITORIAL",
+      "scientific_documentation_checklist": {
+        "bibliographic_reference_present": true,
+        "editorial_hypothesis_documented": true,
+        "image_rights_verified": false,
+        "independent_epigraphic_review_completed": false,
+        "original_3d_model_rights_verified": false,
+        "reading_compared_with_original_edition": false
+      },
+      "scientific_documentation_pending": [
+        "Cotejar transcripción con edición o facsímil original",
+        "Registrar revisión epigráfica independiente",
+        "Verificar licencia y atribución de imágenes",
+        "Comprobar licencia y procedencia del modelo 3D antes de integrarlo"
+      ],
+      "scientific_validation_status": "UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-PLM-0001": {
+      "automatic_core_promotion": false,
+      "documentary_control": false,
+      "editorial_fiche_registered": true,
+      "featured_interpretation_available": true,
+      "object_id": "IBR-PLM-0001",
+      "pending_documentation": [],
+      "publication_status": "PUBLICABLE_EDITORIAL",
+      "scientific_documentation_checklist": {
+        "bibliographic_reference_present": true,
+        "editorial_hypothesis_documented": true,
+        "image_rights_verified": false,
+        "independent_epigraphic_review_completed": false,
+        "original_3d_model_rights_verified": false,
+        "reading_compared_with_original_edition": false
+      },
+      "scientific_documentation_pending": [
+        "Cotejar transcripción con edición o facsímil original",
+        "Registrar revisión epigráfica independiente",
+        "Verificar licencia y atribución de imágenes",
+        "Comprobar licencia y procedencia del modelo 3D antes de integrarlo"
+      ],
+      "scientific_validation_status": "UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-PLM-0002": {
+      "automatic_core_promotion": false,
+      "documentary_control": false,
+      "editorial_fiche_registered": true,
+      "featured_interpretation_available": true,
+      "object_id": "IBR-PLM-0002",
+      "pending_documentation": [],
+      "publication_status": "PUBLICABLE_EDITORIAL",
+      "scientific_documentation_checklist": {
+        "bibliographic_reference_present": true,
+        "editorial_hypothesis_documented": true,
+        "image_rights_verified": false,
+        "independent_epigraphic_review_completed": false,
+        "original_3d_model_rights_verified": false,
+        "reading_compared_with_original_edition": false
+      },
+      "scientific_documentation_pending": [
+        "Cotejar transcripción con edición o facsímil original",
+        "Registrar revisión epigráfica independiente",
+        "Verificar licencia y atribución de imágenes",
+        "Comprobar licencia y procedencia del modelo 3D antes de integrarlo"
+      ],
+      "scientific_validation_status": "UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-PLM-0003": {
+      "automatic_core_promotion": false,
+      "documentary_control": false,
+      "editorial_fiche_registered": true,
+      "featured_interpretation_available": true,
+      "object_id": "IBR-PLM-0003",
+      "pending_documentation": [],
+      "publication_status": "PUBLICABLE_EDITORIAL",
+      "scientific_documentation_checklist": {
+        "bibliographic_reference_present": true,
+        "editorial_hypothesis_documented": true,
+        "image_rights_verified": false,
+        "independent_epigraphic_review_completed": false,
+        "original_3d_model_rights_verified": false,
+        "reading_compared_with_original_edition": false
+      },
+      "scientific_documentation_pending": [
+        "Cotejar transcripción con edición o facsímil original",
+        "Registrar revisión epigráfica independiente",
+        "Verificar licencia y atribución de imágenes",
+        "Comprobar licencia y procedencia del modelo 3D antes de integrarlo"
+      ],
+      "scientific_validation_status": "UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-PLM-0004": {
+      "automatic_core_promotion": false,
+      "documentary_control": false,
+      "editorial_fiche_registered": true,
+      "featured_interpretation_available": true,
+      "object_id": "IBR-PLM-0004",
+      "pending_documentation": [],
+      "publication_status": "PUBLICABLE_EDITORIAL",
+      "scientific_documentation_checklist": {
+        "bibliographic_reference_present": true,
+        "editorial_hypothesis_documented": true,
+        "image_rights_verified": false,
+        "independent_epigraphic_review_completed": false,
+        "original_3d_model_rights_verified": false,
+        "reading_compared_with_original_edition": false
+      },
+      "scientific_documentation_pending": [
+        "Cotejar transcripción con edición o facsímil original",
+        "Registrar revisión epigráfica independiente",
+        "Verificar licencia y atribución de imágenes",
+        "Comprobar licencia y procedencia del modelo 3D antes de integrarlo"
+      ],
+      "scientific_validation_status": "UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-PLM-0005": {
+      "automatic_core_promotion": false,
+      "documentary_control": false,
+      "editorial_fiche_registered": true,
+      "featured_interpretation_available": true,
+      "object_id": "IBR-PLM-0005",
+      "pending_documentation": [],
+      "publication_status": "PUBLICABLE_EDITORIAL",
+      "scientific_documentation_checklist": {
+        "bibliographic_reference_present": true,
+        "editorial_hypothesis_documented": true,
+        "image_rights_verified": false,
+        "independent_epigraphic_review_completed": false,
+        "original_3d_model_rights_verified": false,
+        "reading_compared_with_original_edition": false
+      },
+      "scientific_documentation_pending": [
+        "Cotejar transcripción con edición o facsímil original",
+        "Registrar revisión epigráfica independiente",
+        "Verificar licencia y atribución de imágenes",
+        "Comprobar licencia y procedencia del modelo 3D antes de integrarlo"
+      ],
+      "scientific_validation_status": "UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-PLM-0006": {
+      "automatic_core_promotion": false,
+      "documentary_control": false,
+      "editorial_fiche_registered": true,
+      "featured_interpretation_available": true,
+      "object_id": "IBR-PLM-0006",
+      "pending_documentation": [],
+      "publication_status": "PUBLICABLE_EDITORIAL",
+      "scientific_documentation_checklist": {
+        "bibliographic_reference_present": true,
+        "editorial_hypothesis_documented": true,
+        "image_rights_verified": false,
+        "independent_epigraphic_review_completed": false,
+        "original_3d_model_rights_verified": false,
+        "reading_compared_with_original_edition": false
+      },
+      "scientific_documentation_pending": [
+        "Cotejar transcripción con edición o facsímil original",
+        "Registrar revisión epigráfica independiente",
+        "Verificar licencia y atribución de imágenes",
+        "Comprobar licencia y procedencia del modelo 3D antes de integrarlo"
+      ],
+      "scientific_validation_status": "UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-PLM-0007": {
+      "automatic_core_promotion": false,
+      "documentary_control": false,
+      "editorial_fiche_registered": true,
+      "featured_interpretation_available": true,
+      "object_id": "IBR-PLM-0007",
+      "pending_documentation": [],
+      "publication_status": "PUBLICABLE_EDITORIAL",
+      "scientific_documentation_checklist": {
+        "bibliographic_reference_present": true,
+        "editorial_hypothesis_documented": true,
+        "image_rights_verified": false,
+        "independent_epigraphic_review_completed": false,
+        "original_3d_model_rights_verified": false,
+        "reading_compared_with_original_edition": false
+      },
+      "scientific_documentation_pending": [
+        "Cotejar transcripción con edición o facsímil original",
+        "Registrar revisión epigráfica independiente",
+        "Verificar licencia y atribución de imágenes",
+        "Comprobar licencia y procedencia del modelo 3D antes de integrarlo"
+      ],
+      "scientific_validation_status": "UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-PLM-0008": {
+      "automatic_core_promotion": false,
+      "documentary_control": false,
+      "editorial_fiche_registered": true,
+      "featured_interpretation_available": true,
+      "object_id": "IBR-PLM-0008",
+      "pending_documentation": [],
+      "publication_status": "PUBLICABLE_EDITORIAL",
+      "scientific_documentation_checklist": {
+        "bibliographic_reference_present": true,
+        "editorial_hypothesis_documented": true,
+        "image_rights_verified": false,
+        "independent_epigraphic_review_completed": false,
+        "original_3d_model_rights_verified": false,
+        "reading_compared_with_original_edition": false
+      },
+      "scientific_documentation_pending": [
+        "Cotejar transcripción con edición o facsímil original",
+        "Registrar revisión epigráfica independiente",
+        "Verificar licencia y atribución de imágenes",
+        "Comprobar licencia y procedencia del modelo 3D antes de integrarlo"
+      ],
+      "scientific_validation_status": "UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-PLM-0009": {
+      "automatic_core_promotion": false,
+      "documentary_control": false,
+      "editorial_fiche_registered": true,
+      "featured_interpretation_available": true,
+      "object_id": "IBR-PLM-0009",
+      "pending_documentation": [],
+      "publication_status": "PUBLICABLE_EDITORIAL",
+      "scientific_documentation_checklist": {
+        "bibliographic_reference_present": true,
+        "editorial_hypothesis_documented": true,
+        "image_rights_verified": false,
+        "independent_epigraphic_review_completed": false,
+        "original_3d_model_rights_verified": false,
+        "reading_compared_with_original_edition": false
+      },
+      "scientific_documentation_pending": [
+        "Cotejar transcripción con edición o facsímil original",
+        "Registrar revisión epigráfica independiente",
+        "Verificar licencia y atribución de imágenes",
+        "Comprobar licencia y procedencia del modelo 3D antes de integrarlo"
+      ],
+      "scientific_validation_status": "UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-PLM-0010": {
+      "automatic_core_promotion": false,
+      "documentary_control": false,
+      "editorial_fiche_registered": true,
+      "featured_interpretation_available": true,
+      "object_id": "IBR-PLM-0010",
+      "pending_documentation": [],
+      "publication_status": "PUBLICABLE_EDITORIAL",
+      "scientific_documentation_checklist": {
+        "bibliographic_reference_present": true,
+        "editorial_hypothesis_documented": true,
+        "image_rights_verified": false,
+        "independent_epigraphic_review_completed": false,
+        "original_3d_model_rights_verified": false,
+        "reading_compared_with_original_edition": false
+      },
+      "scientific_documentation_pending": [
+        "Cotejar transcripción con edición o facsímil original",
+        "Registrar revisión epigráfica independiente",
+        "Verificar licencia y atribución de imágenes",
+        "Comprobar licencia y procedencia del modelo 3D antes de integrarlo"
+      ],
+      "scientific_validation_status": "UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-PLM-0011": {
+      "automatic_core_promotion": false,
+      "documentary_control": false,
+      "editorial_fiche_registered": true,
+      "featured_interpretation_available": true,
+      "object_id": "IBR-PLM-0011",
+      "pending_documentation": [],
+      "publication_status": "PUBLICABLE_EDITORIAL",
+      "scientific_documentation_checklist": {
+        "bibliographic_reference_present": true,
+        "editorial_hypothesis_documented": true,
+        "image_rights_verified": false,
+        "independent_epigraphic_review_completed": false,
+        "original_3d_model_rights_verified": false,
+        "reading_compared_with_original_edition": false
+      },
+      "scientific_documentation_pending": [
+        "Cotejar transcripción con edición o facsímil original",
+        "Registrar revisión epigráfica independiente",
+        "Verificar licencia y atribución de imágenes",
+        "Comprobar licencia y procedencia del modelo 3D antes de integrarlo"
+      ],
+      "scientific_validation_status": "UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-PLM-0012": {
+      "automatic_core_promotion": false,
+      "documentary_control": false,
+      "editorial_fiche_registered": true,
+      "featured_interpretation_available": true,
+      "object_id": "IBR-PLM-0012",
+      "pending_documentation": [],
+      "publication_status": "PUBLICABLE_EDITORIAL",
+      "scientific_documentation_checklist": {
+        "bibliographic_reference_present": true,
+        "editorial_hypothesis_documented": true,
+        "image_rights_verified": false,
+        "independent_epigraphic_review_completed": false,
+        "original_3d_model_rights_verified": false,
+        "reading_compared_with_original_edition": false
+      },
+      "scientific_documentation_pending": [
+        "Cotejar transcripción con edición o facsímil original",
+        "Registrar revisión epigráfica independiente",
+        "Verificar licencia y atribución de imágenes",
+        "Comprobar licencia y procedencia del modelo 3D antes de integrarlo"
+      ],
+      "scientific_validation_status": "UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-PLM-0013": {
+      "automatic_core_promotion": false,
+      "documentary_control": false,
+      "editorial_fiche_registered": true,
+      "featured_interpretation_available": true,
+      "object_id": "IBR-PLM-0013",
+      "pending_documentation": [],
+      "publication_status": "PUBLICABLE_EDITORIAL",
+      "scientific_documentation_checklist": {
+        "bibliographic_reference_present": true,
+        "editorial_hypothesis_documented": true,
+        "image_rights_verified": false,
+        "independent_epigraphic_review_completed": false,
+        "original_3d_model_rights_verified": false,
+        "reading_compared_with_original_edition": false
+      },
+      "scientific_documentation_pending": [
+        "Cotejar transcripción con edición o facsímil original",
+        "Registrar revisión epigráfica independiente",
+        "Verificar licencia y atribución de imágenes",
+        "Comprobar licencia y procedencia del modelo 3D antes de integrarlo"
+      ],
+      "scientific_validation_status": "UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-RUP-0001": {
+      "automatic_core_promotion": false,
+      "documentary_control": false,
+      "editorial_fiche_registered": true,
+      "featured_interpretation_available": true,
+      "object_id": "IBR-RUP-0001",
+      "pending_documentation": [],
+      "publication_status": "PUBLICABLE_EDITORIAL",
+      "scientific_documentation_checklist": {
+        "bibliographic_reference_present": true,
+        "editorial_hypothesis_documented": true,
+        "image_rights_verified": false,
+        "independent_epigraphic_review_completed": false,
+        "original_3d_model_rights_verified": false,
+        "reading_compared_with_original_edition": false
+      },
+      "scientific_documentation_pending": [
+        "Cotejar transcripción con edición o facsímil original",
+        "Registrar revisión epigráfica independiente",
+        "Verificar licencia y atribución de imágenes",
+        "Comprobar licencia y procedencia del modelo 3D antes de integrarlo"
+      ],
+      "scientific_validation_status": "UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-RUP-0002": {
+      "automatic_core_promotion": false,
+      "documentary_control": false,
+      "editorial_fiche_registered": true,
+      "featured_interpretation_available": true,
+      "object_id": "IBR-RUP-0002",
+      "pending_documentation": [],
+      "publication_status": "PUBLICABLE_EDITORIAL",
+      "scientific_documentation_checklist": {
+        "bibliographic_reference_present": true,
+        "editorial_hypothesis_documented": true,
+        "image_rights_verified": false,
+        "independent_epigraphic_review_completed": false,
+        "original_3d_model_rights_verified": false,
+        "reading_compared_with_original_edition": false
+      },
+      "scientific_documentation_pending": [
+        "Cotejar transcripción con edición o facsímil original",
+        "Registrar revisión epigráfica independiente",
+        "Verificar licencia y atribución de imágenes",
+        "Comprobar licencia y procedencia del modelo 3D antes de integrarlo"
+      ],
+      "scientific_validation_status": "UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-RUP-0003": {
+      "automatic_core_promotion": false,
+      "documentary_control": false,
+      "editorial_fiche_registered": true,
+      "featured_interpretation_available": true,
+      "object_id": "IBR-RUP-0003",
+      "pending_documentation": [],
+      "publication_status": "PUBLICABLE_EDITORIAL",
+      "scientific_documentation_checklist": {
+        "bibliographic_reference_present": true,
+        "editorial_hypothesis_documented": true,
+        "image_rights_verified": false,
+        "independent_epigraphic_review_completed": false,
+        "original_3d_model_rights_verified": false,
+        "reading_compared_with_original_edition": false
+      },
+      "scientific_documentation_pending": [
+        "Cotejar transcripción con edición o facsímil original",
+        "Registrar revisión epigráfica independiente",
+        "Verificar licencia y atribución de imágenes",
+        "Comprobar licencia y procedencia del modelo 3D antes de integrarlo"
+      ],
+      "scientific_validation_status": "UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-RUP-0004": {
+      "automatic_core_promotion": false,
+      "documentary_control": false,
+      "editorial_fiche_registered": true,
+      "featured_interpretation_available": true,
+      "object_id": "IBR-RUP-0004",
+      "pending_documentation": [],
+      "publication_status": "PUBLICABLE_EDITORIAL",
+      "scientific_documentation_checklist": {
+        "bibliographic_reference_present": true,
+        "editorial_hypothesis_documented": true,
+        "image_rights_verified": false,
+        "independent_epigraphic_review_completed": false,
+        "original_3d_model_rights_verified": false,
+        "reading_compared_with_original_edition": false
+      },
+      "scientific_documentation_pending": [
+        "Cotejar transcripción con edición o facsímil original",
+        "Registrar revisión epigráfica independiente",
+        "Verificar licencia y atribución de imágenes",
+        "Comprobar licencia y procedencia del modelo 3D antes de integrarlo"
+      ],
+      "scientific_validation_status": "UNVERIFIED",
+      "translation_validated": false
+    },
+    "IBR-RUP-0005": {
+      "automatic_core_promotion": false,
+      "documentary_control": false,
+      "editorial_fiche_registered": true,
+      "featured_interpretation_available": true,
+      "object_id": "IBR-RUP-0005",
+      "pending_documentation": [],
+      "publication_status": "PUBLICABLE_EDITORIAL",
+      "scientific_documentation_checklist": {
+        "bibliographic_reference_present": true,
+        "editorial_hypothesis_documented": true,
+        "image_rights_verified": false,
+        "independent_epigraphic_review_completed": false,
+        "original_3d_model_rights_verified": false,
+        "reading_compared_with_original_edition": false
+      },
+      "scientific_documentation_pending": [
+        "Cotejar transcripción con edición o facsímil original",
+        "Registrar revisión epigráfica independiente",
+        "Verificar licencia y atribución de imágenes",
+        "Comprobar licencia y procedencia del modelo 3D antes de integrarlo"
+      ],
+      "scientific_validation_status": "UNVERIFIED",
+      "translation_validated": false
+    }
+  },
+  "schema": "IberOS-Fiche-Publication/1.0"
+}

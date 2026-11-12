@@ -1,0 +1,86 @@
+{
+  "authority": {
+    "prospective_lock": "C474",
+    "rok_network": "C541",
+    "semantic_release": "C594",
+    "technical_floor": "C539"
+  },
+  "notice": "Corpus family tags route verification work only; they are not observations.",
+  "object_count": 4,
+  "schema": "IberOS-Evidence-Triage/1.0",
+  "tasks": [
+    {
+      "automatic_core_promotion": false,
+      "candidate_rule_ids": [
+        "ROK-DIRECTION-GUARD-01",
+        "SALIR-PROSPECTIVE-01"
+      ],
+      "editorial_source": "",
+      "eligible_for_technical_execution": false,
+      "object_id": "IBR-PLM-0002",
+      "reference": "T.07.03",
+      "required_evidence": [
+        "Exact diplomatic transcription and reading variants",
+        "Passage-to-rule match confirmed by reviewer",
+        "Physical object and documentary independence",
+        "Explicit external anchor for semantic or directional inference"
+      ],
+      "review_status": "NEEDS_EXACT_PASSAGE_AND_INDEPENDENT_CHECK",
+      "source_verified_for_rule": false
+    },
+    {
+      "automatic_core_promotion": false,
+      "candidate_rule_ids": [
+        "ROK-DIRECTION-GUARD-01"
+      ],
+      "editorial_source": "https://www.researchgate.net/publication/261950513_Els_sistemes_duals_de_les_...",
+      "eligible_for_technical_execution": false,
+      "object_id": "IBR-PLM-0003",
+      "reference": "B.7.38",
+      "required_evidence": [
+        "Exact diplomatic transcription and reading variants",
+        "Passage-to-rule match confirmed by reviewer",
+        "Physical object and documentary independence",
+        "Explicit external anchor for semantic or directional inference"
+      ],
+      "review_status": "NEEDS_EXACT_PASSAGE_AND_INDEPENDENT_CHECK",
+      "source_verified_for_rule": false
+    },
+    {
+      "automatic_core_promotion": false,
+      "candidate_rule_ids": [
+        "SALIR-PROSPECTIVE-01"
+      ],
+      "editorial_source": "https://www.researchgate.net/publication/387054058_Una_nova_mirada_al_plom_ib...",
+      "eligible_for_technical_execution": false,
+      "object_id": "IBR-PLM-0005",
+      "reference": "F.17.1",
+      "required_evidence": [
+        "Exact diplomatic transcription and reading variants",
+        "Passage-to-rule match confirmed by reviewer",
+        "Physical object and documentary independence",
+        "Explicit external anchor for semantic or directional inference"
+      ],
+      "review_status": "NEEDS_EXACT_PASSAGE_AND_INDEPENDENT_CHECK",
+      "source_verified_for_rule": false
+    },
+    {
+      "automatic_core_promotion": false,
+      "candidate_rule_ids": [
+        "SALIR-PROSPECTIVE-01"
+      ],
+      "editorial_source": "https://es.wikipedia.org/wiki/Plomo_de_La_Serreta",
+      "eligible_for_technical_execution": false,
+      "object_id": "IBR-PLM-0009",
+      "reference": "MLH G.1.1 · Hesperia A.04.01a-b",
+      "required_evidence": [
+        "Exact diplomatic transcription and reading variants",
+        "Passage-to-rule match confirmed by reviewer",
+        "Physical object and documentary independence",
+        "Explicit external anchor for semantic or directional inference"
+      ],
+      "review_status": "NEEDS_EXACT_PASSAGE_AND_INDEPENDENT_CHECK",
+      "source_verified_for_rule": false
+    }
+  ]
+}
